@@ -28,7 +28,7 @@ title: Releases
             {% endcase %}, 
           {{ page.date | date: "%Y" }}
         </time>
-        <sub class="human-readable-subtitle"><time datetime="{{ repo.releases.first.release_date }}">{{ repo.releases.first.release_date | date: "%b %e, %Y" }}</time></sub>
+        <sub class="human-readable-subtitle"><time datetime="{{ repo.releases.first.release_date }}">{{ repo.releases.first.release_date | timeago }}</time></sub>
       </td>
       <td>
         {% if repo.new_commits == 0 %}
