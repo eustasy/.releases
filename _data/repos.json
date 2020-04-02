@@ -1,5 +1,122 @@
 [
   {
+    "name": "phoenix",
+    "releases": [
+      {
+        "version": "3.1.5",
+        "release_date": "2020-04-02T19:37:18",
+        "title": "Unicorn - with Patch 5",
+        "body": "- Improved documentation\r\n- Fixed some links",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.5"
+      },
+      {
+        "version": "3.1.4",
+        "release_date": "2017-09-16T23:39:27",
+        "title": "Unicorn - with Patch 4",
+        "body": "- Update to NC 1.7",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.4"
+      },
+      {
+        "version": "3.1.3",
+        "release_date": "2017-04-19T20:52:19",
+        "title": "Unicorn - with Patch 3",
+        "body": "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES: Idle peers removed in 1% of requests instead of 10% by default.\r\n- BUGFIX: Stops backups running in home directory if not configured.\r\n\r\n[Compare 3.1.3 with v.3.1.2](https://github.com/eustasy/phoenix/compare/v.3.1.2...3.1.3)\r\n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.3"
+      },
+      {
+        "version": "3.1.2",
+        "release_date": "2016-06-15T16:14:43",
+        "title": "Unicorn - with Patch 2",
+        "body": "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.2"
+      },
+      {
+        "version": "v.3.1.1",
+        "release_date": "2016-04-14T15:04:14",
+        "title": "Unicorn - with Patch 1",
+        "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
+      },
+      {
+        "version": "v.3.1",
+        "release_date": "2016-04-14T14:51:17",
+        "title": "Unicorn",
+        "body": "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n- IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES: De-duplicate test initialization and database initialization ([#27](https://github.com/eustasy/phoenix/issues/27)).\r\n- IMPROVES: Automated testing now uses the same database, and respects prefixes, and custom usernames and database names.\r\n- IMPROVES: Update default settings to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1"
+      },
+      {
+        "version": "v.3.0",
+        "release_date": "2016-01-21T22:44:34",
+        "title": "Sanitized",
+        "body": "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\n- FEATURE: Adds normalized checks.\r\n- IMPROVES: Sanitizes super-globals before use ([#16](https://github.com/eustasy/phoenix/issues/16)).\r\n- IMPROVES: Documented hook files ([#23](https://github.com/eustasy/phoenix/issues/23)).\r\n- IMPROVES: Removes duplicated variables ([#20](https://github.com/eustasy/phoenix/issues/20)).\r\n- IMPROVES: Moved to puff-style structure ([#18](https://github.com/eustasy/phoenix/issues/18)).\r\n- IMPROVES: IP detection, especially when reporting IPv4 _and_ IPv6.\r\n- IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.0"
+      },
+      {
+        "version": "v.2.0",
+        "release_date": "2015-08-20T13:26:02",
+        "title": "Unification",
+        "body": "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.2.0"
+      },
+      {
+        "version": "v.1.4",
+        "release_date": "2015-08-18T21:50:42",
+        "title": "Totalitarian",
+        "body": "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose option to torrent scraping for better display of bencoded content.\r\n- BUGFIX: Fixes scrape counts of torrents by encoding hashes in their binary format.\r\n- BUGFIX: Fixes issue where cleaning was never logged.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.4"
+      },
+      {
+        "version": "v.1.3",
+        "release_date": "2015-02-16T21:01:44",
+        "title": "Hexa",
+        "body": "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.3"
+      },
+      {
+        "version": "v.1.2",
+        "release_date": "2014-12-31T22:03:00",
+        "title": "Endpoints",
+        "body": "FEATURE: Support Endpoints, rather than just separate ports.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.2"
+      },
+      {
+        "version": "v.1.1",
+        "release_date": "2014-12-31T12:18:53",
+        "title": "Scraping By",
+        "body": "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct default charset.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.1"
+      },
+      {
+        "version": "v.1.0",
+        "release_date": "2014-12-28T22:10:21",
+        "title": "No longer PeerTracker.",
+        "body": "A procedural re-write of peertracker in a modern format.\r\nFixes numerous bugs and massively improves performance, modularity, and maintainability.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
+    "name": "howtoubuntu.org",
+    "releases": [
+      {
+        "version": "20.03",
+        "release_date": "2020-03-24T20:16:57",
+        "title": "Pre- Ubuntu 20.04",
+        "body": "",
+        "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/20.03"
+      },
+      {
+        "version": "17.10.0",
+        "release_date": "2017-10-15T18:23:42",
+        "title": "Release of Ubuntu 17.10",
+        "body": "No actual new content for this release yet.",
+        "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/17.10.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "Colors.css",
     "releases": [
       {
@@ -220,6 +337,47 @@
       }
     ],
     "new_commits": 8
+  },
+  {
+    "name": "comments-evolved",
+    "releases": [
+      {
+        "version": "2.0.0-beta",
+        "release_date": "2018-05-21T20:39:41",
+        "title": "Chatty",
+        "body": "- Puff-Compliant Rewrite",
+        "href": "https://github.com/eustasy/comments-evolved/releases/tag/2.0.0-beta"
+      },
+      {
+        "version": "1.2.0",
+        "release_date": "2017-08-09T18:45:50",
+        "title": "Talkative",
+        "body": "- New \"labs\" style\r\n- Add NC 1.7\r\n- Update lots of logic",
+        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.2.0"
+      },
+      {
+        "version": "1.1",
+        "release_date": "2013-12-19T19:35:22",
+        "title": "1.1",
+        "body": "Moved to multiple functions\n",
+        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.1"
+      },
+      {
+        "version": "1.0",
+        "release_date": "2013-12-09T22:39:18",
+        "title": "1.0",
+        "body": "- Moved to Functions\n- Minified CSS\n- Added GitHub Banner\n- Added LICENSE (MIT)\n- Added Instructions in README.md\n- Removed Unnecessary Variables\n- Removed Unminifed JS Files\n",
+        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.0"
+      },
+      {
+        "version": "0.9",
+        "release_date": "2013-11-13T14:45:54",
+        "title": "0.9",
+        "body": "",
+        "href": "https://github.com/eustasy/comments-evolved/releases/tag/0.9"
+      }
+    ],
+    "new_commits": 0
   },
   {
     "name": "normal-checks",
@@ -780,7 +938,7 @@
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.3"
       }
     ],
-    "new_commits": 21
+    "new_commits": 22
   },
   {
     "name": "puff-cookiecompliance",
@@ -960,19 +1118,6 @@
     "new_commits": 3
   },
   {
-    "name": "howtoubuntu.org",
-    "releases": [
-      {
-        "version": "17.10.0",
-        "release_date": "2017-10-15T18:23:42",
-        "title": "Release of Ubuntu 17.10",
-        "body": "No actual new content for this release yet.",
-        "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/17.10.0"
-      }
-    ],
-    "new_commits": 37
-  },
-  {
     "name": "devede.org",
     "releases": [
       {
@@ -986,123 +1131,6 @@
     "new_commits": 6
   },
   {
-    "name": "phoenix",
-    "releases": [
-      {
-        "version": "3.1.4",
-        "release_date": "2017-09-16T23:39:27",
-        "title": "Unicorn - with Patch 4",
-        "body": "- Update to NC 1.7",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.4"
-      },
-      {
-        "version": "3.1.3",
-        "release_date": "2017-04-19T20:52:19",
-        "title": "Unicorn - with Patch 3",
-        "body": "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES: Idle peers removed in 1% of requests instead of 10% by default.\r\n- BUGFIX: Stops backups running in home directory if not configured.\r\n\r\n[Compare 3.1.3 with v.3.1.2](https://github.com/eustasy/phoenix/compare/v.3.1.2...3.1.3)\r\n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.3"
-      },
-      {
-        "version": "3.1.2",
-        "release_date": "2016-06-15T16:14:43",
-        "title": "Unicorn - with Patch 2",
-        "body": "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.2"
-      },
-      {
-        "version": "v.3.1.1",
-        "release_date": "2016-04-14T15:04:14",
-        "title": "Unicorn - with Patch 1",
-        "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
-      },
-      {
-        "version": "v.3.1",
-        "release_date": "2016-04-14T14:51:17",
-        "title": "Unicorn",
-        "body": "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n- IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES: De-duplicate test initialization and database initialization ([#27](https://github.com/eustasy/phoenix/issues/27)).\r\n- IMPROVES: Automated testing now uses the same database, and respects prefixes, and custom usernames and database names.\r\n- IMPROVES: Update default settings to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1"
-      },
-      {
-        "version": "v.3.0",
-        "release_date": "2016-01-21T22:44:34",
-        "title": "Sanitized",
-        "body": "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\n- FEATURE: Adds normalized checks.\r\n- IMPROVES: Sanitizes super-globals before use ([#16](https://github.com/eustasy/phoenix/issues/16)).\r\n- IMPROVES: Documented hook files ([#23](https://github.com/eustasy/phoenix/issues/23)).\r\n- IMPROVES: Removes duplicated variables ([#20](https://github.com/eustasy/phoenix/issues/20)).\r\n- IMPROVES: Moved to puff-style structure ([#18](https://github.com/eustasy/phoenix/issues/18)).\r\n- IMPROVES: IP detection, especially when reporting IPv4 _and_ IPv6.\r\n- IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.0"
-      },
-      {
-        "version": "v.2.0",
-        "release_date": "2015-08-20T13:26:02",
-        "title": "Unification",
-        "body": "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.2.0"
-      },
-      {
-        "version": "v.1.4",
-        "release_date": "2015-08-18T21:50:42",
-        "title": "Totalitarian",
-        "body": "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose option to torrent scraping for better display of bencoded content.\r\n- BUGFIX: Fixes scrape counts of torrents by encoding hashes in their binary format.\r\n- BUGFIX: Fixes issue where cleaning was never logged.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.4"
-      },
-      {
-        "version": "v.1.3",
-        "release_date": "2015-02-16T21:01:44",
-        "title": "Hexa",
-        "body": "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.3"
-      },
-      {
-        "version": "v.1.2",
-        "release_date": "2014-12-31T22:03:00",
-        "title": "Endpoints",
-        "body": "FEATURE: Support Endpoints, rather than just separate ports.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.2"
-      },
-      {
-        "version": "v.1.1",
-        "release_date": "2014-12-31T12:18:53",
-        "title": "Scraping By",
-        "body": "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct default charset.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.1"
-      },
-      {
-        "version": "v.1.0",
-        "release_date": "2014-12-28T22:10:21",
-        "title": "No longer PeerTracker.",
-        "body": "A procedural re-write of peertracker in a modern format.\r\nFixes numerous bugs and massively improves performance, modularity, and maintainability.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.0"
-      }
-    ],
-    "new_commits": 12
-  },
-  {
-    "name": "midori-browser.org",
-    "releases": [
-      {
-        "version": "2.4.1",
-        "release_date": "2017-09-16T23:38:18",
-        "title": "Avalanche - with Patch 1",
-        "body": "- Update to NC 1.7\r\n- Fix file permissions",
-        "href": "https://github.com/eustasy/midori-browser.org/releases/tag/2.4.1"
-      },
-      {
-        "version": "2.4",
-        "release_date": "2017-03-28T22:23:37",
-        "title": "Avalanche",
-        "body": "- Normalized checks\r\n- Way too much stuff.",
-        "href": "https://github.com/eustasy/midori-browser.org/releases/tag/2.4"
-      },
-      {
-        "version": "2.3",
-        "release_date": "2013-11-12T15:48:14",
-        "title": "Gluttony",
-        "body": "First release.",
-        "href": "https://github.com/eustasy/midori-browser.org/releases/tag/2.3"
-      }
-    ],
-    "new_commits": 7
-  },
-  {
     "name": "cdns",
     "releases": [
       {
@@ -1114,40 +1142,6 @@
       }
     ],
     "new_commits": 6
-  },
-  {
-    "name": "comments-evolved",
-    "releases": [
-      {
-        "version": "1.2.0",
-        "release_date": "2017-08-09T18:45:50",
-        "title": "Talkative",
-        "body": "- New \"labs\" style\r\n- Add NC 1.7\r\n- Update lots of logic",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.2.0"
-      },
-      {
-        "version": "1.1",
-        "release_date": "2013-12-19T19:35:22",
-        "title": "1.1",
-        "body": "Moved to multiple functions\n",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.1"
-      },
-      {
-        "version": "1.0",
-        "release_date": "2013-12-09T22:39:18",
-        "title": "1.0",
-        "body": "- Moved to Functions\n- Minified CSS\n- Added GitHub Banner\n- Added LICENSE (MIT)\n- Added Instructions in README.md\n- Removed Unnecessary Variables\n- Removed Unminifed JS Files\n",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.0"
-      },
-      {
-        "version": "0.9",
-        "release_date": "2013-11-13T14:45:54",
-        "title": "0.9",
-        "body": "",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/0.9"
-      }
-    ],
-    "new_commits": 17
   },
   {
     "name": "elementary-Search",
@@ -1234,153 +1228,5 @@
       }
     ],
     "new_commits": 5
-  },
-  {
-    "name": "Smooth-Scroll-ALL-the-Things",
-    "releases": [
-      {
-        "version": "0.34",
-        "release_date": "2017-04-21T21:05:26",
-        "title": "Rolling",
-        "body": "- Fix mousewheel scrolling in Firefox\r\n- Update page styles\r\n- Add tests",
-        "href": "https://github.com/eustasy/Smooth-Scroll-ALL-the-Things/releases/tag/0.34"
-      },
-      {
-        "version": "0.33",
-        "release_date": "2016-09-20T19:36:39",
-        "title": "Smooth Scroll ALL the Things 0.33",
-        "body": "- Fixed #1: Define functions before triggering.\n- Fixed #2: Scroll faster.\n- Fixed #3: Wrap in jQuery ready function.\n",
-        "href": "https://github.com/eustasy/Smooth-Scroll-ALL-the-Things/releases/tag/0.33"
-      }
-    ],
-    "new_commits": 2
-  },
-  {
-    "name": "simplet.download_auth",
-    "releases": [
-      {
-        "version": "0.2",
-        "release_date": "2017-04-10T18:23:16",
-        "title": "EOL: Abandoned",
-        "body": "Sorry, but Simplet development has been abandoned, and all previous versions deprecated.",
-        "href": "https://github.com/eustasy/simplet.download_auth/releases/tag/0.2"
-      },
-      {
-        "version": "0.1",
-        "release_date": "2014-09-14T14:30:16",
-        "title": "0.1",
-        "body": "",
-        "href": "https://github.com/eustasy/simplet.download_auth/releases/tag/0.1"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "clae--a-ghost-theme",
-    "releases": [
-      {
-        "version": "0.1.0-alpha",
-        "release_date": "2017-04-07T23:31:03",
-        "title": "Promising",
-        "body": "Initial release of Clae.",
-        "href": "https://github.com/eustasy/clae--a-ghost-theme/releases/tag/0.1.0-alpha"
-      }
-    ],
-    "new_commits": 3
-  },
-  {
-    "name": "uptimerobot-status-page",
-    "releases": [
-      {
-        "version": "0.1.0",
-        "release_date": "2017-03-30T13:20:07",
-        "title": "EOL: Surpassed",
-        "body": "This probably won't see any work after now.",
-        "href": "https://github.com/eustasy/uptimerobot-status-page/releases/tag/0.1.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "lib.php-fix-function-names",
-    "releases": [
-      {
-        "version": "0.9.0",
-        "release_date": "2017-03-30T13:16:45",
-        "title": "Neverland",
-        "body": "That's a lot of functions with funky names.",
-        "href": "https://github.com/eustasy/lib.php-fix-function-names/releases/tag/0.9.0"
-      }
-    ],
-    "new_commits": 1
-  },
-  {
-    "name": "simplet",
-    "releases": [
-      {
-        "version": "4.2",
-        "release_date": "2016-01-01T11:16:40",
-        "title": "EOL: Abandoned",
-        "body": "Sorry, but Simplet development has been abandoned, and all previous versions deprecated.",
-        "href": "https://github.com/eustasy/simplet/releases/tag/4.2"
-      },
-      {
-        "version": "4.2-alpha",
-        "release_date": "2015-09-13T11:56:08",
-        "title": "Simplet 4.2-prerelease",
-        "body": "Significant security-centric rewrite. Abandoned.\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/4.2-alpha"
-      },
-      {
-        "version": "4.1",
-        "release_date": "2014-10-06T21:41:12",
-        "title": "Simplet 4.1 Stable",
-        "body": "### Global\n- Bugfix: [isset() and empty() are no longer used together](https://github.com/eustasy/simplet/issues/16)\n- Improvement: Updated function descriptions.\n- Improvement: Alphabetized function globals.\n- Improvement: Updated Libraries.\n\n### API\n- Improvement: [Adds XML as an output option](https://github.com/eustasy/simplet/issues/20)\n\n### Accounts\n- Bugfix: [Session Times are formatted](https://github.com/eustasy/simplet/issues/14)\n- Bugfix: [Redirects from Login to Redirect if already logged in](https://github.com/eustasy/simplet/commit/832f0538e42baf2bd4ac9759f010649851f2612e)\n- Feature: [User groups](https://github.com/eustasy/simplet/issues/25)\n\n### Configuration\n- Improvement: Moves Database Config to `config.database.php`\n\n### Database\n- Bugfix: [Adds Error Catching to once/connect.php](https://github.com/eustasy/simplet/commit/c4aff337350a842b1ef53f97783a135633de8005)\n- Improvement: Downed-Database Resilience\n- Improvement: [Checks Tables exist before exiting once/connect](https://github.com/eustasy/simplet/issues/17)\n- Feature: Auto-Installs database.\n- Improvement: Adds better keys and indexes.\n- Improvement: [Allows table prefixes in the database](https://github.com/eustasy/simplet/issues/18)\n- Improvement: [Checks Tables exist before running queries](https://github.com/eustasy/simplet/issues/21)\n\n### Security\n- Improvement: Properly sanitizes user inputs.\n- Improvement: Failed queries no longer result in fatal errors unless set to.\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/4.1"
-      },
-      {
-        "version": "4.0",
-        "release_date": "2014-04-13T14:25:27",
-        "title": "Simplet 4.0 Stable",
-        "body": "The first stable release in nearly 18 months, delayed twice for over three months is now arriving A WHOLE DAY EARLY!\n\n[Roadmap](https://github.com/eustasy/simplet/wiki/Roadmap)\n[Versions](https://github.com/eustasy/simplet/wiki/Versions)\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/4.0"
-      },
-      {
-        "version": "3.9.2",
-        "release_date": "2014-04-13T12:48:34",
-        "title": "3.9.2 Beta",
-        "body": "### Alpha for Release 4.0 (Due 14th April 2014)\n\n#### Not Working\n- Password Resets\n\n#### Possible Issues\n- Database Import\n- Account Deletion\n\n#### [Changelog](https://github.com/eustasy/simplet/compare/3.9.1...3.9.2)\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/3.9.2"
-      },
-      {
-        "version": "3.9.1",
-        "release_date": "2014-03-21T19:39:22",
-        "title": "3.9.1 Alpha",
-        "body": "Dropped support for < 5.3\n- Disabled Submit after Response via JavaScript\n- Add JSONDo to standardize JSON output.\n- Update Trending Type Detection\n- Add Trending to API\n- Update File Matching\n- Added `function.globRecursive.php`\n- Added recursive Sitemap\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/3.9.1"
-      },
-      {
-        "version": "3.9.0",
-        "release_date": "2014-03-12T21:47:46",
-        "title": "3.9.0 Alpha",
-        "body": "I'm going to go ahead and call this a new pre-release, not because it is done, but because so much has been implemented, even if many of them require further work.\n\n### Responses\n- Added Forums\n- Added Reviews\n- Added Comments\n- Added Helpfulness\n- Upgraded to include refresh-less posting\n\n### Frontend\n- Updated Fonts\n- Added HTML5 Reset\n- Fixed and Upgraded JS Libraries\n\n### Backend\n- Moved several things to functions\n- Re-organised request files\n- Changed Canonical Check\n- Add Partial IP Check\n\nFor a full list, [see the comparison](https://github.com/eustasy/simplet/compare/3.8.2...3.9.0).\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/3.9.0"
-      },
-      {
-        "version": "3.8.2",
-        "release_date": "2013-12-09T00:22:17",
-        "title": "3.8.2 Alpha",
-        "body": "Members\nFile-Based Blog\nNO Fourm\n- RSS to Blog\n- Modification and Creation Times\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/3.8.2"
-      },
-      {
-        "version": "3.8.1",
-        "release_date": "2013-10-31T19:08:53",
-        "title": "3.8.1 Alpha",
-        "body": "Members\nFile-Based Blog\nNO Fourm\n",
-        "href": "https://github.com/eustasy/simplet/releases/tag/3.8.1"
-      }
-    ],
-    "new_commits": 0
   }
 ]
