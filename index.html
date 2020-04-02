@@ -54,7 +54,15 @@ title: Releases
     <tr id="{{ repo.name }}" >
       <td>
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
-        <a class="version" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
+        {% assign classes = "http://example.com "%}
+        {% if repo.releases.first.version contains 'alpha' %}
+        {% assign classes = "critical version" %}
+        {% elsif repo.releases.first.version contains 'beta' %}
+        {% assign classes = "warn version" %}
+        {% else %}
+        {% assign classes = "version" %}
+        {% endif %}
+        <a class="{{classes}}" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
       </td>
       <td>
          {% assign rd = repo.releases.first.release_date %}
