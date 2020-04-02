@@ -79,7 +79,7 @@ title: Releases
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
     {% assign commits_href = repo_href | append: "/compare/" | append: repo.releases.first.version | append: "...master" %}
     <tr id="{{ repo.name }}" >
-      <td>
+      <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
         {% assign classes = "http://example.com "%}
         {% if repo.releases.first.version contains 'alpha' %}
@@ -91,7 +91,7 @@ title: Releases
         {% endif %}
         <a class="{{classes}}" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
       </td>
-      <td>
+      <td data-sort="{{ repo.releases.first.release_date }}">
          {% assign rd = repo.releases.first.release_date %}
         <time datetime="{{ rd }}">
           {% assign d = rd | date: "%-d"  %}
@@ -104,7 +104,7 @@ title: Releases
           {{ rd | timeago }}
         </time></sub>-->
       </td>
-      <td>
+      <td data-sort="{{ repo.new_commits }}">
         {% if repo.new_commits == 0 %}
           <span class="status good">Up to date</span>
         {% elsif repo.new_commits == 1 %}
