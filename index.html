@@ -36,6 +36,7 @@ title: Releases
     padding: 0.15em 0.75em;
   }
 
+  .version a,
   .status a {
     color: inherit;
     font-weight: inherit;
@@ -53,6 +54,14 @@ title: Releases
 
   .critical {
     background-color: rgba(255, 140, 130, 0.5);
+    color: #7a0000;
+  }
+
+  .beta {
+    color: #ad5f00;
+  }
+
+  .alpha {
     color: #7a0000;
   }
 
@@ -74,9 +83,9 @@ title: Releases
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
         {% assign classes = "http://example.com "%}
         {% if repo.releases.first.version contains 'alpha' %}
-        {% assign classes = "critical version" %}
+        {% assign classes = "alpha version" %}
         {% elsif repo.releases.first.version contains 'beta' %}
-        {% assign classes = "warn version" %}
+        {% assign classes = "beta version" %}
         {% else %}
         {% assign classes = "version" %}
         {% endif %}
