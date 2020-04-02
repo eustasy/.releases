@@ -3,6 +3,28 @@ layout: default
 title: Releases
 ---
 
+<style>
+  
+  .wrapper {
+    max-width: 960px;
+    width: auto;
+  }
+  section {
+    width: auto;
+  }
+
+  .name {
+    display: block;
+  }
+  .good {
+    color: #206b00;
+  }
+  .critical {
+    color: #7a0000;
+  }
+  
+</style>
+
 <table class="releases">
   <thead>
     <th>Repository</th>
@@ -49,17 +71,3 @@ title: Releases
   {% endfor %}
   </tbody>
 </table>
-
-<style>
-.name {
-  display: block;
-}
-
-.good {
-  color: #206b00;
-}
-
-.critical {
-  color: #7a0000;
-}
-</style>
