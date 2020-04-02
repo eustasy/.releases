@@ -3,7 +3,42 @@ layout: default
 title: Releases
 ---
 
-{% assign org_href = "https://github.com/elementary" %}
+{% assign org_href = "https://github.com/eustasy" %}
+
+<style>
+
+  .wrapper {	
+    max-width: 960px;	
+    width: auto;	
+  }	
+  
+  section {	
+    width: auto;	
+  }	
+
+  .name {
+    display: block;
+    font-weight: normal;
+    color: inherit;
+  }
+
+  .status a {
+    color: inherit;
+  }
+
+  .good {
+    color: #206b00;
+  }
+
+  .warn {
+    color: #ad5f00;
+  }
+
+  .critical {
+    color: #7a0000;
+  }
+
+</style>	
 
 <table class="releases">
   <thead>
@@ -22,7 +57,22 @@ title: Releases
         <a class="version" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
       </td>
       <td>
-        <time datetime="{{ repo.releases.first.release_date }}" title="{{ repo.releases.first.release_date }}">{{ repo.releases.first.release_date | date: "%b %e, %Y" }}</time>
+         {% assign rd = repo.releases.first.release_date %}
+        <time datetime="{{ rd }}">	
+          {% assign d = rd | date: "%-d"  %}	
+          {{ rd | date: "%B" }} 	
+          {% case d %}	
+            {% when '1' or '21' or '31' %}{{ d }}st	
+            {% when '2' or '22' %}{{ d }}nd	
+            {% when '3' or '23' %}{{ d }}rd	
+            {% else %}{{ d }}th	
+            {% endcase %}, 	
+          {{ rd | date: "%Y" }}	
+        </time>	
+        <br>	
+        <!--<sub class="human-readable-subtitle"><time datetime="{{ rd }}">	
+          {{ rd | timeago }}	
+        </time></sub>-->
       </td>
       <td>
         {% if repo.new_commits == 0 %}
@@ -37,12 +87,12 @@ title: Releases
             <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
             since release
           </span>
-        {% elsif repo.new_commits >= 10 and repo.new_commits < 50 %}
+        {% elsif repo.new_commits >= 10 and repo.new_commits < 20 %}
           <span class="status warn">
             <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
             since release
           </span>
-        {% elsif repo.new_commits >= 50 %}
+         {% elsif repo.new_commits >= 20 %}
           <span class="status critical">
             <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
             since release
@@ -54,26 +104,3 @@ title: Releases
   {% endfor %}
   </tbody>
 </table>
-
-<style>
-.name {
-  display: block;
-  font-weight: bold;
-}
-
-.status a {
-  color: inherit;
-}
-
-.good {
-  color: #206b00;
-}
-
-.warn {
-  color: #ad5f00;
-}
-
-.critical {
-  color: #7a0000;
-}
-</style>
