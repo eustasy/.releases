@@ -7,14 +7,14 @@ title: Releases
 
 <style>
 
-  .wrapper {	
-    max-width: 960px;	
-    width: auto;	
-  }	
-  
-  section {	
-    width: auto;	
-  }	
+  .wrapper {
+    max-width: 960px;
+    width: auto;
+  }
+
+  section {
+    width: auto;
+  }
 
   .name {
     display: block;
@@ -38,7 +38,7 @@ title: Releases
     color: #7a0000;
   }
 
-</style>	
+</style>
 
 <table class="releases">
   <thead>
@@ -58,20 +58,20 @@ title: Releases
       </td>
       <td>
          {% assign rd = repo.releases.first.release_date %}
-        <time datetime="{{ rd }}">	
-          {% assign d = rd | date: "%-d"  %}	
-          {{ rd | date: "%B" }} 	
-          {% case d %}	
-            {% when '1' or '21' or '31' %}{{ d }}st	
-            {% when '2' or '22' %}{{ d }}nd	
-            {% when '3' or '23' %}{{ d }}rd	
-            {% else %}{{ d }}th	
-            {% endcase %}, 	
-          {{ rd | date: "%Y" }}	
-        </time>	
-        <br>	
-        <!--<sub class="human-readable-subtitle"><time datetime="{{ rd }}">	
-          {{ rd | timeago }}	
+        <time datetime="{{ rd }}">
+          {% assign d = rd | date: "%-d"  %}
+          {{ rd | date: "%B" }}
+          {% case d %}
+            {% when '1' or '21' or '31' %}{{ d }}st
+            {% when '2' or '22' %}{{ d }}nd
+            {% when '3' or '23' %}{{ d }}rd
+            {% else %}{{ d }}th
+            {% endcase %},
+          {{ rd | date: "%Y" }}
+        </time>
+        <br>
+        <!--<sub class="human-readable-subtitle"><time datetime="{{ rd }}">
+          {{ rd | timeago }}
         </time></sub>-->
       </td>
       <td>
