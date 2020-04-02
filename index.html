@@ -89,22 +89,18 @@ title: Releases
         {% elsif repo.new_commits == 1 %}
           <span class="status">
             <a href="{{ commits_href }}">{{ repo.new_commits }} commit</a>
-            since release
           </span>
         {% elsif repo.new_commits > 1 and repo.new_commits < 10 %}
           <span class="status">
             <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
-            since release
           </span>
         {% elsif repo.new_commits >= 10 and repo.new_commits < 20 %}
           <span class="status warn">
             <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
-            since release
           </span>
          {% elsif repo.new_commits >= 20 %}
           <span class="status critical">
             <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
-            since release
           </span>
         {% endif %}
       </td>
