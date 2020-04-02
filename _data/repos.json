@@ -1,5 +1,39 @@
 [
   {
+    "name": "reader.md",
+    "releases": [
+      {
+        "version": "0.1.3",
+        "release_date": "2020-04-02T21:45:51",
+        "title": "Possible - with Patch 3",
+        "body": "- Update Parsedown to 1.7.4\r\n- Update ParsedownExtra to 0.8.0\r\n- Fix CDN links",
+        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.3"
+      },
+      {
+        "version": "0.1.2",
+        "release_date": "2017-10-25T23:28:41",
+        "title": "Possible - with Patch 2",
+        "body": "- Update Parsedown to 1.6.3",
+        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.2"
+      },
+      {
+        "version": "0.1.1",
+        "release_date": "2017-09-21T03:20:30",
+        "title": "Possible - with Patch 1",
+        "body": "- Update to NC 1.7\r\n- Fix CSS compliance\r\n- Review `IncomeTax.md`",
+        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.1"
+      },
+      {
+        "version": "0.1.0",
+        "release_date": "2017-09-04T19:15:38",
+        "title": "Possible",
+        "body": "Initial release.",
+        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.0"
+      }
+    ],
+    "new_commits": 0
+  },
+  {
     "name": "bubbly",
     "releases": [
       {
@@ -716,33 +750,6 @@
       }
     ],
     "new_commits": 2
-  },
-  {
-    "name": "reader.md",
-    "releases": [
-      {
-        "version": "0.1.2",
-        "release_date": "2017-10-25T23:28:41",
-        "title": "Possible - with Patch 2",
-        "body": "- Update Parsedown to 1.6.3",
-        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.2"
-      },
-      {
-        "version": "0.1.1",
-        "release_date": "2017-09-21T03:20:30",
-        "title": "Possible - with Patch 1",
-        "body": "- Update to NC 1.7\r\n- Fix CSS compliance\r\n- Review `IncomeTax.md`",
-        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.1"
-      },
-      {
-        "version": "0.1.0",
-        "release_date": "2017-09-04T19:15:38",
-        "title": "Possible",
-        "body": "Initial release.",
-        "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.0"
-      }
-    ],
-    "new_commits": 10
   },
   {
     "name": "jQuery.downBoy",
