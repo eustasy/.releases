@@ -133,4 +133,10 @@ title: Releases
   </tbody>
 </table>
 
-<p><small>Last updated <time datetime="{{ site.time }}" title="{{ site.time }}">{{ site.time | date: "%b %e, %Y at %l:%M %p %Z" }}</time>.</small></p>
+{% assign st = site.time %}
+<p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
+  {% assign d = st | date: "%-d"  %}
+  {{ st | date: "%B" }}
+  {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ st | date: "%Y at %T %p %Z" }}
+</time>.</small></p>
