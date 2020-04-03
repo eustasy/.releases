@@ -1139,19 +1139,6 @@
     "new_commits": 5
   },
   {
-    "name": "devede.org",
-    "releases": [
-      {
-        "version": "0.1.0",
-        "release_date": "2017-10-15T14:12:56",
-        "title": "Rounded",
-        "body": "Site is there, if a little outdated at this point. (Vanity release)",
-        "href": "https://github.com/eustasy/devede.org/releases/tag/0.1.0"
-      }
-    ],
-    "new_commits": 6
-  },
-  {
     "name": "cdns",
     "releases": [
       {
