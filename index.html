@@ -138,5 +138,5 @@ title: Releases
   {% assign d = st | date: "%-d"  %}
   {{ st | date: "%B" }}
   {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
-  {{ st | date: "%Y at %T %p %Z" }}
+  {{ st | date: "%Y at %r %Z" }}
 </time>.</small></p>
