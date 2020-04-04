@@ -380,47 +380,6 @@
     "new_commits": 3
   },
   {
-    "name": "comments-evolved",
-    "releases": [
-      {
-        "version": "2.0.0-beta",
-        "release_date": "2018-05-21T20:39:41",
-        "title": "Chatty",
-        "body": "- Puff-Compliant Rewrite",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/2.0.0-beta"
-      },
-      {
-        "version": "1.2.0",
-        "release_date": "2017-08-09T18:45:50",
-        "title": "Talkative",
-        "body": "- New \"labs\" style\r\n- Add NC 1.7\r\n- Update lots of logic",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.2.0"
-      },
-      {
-        "version": "1.1",
-        "release_date": "2013-12-19T19:35:22",
-        "title": "1.1",
-        "body": "Moved to multiple functions\n",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.1"
-      },
-      {
-        "version": "1.0",
-        "release_date": "2013-12-09T22:39:18",
-        "title": "1.0",
-        "body": "- Moved to Functions\n- Minified CSS\n- Added GitHub Banner\n- Added LICENSE (MIT)\n- Added Instructions in README.md\n- Removed Unnecessary Variables\n- Removed Unminifed JS Files\n",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/1.0"
-      },
-      {
-        "version": "0.9",
-        "release_date": "2013-11-13T14:45:54",
-        "title": "0.9",
-        "body": "",
-        "href": "https://github.com/eustasy/comments-evolved/releases/tag/0.9"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
     "name": "normal-checks",
     "releases": [
       {
@@ -688,7 +647,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 4
+    "new_commits": 5
   },
   {
     "name": "labs.eustasy.org",
