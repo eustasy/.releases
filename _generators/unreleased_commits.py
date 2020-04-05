@@ -27,6 +27,7 @@ org = g.get_organization('eustasy')
 
 repos = []
 for repo in org.get_repos():
+  # Skip archived repositories
   if repo.archived is False:
     print ('Processing {}...'.format(repo.name))
     try:
@@ -50,11 +51,10 @@ for repo in repos:
 
   releases = []
   for release in repo.releases:
-    release_date = datetime.datetime.fromtimestamp(repo.last_release_timestamp).strftime("%Y-%m-%d")
     releases.append ({
       "version": release.tag_name,
       "release_date": release.created_at.isoformat(),
-      "timeago": timeago.format(repo.last_release_timestamp, now),
+      "timeago": timeago.format(release.created_at, now),
       "title": release.title,
       "body": release.body,
       "href": release.html_url
