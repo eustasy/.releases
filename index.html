@@ -103,9 +103,9 @@ description: See releases and commits since for eustasy repositories
           {{ rd | date: "%Y" }}
         </time>
         <br>
-        <!--<sub class="human-readable-subtitle"><time datetime="{{ rd }}">
-          {{ rd | timeago }}
-        </time></sub>-->
+        <sub class="human-readable-subtitle"><time datetime="{{ rd }}">
+          {{ repo.releases.first.timeago }}
+        </time></sub>
       </td>
       <td data-sort="{{ repo.new_commits }}">
         {% if repo.new_commits == 0 %}
