@@ -1,4 +1,4 @@
-name: Build JSON
+name: Unreleased Commits
 
 on:
   push:
