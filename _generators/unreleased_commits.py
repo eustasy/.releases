@@ -1,10 +1,12 @@
 import datetime
+import timeago
 import json
 import os
 import sys
 from github import Github
 from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
+now = datetime.datetime.now()
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
 class NoReleasesFound(Exception):
@@ -52,6 +54,7 @@ for repo in repos:
     releases.append ({
       "version": release.tag_name,
       "release_date": release.created_at.isoformat(),
+      "timeago": timeago.format(release.created_at.isoformat(), now),
       "title": release.title,
       "body": release.body,
       "href": release.html_url
