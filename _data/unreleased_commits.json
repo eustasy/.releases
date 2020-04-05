@@ -5,6 +5,7 @@
       {
         "version": "0.1.3",
         "release_date": "2020-04-02T21:45:51",
+        "timeago": "2 days ago",
         "title": "Possible - with Patch 3",
         "body": "- Update Parsedown to 1.7.4\r\n- Update ParsedownExtra to 0.8.0\r\n- Fix CDN links",
         "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.3"
@@ -12,6 +13,7 @@
       {
         "version": "0.1.2",
         "release_date": "2017-10-25T23:28:41",
+        "timeago": "2 days ago",
         "title": "Possible - with Patch 2",
         "body": "- Update Parsedown to 1.6.3",
         "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.2"
@@ -19,6 +21,7 @@
       {
         "version": "0.1.1",
         "release_date": "2017-09-21T03:20:30",
+        "timeago": "2 days ago",
         "title": "Possible - with Patch 1",
         "body": "- Update to NC 1.7\r\n- Fix CSS compliance\r\n- Review `IncomeTax.md`",
         "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.1"
@@ -26,6 +29,7 @@
       {
         "version": "0.1.0",
         "release_date": "2017-09-04T19:15:38",
+        "timeago": "2 days ago",
         "title": "Possible",
         "body": "Initial release.",
         "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.0"
@@ -39,6 +43,7 @@
       {
         "version": "2.1.3",
         "release_date": "2020-04-02T21:18:14",
+        "timeago": "3 days ago",
         "title": "Banquet - with Patch 3",
         "body": "### Upgrade Warnings\r\n- Moved to `acme-v02` API endpoint.\r\n- Moved protocol preferences in with cipher suite preferences.\r\n- Updated all 3 cipher suite options.\r\n- Added PHP 7.4 socket option.\r\n- Removed PHP 7.1 socket option.\r\n\r\n### Improvement\r\n- Document [`amplify_stub-status.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/amplify_stub-status.conf)\r\n- Add [`nixstats_stub-status.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/nixstats_stub-status.conf)\r\n\r\n### Changes\r\n[2.1.2 to 2.1.3](https://github.com/eustasy/bubbly/compare/2.1.2...2.1.3)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.1.3"
@@ -46,6 +51,7 @@
       {
         "version": "2.1.2",
         "release_date": "2018-05-30T14:07:43",
+        "timeago": "3 days ago",
         "title": "Banquet - with Patch 2",
         "body": "### Upgrade Warnings\r\n- `Expect-CT` now has a default value of 30 seconds.\r\n- `Strict-Transport-Security` now has a default value of 31536000 seconds (365 days).\r\n- `Expect-CT` now has an optional value of 31536000 seconds (365 days).\r\n- If any `Content-Security-Policy` changes have taken place, a normal overwrite upgrade will eradicate them.\r\n\r\n### Bugfix\r\n- Fix error when running `bubbly_generate-statics.sh` due to change in `openssl rand` parameter order strictness.\r\n\r\n### Improvement\r\n- Move `Content-Security-Policy` to own default file to allow easier customisation.\r\n\r\n### Changes\r\n[2.1.1 to 2.1.2](https://github.com/eustasy/bubbly/compare/2.1.1...2.1.2)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.1.2"
@@ -53,6 +59,7 @@
       {
         "version": "2.1.1",
         "release_date": "2017-12-20T21:22:07",
+        "timeago": "3 days ago",
         "title": "Banquet - with Patch 1",
         "body": "### Upgrade Warnings\r\n- `Expect-CT` now has a default value of 7776000 (90 days), as does HSTS.\r\n\r\n### Bugfix\r\n- Add non-prefixed headers for `X-Content-Type-Options`, `X-XSS-Protection`, `X-UA-Compatible`, and `X-Powered-By` as promoted by new spec.\r\n\r\n### Improvement\r\n- Move HSTS to Headers, away from SSL config.\r\n\r\n### Changes\r\n[2.1.0 to 2.1.1](https://github.com/eustasy/bubbly/compare/2.1.0...2.1.1)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.1.1"
@@ -60,6 +67,7 @@
       {
         "version": "2.1.0",
         "release_date": "2017-12-16T03:32:48",
+        "timeago": "3 days ago",
         "title": "Banquet",
         "body": "### Upgrade Warnings\r\n- Support for the new PHP 7.2 is the default. You should modify this to point to the correct PHP version for your server if in use, until such time that you upgrade.\r\n\r\n### Security\r\n- Add `Expect-CT` with default of `enforce, max-age=30, report-uri='/api/report_ect'`\r\n- Add `Referrer-Policy` with default of `strict-origin-when-cross-origin`\r\n\r\n### Bugfix\r\n- Fix some references to log files\r\n\r\n### Feature\r\n- Add option to disable versions in `Server`\r\n\r\n### Improvement\r\n- Add support for PHP 7.2\r\n- Add support end dates for all PHP versions\r\n- Expand Content Security Policy to include report uri\r\n- Add report only versions of Content Security Policy\r\n\r\n### Supporting\r\n- Updated screenshot for Qualys SSL Labs\r\n- Add screenshot for SecurityHeaders.io\r\n- Fix badge from Code Climate\r\n\r\n### Changes\r\n[2.0.2 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.2...2.1.0)\r\n[2.0.1 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.1...2.1.0)\r\n[2.0.0 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.0...2.1.0)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.1.0"
@@ -67,6 +75,7 @@
       {
         "version": "2.0.2",
         "release_date": "2017-11-21T15:39:11",
+        "timeago": "3 days ago",
         "title": "Abstraction - with Patch 2",
         "body": "### Bugfixes\r\n- Fix invalid targets in `groups/performance-common.conf`\r\n- Fix invalid targets in `sites-available/bubbly_live.conf` and `sites-available/bubbly_verify.conf`\r\n- Change target copy from location in `bubbly_copy-configs.sh`\r\n\r\n### Changes\r\n[2.0.1 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.1...2.0.2)\r\n[2.0.0 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.2)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.0.2"
@@ -74,6 +83,7 @@
       {
         "version": "2.0.1",
         "release_date": "2017-08-27T23:46:12",
+        "timeago": "3 days ago",
         "title": "Abstraction - with Patch 1",
         "body": "### Bugfixes\r\n- Remove ssl variable by recommendation\r\n\r\n### Improvements\r\n- Add additional `ssl_ecdh_curve` option\r\n- Add TLSv1.3 option\r\n\r\n### Supporting\r\n- Rename `CODE_OF_CONDUCT.md` to `.github/CODE_OF_CONDUCT.md`\r\n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.0.1"
@@ -81,6 +91,7 @@
       {
         "version": "2.0.0",
         "release_date": "2017-08-17T22:06:56",
+        "timeago": "3 days ago",
         "title": "Abstraction",
         "body": "- SECURITY: Add limits for requests and connections to specified zones based on IP or \"Server\".\r\n- - [`nginx-config/conf.d/bubbly_limits.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/bubbly_limits.conf)\r\n- SECURITY: Hide PHP version when requests are processed via FastCGI.\r\n- - [`nginx-config/location/bubbly_extensionless-php.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/location/bubbly_extensionless-php.conf)\r\n- SECURITY: Only respond to reasonable request types.\r\n- - [`nginx-config/location/bubbly_methods.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/location/bubbly_methods.conf)\r\n- SECURITY: **Stop remote users accessing system files.**\r\n- - [`nginx-config/location/h5bp_protect-system-files.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/location/h5bp_protect-system-files.conf)\r\n- BUGFIX: Fix `.sh` permissions.\r\n- FEATURE: **Added Amplify Log Format.**\r\n- - [`nginx-config/conf.d/amplify_log-format.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/amplify_log-format.conf)\r\n- FEATURE: **Added Amplify Stub Status.**\r\n- - [`nginx-config/conf.d/amplify_stub-status.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/amplify_stub-status.conf)\r\n- FEATURE: Added Content Security Policy (Off by default).\r\n- - [`nginx-config/directive/bubbly_security-headers.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/directive/bubbly_security-headers.conf)\r\n- IMPROVEMENT: **Massively better Nginx configuration management**\r\n- - some files courtesy of [H5BP](https://github.com/h5bp/server-configs-nginx)\r\n- IMPROVEMENT: Set a better maximum upload size\r\n- IMPROVEMENT: Respond to errors better\r\n- IMPROVEMENT: Keep PHP connections alive\r\n- IMPROVEMENT: Set better FastCGI timeouts\r\n- IMPROVEMENT: Disable GZip for <= IE6\r\n- IMPROVEMENT: Disable logging for unnecessary stuff\r\n- IMPROVEMENT: Better open file cache\r\n- IMPROVEMENT: Added `no-transform` header\r\n- IMPROVEMENT: Abstracted extensionless PHP\r\n- IMPROVEMENT: Improved expiry rules\r\n- IMPROVEMENT: Expanded Mime-Types\r\n- SUPPORTING: Added NC 1.7\r\n- SUPPORTING: Improved documentation.\r\n- SUPPORTING: Added [`.github/CONTRIBUTING.md`](https://github.com/eustasy/bubbly/blob/master/.github/CONTRIBUTING.md)\r\n- SUPPORTING: Added [`CODE_OF_CONDUCT.md`](https://github.com/eustasy/bubbly/blob/master/CODE_OF_CONDUCT.md)\r\n- SUPPORTING: Better linguist detection through [`.gitattributes`](https://github.com/eustasy/bubbly/blob/master/.gitattributes)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.0.0"
@@ -88,6 +99,7 @@
       {
         "version": "1.8",
         "release_date": "2017-04-10T18:32:01",
+        "timeago": "3 days ago",
         "title": "Primadonna",
         "body": "- SECURITY: **Improve security in configuration files.**\r\n- IMPROVEMENT: **Massively simplify instructions.**\r\n- IMPROVEMENT: Rename bash scripts to be more descriptive.\r\n- IMPROVEMENT: Add warnings to bash scripts.\r\n- IMPROVEMENT: Deprecate `cli.ini` in favour of command options.\r\n- SUPPORTING: **Rename to Bubbly.**\r\n- SUPPORTING: Add an issue template.\r\n- SUPPORTING: Add a pull request template.\r\n- SUPPORTING: Update license.\r\n- SUPPORTING: Add BountySource badge.\r\n- SUPPORTING: Add a contribute package file.",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.8"
@@ -95,6 +107,7 @@
       {
         "version": "1.7",
         "release_date": "2016-09-16T23:02:25",
+        "timeago": "3 days ago",
         "title": "Tinman",
         "body": "- BUGFIX: Fix syntax of `nginx.conf`\r\n- BUGFIX: Remove duplicate `include`s\r\n- IMPROVEMENT: Add version to `nginx.conf` header.\r\n- IMPROVEMENT: Add option point for custom inclusion.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.7"
@@ -102,6 +115,7 @@
       {
         "version": "1.6",
         "release_date": "2016-06-18T20:54:52",
+        "timeago": "3 days ago",
         "title": "Conspire",
         "body": "- BUGFIX: Default to the correct PHP7 socket.\r\n- IMPROVEMENT: Re-organise the configuration, and label all options and defaults.\r\n- IMPROVEMENT: De-duplicate configuration.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.6"
@@ -109,6 +123,7 @@
       {
         "version": "1.5",
         "release_date": "2016-05-26T18:53:54",
+        "timeago": "3 days ago",
         "title": "Secondary",
         "body": "- BUGFIX: Moved to HTTP/2 as default now Nginx 1.10 is out.\r\n- IMPROVEMENT: Made HTTP/2 optional in secondary config.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.5"
@@ -116,6 +131,7 @@
       {
         "version": "1.4",
         "release_date": "2016-05-18T15:19:02",
+        "timeago": "3 days ago",
         "title": "Certbot",
         "body": "- BUGFIX: Renamed to Certbot upstream, fixed references.\r\n- IMPROVEMENT: Move more configuration to the default config.\r\n- IMPROVEMENT: Adds updating to crontab.\r\n- IMPROVEMENT: Change default run-point to weekly.\r\n- IMPROVEMENT: Statically reference php_params.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.4"
@@ -123,6 +139,7 @@
       {
         "version": "1.3",
         "release_date": "2016-03-09T16:23:59",
+        "timeago": "3 days ago",
         "title": "Robotic",
         "body": "- BUGFIX: Automatically accept the \"are you sure you want to renew certificates\" option.\r\n- BUGFIX: Use a log file location we have permissions to by default.\r\n- BUGFIX: Fix default permissions on `.sh` files.\r\n- IMPROVEMENT: Move from alias to script.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.3"
@@ -130,6 +147,7 @@
       {
         "version": "1.2",
         "release_date": "2016-02-07T02:01:09",
+        "timeago": "3 days ago",
         "title": "Multiplex",
         "body": "- BUGFIX: Fixed issue with too many parameters. You can now never have too many parameters, thanks to @alx!\r\n- FEATURE: Added secure HTTPS Redirection.\r\n- IMPROVEMENT: Added further verification instructions for transferring new sites.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.2"
@@ -137,6 +155,7 @@
       {
         "version": "1.1",
         "release_date": "2016-01-05T21:35:46",
+        "timeago": "3 days ago",
         "title": "Singular",
         "body": "- IMPROVEMENT: Options moved into one configuration file.\r\n- IMPROVEMENT: Tidied references.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.1"
@@ -144,6 +163,7 @@
       {
         "version": "1.0",
         "release_date": "2015-12-30T14:01:40",
+        "timeago": "3 days ago",
         "title": "Stable",
         "body": "### Release\r\n- `nginx.conf` for the highest grade of security with OSCP Stapling and HSTS headers, among other things.\r\n- `nginx.next.conf` for the same stuff with HTTP/2 (on Nginx >=1.9.5) and/or PHP 7.0\r\n- `nginx.verify-and-redirect.conf` to enable the `renew-ssl` function to verify, and to redirect non-HTTPS queries on the server.\r\n- `renew-ssl` function can renew certificates without stopping or restarting Nginx.\r\n- [Simple Instructions](https://github.com/eustasy/letsencrypt-with-nginx) for installing, and automatically renewing SSL certificates.\r\n- [Generation Script](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/Generate.sh) for Session Tickets & DH Parameters.\r\n- Let's Encrypt [Configured](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/letsencrypt/cli.ini) for larger keys.\r\n- [Example Crontab](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/crontab)\r\n- [MIT Licensed](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/LICENSE.md)\r\n\r\n### Roadmap\r\n- Public Key Pinning\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.0"
@@ -157,6 +177,7 @@
       {
         "version": "3.1.5",
         "release_date": "2020-04-02T19:37:18",
+        "timeago": "3 days ago",
         "title": "Unicorn - with Patch 5",
         "body": "- Improved documentation\r\n- Fixed some links",
         "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.5"
@@ -164,6 +185,7 @@
       {
         "version": "3.1.4",
         "release_date": "2017-09-16T23:39:27",
+        "timeago": "3 days ago",
         "title": "Unicorn - with Patch 4",
         "body": "- Update to NC 1.7",
         "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.4"
@@ -171,6 +193,7 @@
       {
         "version": "3.1.3",
         "release_date": "2017-04-19T20:52:19",
+        "timeago": "3 days ago",
         "title": "Unicorn - with Patch 3",
         "body": "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES: Idle peers removed in 1% of requests instead of 10% by default.\r\n- BUGFIX: Stops backups running in home directory if not configured.\r\n\r\n[Compare 3.1.3 with v.3.1.2](https://github.com/eustasy/phoenix/compare/v.3.1.2...3.1.3)\r\n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.3"
@@ -178,6 +201,7 @@
       {
         "version": "3.1.2",
         "release_date": "2016-06-15T16:14:43",
+        "timeago": "3 days ago",
         "title": "Unicorn - with Patch 2",
         "body": "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.2"
@@ -185,6 +209,7 @@
       {
         "version": "v.3.1.1",
         "release_date": "2016-04-14T15:04:14",
+        "timeago": "3 days ago",
         "title": "Unicorn - with Patch 1",
         "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
@@ -192,6 +217,7 @@
       {
         "version": "v.3.1",
         "release_date": "2016-04-14T14:51:17",
+        "timeago": "3 days ago",
         "title": "Unicorn",
         "body": "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n- IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES: De-duplicate test initialization and database initialization ([#27](https://github.com/eustasy/phoenix/issues/27)).\r\n- IMPROVES: Automated testing now uses the same database, and respects prefixes, and custom usernames and database names.\r\n- IMPROVES: Update default settings to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1"
@@ -199,6 +225,7 @@
       {
         "version": "v.3.0",
         "release_date": "2016-01-21T22:44:34",
+        "timeago": "3 days ago",
         "title": "Sanitized",
         "body": "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\n- FEATURE: Adds normalized checks.\r\n- IMPROVES: Sanitizes super-globals before use ([#16](https://github.com/eustasy/phoenix/issues/16)).\r\n- IMPROVES: Documented hook files ([#23](https://github.com/eustasy/phoenix/issues/23)).\r\n- IMPROVES: Removes duplicated variables ([#20](https://github.com/eustasy/phoenix/issues/20)).\r\n- IMPROVES: Moved to puff-style structure ([#18](https://github.com/eustasy/phoenix/issues/18)).\r\n- IMPROVES: IP detection, especially when reporting IPv4 _and_ IPv6.\r\n- IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.0"
@@ -206,6 +233,7 @@
       {
         "version": "v.2.0",
         "release_date": "2015-08-20T13:26:02",
+        "timeago": "3 days ago",
         "title": "Unification",
         "body": "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.2.0"
@@ -213,6 +241,7 @@
       {
         "version": "v.1.4",
         "release_date": "2015-08-18T21:50:42",
+        "timeago": "3 days ago",
         "title": "Totalitarian",
         "body": "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose option to torrent scraping for better display of bencoded content.\r\n- BUGFIX: Fixes scrape counts of torrents by encoding hashes in their binary format.\r\n- BUGFIX: Fixes issue where cleaning was never logged.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.4"
@@ -220,6 +249,7 @@
       {
         "version": "v.1.3",
         "release_date": "2015-02-16T21:01:44",
+        "timeago": "3 days ago",
         "title": "Hexa",
         "body": "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.3"
@@ -227,6 +257,7 @@
       {
         "version": "v.1.2",
         "release_date": "2014-12-31T22:03:00",
+        "timeago": "3 days ago",
         "title": "Endpoints",
         "body": "FEATURE: Support Endpoints, rather than just separate ports.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.2"
@@ -234,6 +265,7 @@
       {
         "version": "v.1.1",
         "release_date": "2014-12-31T12:18:53",
+        "timeago": "3 days ago",
         "title": "Scraping By",
         "body": "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct default charset.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.1"
@@ -241,6 +273,7 @@
       {
         "version": "v.1.0",
         "release_date": "2014-12-28T22:10:21",
+        "timeago": "3 days ago",
         "title": "No longer PeerTracker.",
         "body": "A procedural re-write of peertracker in a modern format.\r\nFixes numerous bugs and massively improves performance, modularity, and maintainability.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.0"
@@ -254,6 +287,7 @@
       {
         "version": "20.03-beta",
         "release_date": "2020-03-24T20:16:57",
+        "timeago": "1 week ago",
         "title": "Pre- Ubuntu 20.04",
         "body": "",
         "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/20.03-beta"
@@ -261,6 +295,7 @@
       {
         "version": "17.10.0",
         "release_date": "2017-10-15T18:23:42",
+        "timeago": "1 week ago",
         "title": "Release of Ubuntu 17.10",
         "body": "No actual new content for this release yet.",
         "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/17.10.0"
@@ -274,6 +309,7 @@
       {
         "version": "1.9.3",
         "release_date": "2019-03-01T21:54:57",
+        "timeago": "1 year ago",
         "title": "Retrospective - with Patch 3",
         "body": "- Fix elementary Strawberry ordering\r\n- Add elementary Cocoa\r\n- Add Material",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.3"
@@ -281,6 +317,7 @@
       {
         "version": "1.9.2",
         "release_date": "2017-10-26T05:50:27",
+        "timeago": "1 year ago",
         "title": "Retrospective - with Patch 2",
         "body": "- Update jsDelivr embeds\r\n- Update generator to reduce duplication",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.2"
@@ -288,6 +325,7 @@
       {
         "version": "1.9.1",
         "release_date": "2017-09-27T05:35:46",
+        "timeago": "1 year ago",
         "title": "Retrospective - with Patch 1",
         "body": "- Add jsDelivr badge to Readme\r\n- Update jsDelivr embed codes (now with integrity checks)",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.1"
@@ -295,6 +333,7 @@
       {
         "version": "1.9.0",
         "release_date": "2017-09-13T00:06:34",
+        "timeago": "1 year ago",
         "title": "Retrospective",
         "body": " - Fix duplicate selectors #9",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.0"
@@ -302,6 +341,7 @@
       {
         "version": "1.8.1",
         "release_date": "2017-07-12T17:31:08",
+        "timeago": "1 year ago",
         "title": "Robotic - with Patch 1",
         "body": "- Fix Travis CI Builds",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.8.1"
@@ -309,6 +349,7 @@
       {
         "version": "1.8.2",
         "release_date": "2017-08-09T19:04:39",
+        "timeago": "1 year ago",
         "title": "Robotic - with Patch 2",
         "body": " - Update to NC 1.7",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.8.2"
@@ -316,6 +357,7 @@
       {
         "version": "1.8.0",
         "release_date": "2017-07-12T16:34:33",
+        "timeago": "1 year ago",
         "title": "Robotic",
         "body": "- Add Normal Checks 1.5\r\n- Add generator page/script\r\n- Add new elementary palette",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.8.0"
@@ -323,6 +365,7 @@
       {
         "version": "1.7",
         "release_date": "2017-04-14T16:43:25",
+        "timeago": "1 year ago",
         "title": "Homely",
         "body": "- Add a homepage.\r\n- Update the license year.\r\n- Re-order some properties.\r\n- Add normalised testing.",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
@@ -330,6 +373,7 @@
       {
         "version": "v.1.6",
         "release_date": "2016-06-26T19:15:02",
+        "timeago": "1 year ago",
         "title": "v.1.6: Version",
         "body": "",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/v.1.6"
@@ -337,6 +381,7 @@
       {
         "version": "v.1.5",
         "release_date": "2015-05-16T13:23:40",
+        "timeago": "1 year ago",
         "title": "v.1.5: Overcast",
         "body": "Fixed #3 _Background should have shades of grey like color does_.\n",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/v.1.5"
@@ -344,6 +389,7 @@
       {
         "version": "v.1.4",
         "release_date": "2015-05-16T13:20:09",
+        "timeago": "1 year ago",
         "title": "v.1.4: Licensing 2015",
         "body": "",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/v.1.4"
@@ -351,6 +397,7 @@
       {
         "version": "1.3",
         "release_date": "2014-08-23T20:17:38",
+        "timeago": "1 year ago",
         "title": "v.1.3",
         "body": "Add Transparent/Inherit\n",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.3"
@@ -358,6 +405,7 @@
       {
         "version": "1.2",
         "release_date": "2014-08-23T20:10:11",
+        "timeago": "1 year ago",
         "title": "v.1.2",
         "body": "Fix emeralds (names)\n",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.2"
@@ -365,6 +413,7 @@
       {
         "version": "1.1",
         "release_date": "2014-07-30T18:02:19",
+        "timeago": "1 year ago",
         "title": "v.1.1",
         "body": "",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.1"
@@ -372,6 +421,7 @@
       {
         "version": "1.0",
         "release_date": "2014-07-30T17:59:37",
+        "timeago": "1 year ago",
         "title": "v.1.0",
         "body": "",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.0"
@@ -385,6 +435,7 @@
       {
         "version": "1.10.2",
         "release_date": "2018-05-17T16:49:28",
+        "timeago": "1 year ago",
         "title": "Drop - with Patch 2",
         "body": "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments.",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.10.2"
@@ -392,6 +443,7 @@
       {
         "version": "1.10.1",
         "release_date": "2018-05-17T10:18:30",
+        "timeago": "1 year ago",
         "title": "Drop - with Patch 1",
         "body": "- Increase argument-count threshold to 10\r\n- Increase method-complexity threshold to 20\r\n- Increase method-lines threshold to 50\r\n- Disable `Generic Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.10.1"
@@ -399,6 +451,7 @@
       {
         "version": "1.10.0",
         "release_date": "2018-04-25T04:35:42",
+        "timeago": "1 year ago",
         "title": "Drop",
         "body": "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\n- Add editor config",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.10.0"
@@ -406,6 +459,7 @@
       {
         "version": "1.9.0",
         "release_date": "2018-03-14T09:22:54",
+        "timeago": "1 year ago",
         "title": "Stacked",
         "body": "- Add PHP 7.2\r\n- Only allow failures on HHVM\r\n- Add support for testing SQL files in MariaDB 10.1\r\n- Add a test SQL file\r\n- Add a header comment to `.travis.yml`\r\n- Update License year\r\n- Make license detectable by GitHub",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.9.0"
@@ -413,6 +467,7 @@
       {
         "version": "1.7",
         "release_date": "2017-08-09T18:16:33",
+        "timeago": "1 year ago",
         "title": "Updatable",
         "body": "- Config: Remove \"selector-no-universal\"\r\n- Config: Add replacement lines for deprecated rules",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.7"
@@ -420,6 +475,7 @@
       {
         "version": "1.6",
         "release_date": "2017-08-09T18:01:49",
+        "timeago": "1 year ago",
         "title": "Installable",
         "body": "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh` description\r\n- Config: Add `install.sh`",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.6"
@@ -427,6 +483,7 @@
       {
         "version": "1.5",
         "release_date": "2017-06-17T19:29:02",
+        "timeago": "1 year ago",
         "title": "Planted",
         "body": "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n- Config: Build changed so warning is given, but existing settings used.\r\n- Config: Check moved to body to prevent full build failures.\r\n- JavaScript: Acorn used for Travis CI builds.\r\n- JavaScript: Switch case spacing defined.\r\n- PHP: Loop spacing defined.\r\n- SQLint: Enabled.",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.5"
@@ -434,6 +491,7 @@
       {
         "version": "1.4",
         "release_date": "2017-04-18T17:07:38",
+        "timeago": "1 year ago",
         "title": "Activate",
         "body": "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions.",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.4"
@@ -441,6 +499,7 @@
       {
         "version": "1.3",
         "release_date": "2017-04-18T03:59:03",
+        "timeago": "1 year ago",
         "title": "Graduation",
         "body": "- Add Codacy Configuration\r\n- Update Code Climate Configuration\r\n- Add ESLint Configuration\r\n- Add MDLRC Configuration\r\n- Update Stylelint Configuration\r\n- Add Configuration Check\r\n- Add Permissions Check\r\n- Only require most recent PHP version\r\n- Update command-file naming\r\n- Massively expand documentation",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.3"
@@ -448,6 +507,7 @@
       {
         "version": "1.2",
         "release_date": "2017-03-02T14:20:23",
+        "timeago": "1 year ago",
         "title": "Mass Deployment",
         "body": "The first release to be standardized across our repositories.",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.2"
@@ -455,6 +515,7 @@
       {
         "version": "1.1",
         "release_date": "2017-02-23T23:51:04",
+        "timeago": "1 year ago",
         "title": "Better Documentation",
         "body": "A little documentation on what you should be doing.\n",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.1"
@@ -462,6 +523,7 @@
       {
         "version": "1.0",
         "release_date": "2017-02-09T04:40:58",
+        "timeago": "1 year ago",
         "title": "Version 1.0",
         "body": "Initial Release\n",
         "href": "https://github.com/eustasy/normal-checks/releases/tag/1.0"
@@ -475,6 +537,7 @@
       {
         "version": "0.7.6",
         "release_date": "2018-04-25T22:07:05",
+        "timeago": "1 year ago",
         "title": "Establishment - with Patch 6 [Better PHP 7.2 Support]",
         "body": "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt` library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\n- NOTE: Updated badges\r\n- NOTE: Added a Code of Conduct\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.6"
@@ -482,6 +545,7 @@
       {
         "version": "0.7.5",
         "release_date": "2017-08-22T23:12:33",
+        "timeago": "1 year ago",
         "title": "Establishment - with Patch 5",
         "body": "- IMPROVEMENT: Better passing of variables/defaults.\r\n- IMPROVEMENT: Update SSL documentation.\r\n- IMPROVEMENT: Update documentation for PHP versions.\r\n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors.",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.5"
@@ -489,6 +553,7 @@
       {
         "version": "0.7.4",
         "release_date": "2016-01-27T15:30:48",
+        "timeago": "1 year ago",
         "title": "Establishment - with Patch 4 [Documentation]",
         "body": "- FEATURE: Create a nice homepage with only necessary functions.\r\n- IMPROVEMENT: Combine the examples and documentation page.\r\n- IMPROVEMENT: Expand the Glossary\r\n- IMPROVEMENT: Move all TODOs to Issue Tracker\r\n- IMPROVEMENT: Add source and glossary to navigation.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.4"
@@ -496,6 +561,7 @@
       {
         "version": "0.7.3",
         "release_date": "2015-05-26T21:36:32",
+        "timeago": "1 year ago",
         "title": "Establishment - with Patch 3",
         "body": "- BUGFIX: Remove unused variable.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.3"
@@ -503,6 +569,7 @@
       {
         "version": "0.7.2",
         "release_date": "2015-05-26T21:32:34",
+        "timeago": "1 year ago",
         "title": "Establishment - with Patch 2",
         "body": "- BUGFIX: Undefined variable.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.2"
@@ -510,6 +577,7 @@
       {
         "version": "0.7.1",
         "release_date": "2015-03-04T13:40:32",
+        "timeago": "1 year ago",
         "title": "Establishment - with Patch 1",
         "body": "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.1"
@@ -517,6 +585,7 @@
       {
         "version": "0.7",
         "release_date": "2015-03-04T00:46:06",
+        "timeago": "1 year ago",
         "title": "Establishment",
         "body": "- BUGFIX: Fix string truncation.\r\n- IMPROVEMENT: Cache counts.\r\n- IMPROVEMENT: Flip array only when needed.\r\n- NOTE: Migrate variables for future Simplet.\r\n- NOTE: Update license year.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7"
@@ -524,6 +593,7 @@
       {
         "version": "0.6",
         "release_date": "2014-11-30T22:38:11",
+        "timeago": "1 year ago",
         "title": "Settle",
         "body": "- Improved Server reconsiderations.\r\n- Fixed a ridiculous amount of spelling errors.\r\n- Re-organised docs and examples.\r\n- Expected to be the last release before v1\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.6"
@@ -531,6 +601,7 @@
       {
         "version": "0.5",
         "release_date": "2014-11-19T20:48:49",
+        "timeago": "1 year ago",
         "title": "Simplify",
         "body": "- FEATURE: Authentricatron_New\r\n- FEATURE: Documentation\r\n- FEATURE: Server Check\r\n- BUGFIX: Example OpenSSL now returns true if secure.\r\n- IMPROVEMENT: Check PHPQRCode exists and is readable.\r\n- IMPROVEMENT: QR Code Example\r\n- IMPROVEMENT: Add header.php\r\n- NOTE: Added to Simplet\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.5"
@@ -538,6 +609,7 @@
       {
         "version": "0.4",
         "release_date": "2014-11-15T11:03:25",
+        "timeago": "1 year ago",
         "title": "Talkative",
         "body": "- Improved commenting.\r\n- Check the `gd` function is loaded within the QR Code function.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.4"
@@ -545,6 +617,7 @@
       {
         "version": "0.3",
         "release_date": "2014-11-09T23:57:46",
+        "timeago": "1 year ago",
         "title": "Example",
         "body": "Much better example page, http://labs.eustasy.org/authenticatron/example.php?secret=LC26KMUSNVZJD6CO\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.3"
@@ -552,6 +625,7 @@
       {
         "version": "0.2",
         "release_date": "2014-11-06T22:06:59",
+        "timeago": "1 year ago",
         "title": "Secure",
         "body": "Significantly improved security within random number generation.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.2"
@@ -559,6 +633,7 @@
       {
         "version": "0.1",
         "release_date": "2014-11-06T20:39:44",
+        "timeago": "1 year ago",
         "title": "Initial",
         "body": "Initial release.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
@@ -572,6 +647,7 @@
       {
         "version": "2.6.3",
         "release_date": "2018-02-15T00:32:12",
+        "timeago": "2 years ago",
         "title": "Julian - with Patch 3",
         "body": "- Move all CSS to a block",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3"
@@ -579,6 +655,7 @@
       {
         "version": "2.6.2",
         "release_date": "2018-02-14T23:25:57",
+        "timeago": "2 years ago",
         "title": "Julian - with Patch 2",
         "body": "- Center modals with `display: flex`\r\n- Recreate overlay on each modal launch\r\n- Change how overlay handles `opacity` setting to not affect children\r\n- Remove `top` option\r\n- Add Code of Conduct",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.2"
@@ -586,6 +663,7 @@
       {
         "version": "2.6.1",
         "release_date": "2017-10-26T05:24:01",
+        "timeago": "2 years ago",
         "title": "Julian - with Patch 1",
         "body": "- Only buttons should trigger modals, not entire sections",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.1"
@@ -593,6 +671,7 @@
       {
         "version": "2.6.0",
         "release_date": "2017-10-26T05:05:35",
+        "timeago": "2 years ago",
         "title": "Julian",
         "body": "- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Update site to match new \"labs\" style\r\n- Update code style to compliance",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.0"
@@ -600,6 +679,7 @@
       {
         "version": "2.5",
         "release_date": "2016-06-26T20:45:02",
+        "timeago": "2 years ago",
         "title": "2.5: Responsive Centering",
         "body": "- Improved Responsiveness Centering\n- Add viewport tag\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.4...2.5\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.5"
@@ -607,6 +687,7 @@
       {
         "version": "2.4",
         "release_date": "2016-06-26T19:41:10",
+        "timeago": "2 years ago",
         "title": "2.4: More Options",
         "body": "- Improved Examples\n- Improved Responsiveness\n- Removed duplicate esc handling.\n- Added `fadeTime` and `modalCenter` options.\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.3.2...2.4\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.4"
@@ -614,6 +695,7 @@
       {
         "version": "2.3.2",
         "release_date": "2016-06-25T16:59:52",
+        "timeago": "2 years ago",
         "title": "2.3.2: Priorities",
         "body": "- Additional comments.\n- Improved option handling.\n- Prioritised `data-modal-id` over `href` to allow for fallbacks.\n- Changed `closeButton` default from `false` to `'.js-leanmodal-close'`.\n- Changed overlay class from `js-target-jquery-leanmodal-overlay` to `js-leanmodal-overlay`.\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.3...2.3.2\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3.2"
@@ -621,6 +703,7 @@
       {
         "version": "2.3",
         "release_date": "2016-03-01T19:37:02",
+        "timeago": "2 years ago",
         "title": "2.3: Options",
         "body": "- Add a flag for close on overlay click.\n- Add a flag for close on esc.\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.2...2.3\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3"
@@ -628,6 +711,7 @@
       {
         "version": "2.2",
         "release_date": "2015-06-08T15:30:03",
+        "timeago": "2 years ago",
         "title": "2.2: Escape Hatch",
         "body": "- Allow `Esc` to close the modal ([issue](https://github.com/eustasy/jQuery.leanModal2/issues/1))\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.2"
@@ -635,6 +719,7 @@
       {
         "version": "2.1",
         "release_date": "2015-01-26T16:21:28",
+        "timeago": "2 years ago",
         "title": "2.1",
         "body": "### Bugfixes\r\n- Fixes modal overlay widths being set to include margins. Now only includes content and padding.\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.1"
@@ -642,6 +727,7 @@
       {
         "version": "2.0",
         "release_date": "2014-10-04T19:46:52",
+        "timeago": "2 years ago",
         "title": "2.0",
         "body": "### Bugfixes\r\n- Fixes bug where an overlay is added with every call. Now, if one exists a new one is not added.\r\n- Fixes bug where click events would be fired multiple times when the function is called more than once.\r\n\r\n### Features\r\n- Add option for triggering from element, using data-modal-id attribute.\r\n\r\n### Improvements\r\n- No need for additional CSS for the overlay, neither linked nor inlined. It is added with the element.\r\n- Names functions more clearly to avoid conflicts.\r\n- Added official minified version.\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
@@ -655,6 +741,7 @@
       {
         "version": "2017.12.1",
         "release_date": "2017-12-01T19:10:33",
+        "timeago": "2 years ago",
         "title": "December 1st, 2017",
         "body": "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules",
         "href": "https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1"
@@ -668,6 +755,7 @@
       {
         "version": "1.8.0",
         "release_date": "2017-10-26T00:17:09",
+        "timeago": "2 years ago",
         "title": "Julian",
         "body": "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Add CDN Delivery links\r\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.8.0"
@@ -675,6 +763,7 @@
       {
         "version": "1.7",
         "release_date": "2014-01-20T22:15:09",
+        "timeago": "2 years ago",
         "title": "Cleanly",
         "body": "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n- Skip 1.5 and 1.6 due to inconsistencies\n\n### Improvements\n- Update License to 2014\n- Add Version to License\n- Organise Responsive CSS\n- Add `'use strict';` to minified version\n- Expand Description\n- Massively expand readme, including:\n  - Add Version\n  - Add Link\n  - Expand Description\n  - Include Code Examples and Descriptions from index.html\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.7"
@@ -682,6 +771,7 @@
       {
         "version": "1.4",
         "release_date": "2013-11-24T21:10:39",
+        "timeago": "2 years ago",
         "title": "Variability",
         "body": "Use unused variables.\nRe-use G (Group) Variable.\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.4"
@@ -689,6 +779,7 @@
       {
         "version": "1.2",
         "release_date": "2013-08-20T14:24:28",
+        "timeago": "2 years ago",
         "title": "Responsibility",
         "body": "Added Responsive Example\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.2"
@@ -696,6 +787,7 @@
       {
         "version": "1.1",
         "release_date": "2013-08-13T22:51:53",
+        "timeago": "2 years ago",
         "title": "Strictly",
         "body": "- Added Version Numbers\n- Added GitHub Link\n- Added Labs Link\n- Changed to Strict JavaScript\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.1"
@@ -703,6 +795,7 @@
       {
         "version": "1.0",
         "release_date": "2013-08-12T20:14:45",
+        "timeago": "2 years ago",
         "title": "Launch!",
         "body": "",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.0"
@@ -716,6 +809,7 @@
       {
         "version": "1.3.1",
         "release_date": "2017-10-24T02:03:07",
+        "timeago": "2 years ago",
         "title": "Julian - with Patch 1",
         "body": "- Add jsDelivr Badge\r\n- Update embed code to use jsDelivr with SRI\r\n- Update site scripts to use jsDelivr with version aliasing.",
         "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.1"
@@ -723,6 +817,7 @@
       {
         "version": "1.3.0",
         "release_date": "2017-10-22T00:49:59",
+        "timeago": "2 years ago",
         "title": "Julian",
         "body": "- Add [NC 1.7](https://github.com/eustasy/normal-checks)\r\n- Update license year.\r\n- Add badges to readme\r\n- Update site to new \"labs\" style\r\n- Update code styles",
         "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.0"
@@ -730,6 +825,7 @@
       {
         "version": "1.2",
         "release_date": "2014-03-01T14:52:18",
+        "timeago": "2 years ago",
         "title": "Rover",
         "body": "Initial release on GitHub.",
         "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.2"
@@ -743,6 +839,7 @@
       {
         "version": "1.2.1",
         "release_date": "2017-10-19T23:35:12",
+        "timeago": "2 years ago",
         "title": "Secondary - with Patch 1",
         "body": "- Add jsDelivr Badge\r\n- Add jsDelivr embed code",
         "href": "https://github.com/eustasy/here-miss/releases/tag/1.2.1"
@@ -750,6 +847,7 @@
       {
         "version": "1.2.0",
         "release_date": "2017-09-27T23:02:52",
+        "timeago": "2 years ago",
         "title": "Secondary",
         "body": "- Remove semi-colons in JS version\r\n- Update license year.\r\n- Test with NC 1.7\r\n- Better documentation.",
         "href": "https://github.com/eustasy/here-miss/releases/tag/1.2.0"
@@ -757,6 +855,7 @@
       {
         "version": "1.1",
         "release_date": "2015-02-19T15:28:49",
+        "timeago": "2 years ago",
         "title": "Version 1.1",
         "body": "eustasy takes over license\n",
         "href": "https://github.com/eustasy/here-miss/releases/tag/1.1"
@@ -770,6 +869,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:58:36",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- Add NC 1.7\r\n- Use HTTPS when available for doctypes\r\n- Better semantics",
         "href": "https://github.com/eustasy/puff-blog/releases/tag/0.5.0"
@@ -777,6 +877,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T13:38:53",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-blog/releases/tag/0.4"
@@ -784,6 +885,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T20:00:22",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "- Move functions\r\n- Standardize testing\r\n",
         "href": "https://github.com/eustasy/puff-blog/releases/tag/0.3"
@@ -797,6 +899,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:53:17",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve HTML sanity",
         "href": "https://github.com/eustasy/puff-geo/releases/tag/0.5.0"
@@ -804,6 +907,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T13:40:27",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-geo/releases/tag/0.4"
@@ -811,6 +915,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T20:01:33",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "- Move functions\r\n- Standardize testing\r\n",
         "href": "https://github.com/eustasy/puff-geo/releases/tag/0.3"
@@ -824,6 +929,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:39:31",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- Add NC 1.7\r\n- Add Classes for styling to error page",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.5.0"
@@ -831,6 +937,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T13:50:06",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.4"
@@ -838,6 +945,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T20:06:02",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "- Move functions\r\n- Standardize testing\r\n",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.3"
@@ -845,6 +953,7 @@
       {
         "version": "0.2",
         "release_date": "2015-11-16T16:06:47",
+        "timeago": "2 years ago",
         "title": "Responsive Settings",
         "body": "- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- De-duplication\r\n- Checks\r\n",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.2"
@@ -852,6 +961,7 @@
       {
         "version": "0.1",
         "release_date": "2015-08-01T18:55:49",
+        "timeago": "2 years ago",
         "title": "Core and DB",
         "body": "- Tested support for MySQL and MariaDB connections.\r\n- Automatically connects at page-load for never-require use.\r\n- Automatically uses persistent connections when supported.\r\n",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.1"
@@ -865,6 +975,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:36:10",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom` from -Members to -RunOnce",
         "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.5.0"
@@ -872,6 +983,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T14:46:07",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.4"
@@ -879,6 +991,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T18:10:59",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "Initial release with Puff\r\n",
         "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.3"
@@ -892,6 +1005,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:30:32",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- Start logging IPs for sessions and allow similarity checks.\r\n- Update to NC 1.7\r\n- Fix permissions",
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.5.0"
@@ -899,6 +1013,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T15:04:19",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.4"
@@ -906,6 +1021,7 @@
       {
         "version": "0.3.1",
         "release_date": "2015-11-23T09:54:44",
+        "timeago": "2 years ago",
         "title": "Split - with Patch 1",
         "body": "- Bugfix for password changing.\r\n",
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.3.1"
@@ -913,6 +1029,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T18:08:03",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "Initial release with Puff\r\n",
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.3"
@@ -926,6 +1043,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:15:17",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- Update to NC 1.7\r\n- Move cookie setting name to settings.",
         "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.5.0"
@@ -933,6 +1051,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T13:48:14",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.4"
@@ -940,6 +1059,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T20:05:11",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "- Move functions\r\n- Standardize testing\r\n",
         "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.3"
@@ -953,6 +1073,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T16:58:52",
+        "timeago": "2 years ago",
         "title": "Full Circle",
         "body": "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT: Add [Normal Checks](https://github.com/eustasy/normal-checks) v1.7\r\n- IMPROVEMENT: Fix file permissions\r\n- IMPROVEMENT: Better auto-linking\r\n- IMPROVEMENT: Add generator meta tag\r\n- IMPROVEMENT: Include `rel=\"noopener\"` when opening links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE: Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading.",
         "href": "https://github.com/eustasy/puff-core/releases/tag/0.5.0"
@@ -960,6 +1081,7 @@
       {
         "version": "0.4",
         "release_date": "2016-03-02T13:38:34",
+        "timeago": "2 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
         "href": "https://github.com/eustasy/puff-core/releases/tag/0.4"
@@ -967,6 +1089,7 @@
       {
         "version": "0.3",
         "release_date": "2015-11-22T19:58:18",
+        "timeago": "2 years ago",
         "title": "Split",
         "body": "- Move functions\r\n- Standardize testing\r\n- Permissions\r\n",
         "href": "https://github.com/eustasy/puff-core/releases/tag/0.3"
@@ -974,6 +1097,7 @@
       {
         "version": "0.2",
         "release_date": "2015-11-16T12:11:19",
+        "timeago": "2 years ago",
         "title": "Responsive Settings",
         "body": "- Proper Example Pages\r\n- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- CSP Violation Reporting\r\n- Better Example Pages\r\n- De-duplication\r\n",
         "href": "https://github.com/eustasy/puff-core/releases/tag/0.2"
@@ -981,6 +1105,7 @@
       {
         "version": "0.1",
         "release_date": "2015-07-28T08:45:35",
+        "timeago": "2 years ago",
         "title": "Core and DB",
         "body": "- Supreme SEO\r\n- Social Built-in\r\n- Standard and Custom Hooks\r\n- Auto-linking stylesheets and scripts.\r\n- Integrated Cron System, including self-refreshing Sitemap.\r\n- A+ Standard SSL Configuration with optional soft-HSTS for older browsers.\r\n- Tracking with Google Analytics that respects Do Not Track headers.\r\n",
         "href": "https://github.com/eustasy/puff-core/releases/tag/0.1"
@@ -994,6 +1119,7 @@
       {
         "version": "3.2.1",
         "release_date": "2017-10-16T14:21:42",
+        "timeago": "2 years ago",
         "title": "Actual - with Patch 1",
         "body": "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix several colors",
         "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1"
@@ -1001,6 +1127,7 @@
       {
         "version": "3.2",
         "release_date": "2014-08-20T10:48:09",
+        "timeago": "2 years ago",
         "title": "Actual",
         "body": "",
         "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2"
@@ -1014,6 +1141,7 @@
       {
         "version": "0.29.0",
         "release_date": "2017-10-15T21:35:31",
+        "timeago": "2 years ago",
         "title": "Square",
         "body": "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate, and Bountysource\r\n- Add NC 1.7\r\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.29.0"
@@ -1021,6 +1149,7 @@
       {
         "version": "0.28",
         "release_date": "2016-09-26T18:50:19",
+        "timeago": "2 years ago",
         "title": "Reed",
         "body": "- #5 Update code example and add to the homepage.\n- #3 Move to a puff format.\n- #2 Upgrade and conditionally load ReCaptcha.\n- #1 Redesign homepage to be in line with new labs branding.\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.28"
@@ -1028,6 +1157,7 @@
       {
         "version": "0.27",
         "release_date": "2015-03-24T22:54:09",
+        "timeago": "2 years ago",
         "title": "Archer",
         "body": "Update for Mailgun v3 API\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.27"
@@ -1035,6 +1165,7 @@
       {
         "version": "0.26",
         "release_date": "2015-01-29T14:21:22",
+        "timeago": "2 years ago",
         "title": "Slim",
         "body": "Trim recaptcha out of release.\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.26"
@@ -1042,6 +1173,7 @@
       {
         "version": "0.25",
         "release_date": "2014-12-21T21:32:54",
+        "timeago": "2 years ago",
         "title": "Rich",
         "body": "Patch release for common error.\nSimple, non-breaking upgrade.\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.25"
@@ -1049,6 +1181,7 @@
       {
         "version": "0.24",
         "release_date": "2014-12-03T14:41:36",
+        "timeago": "2 years ago",
         "title": "White",
         "body": "Massive code clean-up and re-write. **Breaking**\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.24"
@@ -1056,6 +1189,7 @@
       {
         "version": "0.23",
         "release_date": "2014-01-06T11:06:10",
+        "timeago": "2 years ago",
         "title": "Danny-Boy",
         "body": "- Remove Recaptcha Code from Browning_Send Function\n- Add Recaptcha_Config File\n- Refactor how Recaptcha is Checked\n- Update Copyright to 2014\n- Add Version Number to Headed Files\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.23"
@@ -1063,6 +1197,7 @@
       {
         "version": "0.22",
         "release_date": "2013-12-08T15:58:57",
+        "timeago": "2 years ago",
         "title": "Smith",
         "body": "- Removed Unnecessary Recaptcha Files\n- Removed Unnecessary Line Breaks\n- Added Instructions to Readme\n- Added better example function to index\n- Added License to Function File\n- Added GitHub URL to README, Config, and Function\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.22"
@@ -1070,6 +1205,7 @@
       {
         "version": "0.21",
         "release_date": "2013-12-08T01:00:58",
+        "timeago": "2 years ago",
         "title": "Williams",
         "body": "- Expanded Description in Readme\n- Added Instructions to Readme\n- Remove unnecessary comparison in Function\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.21"
@@ -1077,6 +1213,7 @@
       {
         "version": "0.20",
         "release_date": "2013-12-07T15:33:49",
+        "timeago": "2 years ago",
         "title": "Jones",
         "body": "First Working Open-Source Release\n",
         "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.20"
@@ -1090,6 +1227,7 @@
       {
         "version": "0.1.0",
         "release_date": "2017-08-09T19:11:43",
+        "timeago": "2 years ago",
         "title": "Common Sense",
         "body": "It's been public for a while, makes sense there would be a release.",
         "href": "https://github.com/eustasy/cdns/releases/tag/0.1.0"
@@ -1103,6 +1241,7 @@
       {
         "version": "1.0.0",
         "release_date": "2017-08-09T18:22:20",
+        "timeago": "2 years ago",
         "title": "Julian",
         "body": "Initial release as VanillaJS version.",
         "href": "https://github.com/eustasy/vanilla.equalize/releases/tag/1.0.0"
@@ -1116,6 +1255,7 @@
       {
         "version": "1.0.0",
         "release_date": "2017-08-09T18:17:29",
+        "timeago": "2 years ago",
         "title": "Julian",
         "body": "Initial release as VanillaJS version.",
         "href": "https://github.com/eustasy/vanilla.downBoy/releases/tag/1.0.0"
@@ -1129,6 +1269,7 @@
       {
         "version": "0.4.1",
         "release_date": "2017-05-10T18:17:36",
+        "timeago": "2 years ago",
         "title": "Loki - with Patch 1",
         "body": "elementary OS Loki 0.4.1 2017-05-17",
         "href": "https://github.com/eustasy/howtoelementary.org/releases/tag/0.4.1"
