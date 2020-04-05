@@ -54,7 +54,7 @@ for repo in repos:
     releases.append ({
       "version": release.tag_name,
       "release_date": release.created_at.isoformat(),
-      "timeago": timeago.format(release.created_at.isoformat(), now),
+      "timeago": timeago.format(repo.last_release_timestamp, now),
       "title": release.title,
       "body": release.body,
       "href": release.html_url
