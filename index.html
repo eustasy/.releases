@@ -77,7 +77,7 @@ description: See releases and commits since for eustasy repositories
     <th>Status</th>
   </thead>
   <tbody>
-  {% for repo in site.data.repos %}
+  {% for repo in site.data.unreleased_commits %}
     {% unless site.data.blacklist contains repo.name %}
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
     {% assign commits_href = repo_href | append: "/compare/" | append: repo.releases.first.version | append: "...master" %}
