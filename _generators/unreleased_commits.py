@@ -63,5 +63,5 @@ for repo in repos:
     "new_commits": new_commits
   })
   
-with open('_data/repos.json', 'w') as outfile:
+with open('_data/unreleased_commits.json', 'w') as outfile:
     json.dump(json_out, outfile, indent=2)
