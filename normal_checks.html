@@ -87,15 +87,15 @@ description: Which version of Normal Checks is each repository using?
         {% if repo.normal_checks == "1.10.1" %}
           <span class="status good">Up to date</span>
         {% elsif repo.normal_checks == "1.10.0" %}
-          <span class="status">{{ repo.normal_checks }}</span>
+          <span class="status good">{{ repo.normal_checks }}</span>
         {% elsif repo.normal_checks == "1.9" %}
-          <span class="status">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "1.7" %}
           <span class="status warn">{{ repo.normal_checks }}</span>
+        {% elsif repo.normal_checks == "1.7" %}
+          <span class="status critical">{{ repo.normal_checks }}</span>
         {% elsif repo.normal_checks == "1.4" %}
           <span class="status critical">{{ repo.normal_checks }}</span>
         {% else %}
-          <span class="status critical">{{ repo.normal_checks }}</span>
+          <span class="status">{{ repo.normal_checks }}</span>
         {% endif %}
       </td>
     </tr>
