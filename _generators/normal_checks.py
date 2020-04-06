@@ -32,8 +32,7 @@ for repo in org.get_repos():
   # Skip archived repositories
   if repo.archived is False:
     print ('Processing {}...'.format(repo.name))
-    try:
-      repos.append(Repo(repo))
+    repos.append(Repo(repo))
 
 repos = sorted(repos, key=lambda repo: repo.name, reverse=False)
 
