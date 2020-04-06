@@ -32,6 +32,8 @@ class Repo:
     except:
       self.normal_checks = False
 
+    print (self.normal_checks)
+
 org = g.get_organization('eustasy')
 
 repos = []
