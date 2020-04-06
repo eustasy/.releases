@@ -28,7 +28,7 @@ class Repo:
       else:
         self.normal_checks = False
     
-    except UnknownObjectException:
+    except github.GithubException.UnknownObjectException:
       self.normal_checks = False
       pass
 
