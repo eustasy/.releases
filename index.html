@@ -84,7 +84,6 @@ description: See releases and commits since for eustasy repositories
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
-        {% assign classes = "http://example.com "%}
         {% if repo.releases.first.version contains 'alpha' %}
         {% assign classes = "alpha version" %}
         {% elsif repo.releases.first.version contains 'beta' %}
