@@ -23,7 +23,7 @@ class Repo:
     elif "d5f1a5d9e3fbac391b905f2bdfcdcdbfe465eabf" in travis:
       self.normal_checks = '1.4'
     else:
-      self.normal_checks = false
+      self.normal_checks = False
 
 org = g.get_organization('eustasy')
 
