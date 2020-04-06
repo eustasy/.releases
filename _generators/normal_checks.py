@@ -28,9 +28,8 @@ class Repo:
       else:
         self.normal_checks = False
     
-    except github.GithubException.UnknownObjectException:
+    except:
       self.normal_checks = False
-      pass
 
 org = g.get_organization('eustasy')
 
