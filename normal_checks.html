@@ -1,0 +1,114 @@
+---
+layout: default
+title: Normal Checks
+description: Which version of Normal Checks is each repository using?
+---
+
+{% assign org_href = "https://github.com/eustasy" %}
+
+<script defer src="sortable.mega-advanced.min.js"></script>
+
+<style>
+
+  .wrapper {
+    max-width: 1080px;
+    width: auto;
+  }
+
+  section {
+    width: calc(100% - 270px);
+  }
+
+  h1,
+  a:focus,
+  a:hover {
+    font-weight: normal;
+  }
+
+  .name {
+    display: block;
+    font-weight: normal;
+    color: inherit;
+  }
+
+  .status {
+    background-color: rgba(212, 212, 212, 0.5);
+    border-radius: 1em;
+    color: #555761;
+    font-size: 0.85em;
+    padding: 0.15em 0.75em;
+  }
+
+  .version a,
+  .status a {
+    color: inherit;
+    font-weight: inherit;
+  }
+
+  .good {
+    background-color: rgba(209, 255, 130, 0.5);
+    color: #206b00;
+  }
+
+  .warn {
+    background-color: rgba(255, 243, 148, 0.5);
+    color: #ad5f00;
+  }
+
+  .critical {
+    background-color: rgba(255, 140, 130, 0.5);
+    color: #7a0000;
+  }
+
+  .beta {
+    color: #ad5f00;
+  }
+
+  .alpha {
+    color: #7a0000;
+  }
+
+</style>
+
+<table class="releases sortable">
+  <thead>
+    <th>Repository</th>
+    <th>Checks</th>
+  </thead>
+  <tbody>
+  {% for repo in site.data.normal_checks %}
+    {% unless site.data.blacklist contains repo.name %}
+    {% assign repo_href = org_href | append: "/" | append: repo.name %}
+    <tr id="{{ repo.name }}" >
+      <td data-sort="{{ repo.name }}">
+        <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
+        <a class="{{classes}}" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
+      </td>
+      <td data-sort="{{ repo.new_commits }}">
+        {% if repo.normal_checks == "1.10.1" %}
+          <span class="status good">Up to date</span>
+        {% elsif repo.normal_checks == "1.10.0" %}
+          <span class="status">{{ repo.normal_checks }}</span>
+        {% elsif repo.normal_checks == "1.9" %}
+          <span class="status">{{ repo.normal_checks }}</span>
+        {% elsif repo.normal_checks == "1.7" %}
+          <span class="status warn">{{ repo.normal_checks }}</span>
+        {% elsif repo.normal_checks == "1.4" %}
+          <span class="status critical">{{ repo.normal_checks }}</span>
+        {% else %}
+          <span class="status critical">{{ repo.normal_checks }}</span>
+        {% endif %}
+      </td>
+    </tr>
+    {% endunless %}
+  {% endfor %}
+  </tbody>
+</table>
+
+{% assign st = site.time %}
+<p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
+  {% assign d = st | date: "%-d"  %}
+  {{ st | date: "%B" }}
+  {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ st | date: "%Y at %r %Z" }}
+</time>.</small></p>
