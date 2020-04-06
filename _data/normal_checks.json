@@ -1,31 +1,31 @@
 [
   {
     "name": "jQuery.equalize",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "howtoelementary.org",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "howtoubuntu.org",
-    "normal_checks": false
+    "normal_checks": "1.10.0"
   },
   {
     "name": "browning-a-mailgun-script",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "jQuery.downBoy",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "Colors.css",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "elementary-theme-for-google-chrome",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "copyof-jQl",
@@ -33,11 +33,11 @@
   },
   {
     "name": "cdns",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "jQuery.leanModal2",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "copyof-SemVish",
@@ -45,27 +45,27 @@
   },
   {
     "name": "authenticatron",
-    "normal_checks": false
+    "normal_checks": "1.10.0"
   },
   {
     "name": "here-miss",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "phoenix",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "reader.md",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "puff-core",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "puff-db",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "burrow",
@@ -77,23 +77,23 @@
   },
   {
     "name": "vanilla.equalize",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "vanilla.downBoy",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "puff-blog",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "puff-geo",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "puff-cookiecompliance",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "normal-checks",
@@ -105,27 +105,27 @@
   },
   {
     "name": "puff-members",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "puff-runonce",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "vala-lang.org",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "vala-docs.org",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "labs.eustasy.org",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "gorgon",
-    "normal_checks": false
+    "normal_checks": "1.9"
   },
   {
     "name": "langauge-selection",
