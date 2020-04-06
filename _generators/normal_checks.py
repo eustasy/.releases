@@ -9,6 +9,7 @@ g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 class Repo:
   def __init__(self, repo):
     self.repo = repo
+    self.normal_checks = False
 
     try:
       travis = repo.get_contents('.travis.yml').content
@@ -26,11 +27,9 @@ class Repo:
         self.normal_checks = '1.7'
       elif 'd5f1a5d9e3fbac391b905f2bdfcdcdbfe465eabf' in travis:
         self.normal_checks = '1.4'
-      else:
-        self.normal_checks = False
     
     except:
-      self.normal_checks = False
+      pass
 
     print (self.normal_checks)
 
