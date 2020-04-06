@@ -2,7 +2,6 @@ import json
 import os
 import sys
 from github import Github
-from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
@@ -26,7 +25,7 @@ class Repo:
       else:
         self.normal_checks = False
     
-    except github.GithubException.UnknownObjectException:
+    except UnknownObjectException:
       self.normal_checks = False
       pass
 
