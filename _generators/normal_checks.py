@@ -43,7 +43,7 @@ json_out = []
 for repo in repos:
   json_out.append ({
     "name": repo.repo.name,
-    "normal_checks": normal_checks
+    "normal_checks": repo.normal_checks
   })
   
 with open('_data/normal_checks.json', 'w') as outfile:
