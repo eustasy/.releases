@@ -82,9 +82,8 @@ description: Which version of Normal Checks is each repository using?
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
-        <a class="{{classes}}" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
       </td>
-      <td data-sort="{{ repo.new_commits }}">
+      <td data-sort="{{ repo.normal_checks }}">
         {% if repo.normal_checks == "1.10.1" %}
           <span class="status good">Up to date</span>
         {% elsif repo.normal_checks == "1.10.0" %}
