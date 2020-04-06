@@ -14,7 +14,7 @@ class Repo:
     try:
       travis = repo.get_contents('.travis.yml').content
       print(travis)
-      travis = base64.b64decode(travis)
+      travis = base64.b64decode(travis).decode("utf-8") 
       print(travis)
     
       if 'strb92da74ddf4b05b698e2d12ebd56e965d6749397' in travis:
