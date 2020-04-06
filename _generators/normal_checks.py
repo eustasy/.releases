@@ -6,6 +6,8 @@ from github.GithubException import UnknownObjectException as GithubUnknownObject
 
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
+class UnknownObjectException(Exception):	
+  pass
 
 class Repo:
   def __init__(self, repo):
