@@ -43,7 +43,7 @@
       {
         "version": "2.1.3",
         "release_date": "2020-04-02T21:18:14",
-        "timeago": "6 days ago",
+        "timeago": "1 week ago",
         "title": "Banquet - with Patch 3",
         "body": "### Upgrade Warnings\r\n- Moved to `acme-v02` API endpoint.\r\n- Moved protocol preferences in with cipher suite preferences.\r\n- Updated all 3 cipher suite options.\r\n- Added PHP 7.4 socket option.\r\n- Removed PHP 7.1 socket option.\r\n\r\n### Improvement\r\n- Document [`amplify_stub-status.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/amplify_stub-status.conf)\r\n- Add [`nixstats_stub-status.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/nixstats_stub-status.conf)\r\n\r\n### Changes\r\n[2.1.2 to 2.1.3](https://github.com/eustasy/bubbly/compare/2.1.2...2.1.3)",
         "href": "https://github.com/eustasy/bubbly/releases/tag/2.1.3"
