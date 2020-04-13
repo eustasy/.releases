@@ -209,7 +209,7 @@
       {
         "version": "v.3.1.1",
         "release_date": "2016-04-14T15:04:14",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Unicorn - with Patch 1",
         "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
