@@ -21,7 +21,7 @@
   },
   {
     "name": "Colors.css",
-    "normal_checks": false
+    "normal_checks": "1.10.1"
   },
   {
     "name": "elementary-theme-for-google-chrome",
@@ -97,11 +97,11 @@
   },
   {
     "name": "normal-checks",
-    "normal_checks": false
+    "normal_checks": "1.10.1"
   },
   {
     "name": "bubbly",
-    "normal_checks": false
+    "normal_checks": "1.10.1"
   },
   {
     "name": "puff-members",
