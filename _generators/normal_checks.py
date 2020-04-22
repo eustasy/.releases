@@ -16,7 +16,7 @@ class Repo:
       print(travis)
       travis = base64.b64decode(travis).decode("utf-8")
     
-      if 'strb92da74ddf4b05b698e2d12ebd56e965d6749397' in travis:
+      if 'b92da74ddf4b05b698e2d12ebd56e965d6749397' in travis:
         self.normal_checks = '1.10.1'
       elif '2b23ee3dbb274409ae51a620ae9d6fef6516781a' in travis:
         self.normal_checks = '1.10.0'
