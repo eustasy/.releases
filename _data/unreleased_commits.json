@@ -5,7 +5,7 @@
       {
         "version": "2.0.4",
         "release_date": "2020-04-23T17:52:15",
-        "timeago": "1 hour ago",
+        "timeago": "2 hours ago",
         "title": "",
         "body": "- Add CSS Variables",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.4"
@@ -13,7 +13,7 @@
       {
         "version": "2.0.2",
         "release_date": "2020-04-23T01:50:12",
-        "timeago": "17 hours ago",
+        "timeago": "18 hours ago",
         "title": "",
         "body": "- Add Ubuntu palette.",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.2"
@@ -21,7 +21,7 @@
       {
         "version": "2.0.0",
         "release_date": "2020-04-22T23:06:16",
-        "timeago": "20 hours ago",
+        "timeago": "21 hours ago",
         "title": "Mint Choc-Chip",
         "body": "- Add elementary Mint\r\n- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.0"
@@ -271,7 +271,7 @@
       {
         "version": "3.1.5",
         "release_date": "2020-04-02T19:37:18",
-        "timeago": "2 weeks ago",
+        "timeago": "3 weeks ago",
         "title": "Unicorn - with Patch 5",
         "body": "- Improved documentation\r\n- Fixed some links",
         "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.5"
