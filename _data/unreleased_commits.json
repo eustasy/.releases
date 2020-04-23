@@ -5,7 +5,7 @@
       {
         "version": "2.0.2",
         "release_date": "2020-04-23T01:50:12",
-        "timeago": "31 minutes ago",
+        "timeago": "51 minutes ago",
         "title": "",
         "body": "- Add Ubuntu palette.",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.2"
@@ -83,7 +83,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "reader.md",
