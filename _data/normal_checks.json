@@ -128,7 +128,7 @@
     "normal_checks": "1.9"
   },
   {
-    "name": "langauge-selection",
+    "name": ".choices",
     "normal_checks": false
   },
   {
