@@ -13,7 +13,7 @@
       {
         "version": "2.0.0",
         "release_date": "2020-04-22T23:06:16",
-        "timeago": "5 hours ago",
+        "timeago": "6 hours ago",
         "title": "Mint Choc-Chip",
         "body": "- Add elementary Mint\r\n- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.0"
