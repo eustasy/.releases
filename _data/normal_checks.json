@@ -134,5 +134,9 @@
   {
     "name": "releases",
     "normal_checks": false
+  },
+  {
+    "name": ".github",
+    "normal_checks": false
   }
 ]
