@@ -3,6 +3,14 @@
     "name": "Colors.css",
     "releases": [
       {
+        "version": "2.0.5",
+        "release_date": "2020-04-24T20:35:04",
+        "timeago": "6 minutes ago",
+        "title": "",
+        "body": "- Add elementary Mint colors\r\n- Add elementary Text colors",
+        "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.5"
+      },
+      {
         "version": "2.0.4",
         "release_date": "2020-04-23T17:52:15",
         "timeago": "1 day ago",
@@ -22,8 +30,8 @@
         "version": "2.0.0",
         "release_date": "2020-04-22T23:06:16",
         "timeago": "1 day ago",
-        "title": "Mint Choc-Chip",
-        "body": "- Add elementary Mint\r\n- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation",
+        "title": "",
+        "body": "- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.0"
       },
       {
@@ -91,7 +99,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 6
+    "new_commits": 0
   },
   {
     "name": "reader.md",
