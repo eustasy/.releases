@@ -398,7 +398,7 @@
     "new_commits": 8
   },
   {
-    "name": "normal-checks",
+    "name": ".normal",
     "releases": [
       {
         "version": "1.10.2",
@@ -406,7 +406,7 @@
         "timeago": "1 year ago",
         "title": "Drop - with Patch 2",
         "body": "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments.",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.10.2"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.10.2"
       },
       {
         "version": "1.10.1",
@@ -414,7 +414,7 @@
         "timeago": "1 year ago",
         "title": "Drop - with Patch 1",
         "body": "- Increase argument-count threshold to 10\r\n- Increase method-complexity threshold to 20\r\n- Increase method-lines threshold to 50\r\n- Disable `Generic Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.10.1"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.10.1"
       },
       {
         "version": "1.10.0",
@@ -422,7 +422,7 @@
         "timeago": "2 years ago",
         "title": "Drop",
         "body": "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\n- Add editor config",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.10.0"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.10.0"
       },
       {
         "version": "1.9.0",
@@ -430,7 +430,7 @@
         "timeago": "2 years ago",
         "title": "Stacked",
         "body": "- Add PHP 7.2\r\n- Only allow failures on HHVM\r\n- Add support for testing SQL files in MariaDB 10.1\r\n- Add a test SQL file\r\n- Add a header comment to `.travis.yml`\r\n- Update License year\r\n- Make license detectable by GitHub",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.9.0"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.9.0"
       },
       {
         "version": "1.7",
@@ -438,7 +438,7 @@
         "timeago": "2 years ago",
         "title": "Updatable",
         "body": "- Config: Remove \"selector-no-universal\"\r\n- Config: Add replacement lines for deprecated rules",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.7"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.7"
       },
       {
         "version": "1.6",
@@ -446,7 +446,7 @@
         "timeago": "2 years ago",
         "title": "Installable",
         "body": "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh` description\r\n- Config: Add `install.sh`",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.6"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.6"
       },
       {
         "version": "1.5",
@@ -454,7 +454,7 @@
         "timeago": "2 years ago",
         "title": "Planted",
         "body": "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n- Config: Build changed so warning is given, but existing settings used.\r\n- Config: Check moved to body to prevent full build failures.\r\n- JavaScript: Acorn used for Travis CI builds.\r\n- JavaScript: Switch case spacing defined.\r\n- PHP: Loop spacing defined.\r\n- SQLint: Enabled.",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.5"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.5"
       },
       {
         "version": "1.4",
@@ -462,7 +462,7 @@
         "timeago": "3 years ago",
         "title": "Activate",
         "body": "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions.",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.4"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.4"
       },
       {
         "version": "1.3",
@@ -470,7 +470,7 @@
         "timeago": "3 years ago",
         "title": "Graduation",
         "body": "- Add Codacy Configuration\r\n- Update Code Climate Configuration\r\n- Add ESLint Configuration\r\n- Add MDLRC Configuration\r\n- Update Stylelint Configuration\r\n- Add Configuration Check\r\n- Add Permissions Check\r\n- Only require most recent PHP version\r\n- Update command-file naming\r\n- Massively expand documentation",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.3"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.3"
       },
       {
         "version": "1.2",
@@ -478,7 +478,7 @@
         "timeago": "3 years ago",
         "title": "Mass Deployment",
         "body": "The first release to be standardized across our repositories.",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.2"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.2"
       },
       {
         "version": "1.1",
@@ -486,7 +486,7 @@
         "timeago": "3 years ago",
         "title": "Better Documentation",
         "body": "A little documentation on what you should be doing.\n",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.1"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.1"
       },
       {
         "version": "1.0",
@@ -494,10 +494,10 @@
         "timeago": "3 years ago",
         "title": "Version 1.0",
         "body": "Initial Release\n",
-        "href": "https://github.com/eustasy/normal-checks/releases/tag/1.0"
+        "href": "https://github.com/eustasy/.normal/releases/tag/1.0"
       }
     ],
-    "new_commits": 14
+    "new_commits": 16
   },
   {
     "name": "authenticatron",
