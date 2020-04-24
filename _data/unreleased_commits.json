@@ -5,7 +5,7 @@
       {
         "version": "2.0.5",
         "release_date": "2020-04-24T20:35:04",
-        "timeago": "46 minutes ago",
+        "timeago": "1 hour ago",
         "title": "",
         "body": "- Add elementary Mint colors\r\n- Add elementary Text colors",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.5"
@@ -99,7 +99,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 0
+    "new_commits": 2
   },
   {
     "name": "reader.md",
