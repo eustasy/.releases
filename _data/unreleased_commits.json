@@ -5,7 +5,7 @@
       {
         "version": "2.0.6",
         "release_date": "2020-05-10T22:03:26",
-        "timeago": "18 minutes ago",
+        "timeago": "38 minutes ago",
         "title": "",
         "body": "- Add eustasy color palette.\r\n- Add Goddard & Hale color palette.\r\n- Add How to elementary color palette.\r\n- Fix: Retain order from JSON on import.\r\n- Fix: Remove unnecessary newline from readme.",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.6"
