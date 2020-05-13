@@ -117,7 +117,7 @@
   },
   {
     "name": "vala-docs.org",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "labs.eustasy.org",
