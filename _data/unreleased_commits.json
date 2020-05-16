@@ -5,7 +5,7 @@
       {
         "version": "2.0.7",
         "release_date": "2020-05-11T00:16:33",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "title": "",
         "body": "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy Texts\r\n- Fix How to elementary Texts\r\n",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.7"
