@@ -37,7 +37,7 @@
   },
   {
     "name": "jQuery.leanModal2",
-    "normal_checks": false
+    "normal_checks": "1.7"
   },
   {
     "name": "copyof-SemVish",
