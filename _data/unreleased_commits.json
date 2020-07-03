@@ -295,7 +295,7 @@
       {
         "version": "3.1.5",
         "release_date": "2020-04-02T19:37:18",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Unicorn - with Patch 5",
         "body": "- Improved documentation\r\n- Fixed some links",
         "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.5"
