@@ -48,10 +48,6 @@
     "normal_checks": "1.10.0"
   },
   {
-    "name": "here-miss",
-    "normal_checks": "1.7"
-  },
-  {
     "name": "phoenix",
     "normal_checks": "1.7"
   },
