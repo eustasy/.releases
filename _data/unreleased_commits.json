@@ -475,7 +475,7 @@
       {
         "version": "1.6",
         "release_date": "2017-08-09T18:01:49",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Installable",
         "body": "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh` description\r\n- Config: Add `install.sh`",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.6"
