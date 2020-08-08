@@ -467,7 +467,7 @@
       {
         "version": "1.7",
         "release_date": "2017-08-09T18:16:33",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Updatable",
         "body": "- Config: Remove \"selector-no-universal\"\r\n- Config: Add replacement lines for deprecated rules",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.7"
@@ -1225,7 +1225,7 @@
       {
         "version": "1.0.0",
         "release_date": "2017-08-09T18:17:29",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Julian",
         "body": "Initial release as VanillaJS version.",
         "href": "https://github.com/eustasy/vanilla.downBoy/releases/tag/1.0.0"
