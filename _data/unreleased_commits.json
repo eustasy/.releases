@@ -367,7 +367,7 @@
       {
         "version": "v.1.4",
         "release_date": "2015-08-18T21:50:42",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Totalitarian",
         "body": "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose option to torrent scraping for better display of bencoded content.\r\n- BUGFIX: Fixes scrape counts of torrents by encoding hashes in their binary format.\r\n- BUGFIX: Fixes issue where cleaning was never logged.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.4"
