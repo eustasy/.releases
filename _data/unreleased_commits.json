@@ -77,7 +77,7 @@
       {
         "version": "1.7",
         "release_date": "2016-09-16T23:02:25",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Tinman",
         "body": "- BUGFIX: Fix syntax of `nginx.conf`\r\n- BUGFIX: Remove duplicate `include`s\r\n- IMPROVEMENT: Add version to `nginx.conf` header.\r\n- IMPROVEMENT: Add option point for custom inclusion.\r\n",
         "href": "https://github.com/eustasy/bubbly/releases/tag/1.7"
