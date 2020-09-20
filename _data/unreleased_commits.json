@@ -281,7 +281,7 @@
       {
         "version": "0.1.1",
         "release_date": "2017-09-21T03:20:30",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Possible - with Patch 1",
         "body": "- Update to NC 1.7\r\n- Fix CSS compliance\r\n- Review `IncomeTax.md`",
         "href": "https://github.com/eustasy/reader.md/releases/tag/0.1.1"
