@@ -211,7 +211,7 @@
       {
         "version": "1.9.1",
         "release_date": "2017-09-27T05:35:46",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Retrospective - with Patch 1",
         "body": "- Add jsDelivr badge to Readme\r\n- Update jsDelivr embed codes (now with integrity checks)",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.1"
