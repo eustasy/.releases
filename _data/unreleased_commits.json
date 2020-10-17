@@ -1013,7 +1013,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:15:17",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Full Circle",
         "body": "- Update to NC 1.7\r\n- Move cookie setting name to settings.",
         "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.5.0"
