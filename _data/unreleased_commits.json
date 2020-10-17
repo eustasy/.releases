@@ -899,7 +899,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:39:31",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Full Circle",
         "body": "- Add NC 1.7\r\n- Add Classes for styling to error page",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.5.0"
@@ -945,7 +945,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:36:10",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Full Circle",
         "body": "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom` from -Members to -RunOnce",
         "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.5.0"
@@ -975,7 +975,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:30:32",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Full Circle",
         "body": "- Start logging IPs for sessions and allow similarity checks.\r\n- Update to NC 1.7\r\n- Fix permissions",
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.5.0"
