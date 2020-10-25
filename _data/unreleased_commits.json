@@ -755,7 +755,7 @@
       {
         "version": "1.8.0",
         "release_date": "2017-10-26T00:17:09",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Julian",
         "body": "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Add CDN Delivery links\r\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.8.0"
