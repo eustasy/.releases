@@ -203,7 +203,7 @@
       {
         "version": "1.9.2",
         "release_date": "2017-10-26T05:50:27",
-        "timeago": "2 years ago",
+        "timeago": "3 years ago",
         "title": "Retrospective - with Patch 2",
         "body": "- Update jsDelivr embeds\r\n- Update generator to reduce duplication",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.2"
