@@ -5,7 +5,7 @@
   },
   {
     "name": "howtoelementary.org",
-    "normal_checks": "1.7"
+    "normal_checks": "1.10.1"
   },
   {
     "name": "howtoubuntu.org",
@@ -64,14 +64,6 @@
     "normal_checks": "1.7"
   },
   {
-    "name": "burrow",
-    "normal_checks": false
-  },
-  {
-    "name": "weasel",
-    "normal_checks": false
-  },
-  {
     "name": "vanilla.equalize",
     "normal_checks": "1.7"
   },
@@ -93,10 +85,10 @@
   },
   {
     "name": ".normal",
-    "normal_checks": "1.10.1"
+    "normal_checks": "2.0"
   },
   {
-    "name": "bubbly",
+    "name": "Bubbly",
     "normal_checks": "1.10.1"
   },
   {
@@ -133,6 +125,14 @@
   },
   {
     "name": ".github",
+    "normal_checks": false
+  },
+  {
+    "name": ".monetise",
+    "normal_checks": false
+  },
+  {
+    "name": "Monopoly",
     "normal_checks": false
   }
 ]
