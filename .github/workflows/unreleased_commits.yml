@@ -3,7 +3,7 @@ name: Unreleased Commits
 on:
   push:
     branches:
-      - master
+      - main
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '0/20 * * * *'
@@ -33,8 +33,8 @@ jobs:
         git config --global user.name "actions"
         echo "Git credentials configured."
 
-        git checkout master
+        git checkout main
         git add .
-        git commit -m "Automatic update of data" && git push --set-upstream origin master || true
+        git commit -m "Automatic update of data" && git push --set-upstream origin main || true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
