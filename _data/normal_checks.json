@@ -52,10 +52,6 @@
     "normal_checks": "1.7"
   },
   {
-    "name": "reader.md",
-    "normal_checks": "1.7"
-  },
-  {
     "name": "puff-core",
     "normal_checks": "1.7"
   },
