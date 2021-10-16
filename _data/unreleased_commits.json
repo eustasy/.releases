@@ -5,7 +5,7 @@
       {
         "version": "2.0",
         "release_date": "2021-10-11T15:47:04",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "title": "2.0: Winter",
         "body": "### MAJOR\r\n**- Remove Codacy.**\r\n\r\n### MINOR\r\n- Activate Stylelint in Code Climate.\r\n- Rename to .normal\r\n- Remove config check.\r\n- Remove permissions check.\r\n\r\n### PATCH\r\n- Change max line length to 140.\r\n- Move to `focal` (Ubuntu 20.04 LTS).\r\n- Move to PHP 7.4 & 8.0\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/1.10.2...2.0",
         "href": "https://github.com/eustasy/.normal/releases/tag/2.0"
