@@ -945,7 +945,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:30:32",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Full Circle",
         "body": "- Start logging IPs for sessions and allow similarity checks.\r\n- Update to NC 1.7\r\n- Fix permissions",
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.5.0"
@@ -983,7 +983,7 @@
       {
         "version": "0.5.0",
         "release_date": "2017-10-18T17:15:17",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Full Circle",
         "body": "- Update to NC 1.7\r\n- Move cookie setting name to settings.",
         "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.5.0"
