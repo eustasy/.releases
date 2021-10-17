@@ -10,11 +10,13 @@ g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 class Repo:
   def __init__(self, repo):
     self.repo = repo
+    self.license_file = False
     self.license_year = False
 
     try:
-      license = repo.get_license()
-      license = repo.get_contents(license).content
+      self.license_file = repo.get_license()
+      print(license)
+      license = repo.get_contents(self.license_file).content
       print(license)
       license = base64.b64decode(license).decode("utf-8")
     
@@ -40,6 +42,7 @@ json_out = []
 for repo in repos:
   json_out.append ({
     "name": repo.repo.name,
+    "license_file": repo.license_file,
     "license_year": repo.license_year
   })
   
