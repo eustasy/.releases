@@ -14,7 +14,7 @@ class Repo:
     self.license_year = False
 
     try:
-      self.license_file = repo.get_license()
+      self.license_file = repo.get_license().path
       print(self.license_file)
       license = repo.get_contents(self.license_file).content
       print(license)
