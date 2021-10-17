@@ -14,6 +14,7 @@ class Repo:
 
     try:
       license = repo.get_license()
+      license = repo.get_contents(license).content
       print(license)
       license = base64.b64decode(license).decode("utf-8")
     
