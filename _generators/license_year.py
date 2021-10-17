@@ -19,7 +19,7 @@ class Repo:
       license = repo.get_contents(self.license_file).content
       license = base64.b64decode(license).decode("utf-8")
       print(license)
-      license = re.findall(r'/(?:(?:19|20)[0-9]{2})/', license)
+      license = re.findall('(?:(?:19|20)[0-9]{2})', license)
       print(license)
       self.license_year = license[-1]
       print (self.license_year)
