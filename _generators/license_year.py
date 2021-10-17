@@ -17,10 +17,10 @@ class Repo:
       self.license_file = repo.get_license().path
       print(self.license_file)
       license = repo.get_contents(self.license_file).content
-      print(license)
       license = base64.b64decode(license).decode("utf-8")
-    
-      self.license_year = re.findall(r"/(?:(?:19|20)[0-9]{2})/", license)[-1]
+      license = re.findall(r"/(?:(?:19|20)[0-9]{2})/", license)
+      print(license)
+      self.license_year = license[-1]
       print (self.license_year)
     
     except:
