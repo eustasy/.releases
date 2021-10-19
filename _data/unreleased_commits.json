@@ -1054,6 +1054,20 @@
     "new_commits": 11
   },
   {
+    "name": "extensions.eustasy.org",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "release_date": "2017-10-16T14:31:17",
+        "timeago": "4 years ago",
+        "title": "Sensible",
+        "body": "Now that we pass builds again, let's have a release so we're not release-less.",
+        "href": "https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0"
+      }
+    ],
+    "new_commits": 6
+  },
+  {
     "name": "elementary-theme-for-google-chrome",
     "releases": [
       {
