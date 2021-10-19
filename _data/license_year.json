@@ -130,6 +130,11 @@
     "license_year": "2018"
   },
   {
+    "name": "extensions.eustasy.org",
+    "license_file": "LICENSE.md",
+    "license_year": "2017"
+  },
+  {
     "name": "labs.eustasy.org",
     "license_file": "LICENSE.md",
     "license_year": "2018"
