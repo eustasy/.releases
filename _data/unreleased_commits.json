@@ -787,7 +787,7 @@
       {
         "version": "1.3.0",
         "release_date": "2017-10-22T00:49:59",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Julian",
         "body": "- Add [NC 1.7](https://github.com/eustasy/normal-checks)\r\n- Update license year.\r\n- Add badges to readme\r\n- Update site to new \"labs\" style\r\n- Update code styles",
         "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.0"
