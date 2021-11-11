@@ -21,6 +21,7 @@ class Repo:
       raise NoReleasesFound
 
     self.last_release_timestamp = self.releases[0].created_at.timestamp()
+    # TODO main branch might not be master
     self.commits = self.repo.get_commits(since=self.releases[0].created_at,sha='master')
 
 org = g.get_organization('eustasy')
