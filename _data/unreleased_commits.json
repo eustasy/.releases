@@ -893,7 +893,7 @@
       {
         "version": "0.2",
         "release_date": "2015-11-16T16:06:47",
-        "timeago": "5 years ago",
+        "timeago": "6 years ago",
         "title": "Responsive Settings",
         "body": "- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- De-duplication\r\n- Checks\r\n",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.2"
