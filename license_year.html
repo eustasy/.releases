@@ -77,7 +77,7 @@ description: Which version of License Year is each repository using?
   </thead>
   <tbody>
   {% for repo in site.data.license_year %}
-    {% unless site.data.blacklist contains repo.name %}
+    {% unless site.data.exclusions contains repo.name %}
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">

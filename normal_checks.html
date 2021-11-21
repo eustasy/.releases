@@ -77,7 +77,7 @@ description: Which version of Normal Checks is each repository using?
   </thead>
   <tbody>
   {% for repo in site.data.normal_checks %}
-    {% unless site.data.blacklist contains repo.name %}
+    {% unless site.data.exclusions contains repo.name %}
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
