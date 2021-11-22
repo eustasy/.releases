@@ -741,7 +741,7 @@
       {
         "version": "1.4",
         "release_date": "2013-11-24T21:10:39",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "Variability",
         "body": "Use unused variables.\nRe-use G (Group) Variable.\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.4"
