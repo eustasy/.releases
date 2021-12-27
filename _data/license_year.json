@@ -51,8 +51,8 @@
   },
   {
     "name": "copyof-SemVish",
-    "license_file": "LICENCE",
-    "license_year": "2014"
+    "license_file": false,
+    "license_year": false
   },
   {
     "name": "authenticatron",
