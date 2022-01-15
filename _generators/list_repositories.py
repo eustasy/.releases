@@ -11,9 +11,8 @@ repos = []
 for repo in org.get_repos():
   # Skip archived repositories
   if repo.archived is False:
-    print (repo)
     print ('Processing {}...'.format(repo.name))
-    repos.append(repo)
+    repos.append(repo.name)
 
 #repos = sorted(repos, key=lambda repo: repo.name, reverse=False)
 
