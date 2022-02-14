@@ -617,7 +617,7 @@
       {
         "version": "2.6.3",
         "release_date": "2018-02-15T00:32:12",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Julian - with Patch 3",
         "body": "- Move all CSS to a block",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3"
@@ -625,7 +625,7 @@
       {
         "version": "2.6.2",
         "release_date": "2018-02-14T23:25:57",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Julian - with Patch 2",
         "body": "- Center modals with `display: flex`\r\n- Recreate overlay on each modal launch\r\n- Change how overlay handles `opacity` setting to not affect children\r\n- Remove `top` option\r\n- Add Code of Conduct",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.2"
