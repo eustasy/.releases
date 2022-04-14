@@ -720,60 +720,6 @@
     "new_commits": 23
   },
   {
-    "name": "jQuery.equalize",
-    "releases": [
-      {
-        "version": "1.8.0",
-        "release_date": "2017-10-26T00:17:09",
-        "timeago": "4 years ago",
-        "title": "Julian",
-        "body": "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Add CDN Delivery links\r\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.8.0"
-      },
-      {
-        "version": "1.7",
-        "release_date": "2014-01-20T22:15:09",
-        "timeago": "8 years ago",
-        "title": "Cleanly",
-        "body": "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n- Skip 1.5 and 1.6 due to inconsistencies\n\n### Improvements\n- Update License to 2014\n- Add Version to License\n- Organise Responsive CSS\n- Add `'use strict';` to minified version\n- Expand Description\n- Massively expand readme, including:\n  - Add Version\n  - Add Link\n  - Expand Description\n  - Include Code Examples and Descriptions from index.html\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.7"
-      },
-      {
-        "version": "1.4",
-        "release_date": "2013-11-24T21:10:39",
-        "timeago": "8 years ago",
-        "title": "Variability",
-        "body": "Use unused variables.\nRe-use G (Group) Variable.\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.4"
-      },
-      {
-        "version": "1.2",
-        "release_date": "2013-08-20T14:24:28",
-        "timeago": "8 years ago",
-        "title": "Responsibility",
-        "body": "Added Responsive Example\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.2"
-      },
-      {
-        "version": "1.1",
-        "release_date": "2013-08-13T22:51:53",
-        "timeago": "8 years ago",
-        "title": "Strictly",
-        "body": "- Added Version Numbers\n- Added GitHub Link\n- Added Labs Link\n- Changed to Strict JavaScript\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.1"
-      },
-      {
-        "version": "1.0",
-        "release_date": "2013-08-12T20:14:45",
-        "timeago": "8 years ago",
-        "title": "Launch!",
-        "body": "",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.0"
-      }
-    ],
-    "new_commits": 3
-  },
-  {
     "name": "jQuery.downBoy",
     "releases": [
       {
@@ -1230,5 +1176,51 @@
       }
     ],
     "new_commits": 10
+  },
+  {
+    "name": "jQuery.equalize",
+    "releases": [
+      {
+        "version": "1.7",
+        "release_date": "2014-01-20T22:15:09",
+        "timeago": "8 years ago",
+        "title": "Cleanly",
+        "body": "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n- Skip 1.5 and 1.6 due to inconsistencies\n\n### Improvements\n- Update License to 2014\n- Add Version to License\n- Organise Responsive CSS\n- Add `'use strict';` to minified version\n- Expand Description\n- Massively expand readme, including:\n  - Add Version\n  - Add Link\n  - Expand Description\n  - Include Code Examples and Descriptions from index.html\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.7"
+      },
+      {
+        "version": "1.4",
+        "release_date": "2013-11-24T21:10:39",
+        "timeago": "8 years ago",
+        "title": "Variability",
+        "body": "Use unused variables.\nRe-use G (Group) Variable.\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.4"
+      },
+      {
+        "version": "1.2",
+        "release_date": "2013-08-20T14:24:28",
+        "timeago": "8 years ago",
+        "title": "Responsibility",
+        "body": "Added Responsive Example\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.2"
+      },
+      {
+        "version": "1.1",
+        "release_date": "2013-08-13T22:51:53",
+        "timeago": "8 years ago",
+        "title": "Strictly",
+        "body": "- Added Version Numbers\n- Added GitHub Link\n- Added Labs Link\n- Changed to Strict JavaScript\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.1"
+      },
+      {
+        "version": "1.0",
+        "release_date": "2013-08-12T20:14:45",
+        "timeago": "8 years ago",
+        "title": "Launch!",
+        "body": "",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.0"
+      }
+    ],
+    "new_commits": 25
   }
 ]
