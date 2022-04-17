@@ -311,14 +311,6 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.3"
       },
       {
-        "version": "1.9.2",
-        "release_date": "2017-10-26T05:50:27",
-        "timeago": "4 years ago",
-        "title": "Retrospective - with Patch 2",
-        "body": "- Update jsDelivr embeds\r\n- Update generator to reduce duplication",
-        "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.2"
-      },
-      {
         "version": "1.9.1",
         "release_date": "2017-09-27T05:35:46",
         "timeago": "4 years ago",
@@ -357,14 +349,6 @@
         "title": "Robotic",
         "body": "- Add Normal Checks 1.5\r\n- Add generator page/script\r\n- Add new elementary palette",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.8.0"
-      },
-      {
-        "version": "1.7",
-        "release_date": "2017-04-14T16:43:25",
-        "timeago": "5 years ago",
-        "title": "Homely",
-        "body": "- Add a homepage.\r\n- Update the license year.\r\n- Re-order some properties.\r\n- Add normalised testing.",
-        "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
     "new_commits": 5
