@@ -21,7 +21,7 @@
       {
         "version": "1.10.1",
         "release_date": "2018-05-17T10:18:30",
-        "timeago": "3 years ago",
+        "timeago": "4 years ago",
         "title": "Drop - with Patch 1",
         "body": "- Increase argument-count threshold to 10\r\n- Increase method-complexity threshold to 20\r\n- Increase method-lines threshold to 50\r\n- Disable `Generic Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.10.1"
