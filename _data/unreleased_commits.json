@@ -845,6 +845,14 @@
         "href": "https://github.com/eustasy/puff-geo/releases/tag/0.5.0"
       },
       {
+        "version": "0.4",
+        "release_date": "2016-03-02T13:40:27",
+        "timeago": "6 years ago",
+        "title": "Unification",
+        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
+        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.4"
+      },
+      {
         "version": "0.3",
         "release_date": "2015-11-22T20:01:33",
         "timeago": "6 years ago",
