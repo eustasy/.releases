@@ -883,6 +883,14 @@
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.4"
       },
       {
+        "version": "0.3",
+        "release_date": "2015-11-22T20:06:02",
+        "timeago": "6 years ago",
+        "title": "Split",
+        "body": "- Move functions\r\n- Standardize testing\r\n",
+        "href": "https://github.com/eustasy/puff-db/releases/tag/0.3"
+      },
+      {
         "version": "0.2",
         "release_date": "2015-11-16T16:06:47",
         "timeago": "6 years ago",
