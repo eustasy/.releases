@@ -665,7 +665,7 @@
       {
         "version": "2.3.2",
         "release_date": "2016-06-25T16:59:52",
-        "timeago": "5 years ago",
+        "timeago": "6 years ago",
         "title": "2.3.2: Priorities",
         "body": "- Additional comments.\n- Improved option handling.\n- Prioritised `data-modal-id` over `href` to allow for fallbacks.\n- Changed `closeButton` default from `false` to `'.js-leanmodal-close'`.\n- Changed overlay class from `js-target-jquery-leanmodal-overlay` to `js-leanmodal-overlay`.\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.3...2.3.2\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3.2"
