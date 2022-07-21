@@ -1204,20 +1204,6 @@
     "new_commits": 4
   },
   {
-    "name": "vanilla.downBoy",
-    "releases": [
-      {
-        "version": "1.0.0",
-        "release_date": "2017-08-09T18:17:29",
-        "timeago": "4 years ago",
-        "title": "Julian",
-        "body": "Initial release as VanillaJS version.",
-        "href": "https://github.com/eustasy/vanilla.downBoy/releases/tag/1.0.0"
-      }
-    ],
-    "new_commits": 6
-  },
-  {
     "name": "howtoelementary.org",
     "releases": [
       {
