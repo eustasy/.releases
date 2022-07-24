@@ -5,16 +5,6 @@
     "license_year": "2018"
   },
   {
-    "name": "howtoelementary.org",
-    "license_file": "LICENSE.md",
-    "license_year": "2021"
-  },
-  {
-    "name": "howtoubuntu.org",
-    "license_file": "LICENSE.md",
-    "license_year": "2017"
-  },
-  {
     "name": "browning-a-mailgun-script",
     "license_file": "LICENSE.md",
     "license_year": "2018"
@@ -140,6 +130,11 @@
     "license_year": "2018"
   },
   {
+    "name": "copyOf-github-label-manager",
+    "license_file": false,
+    "license_year": false
+  },
+  {
     "name": "gorgon",
     "license_file": "LICENSE.md",
     "license_year": "2018"
@@ -168,5 +163,10 @@
     "name": "Monopoly",
     "license_file": "LICENSE.md",
     "license_year": "2021"
+  },
+  {
+    "name": "howtoubuntu.org",
+    "license_file": false,
+    "license_year": false
   }
 ]
