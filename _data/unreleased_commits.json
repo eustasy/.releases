@@ -480,28 +480,6 @@
     "new_commits": 1
   },
   {
-    "name": "howtoubuntu.org",
-    "releases": [
-      {
-        "version": "20.03-beta",
-        "release_date": "2020-03-24T20:16:57",
-        "timeago": "2 years ago",
-        "title": "Pre- Ubuntu 20.04",
-        "body": "",
-        "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/20.03-beta"
-      },
-      {
-        "version": "17.10.0",
-        "release_date": "2017-10-15T18:23:42",
-        "timeago": "4 years ago",
-        "title": "Release of Ubuntu 17.10",
-        "body": "No actual new content for this release yet.",
-        "href": "https://github.com/eustasy/howtoubuntu.org/releases/tag/17.10.0"
-      }
-    ],
-    "new_commits": 18
-  },
-  {
     "name": "authenticatron",
     "releases": [
       {
@@ -1216,19 +1194,5 @@
       }
     ],
     "new_commits": 6
-  },
-  {
-    "name": "howtoelementary.org",
-    "releases": [
-      {
-        "version": "0.4.1",
-        "release_date": "2017-05-10T18:17:36",
-        "timeago": "5 years ago",
-        "title": "Loki - with Patch 1",
-        "body": "elementary OS Loki 0.4.1 2017-05-17",
-        "href": "https://github.com/eustasy/howtoelementary.org/releases/tag/0.4.1"
-      }
-    ],
-    "new_commits": 10
   }
 ]
