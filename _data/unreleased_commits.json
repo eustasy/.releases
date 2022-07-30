@@ -879,7 +879,7 @@
       {
         "version": "0.1",
         "release_date": "2015-08-01T18:55:49",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Core and DB",
         "body": "- Tested support for MySQL and MariaDB connections.\r\n- Automatically connects at page-load for never-require use.\r\n- Automatically uses persistent connections when supported.\r\n",
         "href": "https://github.com/eustasy/puff-db/releases/tag/0.1"
