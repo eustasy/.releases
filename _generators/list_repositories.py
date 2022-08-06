@@ -22,9 +22,5 @@ with open('_data/list_repositories.yml', 'w') as file:
     yaml.dump(repos, file)
   
 with open('_data/list_repositories.json', 'w') as file:
-<<<<<<< Updated upstream
-    json.dump(repos, file, indent=2)
-=======
     print ('Saving as JSON')
     json.dump(repos, file, indent=2)
->>>>>>> Stashed changes
