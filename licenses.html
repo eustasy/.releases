@@ -83,8 +83,8 @@ description: Which Licenses is each repository using?
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
       </td>
-      <td data-sort="{{ repo.license }}">
-        {{ repo.license }}
+      <td data-sort="{{ repo.license_type }}">
+        {{ repo.license_type }}
       </td>
       <td data-sort="{{ repo.license_year }}">
         {% if repo.license_year == "2022" %}
