@@ -13,6 +13,7 @@ class Repo:
   def __init__(self, repo):
     self.repo = repo
     self.license_file = False
+    self.license = False
     self.license_year = False
 
     try:
