@@ -1,5 +1,6 @@
 import base64
 import json
+import yaml
 import os
 import sys
 import re
@@ -45,6 +46,11 @@ for repo in repos:
     "license_file": repo.license_file,
     "license_year": repo.license_year
   })
+
+with open('_data/license_year.yml', 'w') as file:
+    print ('Saving as YML')
+    yaml.dump(repos, file)
   
-with open('_data/license_year.json', 'w') as outfile:
-    json.dump(json_out, outfile, indent=2)
+with open('_data/license_year.json', 'w') as file:
+    print ('Saving as JSON')
+    json.dump(repos, file, indent=2)
