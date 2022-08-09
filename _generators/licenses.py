@@ -31,12 +31,14 @@ class Repo:
         self.license_type = 'GPLv3'
       elif 'GNU GENERAL PUBLIC LICENSE' and 'Version 3, 29 June 2007' in license:
         self.license_type = '1.9'
-      print(self.license)
+        
+      print(self.license_type)
 
-      license_years = re.findall('(?:(?:19|20)[0-9]{2})', license)
-      license_years.sort()
-      print(license_years)
-      self.license_year = license_years[-1]
+      license = re.findall('(?:(?:19|20)[0-9]{2})', license)
+      print(license)
+      license.sort()
+      print(license)
+      self.license_year = license[-1]
       print(self.license_year)
     
     except:
