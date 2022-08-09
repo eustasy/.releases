@@ -4,6 +4,7 @@ import yaml
 import os
 import sys
 from github import Github
+from operator import itemgetter
 
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
@@ -46,17 +47,19 @@ for repo in org.get_repos():
 
 #repos = sorted(repos, key=lambda repo: repo.name, reverse=False)
 
-json_out = []
+output = []
 for repo in repos:
-  json_out.append ({
+  output.append ({
     "name": repo.repo.name,
     "normal_checks": repo.normal_checks
   })
-  
+
+output = sorted(output, key=itemgetter('name')) 
+
 with open('_data/normal_checks.yml', 'w') as file:
     print ('Saving as YML')
-    yaml.dump(json_out, file)
+    yaml.dump(output, file)
   
 with open('_data/normal_checks.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(json_out, file, indent=2)
+    json.dump(output, file, indent=2)
