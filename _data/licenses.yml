@@ -1,34 +1,34 @@
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: .choices
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: .github
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: .monetise
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: .normal
-- license_file: LICENSE
-  license_type: AGPLv3
-  license_year: '2007'
+- license_file: false
+  license_type: false
+  license_year: false
   name: .releases
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: Bubbly
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
   name: Colors.css
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: Monopoly
 - license_file: LICENSE.md
   license_type: MIT
@@ -58,41 +58,41 @@
   license_type: MIT
   license_year: '2022'
   name: elementary-theme-for-google-chrome
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: extensions.eustasy.org
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+- license_file: false
+  license_type: false
+  license_year: false
   name: howtoubuntu.org
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2018'
+  license_year: '2022'
   name: jQuery.downBoy
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2018'
+  license_year: '2022'
   name: jQuery.equalize
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2018'
+  license_year: '2022'
   name: jQuery.leanModal2
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: labs.eustasy.org
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2018'
+  license_year: '2022'
   name: phoenix
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: puff-blog
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: puff-cookiecompliance
 - license_file: LICENSE.md
   license_type: MIT
@@ -102,31 +102,23 @@
   license_type: MIT
   license_year: '2018'
   name: puff-db
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: puff-geo
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: puff-members
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: puff-runonce
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
-  name: vala-docs.org
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2017'
-  name: vala-lang.org
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+- license_file: false
+  license_type: false
+  license_year: false
   name: vanilla.downBoy
 - license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2018'
+  license_type: false
+  license_year: false
   name: vanilla.equalize
