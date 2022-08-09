@@ -38,20 +38,20 @@ for repo in org.get_repos():
     print ('Processing {}...'.format(repo.name))
     repos.append(Repo(repo))
 
-json_out = []
+output = []
 for repo in repos:
-  json_out.append ({
+  output.append ({
     "name": repo.repo.name,
     "license_file": repo.license_file,
     "license_year": repo.license_year
   })
 
-json_out = sorted(json_out, key=itemgetter('name')) 
+output = sorted(output, key=itemgetter('name')) 
 
 with open('_data/license_year.yml', 'w') as file:
     print ('Saving as YML')
-    yaml.dump(json_out, file)
+    yaml.dump(output, file)
   
 with open('_data/license_year.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(json_out, file, indent=2)
+    json.dump(output, file, indent=2)
