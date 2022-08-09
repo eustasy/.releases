@@ -88,6 +88,8 @@ description: Which version of License Year is each repository using?
           <span class="status good">Up to date</span>
         {% elsif repo.license_year == "" %}
           <span class="status critical">{{ repo.license_year }}</span>
+        {% elsif repo.license_year == "false" %}
+          <span class="status critical">{{ repo.license_year }}</span>
         {% else %}
           <span class="status warn">{{ repo.license_year }}</span>
         {% endif %}
