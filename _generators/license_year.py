@@ -50,8 +50,8 @@ json_out = sorted(json_out, key=itemgetter('name'))
 
 with open('_data/license_year.yml', 'w') as file:
     print ('Saving as YML')
-    yaml.dump(repos, file)
+    yaml.dump(json_out, file)
   
 with open('_data/license_year.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(repos, file, indent=2)
+    json.dump(json_out, file, indent=2)
