@@ -47,7 +47,7 @@
   {
     "name": "authenticatron",
     "license_file": "LICENSE.md",
-    "license_year": "2021"
+    "license_year": "2022"
   },
   {
     "name": "phoenix",
@@ -122,7 +122,7 @@
   {
     "name": "extensions.eustasy.org",
     "license_file": "LICENSE.md",
-    "license_year": "2021"
+    "license_year": "2022"
   },
   {
     "name": "labs.eustasy.org",
@@ -135,14 +135,9 @@
     "license_year": false
   },
   {
-    "name": "gorgon",
-    "license_file": "LICENSE.md",
-    "license_year": "2018"
-  },
-  {
     "name": ".choices",
     "license_file": "LICENSE.md",
-    "license_year": "2021"
+    "license_year": "2022"
   },
   {
     "name": ".releases",
