@@ -1,122 +1,6 @@
 [
   {
-    "name": "jQuery.equalize",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "browning-a-mailgun-script",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "jQuery.downBoy",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "Colors.css",
-    "normal_checks": "1.10.1"
-  },
-  {
-    "name": "elementary-theme-for-google-chrome",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "copyof-jQl",
-    "normal_checks": false
-  },
-  {
-    "name": "cdns",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "jQuery.leanModal2",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "copyof-SemVish",
-    "normal_checks": false
-  },
-  {
-    "name": "authenticatron",
-    "normal_checks": "1.10.0"
-  },
-  {
-    "name": "phoenix",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "puff-core",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "puff-db",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "vanilla.equalize",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "vanilla.downBoy",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "puff-blog",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "puff-geo",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "puff-cookiecompliance",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": ".normal",
-    "normal_checks": "2.0"
-  },
-  {
-    "name": "Bubbly",
-    "normal_checks": "1.10.1"
-  },
-  {
-    "name": "puff-members",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "puff-runonce",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "vala-lang.org",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "vala-docs.org",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "extensions.eustasy.org",
-    "normal_checks": "2.0"
-  },
-  {
-    "name": "labs.eustasy.org",
-    "normal_checks": "1.7"
-  },
-  {
-    "name": "copyOf-github-label-manager",
-    "normal_checks": false
-  },
-  {
-    "name": "gorgon",
-    "normal_checks": "1.9"
-  },
-  {
     "name": ".choices",
-    "normal_checks": false
-  },
-  {
-    "name": ".releases",
     "normal_checks": false
   },
   {
@@ -128,11 +12,115 @@
     "normal_checks": false
   },
   {
+    "name": ".normal",
+    "normal_checks": "2.0"
+  },
+  {
+    "name": ".releases",
+    "normal_checks": false
+  },
+  {
+    "name": "Bubbly",
+    "normal_checks": "1.10.1"
+  },
+  {
+    "name": "Colors.css",
+    "normal_checks": "1.10.1"
+  },
+  {
     "name": "Monopoly",
     "normal_checks": false
   },
   {
+    "name": "authenticatron",
+    "normal_checks": "1.10.0"
+  },
+  {
+    "name": "browning-a-mailgun-script",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "cdns",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "copyOf-github-label-manager",
+    "normal_checks": false
+  },
+  {
+    "name": "copyof-SemVish",
+    "normal_checks": false
+  },
+  {
+    "name": "copyof-jQl",
+    "normal_checks": false
+  },
+  {
+    "name": "elementary-theme-for-google-chrome",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "extensions.eustasy.org",
+    "normal_checks": "2.0"
+  },
+  {
     "name": "howtoubuntu.org",
     "normal_checks": false
+  },
+  {
+    "name": "jQuery.downBoy",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "jQuery.equalize",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "jQuery.leanModal2",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "labs.eustasy.org",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "phoenix",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-blog",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-cookiecompliance",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-core",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-db",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-geo",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-members",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "puff-runonce",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "vanilla.downBoy",
+    "normal_checks": "1.7"
+  },
+  {
+    "name": "vanilla.equalize",
+    "normal_checks": "1.7"
   }
 ]
