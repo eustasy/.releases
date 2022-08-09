@@ -5,6 +5,7 @@ import os
 import sys
 import re
 from github import Github
+from operator import itemgetter
 
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
@@ -45,7 +46,7 @@ for repo in repos:
     "license_year": repo.license_year
   })
 
-json_out.sort()
+json_out = sorted(json_out, key=itemgetter('name')) 
 
 with open('_data/license_year.yml', 'w') as file:
     print ('Saving as YML')
