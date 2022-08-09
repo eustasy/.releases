@@ -13,7 +13,7 @@ class Repo:
   def __init__(self, repo):
     self.repo = repo
     self.license_file = False
-    self.license = False
+    self.license_type = False
     self.license_year = False
 
     try:
@@ -24,13 +24,13 @@ class Repo:
       #print(license)
       
       if 'MIT' in license:
-        self.license = 'MIT'
+        self.license_type = 'MIT'
       elif 'Apache' in license:
-        self.license = 'Apache'
+        self.license_type = 'Apache'
       elif 'GNU Lesser General Public License v3.0' in license:
-        self.license = 'GPLv3'
+        self.license_type = 'GPLv3'
       elif 'GNU GENERAL PUBLIC LICENSE' and 'Version 3, 29 June 2007' in license:
-        self.license = '1.9'
+        self.license_type = '1.9'
       print(self.license)
 
       license_years = re.findall('(?:(?:19|20)[0-9]{2})', license)
@@ -56,6 +56,7 @@ for repo in repos:
   output.append ({
     "name": repo.repo.name,
     "license_file": repo.license_file,
+    "license_type": repo.license_type,
     "license_year": repo.license_year
   })
 
