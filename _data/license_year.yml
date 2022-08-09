@@ -1,99 +1,99 @@
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: .choices
 - license_file: LICENSE.md
-  license_year: '2020'
+  license_year: false
   name: .github
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: .monetise
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: .normal
 - license_file: LICENSE
-  license_year: '2007'
+  license_year: false
   name: .releases
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: Bubbly
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: Colors.css
 - license_file: LICENSE.md
-  license_year: '2021'
+  license_year: false
   name: Monopoly
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: authenticatron
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: browning-a-mailgun-script
 - license_file: LICENSE.md
-  license_year: '2017'
+  license_year: false
   name: cdns
 - license_file: false
   license_year: false
   name: copyOf-github-label-manager
 - license_file: LICENCE
-  license_year: '2014'
+  license_year: false
   name: copyof-SemVish
 - license_file: false
   license_year: false
   name: copyof-jQl
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: elementary-theme-for-google-chrome
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: extensions.eustasy.org
 - license_file: LICENSE.md
-  license_year: '2022'
+  license_year: false
   name: howtoubuntu.org
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: jQuery.downBoy
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: jQuery.equalize
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: jQuery.leanModal2
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: labs.eustasy.org
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: phoenix
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-blog
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-cookiecompliance
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-core
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-db
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-geo
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-members
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: puff-runonce
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: vala-docs.org
 - license_file: LICENSE.md
-  license_year: '2017'
+  license_year: false
   name: vala-lang.org
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: vanilla.downBoy
 - license_file: LICENSE.md
-  license_year: '2018'
+  license_year: false
   name: vanilla.equalize
