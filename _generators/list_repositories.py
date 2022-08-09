@@ -15,7 +15,7 @@ for repo in org.get_repos():
     print ('Processing {}...'.format(repo.name))
     repos.append(repo.name)
 
-#repos = sorted(repos, key=lambda repo: repo.name, reverse=False)
+repos = sorted(repos, key=lambda repo: repo.name, reverse=False)
 
 with open('_data/list_repositories.yml', 'w') as file:
     print ('Saving as YML')
