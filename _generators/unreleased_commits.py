@@ -4,6 +4,7 @@ import json
 import os
 import sys
 from github import Github
+from operator import itemgetter
 from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
 now = datetime.datetime.now()
@@ -39,7 +40,7 @@ for repo in org.get_repos():
 
 repos = sorted(repos, key=lambda repo: repo.last_release_timestamp, reverse=True)
 
-json_out = []
+output = []
 for repo in repos:
   new_commits = 0
   try:
@@ -61,16 +62,18 @@ for repo in repos:
       "href": release.html_url
     })
 
-  json_out.append ({
+  output.append ({
     "name": repo.repo.name,
     "releases": releases,
     "new_commits": new_commits
   })
 
+output = sorted(output, key=itemgetter('name')) 
+
 with open('_data/unreleased_commits.yml', 'w') as file:
     print ('Saving as YML')
-    yaml.dump(json_out, file)
+    yaml.dump(output, file)
   
 with open('_data/unreleased_commits.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(json_out, file, indent=2)
+    json.dump(output, file, indent=2)
