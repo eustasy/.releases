@@ -66,6 +66,11 @@ for repo in repos:
     "releases": releases,
     "new_commits": new_commits
   })
+
+with open('_data/unreleased_commits.yml', 'w') as file:
+    print ('Saving as YML')
+    yaml.dump(repos, file)
   
-with open('_data/unreleased_commits.json', 'w') as outfile:
-    json.dump(json_out, outfile, indent=2)
+with open('_data/unreleased_commits.json', 'w') as file:
+    print ('Saving as JSON')
+    json.dump(repos, file, indent=2)
