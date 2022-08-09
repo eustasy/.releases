@@ -37,7 +37,7 @@ for repo in org.get_repos():
     print ('Processing {}...'.format(repo.name))
     repos.append(Repo(repo))
 
-#repos = sorted(repos, key=lambda repo: repo.name, reverse=False)
+repos.sort()
 
 json_out = []
 for repo in repos:
@@ -46,6 +46,8 @@ for repo in repos:
     "license_file": repo.license_file,
     "license_year": repo.license_year
   })
+
+json_out.sort()
 
 with open('_data/license_year.yml', 'w') as file:
     print ('Saving as YML')
