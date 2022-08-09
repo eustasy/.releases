@@ -37,8 +37,6 @@ for repo in org.get_repos():
     print ('Processing {}...'.format(repo.name))
     repos.append(Repo(repo))
 
-repos.sort()
-
 json_out = []
 for repo in repos:
   json_out.append ({
