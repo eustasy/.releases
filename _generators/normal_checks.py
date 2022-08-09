@@ -1,5 +1,6 @@
 import base64
 import json
+import yaml
 import os
 import sys
 from github import Github
@@ -52,5 +53,10 @@ for repo in repos:
     "normal_checks": repo.normal_checks
   })
   
-with open('_data/normal_checks.json', 'w') as outfile:
-    json.dump(json_out, outfile, indent=2)
+with open('_data/normal_checks.yml', 'w') as file:
+    print ('Saving as YML')
+    yaml.dump(repos, file)
+  
+with open('_data/normal_checks.json', 'w') as file:
+    print ('Saving as JSON')
+    json.dump(repos, file, indent=2)
