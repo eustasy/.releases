@@ -15,7 +15,7 @@
   license_year: '2022'
   name: .normal
 - license_file: LICENSE
-  license_type: MIT
+  license_type: AGPLv3
   license_year: '2007'
   name: .releases
 - license_file: LICENSE.md
