@@ -107,7 +107,7 @@
         "href": "https://github.com/eustasy/.normal/releases/tag/1.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 3
   },
   {
     "name": "Bubbly",
@@ -249,7 +249,7 @@
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.0"
       }
     ],
-    "new_commits": 15
+    "new_commits": 16
   },
   {
     "name": "Colors.css",
@@ -367,117 +367,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 5
-  },
-  {
-    "name": "phoenix",
-    "releases": [
-      {
-        "version": "3.1.5",
-        "release_date": "2020-04-02T19:37:18",
-        "timeago": "2 years ago",
-        "title": "Unicorn - with Patch 5",
-        "body": "- Improved documentation\r\n- Fixed some links",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.5"
-      },
-      {
-        "version": "3.1.4",
-        "release_date": "2017-09-16T23:39:27",
-        "timeago": "4 years ago",
-        "title": "Unicorn - with Patch 4",
-        "body": "- Update to NC 1.7",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.4"
-      },
-      {
-        "version": "3.1.3",
-        "release_date": "2017-04-19T20:52:19",
-        "timeago": "5 years ago",
-        "title": "Unicorn - with Patch 3",
-        "body": "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES: Idle peers removed in 1% of requests instead of 10% by default.\r\n- BUGFIX: Stops backups running in home directory if not configured.\r\n\r\n[Compare 3.1.3 with v.3.1.2](https://github.com/eustasy/phoenix/compare/v.3.1.2...3.1.3)\r\n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.3"
-      },
-      {
-        "version": "3.1.2",
-        "release_date": "2016-06-15T16:14:43",
-        "timeago": "6 years ago",
-        "title": "Unicorn - with Patch 2",
-        "body": "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.2"
-      },
-      {
-        "version": "v.3.1.1",
-        "release_date": "2016-04-14T15:04:14",
-        "timeago": "6 years ago",
-        "title": "Unicorn - with Patch 1",
-        "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
-      },
-      {
-        "version": "v.3.1",
-        "release_date": "2016-04-14T14:51:17",
-        "timeago": "6 years ago",
-        "title": "Unicorn",
-        "body": "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n- IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES: De-duplicate test initialization and database initialization ([#27](https://github.com/eustasy/phoenix/issues/27)).\r\n- IMPROVES: Automated testing now uses the same database, and respects prefixes, and custom usernames and database names.\r\n- IMPROVES: Update default settings to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1"
-      },
-      {
-        "version": "v.3.0",
-        "release_date": "2016-01-21T22:44:34",
-        "timeago": "6 years ago",
-        "title": "Sanitized",
-        "body": "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\n- FEATURE: Adds normalized checks.\r\n- IMPROVES: Sanitizes super-globals before use ([#16](https://github.com/eustasy/phoenix/issues/16)).\r\n- IMPROVES: Documented hook files ([#23](https://github.com/eustasy/phoenix/issues/23)).\r\n- IMPROVES: Removes duplicated variables ([#20](https://github.com/eustasy/phoenix/issues/20)).\r\n- IMPROVES: Moved to puff-style structure ([#18](https://github.com/eustasy/phoenix/issues/18)).\r\n- IMPROVES: IP detection, especially when reporting IPv4 _and_ IPv6.\r\n- IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.0"
-      },
-      {
-        "version": "v.2.0",
-        "release_date": "2015-08-20T13:26:02",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.2.0"
-      },
-      {
-        "version": "v.1.4",
-        "release_date": "2015-08-18T21:50:42",
-        "timeago": "6 years ago",
-        "title": "Totalitarian",
-        "body": "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose option to torrent scraping for better display of bencoded content.\r\n- BUGFIX: Fixes scrape counts of torrents by encoding hashes in their binary format.\r\n- BUGFIX: Fixes issue where cleaning was never logged.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.4"
-      },
-      {
-        "version": "v.1.3",
-        "release_date": "2015-02-16T21:01:44",
-        "timeago": "7 years ago",
-        "title": "Hexa",
-        "body": "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.3"
-      },
-      {
-        "version": "v.1.2",
-        "release_date": "2014-12-31T22:03:00",
-        "timeago": "7 years ago",
-        "title": "Endpoints",
-        "body": "FEATURE: Support Endpoints, rather than just separate ports.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.2"
-      },
-      {
-        "version": "v.1.1",
-        "release_date": "2014-12-31T12:18:53",
-        "timeago": "7 years ago",
-        "title": "Scraping By",
-        "body": "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct default charset.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.1"
-      },
-      {
-        "version": "v.1.0",
-        "release_date": "2014-12-28T22:10:21",
-        "timeago": "7 years ago",
-        "title": "No longer PeerTracker.",
-        "body": "A procedural re-write of peertracker in a modern format.\r\nFixes numerous bugs and massively improves performance, modularity, and maintainability.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.0"
-      }
-    ],
-    "new_commits": 1
+    "new_commits": 6
   },
   {
     "name": "authenticatron",
@@ -587,7 +477,257 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
+    "new_commits": 4
+  },
+  {
+    "name": "browning-a-mailgun-script",
+    "releases": [
+      {
+        "version": "0.29.0",
+        "release_date": "2017-10-15T21:35:31",
+        "timeago": "4 years ago",
+        "title": "Square",
+        "body": "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate, and Bountysource\r\n- Add NC 1.7\r\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.29.0"
+      },
+      {
+        "version": "0.28",
+        "release_date": "2016-09-26T18:50:19",
+        "timeago": "5 years ago",
+        "title": "Reed",
+        "body": "- #5 Update code example and add to the homepage.\n- #3 Move to a puff format.\n- #2 Upgrade and conditionally load ReCaptcha.\n- #1 Redesign homepage to be in line with new labs branding.\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.28"
+      },
+      {
+        "version": "0.27",
+        "release_date": "2015-03-24T22:54:09",
+        "timeago": "7 years ago",
+        "title": "Archer",
+        "body": "Update for Mailgun v3 API\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.27"
+      },
+      {
+        "version": "0.26",
+        "release_date": "2015-01-29T14:21:22",
+        "timeago": "7 years ago",
+        "title": "Slim",
+        "body": "Trim recaptcha out of release.\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.26"
+      },
+      {
+        "version": "0.25",
+        "release_date": "2014-12-21T21:32:54",
+        "timeago": "7 years ago",
+        "title": "Rich",
+        "body": "Patch release for common error.\nSimple, non-breaking upgrade.\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.25"
+      },
+      {
+        "version": "0.24",
+        "release_date": "2014-12-03T14:41:36",
+        "timeago": "7 years ago",
+        "title": "White",
+        "body": "Massive code clean-up and re-write. **Breaking**\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.24"
+      },
+      {
+        "version": "0.23",
+        "release_date": "2014-01-06T11:06:10",
+        "timeago": "8 years ago",
+        "title": "Danny-Boy",
+        "body": "- Remove Recaptcha Code from Browning_Send Function\n- Add Recaptcha_Config File\n- Refactor how Recaptcha is Checked\n- Update Copyright to 2014\n- Add Version Number to Headed Files\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.23"
+      },
+      {
+        "version": "0.22",
+        "release_date": "2013-12-08T15:58:57",
+        "timeago": "8 years ago",
+        "title": "Smith",
+        "body": "- Removed Unnecessary Recaptcha Files\n- Removed Unnecessary Line Breaks\n- Added Instructions to Readme\n- Added better example function to index\n- Added License to Function File\n- Added GitHub URL to README, Config, and Function\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.22"
+      },
+      {
+        "version": "0.21",
+        "release_date": "2013-12-08T01:00:58",
+        "timeago": "8 years ago",
+        "title": "Williams",
+        "body": "- Expanded Description in Readme\n- Added Instructions to Readme\n- Remove unnecessary comparison in Function\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.21"
+      },
+      {
+        "version": "0.20",
+        "release_date": "2013-12-07T15:33:49",
+        "timeago": "8 years ago",
+        "title": "Jones",
+        "body": "First Working Open-Source Release\n",
+        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.20"
+      }
+    ],
+    "new_commits": 6
+  },
+  {
+    "name": "cdns",
+    "releases": [
+      {
+        "version": "0.1.0",
+        "release_date": "2017-08-09T19:11:43",
+        "timeago": "5 years ago",
+        "title": "Common Sense",
+        "body": "It's been public for a while, makes sense there would be a release.",
+        "href": "https://github.com/eustasy/cdns/releases/tag/0.1.0"
+      }
+    ],
+    "new_commits": 11
+  },
+  {
+    "name": "elementary-theme-for-google-chrome",
+    "releases": [
+      {
+        "version": "3.2.1",
+        "release_date": "2017-10-16T14:21:42",
+        "timeago": "4 years ago",
+        "title": "Actual - with Patch 1",
+        "body": "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix several colors",
+        "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1"
+      },
+      {
+        "version": "3.2",
+        "release_date": "2014-08-20T10:48:09",
+        "timeago": "7 years ago",
+        "title": "Actual",
+        "body": "",
+        "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2"
+      }
+    ],
     "new_commits": 3
+  },
+  {
+    "name": "extensions.eustasy.org",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "release_date": "2017-10-16T14:31:17",
+        "timeago": "4 years ago",
+        "title": "Sensible",
+        "body": "Now that we pass builds again, let's have a release so we're not release-less.",
+        "href": "https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0"
+      }
+    ],
+    "new_commits": 13
+  },
+  {
+    "name": "here-miss",
+    "releases": [
+      {
+        "version": "1.2.1",
+        "release_date": "2017-10-19T23:35:12",
+        "timeago": "4 years ago",
+        "title": "Secondary - with Patch 1",
+        "body": "- Add jsDelivr Badge\r\n- Add jsDelivr embed code",
+        "href": "https://github.com/eustasy/here-miss/releases/tag/1.2.1"
+      },
+      {
+        "version": "1.2.0",
+        "release_date": "2017-09-27T23:02:52",
+        "timeago": "4 years ago",
+        "title": "Secondary",
+        "body": "- Remove semi-colons in JS version\r\n- Update license year.\r\n- Test with NC 1.7\r\n- Better documentation.",
+        "href": "https://github.com/eustasy/here-miss/releases/tag/1.2.0"
+      },
+      {
+        "version": "1.1",
+        "release_date": "2015-02-19T15:28:49",
+        "timeago": "7 years ago",
+        "title": "Version 1.1",
+        "body": "eustasy takes over license\n",
+        "href": "https://github.com/eustasy/here-miss/releases/tag/1.1"
+      }
+    ],
+    "new_commits": 5
+  },
+  {
+    "name": "jQuery.downBoy",
+    "releases": [
+      {
+        "version": "1.3.1",
+        "release_date": "2017-10-24T02:03:07",
+        "timeago": "4 years ago",
+        "title": "Julian - with Patch 1",
+        "body": "- Add jsDelivr Badge\r\n- Update embed code to use jsDelivr with SRI\r\n- Update site scripts to use jsDelivr with version aliasing.",
+        "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.1"
+      },
+      {
+        "version": "1.3.0",
+        "release_date": "2017-10-22T00:49:59",
+        "timeago": "4 years ago",
+        "title": "Julian",
+        "body": "- Add [NC 1.7](https://github.com/eustasy/normal-checks)\r\n- Update license year.\r\n- Add badges to readme\r\n- Update site to new \"labs\" style\r\n- Update code styles",
+        "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.0"
+      },
+      {
+        "version": "1.2",
+        "release_date": "2014-03-01T14:52:18",
+        "timeago": "8 years ago",
+        "title": "Rover",
+        "body": "Initial release on GitHub.",
+        "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.2"
+      }
+    ],
+    "new_commits": 5
+  },
+  {
+    "name": "jQuery.equalize",
+    "releases": [
+      {
+        "version": "1.8.0",
+        "release_date": "2017-10-26T00:17:09",
+        "timeago": "4 years ago",
+        "title": "Julian",
+        "body": "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Add CDN Delivery links\r\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.8.0"
+      },
+      {
+        "version": "1.7",
+        "release_date": "2014-01-20T22:15:09",
+        "timeago": "8 years ago",
+        "title": "Cleanly",
+        "body": "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n- Skip 1.5 and 1.6 due to inconsistencies\n\n### Improvements\n- Update License to 2014\n- Add Version to License\n- Organise Responsive CSS\n- Add `'use strict';` to minified version\n- Expand Description\n- Massively expand readme, including:\n  - Add Version\n  - Add Link\n  - Expand Description\n  - Include Code Examples and Descriptions from index.html\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.7"
+      },
+      {
+        "version": "1.4",
+        "release_date": "2013-11-24T21:10:39",
+        "timeago": "8 years ago",
+        "title": "Variability",
+        "body": "Use unused variables.\nRe-use G (Group) Variable.\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.4"
+      },
+      {
+        "version": "1.2",
+        "release_date": "2013-08-20T14:24:28",
+        "timeago": "8 years ago",
+        "title": "Responsibility",
+        "body": "Added Responsive Example\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.2"
+      },
+      {
+        "version": "1.1",
+        "release_date": "2013-08-13T22:51:53",
+        "timeago": "8 years ago",
+        "title": "Strictly",
+        "body": "- Added Version Numbers\n- Added GitHub Link\n- Added Labs Link\n- Changed to Strict JavaScript\n",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.1"
+      },
+      {
+        "version": "1.0",
+        "release_date": "2013-08-12T20:14:45",
+        "timeago": "8 years ago",
+        "title": "Launch!",
+        "body": "",
+        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.0"
+      }
+    ],
+    "new_commits": 4
   },
   {
     "name": "jQuery.leanModal2",
@@ -681,7 +821,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 5
+    "new_commits": 6
   },
   {
     "name": "labs.eustasy.org",
@@ -695,91 +835,117 @@
         "href": "https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1"
       }
     ],
-    "new_commits": 23
+    "new_commits": 24
   },
   {
-    "name": "jQuery.equalize",
+    "name": "phoenix",
     "releases": [
       {
-        "version": "1.8.0",
-        "release_date": "2017-10-26T00:17:09",
+        "version": "3.1.5",
+        "release_date": "2020-04-02T19:37:18",
+        "timeago": "2 years ago",
+        "title": "Unicorn - with Patch 5",
+        "body": "- Improved documentation\r\n- Fixed some links",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.5"
+      },
+      {
+        "version": "3.1.4",
+        "release_date": "2017-09-16T23:39:27",
         "timeago": "4 years ago",
-        "title": "Julian",
-        "body": "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Add CDN Delivery links\r\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.8.0"
+        "title": "Unicorn - with Patch 4",
+        "body": "- Update to NC 1.7",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.4"
       },
       {
-        "version": "1.7",
-        "release_date": "2014-01-20T22:15:09",
-        "timeago": "8 years ago",
-        "title": "Cleanly",
-        "body": "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n- Skip 1.5 and 1.6 due to inconsistencies\n\n### Improvements\n- Update License to 2014\n- Add Version to License\n- Organise Responsive CSS\n- Add `'use strict';` to minified version\n- Expand Description\n- Massively expand readme, including:\n  - Add Version\n  - Add Link\n  - Expand Description\n  - Include Code Examples and Descriptions from index.html\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.7"
+        "version": "3.1.3",
+        "release_date": "2017-04-19T20:52:19",
+        "timeago": "5 years ago",
+        "title": "Unicorn - with Patch 3",
+        "body": "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES: Idle peers removed in 1% of requests instead of 10% by default.\r\n- BUGFIX: Stops backups running in home directory if not configured.\r\n\r\n[Compare 3.1.3 with v.3.1.2](https://github.com/eustasy/phoenix/compare/v.3.1.2...3.1.3)\r\n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.3"
       },
       {
-        "version": "1.4",
-        "release_date": "2013-11-24T21:10:39",
-        "timeago": "8 years ago",
-        "title": "Variability",
-        "body": "Use unused variables.\nRe-use G (Group) Variable.\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.4"
+        "version": "3.1.2",
+        "release_date": "2016-06-15T16:14:43",
+        "timeago": "6 years ago",
+        "title": "Unicorn - with Patch 2",
+        "body": "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/3.1.2"
       },
       {
-        "version": "1.2",
-        "release_date": "2013-08-20T14:24:28",
-        "timeago": "8 years ago",
-        "title": "Responsibility",
-        "body": "Added Responsive Example\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.2"
+        "version": "v.3.1.1",
+        "release_date": "2016-04-14T15:04:14",
+        "timeago": "6 years ago",
+        "title": "Unicorn - with Patch 1",
+        "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
       },
       {
-        "version": "1.1",
-        "release_date": "2013-08-13T22:51:53",
-        "timeago": "8 years ago",
-        "title": "Strictly",
-        "body": "- Added Version Numbers\n- Added GitHub Link\n- Added Labs Link\n- Changed to Strict JavaScript\n",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.1"
+        "version": "v.3.1",
+        "release_date": "2016-04-14T14:51:17",
+        "timeago": "6 years ago",
+        "title": "Unicorn",
+        "body": "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n- IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES: De-duplicate test initialization and database initialization ([#27](https://github.com/eustasy/phoenix/issues/27)).\r\n- IMPROVES: Automated testing now uses the same database, and respects prefixes, and custom usernames and database names.\r\n- IMPROVES: Update default settings to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1"
       },
       {
-        "version": "1.0",
-        "release_date": "2013-08-12T20:14:45",
-        "timeago": "8 years ago",
-        "title": "Launch!",
-        "body": "",
-        "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.0"
+        "version": "v.3.0",
+        "release_date": "2016-01-21T22:44:34",
+        "timeago": "6 years ago",
+        "title": "Sanitized",
+        "body": "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\n- FEATURE: Adds normalized checks.\r\n- IMPROVES: Sanitizes super-globals before use ([#16](https://github.com/eustasy/phoenix/issues/16)).\r\n- IMPROVES: Documented hook files ([#23](https://github.com/eustasy/phoenix/issues/23)).\r\n- IMPROVES: Removes duplicated variables ([#20](https://github.com/eustasy/phoenix/issues/20)).\r\n- IMPROVES: Moved to puff-style structure ([#18](https://github.com/eustasy/phoenix/issues/18)).\r\n- IMPROVES: IP detection, especially when reporting IPv4 _and_ IPv6.\r\n- IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.0"
+      },
+      {
+        "version": "v.2.0",
+        "release_date": "2015-08-20T13:26:02",
+        "timeago": "6 years ago",
+        "title": "Unification",
+        "body": "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.2.0"
+      },
+      {
+        "version": "v.1.4",
+        "release_date": "2015-08-18T21:50:42",
+        "timeago": "6 years ago",
+        "title": "Totalitarian",
+        "body": "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose option to torrent scraping for better display of bencoded content.\r\n- BUGFIX: Fixes scrape counts of torrents by encoding hashes in their binary format.\r\n- BUGFIX: Fixes issue where cleaning was never logged.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.4"
+      },
+      {
+        "version": "v.1.3",
+        "release_date": "2015-02-16T21:01:44",
+        "timeago": "7 years ago",
+        "title": "Hexa",
+        "body": "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.3"
+      },
+      {
+        "version": "v.1.2",
+        "release_date": "2014-12-31T22:03:00",
+        "timeago": "7 years ago",
+        "title": "Endpoints",
+        "body": "FEATURE: Support Endpoints, rather than just separate ports.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.2"
+      },
+      {
+        "version": "v.1.1",
+        "release_date": "2014-12-31T12:18:53",
+        "timeago": "7 years ago",
+        "title": "Scraping By",
+        "body": "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct default charset.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.1"
+      },
+      {
+        "version": "v.1.0",
+        "release_date": "2014-12-28T22:10:21",
+        "timeago": "7 years ago",
+        "title": "No longer PeerTracker.",
+        "body": "A procedural re-write of peertracker in a modern format.\r\nFixes numerous bugs and massively improves performance, modularity, and maintainability.\r\n",
+        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.0"
       }
     ],
-    "new_commits": 3
-  },
-  {
-    "name": "jQuery.downBoy",
-    "releases": [
-      {
-        "version": "1.3.1",
-        "release_date": "2017-10-24T02:03:07",
-        "timeago": "4 years ago",
-        "title": "Julian - with Patch 1",
-        "body": "- Add jsDelivr Badge\r\n- Update embed code to use jsDelivr with SRI\r\n- Update site scripts to use jsDelivr with version aliasing.",
-        "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.1"
-      },
-      {
-        "version": "1.3.0",
-        "release_date": "2017-10-22T00:49:59",
-        "timeago": "4 years ago",
-        "title": "Julian",
-        "body": "- Add [NC 1.7](https://github.com/eustasy/normal-checks)\r\n- Update license year.\r\n- Add badges to readme\r\n- Update site to new \"labs\" style\r\n- Update code styles",
-        "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.0"
-      },
-      {
-        "version": "1.2",
-        "release_date": "2014-03-01T14:52:18",
-        "timeago": "8 years ago",
-        "title": "Rover",
-        "body": "Initial release on GitHub.",
-        "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.2"
-      }
-    ],
-    "new_commits": 4
+    "new_commits": 7
   },
   {
     "name": "puff-blog",
@@ -810,150 +976,6 @@
       }
     ],
     "new_commits": 3
-  },
-  {
-    "name": "puff-geo",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:53:17",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve HTML sanity",
-        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:40:27",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T20:01:33",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n",
-        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 3
-  },
-  {
-    "name": "puff-db",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:39:31",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Add Classes for styling to error page",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:50:06",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T20:06:02",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.3"
-      },
-      {
-        "version": "0.2",
-        "release_date": "2015-11-16T16:06:47",
-        "timeago": "6 years ago",
-        "title": "Responsive Settings",
-        "body": "- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- De-duplication\r\n- Checks\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.2"
-      },
-      {
-        "version": "0.1",
-        "release_date": "2015-08-01T18:55:49",
-        "timeago": "7 years ago",
-        "title": "Core and DB",
-        "body": "- Tested support for MySQL and MariaDB connections.\r\n- Automatically connects at page-load for never-require use.\r\n- Automatically uses persistent connections when supported.\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.1"
-      }
-    ],
-    "new_commits": 5
-  },
-  {
-    "name": "puff-runonce",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:36:10",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom` from -Members to -RunOnce",
-        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T14:46:07",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T18:10:59",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "Initial release with Puff\r\n",
-        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 5
-  },
-  {
-    "name": "puff-members",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:30:32",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Start logging IPs for sessions and allow similarity checks.\r\n- Update to NC 1.7\r\n- Fix permissions",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T15:04:19",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.4"
-      },
-      {
-        "version": "0.3.1",
-        "release_date": "2015-11-23T09:54:44",
-        "timeago": "6 years ago",
-        "title": "Split - with Patch 1",
-        "body": "- Bugfix for password changing.\r\n",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.3.1"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T18:08:03",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "Initial release with Puff\r\n",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 22
   },
   {
     "name": "puff-cookiecompliance",
@@ -1032,154 +1054,148 @@
     "new_commits": 11
   },
   {
-    "name": "extensions.eustasy.org",
+    "name": "puff-db",
     "releases": [
       {
-        "version": "1.0.0",
-        "release_date": "2017-10-16T14:31:17",
+        "version": "0.5.0",
+        "release_date": "2017-10-18T17:39:31",
         "timeago": "4 years ago",
-        "title": "Sensible",
-        "body": "Now that we pass builds again, let's have a release so we're not release-less.",
-        "href": "https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0"
-      }
-    ],
-    "new_commits": 0
-  },
-  {
-    "name": "elementary-theme-for-google-chrome",
-    "releases": [
-      {
-        "version": "3.2.1",
-        "release_date": "2017-10-16T14:21:42",
-        "timeago": "4 years ago",
-        "title": "Actual - with Patch 1",
-        "body": "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix several colors",
-        "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1"
+        "title": "Full Circle",
+        "body": "- Add NC 1.7\r\n- Add Classes for styling to error page",
+        "href": "https://github.com/eustasy/puff-db/releases/tag/0.5.0"
       },
       {
-        "version": "3.2",
-        "release_date": "2014-08-20T10:48:09",
+        "version": "0.4",
+        "release_date": "2016-03-02T13:50:06",
+        "timeago": "6 years ago",
+        "title": "Unification",
+        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
+        "href": "https://github.com/eustasy/puff-db/releases/tag/0.4"
+      },
+      {
+        "version": "0.3",
+        "release_date": "2015-11-22T20:06:02",
+        "timeago": "6 years ago",
+        "title": "Split",
+        "body": "- Move functions\r\n- Standardize testing\r\n",
+        "href": "https://github.com/eustasy/puff-db/releases/tag/0.3"
+      },
+      {
+        "version": "0.2",
+        "release_date": "2015-11-16T16:06:47",
+        "timeago": "6 years ago",
+        "title": "Responsive Settings",
+        "body": "- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- De-duplication\r\n- Checks\r\n",
+        "href": "https://github.com/eustasy/puff-db/releases/tag/0.2"
+      },
+      {
+        "version": "0.1",
+        "release_date": "2015-08-01T18:55:49",
         "timeago": "7 years ago",
-        "title": "Actual",
-        "body": "",
-        "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2"
-      }
-    ],
-    "new_commits": 2
-  },
-  {
-    "name": "browning-a-mailgun-script",
-    "releases": [
-      {
-        "version": "0.29.0",
-        "release_date": "2017-10-15T21:35:31",
-        "timeago": "4 years ago",
-        "title": "Square",
-        "body": "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate, and Bountysource\r\n- Add NC 1.7\r\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.29.0"
-      },
-      {
-        "version": "0.28",
-        "release_date": "2016-09-26T18:50:19",
-        "timeago": "5 years ago",
-        "title": "Reed",
-        "body": "- #5 Update code example and add to the homepage.\n- #3 Move to a puff format.\n- #2 Upgrade and conditionally load ReCaptcha.\n- #1 Redesign homepage to be in line with new labs branding.\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.28"
-      },
-      {
-        "version": "0.27",
-        "release_date": "2015-03-24T22:54:09",
-        "timeago": "7 years ago",
-        "title": "Archer",
-        "body": "Update for Mailgun v3 API\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.27"
-      },
-      {
-        "version": "0.26",
-        "release_date": "2015-01-29T14:21:22",
-        "timeago": "7 years ago",
-        "title": "Slim",
-        "body": "Trim recaptcha out of release.\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.26"
-      },
-      {
-        "version": "0.25",
-        "release_date": "2014-12-21T21:32:54",
-        "timeago": "7 years ago",
-        "title": "Rich",
-        "body": "Patch release for common error.\nSimple, non-breaking upgrade.\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.25"
-      },
-      {
-        "version": "0.24",
-        "release_date": "2014-12-03T14:41:36",
-        "timeago": "7 years ago",
-        "title": "White",
-        "body": "Massive code clean-up and re-write. **Breaking**\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.24"
-      },
-      {
-        "version": "0.23",
-        "release_date": "2014-01-06T11:06:10",
-        "timeago": "8 years ago",
-        "title": "Danny-Boy",
-        "body": "- Remove Recaptcha Code from Browning_Send Function\n- Add Recaptcha_Config File\n- Refactor how Recaptcha is Checked\n- Update Copyright to 2014\n- Add Version Number to Headed Files\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.23"
-      },
-      {
-        "version": "0.22",
-        "release_date": "2013-12-08T15:58:57",
-        "timeago": "8 years ago",
-        "title": "Smith",
-        "body": "- Removed Unnecessary Recaptcha Files\n- Removed Unnecessary Line Breaks\n- Added Instructions to Readme\n- Added better example function to index\n- Added License to Function File\n- Added GitHub URL to README, Config, and Function\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.22"
-      },
-      {
-        "version": "0.21",
-        "release_date": "2013-12-08T01:00:58",
-        "timeago": "8 years ago",
-        "title": "Williams",
-        "body": "- Expanded Description in Readme\n- Added Instructions to Readme\n- Remove unnecessary comparison in Function\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.21"
-      },
-      {
-        "version": "0.20",
-        "release_date": "2013-12-07T15:33:49",
-        "timeago": "8 years ago",
-        "title": "Jones",
-        "body": "First Working Open-Source Release\n",
-        "href": "https://github.com/eustasy/browning-a-mailgun-script/releases/tag/0.20"
+        "title": "Core and DB",
+        "body": "- Tested support for MySQL and MariaDB connections.\r\n- Automatically connects at page-load for never-require use.\r\n- Automatically uses persistent connections when supported.\r\n",
+        "href": "https://github.com/eustasy/puff-db/releases/tag/0.1"
       }
     ],
     "new_commits": 5
   },
   {
-    "name": "cdns",
+    "name": "puff-geo",
     "releases": [
       {
-        "version": "0.1.0",
-        "release_date": "2017-08-09T19:11:43",
-        "timeago": "5 years ago",
-        "title": "Common Sense",
-        "body": "It's been public for a while, makes sense there would be a release.",
-        "href": "https://github.com/eustasy/cdns/releases/tag/0.1.0"
+        "version": "0.5.0",
+        "release_date": "2017-10-18T17:53:17",
+        "timeago": "4 years ago",
+        "title": "Full Circle",
+        "body": "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve HTML sanity",
+        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.5.0"
+      },
+      {
+        "version": "0.4",
+        "release_date": "2016-03-02T13:40:27",
+        "timeago": "6 years ago",
+        "title": "Unification",
+        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
+        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.4"
+      },
+      {
+        "version": "0.3",
+        "release_date": "2015-11-22T20:01:33",
+        "timeago": "6 years ago",
+        "title": "Split",
+        "body": "- Move functions\r\n- Standardize testing\r\n",
+        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.3"
       }
     ],
-    "new_commits": 10
+    "new_commits": 3
   },
   {
-    "name": "vanilla.equalize",
+    "name": "puff-members",
     "releases": [
       {
-        "version": "1.0.0",
-        "release_date": "2017-08-09T18:22:20",
-        "timeago": "5 years ago",
-        "title": "Julian",
-        "body": "Initial release as VanillaJS version.",
-        "href": "https://github.com/eustasy/vanilla.equalize/releases/tag/1.0.0"
+        "version": "0.5.0",
+        "release_date": "2017-10-18T17:30:32",
+        "timeago": "4 years ago",
+        "title": "Full Circle",
+        "body": "- Start logging IPs for sessions and allow similarity checks.\r\n- Update to NC 1.7\r\n- Fix permissions",
+        "href": "https://github.com/eustasy/puff-members/releases/tag/0.5.0"
+      },
+      {
+        "version": "0.4",
+        "release_date": "2016-03-02T15:04:19",
+        "timeago": "6 years ago",
+        "title": "Unification",
+        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
+        "href": "https://github.com/eustasy/puff-members/releases/tag/0.4"
+      },
+      {
+        "version": "0.3.1",
+        "release_date": "2015-11-23T09:54:44",
+        "timeago": "6 years ago",
+        "title": "Split - with Patch 1",
+        "body": "- Bugfix for password changing.\r\n",
+        "href": "https://github.com/eustasy/puff-members/releases/tag/0.3.1"
+      },
+      {
+        "version": "0.3",
+        "release_date": "2015-11-22T18:08:03",
+        "timeago": "6 years ago",
+        "title": "Split",
+        "body": "Initial release with Puff\r\n",
+        "href": "https://github.com/eustasy/puff-members/releases/tag/0.3"
       }
     ],
-    "new_commits": 4
+    "new_commits": 22
+  },
+  {
+    "name": "puff-runonce",
+    "releases": [
+      {
+        "version": "0.5.0",
+        "release_date": "2017-10-18T17:36:10",
+        "timeago": "4 years ago",
+        "title": "Full Circle",
+        "body": "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom` from -Members to -RunOnce",
+        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.5.0"
+      },
+      {
+        "version": "0.4",
+        "release_date": "2016-03-02T14:46:07",
+        "timeago": "6 years ago",
+        "title": "Unification",
+        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
+        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.4"
+      },
+      {
+        "version": "0.3",
+        "release_date": "2015-11-22T18:10:59",
+        "timeago": "6 years ago",
+        "title": "Split",
+        "body": "Initial release with Puff\r\n",
+        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.3"
+      }
+    ],
+    "new_commits": 5
   },
   {
     "name": "vanilla.downBoy",
@@ -1193,6 +1209,20 @@
         "href": "https://github.com/eustasy/vanilla.downBoy/releases/tag/1.0.0"
       }
     ],
-    "new_commits": 6
+    "new_commits": 7
+  },
+  {
+    "name": "vanilla.equalize",
+    "releases": [
+      {
+        "version": "1.0.0",
+        "release_date": "2017-08-09T18:22:20",
+        "timeago": "5 years ago",
+        "title": "Julian",
+        "body": "Initial release as VanillaJS version.",
+        "href": "https://github.com/eustasy/vanilla.equalize/releases/tag/1.0.0"
+      }
+    ],
+    "new_commits": 5
   }
 ]
