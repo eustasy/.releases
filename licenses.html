@@ -1,7 +1,7 @@
 ---
 layout: default
-title: License Year
-description: Which version of License Year is each repository using?
+title: Licenses
+description: Which Licenses is each repository using?
 ---
 
 {% assign org_href = "https://github.com/eustasy" %}
@@ -76,12 +76,15 @@ description: Which version of License Year is each repository using?
     <th>Year</th>
   </thead>
   <tbody>
-  {% for repo in site.data.license_year %}
+  {% for repo in site.data.licenses %}
     {% unless site.data.exclusions contains repo.name %}
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
+      </td>
+      <td data-sort="{{ repo.license }}">
+        {{ repo.license }}
       </td>
       <td data-sort="{{ repo.license_year }}">
         {% if repo.license_year == "2022" %}
