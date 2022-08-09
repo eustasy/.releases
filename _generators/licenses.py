@@ -58,10 +58,10 @@ for repo in repos:
 
 output = sorted(output, key=itemgetter('name')) 
 
-with open('_data/license_year.yml', 'w') as file:
+with open('_data/licenses.yml', 'w') as file:
     print ('Saving as YML')
     yaml.dump(output, file)
   
-with open('_data/license_year.json', 'w') as file:
+with open('_data/licenses.json', 'w') as file:
     print ('Saving as JSON')
     json.dump(output, file, indent=2)
