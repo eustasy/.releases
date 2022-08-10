@@ -38,4 +38,4 @@ jobs:
         git add .
         git commit -m "Automatic update of data" && git push --set-upstream origin main || true
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}
