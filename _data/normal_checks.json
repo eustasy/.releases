@@ -64,6 +64,10 @@
     "normal_checks": "2.0"
   },
   {
+    "name": "here-miss",
+    "normal_checks": "1.7"
+  },
+  {
     "name": "howtoubuntu.org",
     "normal_checks": false
   },
