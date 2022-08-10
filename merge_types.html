@@ -86,21 +86,21 @@ description: Which merge types are allowed in each repository?
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
       </td>
       <td data-sort="{{ repo.allow_rebase_merge }}">
-        {% if repo.allow_rebase_merge == "True" %}
+        {% if repo.allow_rebase_merge == "true" %}
           <span class="status good">{{ repo.allow_rebase_merge }}</span>
         {% elsif repo.allow_rebase_merge == "False" %}
-          <span class="status critical">{{ repo.allow_rebase_merge }}</span>
-        {% else %}
           <span class="status">{{ repo.allow_rebase_merge }}</span>
+        {% else %}
+          <span class="status critical">{{ repo.allow_rebase_merge }}</span>
         {% endif %}
       </td>
       <td data-sort="{{ repo.allow_squash_merge }}">
-        {% if repo.allow_squash_merge == "True" %}
+        {% if repo.allow_squash_merge == "true" %}
           <span class="status good">{{ repo.allow_squash_merge }}</span>
         {% elsif repo.allow_squash_merge == "False" %}
-          <span class="status critical">{{ repo.allow_squash_merge }}</span>
-        {% else %}
           <span class="status">{{ repo.allow_squash_merge }}</span>
+        {% else %}
+          <span class="status critical">{{ repo.allow_squash_merge }}</span>
         {% endif %}
       </td>
       <td data-sort="{{ repo.allow_merge_commit }}">
