@@ -17,6 +17,7 @@ class NoReleasesFound(Exception):
 class Repo:
   def __init__(self, repo):
     self.name = repo.name
+    self.default_branch = repo.default_branch
     print(repo.allow_rebase_merge)
     print(repo.allow_squash_merge)
     print(repo.allow_merge_commit)
@@ -37,6 +38,7 @@ output = []
 for repo in repos:
   output.append ({
     "name": repo.name,
+    "default_branch": repo.default_branch,
     "allow_rebase_merge": repo.allow_rebase_merge,
     "allow_squash_merge": repo.allow_squash_merge,
     "allow_merge_commit": repo.allow_merge_commit
