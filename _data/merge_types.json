@@ -1,0 +1,194 @@
+[
+  {
+    "name": ".choices",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": ".github",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": ".monetise",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": ".normal",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": ".releases",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false
+  },
+  {
+    "name": "Bubbly",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "Colors.css",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "Monopoly",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "authenticatron",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "browning-a-mailgun-script",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "cdns",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "copyOf-github-label-manager",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "copyof-SemVish",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "copyof-jQl",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "elementary-theme-for-google-chrome",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "extensions.eustasy.org",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "here-miss",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "howtoubuntu.org",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "jQuery.downBoy",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "jQuery.equalize",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "jQuery.leanModal2",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "labs.eustasy.org",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "phoenix",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-blog",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-cookiecompliance",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-core",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-db",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-geo",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-members",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "puff-runonce",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "vanilla.downBoy",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  },
+  {
+    "name": "vanilla.equalize",
+    "allow_rebase_merge": null,
+    "allow_squash_merge": null,
+    "allow_merge_commit": null
+  }
+]
