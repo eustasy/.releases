@@ -1,128 +1,128 @@
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: .choices
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: .github
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: .monetise
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: .normal
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   name: .releases
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: Bubbly
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: Colors.css
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: Monopoly
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: authenticatron
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: browning-a-mailgun-script
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: cdns
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: copyOf-github-label-manager
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: copyof-SemVish
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: copyof-jQl
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: elementary-theme-for-google-chrome
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: extensions.eustasy.org
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: here-miss
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: howtoubuntu.org
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: jQuery.downBoy
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: jQuery.equalize
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: jQuery.leanModal2
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: labs.eustasy.org
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: phoenix
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-blog
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-cookiecompliance
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-core
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-db
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-geo
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-members
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: puff-runonce
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: vanilla.downBoy
-- allow_merge_commit: null
-  allow_rebase_merge: null
-  allow_squash_merge: null
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: false
   name: vanilla.equalize
