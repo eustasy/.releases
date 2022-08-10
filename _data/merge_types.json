@@ -1,14 +1,14 @@
 [
   {
     "name": ".choices",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": ".github",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -36,14 +36,14 @@
   },
   {
     "name": "Bubbly",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "Colors.css",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false

@@ -1,12 +1,12 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: .choices
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: .github
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -26,12 +26,12 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: Bubbly
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: Colors.css
 - allow_merge_commit: false
   allow_rebase_merge: false
