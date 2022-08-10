@@ -17,6 +17,7 @@ class NoReleasesFound(Exception):
 class Repo:
   def __init__(self, repo):
     self.name = repo.name
+    print(repo.allow_rebase_merge)
     self.allow_rebase_merge = repo.allow_rebase_merge
     self.allow_squash_merge = repo.allow_squash_merge
     self.allow_merge_commit = repo.allow_merge_commit
