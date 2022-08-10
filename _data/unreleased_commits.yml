@@ -304,7 +304,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 6
+  new_commits: 7
   releases:
   - body: "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy\
       \ Texts\r\n- Fix How to elementary Texts\r\n"
@@ -870,7 +870,7 @@
     title: '2.0'
     version: '2.0'
 - name: labs.eustasy.org
-  new_commits: 24
+  new_commits: 28
   releases:
   - body: "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules"
     href: https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1
@@ -1008,7 +1008,7 @@
     title: No longer PeerTracker.
     version: v.1.0
 - name: puff-blog
-  new_commits: 3
+  new_commits: 4
   releases:
   - body: "- Add NC 1.7\r\n- Use HTTPS when available for doctypes\r\n- Better semantics"
     href: https://github.com/eustasy/puff-blog/releases/tag/0.5.0
@@ -1033,7 +1033,7 @@
     title: Split
     version: '0.3'
 - name: puff-cookiecompliance
-  new_commits: 3
+  new_commits: 4
   releases:
   - body: "- Update to NC 1.7\r\n- Move cookie setting name to settings."
     href: https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.5.0
@@ -1058,7 +1058,7 @@
     title: Split
     version: '0.3'
 - name: puff-core
-  new_commits: 11
+  new_commits: 12
   releases:
   - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
       \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\
@@ -1106,7 +1106,7 @@
     title: Core and DB
     version: '0.1'
 - name: puff-db
-  new_commits: 5
+  new_commits: 6
   releases:
   - body: "- Add NC 1.7\r\n- Add Classes for styling to error page"
     href: https://github.com/eustasy/puff-db/releases/tag/0.5.0
@@ -1146,7 +1146,7 @@
     title: Core and DB
     version: '0.1'
 - name: puff-geo
-  new_commits: 3
+  new_commits: 4
   releases:
   - body: "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve\
       \ HTML sanity"
@@ -1172,7 +1172,7 @@
     title: Split
     version: '0.3'
 - name: puff-members
-  new_commits: 22
+  new_commits: 23
   releases:
   - body: "- Start logging IPs for sessions and allow similarity checks.\r\n- Update\
       \ to NC 1.7\r\n- Fix permissions"
@@ -1204,7 +1204,7 @@
     title: Split
     version: '0.3'
 - name: puff-runonce
-  new_commits: 5
+  new_commits: 6
   releases:
   - body: "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom`\
       \ from -Members to -RunOnce"
