@@ -28,8 +28,7 @@ for repo in org.get_repos():
   # Skip archived repositories
   if repo.archived is False:
     print ('Processing {}...'.format(repo.name))
-    try:
-      repos.append(Repo(repo))
+    repos.append(Repo(repo))
 
 output = []
 for repo in repos:
