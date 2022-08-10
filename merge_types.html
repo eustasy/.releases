@@ -73,6 +73,7 @@ description: Which merge types are allowed in each repository?
 <table class="releases sortable">
   <thead>
     <th>Repository</th>
+    <th>Default Branch</th>
     <th>Rebase</th>
     <th>Squash</th>
     <th>Commit</th>
@@ -84,6 +85,15 @@ description: Which merge types are allowed in each repository?
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
+      </td>
+      <td data-sort="{{ repo.default_branch }}">
+        {% if repo.default_branch == "main" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "master" %}
+          <span class="status critical">{{ repo.default_branch }}</span>
+        {% else %}
+          <span class="status">{{ repo.default_branch }}</span>
+        {% endif %}
       </td>
       <td data-sort="{{ repo.allow_rebase_merge }}">
         {% if repo.allow_rebase_merge == true %}
