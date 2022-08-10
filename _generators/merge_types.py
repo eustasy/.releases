@@ -17,10 +17,9 @@ class NoReleasesFound(Exception):
 class Repo:
   def __init__(self, repo):
     self.name = repo.name
-    print(repo.allow_rebase_merge)
-    self.allow_rebase_merge = repo.allow_rebase_merge
-    self.allow_squash_merge = repo.allow_squash_merge
-    self.allow_merge_commit = repo.allow_merge_commit
+    self.allow_rebase_merge = True if repo.allow_rebase_merge is True else False
+    self.allow_squash_merge = True if repo.allow_squash_merge is True else False
+    self.allow_merge_commit = True if repo.allow_merge_commit is True else False
 
 org = g.get_organization('eustasy')
 
