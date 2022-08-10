@@ -42,10 +42,10 @@ for repo in repos:
 
 output = sorted(output, key=itemgetter('name')) 
 
-with open('_data/unreleased_commits.yml', 'w') as file:
+with open('_data/merge_types.yml', 'w') as file:
     print ('Saving as YML')
     yaml.dump(output, file)
   
-with open('_data/unreleased_commits.json', 'w') as file:
+with open('_data/merge_types.json', 'w') as file:
     print ('Saving as JSON')
     json.dump(output, file, indent=2)
