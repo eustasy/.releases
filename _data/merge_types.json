@@ -1,192 +1,224 @@
 [
   {
     "name": ".choices",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": ".github",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": ".monetise",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": ".normal",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": ".releases",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "Bubbly",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "Colors.css",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "Monopoly",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "authenticatron",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "browning-a-mailgun-script",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "cdns",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "copyOf-github-label-manager",
+    "default_branch": "master",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
     "allow_merge_commit": true
   },
   {
     "name": "copyof-SemVish",
+    "default_branch": "master",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
     "allow_merge_commit": true
   },
   {
     "name": "copyof-jQl",
+    "default_branch": "master",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
     "allow_merge_commit": true
   },
   {
     "name": "elementary-theme-for-google-chrome",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "extensions.eustasy.org",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "here-miss",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "howtoubuntu.org",
+    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "jQuery.downBoy",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "jQuery.equalize",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "jQuery.leanModal2",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "labs.eustasy.org",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "phoenix",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-blog",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-cookiecompliance",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-core",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-db",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-geo",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-members",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-runonce",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "vanilla.downBoy",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "vanilla.equalize",
+    "default_branch": "master",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false

@@ -1,128 +1,160 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: .choices
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: .github
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: main
   name: .monetise
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: main
   name: .normal
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: main
   name: .releases
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: Bubbly
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: Colors.css
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: main
   name: Monopoly
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: authenticatron
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: browning-a-mailgun-script
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: cdns
 - allow_merge_commit: true
   allow_rebase_merge: true
   allow_squash_merge: true
+  default_branch: master
   name: copyOf-github-label-manager
 - allow_merge_commit: true
   allow_rebase_merge: true
   allow_squash_merge: true
+  default_branch: master
   name: copyof-SemVish
 - allow_merge_commit: true
   allow_rebase_merge: true
   allow_squash_merge: true
+  default_branch: master
   name: copyof-jQl
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: elementary-theme-for-google-chrome
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: main
   name: extensions.eustasy.org
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: here-miss
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: gh-pages
   name: howtoubuntu.org
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: jQuery.downBoy
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: jQuery.equalize
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: jQuery.leanModal2
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: labs.eustasy.org
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: phoenix
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-blog
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-cookiecompliance
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-core
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-db
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-geo
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-members
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: puff-runonce
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: vanilla.downBoy
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
   name: vanilla.equalize
