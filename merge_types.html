@@ -104,12 +104,12 @@ description: Which merge types are allowed in each repository?
         {% endif %}
       </td>
       <td data-sort="{{ repo.allow_merge_commit }}">
-        {% if repo.allow_merge_commit == "True" %}
+        {% if repo.allow_merge_commit == "true" %}
           <span class="status good">{{ repo.allow_merge_commit }}</span>
-        {% elsif repo.allow_merge_commit == "False" %}
-          <span class="status critical">{{ repo.allow_merge_commit }}</span>
-        {% else %}
+        {% elsif repo.allow_merge_commit == "false" %}
           <span class="status">{{ repo.allow_merge_commit }}</span>
+        {% else %}
+          <span class="status critical">{{ repo.allow_merge_commit }}</span>
         {% endif %}
       </td>
     </tr>
