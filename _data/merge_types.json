@@ -57,21 +57,21 @@
   },
   {
     "name": "authenticatron",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "browning-a-mailgun-script",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "cdns",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -99,7 +99,7 @@
   },
   {
     "name": "elementary-theme-for-google-chrome",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -113,7 +113,7 @@
   },
   {
     "name": "here-miss",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -127,21 +127,21 @@
   },
   {
     "name": "jQuery.downBoy",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "jQuery.equalize",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "jQuery.leanModal2",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -155,7 +155,7 @@
   },
   {
     "name": "phoenix",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -211,14 +211,14 @@
   },
   {
     "name": "vanilla.downBoy",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "vanilla.equalize",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false

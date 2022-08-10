@@ -41,17 +41,17 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: authenticatron
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: browning-a-mailgun-script
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: cdns
 - allow_merge_commit: true
   allow_rebase_merge: true
@@ -71,7 +71,7 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: elementary-theme-for-google-chrome
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -81,7 +81,7 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: here-miss
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -91,17 +91,17 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: jQuery.downBoy
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: jQuery.equalize
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: jQuery.leanModal2
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -111,7 +111,7 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: phoenix
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -151,10 +151,10 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: vanilla.downBoy
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: master
+  default_branch: main
   name: vanilla.equalize
