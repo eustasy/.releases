@@ -91,6 +91,11 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
+  name: howtoubuntu.org-v1
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
   default_branch: main
   name: jQuery.downBoy
 - allow_merge_commit: false

@@ -126,6 +126,13 @@
     "allow_merge_commit": false
   },
   {
+    "name": "howtoubuntu.org-v1",
+    "default_branch": "master",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false
+  },
+  {
     "name": "jQuery.downBoy",
     "default_branch": "main",
     "allow_rebase_merge": false,
