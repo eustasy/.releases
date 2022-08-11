@@ -431,6 +431,12 @@
     timeago: 7 years ago
     title: Establishment - with Patch 3
     version: 0.7.3
+  - body: "- BUGFIX: Undefined variable.\r\n"
+    href: https://github.com/eustasy/authenticatron/releases/tag/0.7.2
+    release_date: '2015-05-26T21:32:34'
+    timeago: 7 years ago
+    title: Establishment - with Patch 2
+    version: 0.7.2
   - body: "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.1
     release_date: '2015-03-04T13:40:32'
@@ -463,6 +469,13 @@
     timeago: 7 years ago
     title: Simplify
     version: '0.5'
+  - body: "- Improved commenting.\r\n- Check the `gd` function is loaded within the\
+      \ QR Code function.\r\n"
+    href: https://github.com/eustasy/authenticatron/releases/tag/0.4
+    release_date: '2014-11-15T11:03:25'
+    timeago: 7 years ago
+    title: Talkative
+    version: '0.4'
   - body: "Much better example page, http://labs.eustasy.org/authenticatron/example.php?secret=LC26KMUSNVZJD6CO\r\
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.3
