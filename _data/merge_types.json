@@ -148,7 +148,7 @@
   },
   {
     "name": "labs.eustasy.org",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
