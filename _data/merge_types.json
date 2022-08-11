@@ -162,49 +162,49 @@
   },
   {
     "name": "puff-blog",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-cookiecompliance",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-core",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-db",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-geo",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-members",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
   {
     "name": "puff-runonce",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
