@@ -8,7 +8,7 @@
       \ Changelog**: https://github.com/eustasy/.normal/compare/1.10.2...2.0"
     href: https://github.com/eustasy/.normal/releases/tag/2.0
     release_date: '2021-10-11T15:47:04'
-    timeago: 9 months ago
+    timeago: 10 months ago
     title: '2.0: Winter'
     version: '2.0'
   - body: "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments."
