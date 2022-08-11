@@ -1,5 +1,5 @@
 - name: .normal
-  new_commits: 3
+  new_commits: 6
   releases:
   - body: "### MAJOR\r\n**- Remove Codacy.**\r\n\r\n### MINOR\r\n- Activate Stylelint\
       \ in Code Climate.\r\n- Rename to .normal\r\n- Remove config check.\r\n- Remove\
