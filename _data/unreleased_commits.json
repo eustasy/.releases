@@ -405,14 +405,6 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.3"
       },
       {
-        "version": "0.7.2",
-        "release_date": "2015-05-26T21:32:34",
-        "timeago": "7 years ago",
-        "title": "Establishment - with Patch 2",
-        "body": "- BUGFIX: Undefined variable.\r\n",
-        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.2"
-      },
-      {
         "version": "0.7.1",
         "release_date": "2015-03-04T13:40:32",
         "timeago": "7 years ago",
@@ -443,14 +435,6 @@
         "title": "Simplify",
         "body": "- FEATURE: Authentricatron_New\r\n- FEATURE: Documentation\r\n- FEATURE: Server Check\r\n- BUGFIX: Example OpenSSL now returns true if secure.\r\n- IMPROVEMENT: Check PHPQRCode exists and is readable.\r\n- IMPROVEMENT: QR Code Example\r\n- IMPROVEMENT: Add header.php\r\n- NOTE: Added to Simplet\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.5"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2014-11-15T11:03:25",
-        "timeago": "7 years ago",
-        "title": "Talkative",
-        "body": "- Improved commenting.\r\n- Check the `gd` function is loaded within the QR Code function.\r\n",
-        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.4"
       },
       {
         "version": "0.3",
