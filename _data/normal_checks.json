@@ -41,7 +41,7 @@
   },
   {
     "name": "cdns",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "copyOf-github-label-manager",
