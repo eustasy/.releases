@@ -9,7 +9,7 @@
 - name: .releases
   normal_checks: false
 - name: Bubbly
-  normal_checks: 1.10.1
+  normal_checks: '2.0'
 - name: Colors.css
   normal_checks: 1.10.1
 - name: Monopoly
