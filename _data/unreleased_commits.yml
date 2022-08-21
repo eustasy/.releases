@@ -1,5 +1,5 @@
 - name: .normal
-  new_commits: 6
+  new_commits: 7
   releases:
   - body: "### MAJOR\r\n**- Remove Codacy.**\r\n\r\n### MINOR\r\n- Activate Stylelint\
       \ in Code Climate.\r\n- Rename to .normal\r\n- Remove config check.\r\n- Remove\
@@ -104,7 +104,7 @@
     title: Version 1.0
     version: '1.0'
 - name: Bubbly
-  new_commits: 16
+  new_commits: 19
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -413,7 +413,7 @@
       \n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors."
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.5
     release_date: '2017-08-22T23:12:33'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Establishment - with Patch 5
     version: 0.7.5
   - body: "- FEATURE: Create a nice homepage with only necessary functions.\r\n- IMPROVEMENT:\
