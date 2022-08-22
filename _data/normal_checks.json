@@ -13,7 +13,7 @@
   },
   {
     "name": ".normal",
-    "normal_checks": "2.0"
+    "normal_checks": false
   },
   {
     "name": ".releases",
@@ -21,11 +21,11 @@
   },
   {
     "name": "Bubbly",
-    "normal_checks": "2.0"
+    "normal_checks": false
   },
   {
     "name": "Colors.css",
-    "normal_checks": "1.10.1"
+    "normal_checks": false
   },
   {
     "name": "Monopoly",
@@ -33,15 +33,15 @@
   },
   {
     "name": "authenticatron",
-    "normal_checks": "1.10.0"
+    "normal_checks": false
   },
   {
     "name": "browning-a-mailgun-script",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "cdns",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "copyOf-github-label-manager",
@@ -57,15 +57,15 @@
   },
   {
     "name": "elementary-theme-for-google-chrome",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "extensions.eustasy.org",
-    "normal_checks": "2.0"
+    "normal_checks": false
   },
   {
     "name": "here-miss",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "howtoubuntu.org",
@@ -73,58 +73,58 @@
   },
   {
     "name": "jQuery.downBoy",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "jQuery.equalize",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "jQuery.leanModal2",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "labs.eustasy.org",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "phoenix",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-blog",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-cookiecompliance",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-core",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-db",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-geo",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-members",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "puff-runonce",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "vanilla.downBoy",
-    "normal_checks": "1.7"
+    "normal_checks": false
   },
   {
     "name": "vanilla.equalize",
-    "normal_checks": "1.7"
+    "normal_checks": false
   }
 ]
