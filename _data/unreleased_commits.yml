@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 7
+  new_commits: 14
   releases:
   - body: "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy\
       \ Texts\r\n- Fix How to elementary Texts\r\n"
@@ -504,7 +504,7 @@
     title: Initial
     version: '0.1'
 - name: browning-a-mailgun-script
-  new_commits: 6
+  new_commits: 8
   releases:
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
       \n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate,\
@@ -642,8 +642,14 @@
     title: Actual
     version: '3.2'
 - name: extensions.eustasy.org
-  new_commits: 13
+  new_commits: 0
   releases:
+  - body: ''
+    href: https://github.com/eustasy/extensions.eustasy.org/releases/tag/2.0.0
+    release_date: '2022-08-09T10:24:44'
+    timeago: 2 weeks ago
+    title: EOL
+    version: 2.0.0
   - body: Now that we pass builds again, let's have a release so we're not release-less.
     href: https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0
     release_date: '2017-10-16T14:31:17'
@@ -651,7 +657,7 @@
     title: Sensible
     version: 1.0.0
 - name: here-miss
-  new_commits: 5
+  new_commits: 6
   releases:
   - body: "- Add jsDelivr Badge\r\n- Add jsDelivr embed code"
     href: https://github.com/eustasy/here-miss/releases/tag/1.2.1
@@ -887,7 +893,7 @@
     title: December 1st, 2017
     version: 2017.12.1
 - name: phoenix
-  new_commits: 7
+  new_commits: 8
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/phoenix/releases/tag/3.1.5
