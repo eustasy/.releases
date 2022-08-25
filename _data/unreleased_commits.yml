@@ -657,7 +657,7 @@
     title: Sensible
     version: 1.0.0
 - name: here-miss
-  new_commits: 6
+  new_commits: 7
   releases:
   - body: "- Add jsDelivr Badge\r\n- Add jsDelivr embed code"
     href: https://github.com/eustasy/here-miss/releases/tag/1.2.1
