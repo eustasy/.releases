@@ -1016,7 +1016,7 @@
     title: No longer PeerTracker.
     version: v.1.0
 - name: puff-blog
-  new_commits: 4
+  new_commits: 9
   releases:
   - body: "- Add NC 1.7\r\n- Use HTTPS when available for doctypes\r\n- Better semantics"
     href: https://github.com/eustasy/puff-blog/releases/tag/0.5.0
@@ -1154,7 +1154,7 @@
     title: Core and DB
     version: '0.1'
 - name: puff-geo
-  new_commits: 4
+  new_commits: 5
   releases:
   - body: "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve\
       \ HTML sanity"
@@ -1180,7 +1180,7 @@
     title: Split
     version: '0.3'
 - name: puff-members
-  new_commits: 23
+  new_commits: 25
   releases:
   - body: "- Start logging IPs for sessions and allow similarity checks.\r\n- Update\
       \ to NC 1.7\r\n- Fix permissions"

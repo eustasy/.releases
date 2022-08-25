@@ -983,7 +983,7 @@
         "href": "https://github.com/eustasy/puff-blog/releases/tag/0.3"
       }
     ],
-    "new_commits": 4
+    "new_commits": 9
   },
   {
     "name": "puff-cookiecompliance",
@@ -1135,7 +1135,7 @@
         "href": "https://github.com/eustasy/puff-geo/releases/tag/0.3"
       }
     ],
-    "new_commits": 4
+    "new_commits": 5
   },
   {
     "name": "puff-members",
@@ -1173,7 +1173,7 @@
         "href": "https://github.com/eustasy/puff-members/releases/tag/0.3"
       }
     ],
-    "new_commits": 23
+    "new_commits": 25
   },
   {
     "name": "puff-runonce",
