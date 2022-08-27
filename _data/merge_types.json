@@ -92,14 +92,14 @@
   },
   {
     "name": "copyof-SemVish",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
     "allow_merge_commit": true
   },
   {
     "name": "copyof-jQl",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
     "allow_merge_commit": true
