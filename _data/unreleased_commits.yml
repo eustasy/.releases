@@ -1,5 +1,5 @@
 - name: .normal
-  new_commits: 5
+  new_commits: 7
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -112,7 +112,7 @@
     title: Version 1.0
     version: '1.0'
 - name: Bubbly
-  new_commits: 24
+  new_commits: 27
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 17
+  new_commits: 20
   releases:
   - body: "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy\
       \ Texts\r\n- Fix How to elementary Texts\r\n"
@@ -406,7 +406,7 @@
     title: Homely
     version: '1.7'
 - name: authenticatron
-  new_commits: 4
+  new_commits: 7
   releases:
   - body: "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt`\
       \ library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\
@@ -617,7 +617,7 @@
     title: Jones
     version: '0.20'
 - name: cdns
-  new_commits: 11
+  new_commits: 14
   releases:
   - body: It's been public for a while, makes sense there would be a release.
     href: https://github.com/eustasy/cdns/releases/tag/0.1.0
@@ -626,7 +626,7 @@
     title: Common Sense
     version: 0.1.0
 - name: elementary-theme-for-google-chrome
-  new_commits: 3
+  new_commits: 5
   releases:
   - body: "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix\
       \ several colors"
@@ -642,7 +642,7 @@
     title: Actual
     version: '3.2'
 - name: extensions.eustasy.org
-  new_commits: 1
+  new_commits: 3
   releases:
   - body: ''
     href: https://github.com/eustasy/extensions.eustasy.org/releases/tag/2.0.0
@@ -657,7 +657,7 @@
     title: Sensible
     version: 1.0.0
 - name: here-miss
-  new_commits: 7
+  new_commits: 13
   releases:
   - body: "- Add jsDelivr Badge\r\n- Add jsDelivr embed code"
     href: https://github.com/eustasy/here-miss/releases/tag/1.2.1
@@ -681,7 +681,7 @@
     title: Version 1.1
     version: '1.1'
 - name: jQuery.downBoy
-  new_commits: 12
+  new_commits: 13
   releases:
   - body: "- Add jsDelivr Badge\r\n- Update embed code to use jsDelivr with SRI\r\n\
       - Update site scripts to use jsDelivr with version aliasing."
@@ -705,7 +705,7 @@
     title: Rover
     version: '1.2'
 - name: jQuery.equalize
-  new_commits: 10
+  new_commits: 11
   releases:
   - body: "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\
       \n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks)\
@@ -765,7 +765,7 @@
     title: Launch!
     version: '1.0'
 - name: jQuery.leanModal2
-  new_commits: 11
+  new_commits: 12
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
@@ -884,7 +884,7 @@
     title: '2.0'
     version: '2.0'
 - name: labs.eustasy.org
-  new_commits: 28
+  new_commits: 33
   releases:
   - body: "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules"
     href: https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1
@@ -1022,7 +1022,7 @@
     title: No longer PeerTracker.
     version: v.1.0
 - name: puff-blog
-  new_commits: 9
+  new_commits: 12
   releases:
   - body: "- Add NC 1.7\r\n- Use HTTPS when available for doctypes\r\n- Better semantics"
     href: https://github.com/eustasy/puff-blog/releases/tag/0.5.0
@@ -1047,7 +1047,7 @@
     title: Split
     version: '0.3'
 - name: puff-cookiecompliance
-  new_commits: 4
+  new_commits: 8
   releases:
   - body: "- Update to NC 1.7\r\n- Move cookie setting name to settings."
     href: https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.5.0
@@ -1072,7 +1072,7 @@
     title: Split
     version: '0.3'
 - name: puff-core
-  new_commits: 12
+  new_commits: 19
   releases:
   - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
       \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\
@@ -1120,7 +1120,7 @@
     title: Core and DB
     version: '0.1'
 - name: puff-db
-  new_commits: 6
+  new_commits: 12
   releases:
   - body: "- Add NC 1.7\r\n- Add Classes for styling to error page"
     href: https://github.com/eustasy/puff-db/releases/tag/0.5.0
@@ -1160,7 +1160,7 @@
     title: Core and DB
     version: '0.1'
 - name: puff-geo
-  new_commits: 5
+  new_commits: 9
   releases:
   - body: "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve\
       \ HTML sanity"
@@ -1186,7 +1186,7 @@
     title: Split
     version: '0.3'
 - name: puff-members
-  new_commits: 25
+  new_commits: 29
   releases:
   - body: "- Start logging IPs for sessions and allow similarity checks.\r\n- Update\
       \ to NC 1.7\r\n- Fix permissions"
@@ -1218,7 +1218,7 @@
     title: Split
     version: '0.3'
 - name: puff-runonce
-  new_commits: 6
+  new_commits: 11
   releases:
   - body: "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom`\
       \ from -Members to -RunOnce"
