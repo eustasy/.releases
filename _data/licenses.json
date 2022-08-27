@@ -178,17 +178,5 @@
     "license_file": "LICENSE.md",
     "license_type": "MIT",
     "license_year": "2022"
-  },
-  {
-    "name": "vanilla.downBoy",
-    "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
-  },
-  {
-    "name": "vanilla.equalize",
-    "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
   }
 ]
