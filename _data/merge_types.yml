@@ -47,7 +47,7 @@
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  name: browning-a-mailgun-script
+  name: browning
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true

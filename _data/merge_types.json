@@ -63,7 +63,7 @@
     "allow_merge_commit": false
   },
   {
-    "name": "browning-a-mailgun-script",
+    "name": "browning",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
