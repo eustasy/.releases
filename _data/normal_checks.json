@@ -13,7 +13,7 @@
   },
   {
     "name": ".normal",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": ".releases",
@@ -21,11 +21,11 @@
   },
   {
     "name": "Bubbly",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "Colors.css",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "Monopoly",
@@ -36,8 +36,8 @@
     "normal_checks": false
   },
   {
-    "name": "browning-a-mailgun-script",
-    "normal_checks": false
+    "name": "browning",
+    "normal_checks": "3.0.1"
   },
   {
     "name": "cdns",
@@ -73,15 +73,15 @@
   },
   {
     "name": "jQuery.downBoy",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "jQuery.equalize",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "jQuery.leanModal2",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "labs.eustasy.org",
@@ -89,7 +89,7 @@
   },
   {
     "name": "phoenix",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-blog",
