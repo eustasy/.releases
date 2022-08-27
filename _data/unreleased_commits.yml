@@ -73,12 +73,6 @@
     timeago: 5 years ago
     title: Planted
     version: '1.5'
-  - body: "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions."
-    href: https://github.com/eustasy/.normal/releases/tag/1.4
-    release_date: '2017-04-18T17:07:38'
-    timeago: 5 years ago
-    title: Activate
-    version: '1.4'
   - body: "- Add Codacy Configuration\r\n- Update Code Climate Configuration\r\n-\
       \ Add ESLint Configuration\r\n- Add MDLRC Configuration\r\n- Update Stylelint\
       \ Configuration\r\n- Add Configuration Check\r\n- Add Permissions Check\r\n\
