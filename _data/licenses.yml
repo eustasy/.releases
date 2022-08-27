@@ -37,6 +37,10 @@
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
+  name: bluetooth-proximity-locker-for-elementary
+- license_file: LICENSE.md
+  license_type: MIT
+  license_year: '2022'
   name: browning
 - license_file: LICENSE.md
   license_type: MIT
