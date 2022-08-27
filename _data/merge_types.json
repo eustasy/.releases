@@ -63,6 +63,13 @@
     "allow_merge_commit": false
   },
   {
+    "name": "bluetooth-proximity-locker-for-elementary",
+    "default_branch": "master",
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_merge_commit": true
+  },
+  {
     "name": "browning",
     "default_branch": "main",
     "allow_rebase_merge": false,
@@ -106,7 +113,7 @@
   },
   {
     "name": "extensions.eustasy.org",
-    "default_branch": "main",
+    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false

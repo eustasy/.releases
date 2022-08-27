@@ -43,6 +43,11 @@
   allow_squash_merge: true
   default_branch: main
   name: authenticatron
+- allow_merge_commit: true
+  allow_rebase_merge: true
+  allow_squash_merge: true
+  default_branch: master
+  name: bluetooth-proximity-locker-for-elementary
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
@@ -76,7 +81,7 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: main
+  default_branch: gh-pages
   name: extensions.eustasy.org
 - allow_merge_commit: false
   allow_rebase_merge: false
