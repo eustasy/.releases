@@ -119,6 +119,13 @@
     "allow_merge_commit": false
   },
   {
+    "name": "howtoelementary.org",
+    "default_branch": "master",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false
+  },
+  {
     "name": "howtoubuntu.org",
     "default_branch": "gh-pages",
     "allow_rebase_merge": false,
@@ -211,20 +218,6 @@
   },
   {
     "name": "puff-runonce",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "vanilla.downBoy",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "vanilla.equalize",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,

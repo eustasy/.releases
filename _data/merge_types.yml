@@ -86,6 +86,11 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
+  default_branch: master
+  name: howtoelementary.org
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
   default_branch: gh-pages
   name: howtoubuntu.org
 - allow_merge_commit: false
@@ -153,13 +158,3 @@
   allow_squash_merge: true
   default_branch: main
   name: puff-runonce
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: vanilla.downBoy
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: vanilla.equalize
