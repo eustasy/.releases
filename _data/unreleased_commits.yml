@@ -195,7 +195,7 @@
       \n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.1
     release_date: '2017-08-27T23:46:12'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Abstraction - with Patch 1
     version: 2.0.1
   - body: "- SECURITY: Add limits for requests and connections to specified zones\
@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 14
+  new_commits: 15
   releases:
   - body: "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy\
       \ Texts\r\n- Fix How to elementary Texts\r\n"
@@ -642,7 +642,7 @@
     title: Actual
     version: '3.2'
 - name: extensions.eustasy.org
-  new_commits: 0
+  new_commits: 1
   releases:
   - body: ''
     href: https://github.com/eustasy/extensions.eustasy.org/releases/tag/2.0.0
@@ -681,7 +681,7 @@
     title: Version 1.1
     version: '1.1'
 - name: jQuery.downBoy
-  new_commits: 5
+  new_commits: 11
   releases:
   - body: "- Add jsDelivr Badge\r\n- Update embed code to use jsDelivr with SRI\r\n\
       - Update site scripts to use jsDelivr with version aliasing."
@@ -705,7 +705,7 @@
     title: Rover
     version: '1.2'
 - name: jQuery.equalize
-  new_commits: 4
+  new_commits: 9
   releases:
   - body: "### Fixes\r\n- Remove unnecessary semi-colons\r\n\r\n### Improvements\r\
       \n- Update License to 2017\r\n- Add Badges to README\r\n- Add [Normal Checks](https://github.com/eustasy/normal-checks)\
@@ -765,7 +765,7 @@
     title: Launch!
     version: '1.0'
 - name: jQuery.leanModal2
-  new_commits: 6
+  new_commits: 10
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
@@ -1243,21 +1243,3 @@
     timeago: 6 years ago
     title: Split
     version: '0.3'
-- name: vanilla.downBoy
-  new_commits: 7
-  releases:
-  - body: Initial release as VanillaJS version.
-    href: https://github.com/eustasy/vanilla.downBoy/releases/tag/1.0.0
-    release_date: '2017-08-09T18:17:29'
-    timeago: 5 years ago
-    title: Julian
-    version: 1.0.0
-- name: vanilla.equalize
-  new_commits: 5
-  releases:
-  - body: Initial release as VanillaJS version.
-    href: https://github.com/eustasy/vanilla.equalize/releases/tag/1.0.0
-    release_date: '2017-08-09T18:22:20'
-    timeago: 5 years ago
-    title: Julian
-    version: 1.0.0

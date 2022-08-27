@@ -171,7 +171,7 @@
       {
         "version": "2.0.1",
         "release_date": "2017-08-27T23:46:12",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Abstraction - with Patch 1",
         "body": "### Bugfixes\r\n- Remove ssl variable by recommendation\r\n\r\n### Improvements\r\n- Add additional `ssl_ecdh_curve` option\r\n- Add TLSv1.3 option\r\n\r\n### Supporting\r\n- Rename `CODE_OF_CONDUCT.md` to `.github/CODE_OF_CONDUCT.md`\r\n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.0.1"
@@ -375,7 +375,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 14
+    "new_commits": 15
   },
   {
     "name": "authenticatron",
@@ -629,7 +629,7 @@
         "href": "https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "here-miss",
@@ -689,7 +689,7 @@
         "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.2"
       }
     ],
-    "new_commits": 5
+    "new_commits": 11
   },
   {
     "name": "jQuery.equalize",
@@ -743,7 +743,7 @@
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.0"
       }
     ],
-    "new_commits": 4
+    "new_commits": 9
   },
   {
     "name": "jQuery.leanModal2",
@@ -837,7 +837,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 6
+    "new_commits": 10
   },
   {
     "name": "labs.eustasy.org",
@@ -1212,33 +1212,5 @@
       }
     ],
     "new_commits": 6
-  },
-  {
-    "name": "vanilla.downBoy",
-    "releases": [
-      {
-        "version": "1.0.0",
-        "release_date": "2017-08-09T18:17:29",
-        "timeago": "5 years ago",
-        "title": "Julian",
-        "body": "Initial release as VanillaJS version.",
-        "href": "https://github.com/eustasy/vanilla.downBoy/releases/tag/1.0.0"
-      }
-    ],
-    "new_commits": 7
-  },
-  {
-    "name": "vanilla.equalize",
-    "releases": [
-      {
-        "version": "1.0.0",
-        "release_date": "2017-08-09T18:22:20",
-        "timeago": "5 years ago",
-        "title": "Julian",
-        "body": "Initial release as VanillaJS version.",
-        "href": "https://github.com/eustasy/vanilla.equalize/releases/tag/1.0.0"
-      }
-    ],
-    "new_commits": 5
   }
 ]
