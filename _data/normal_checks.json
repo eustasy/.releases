@@ -33,6 +33,10 @@
   },
   {
     "name": "authenticatron",
+    "normal_checks": "3.0.1"
+  },
+  {
+    "name": "bluetooth-proximity-locker-for-elementary",
     "normal_checks": false
   },
   {
@@ -41,7 +45,7 @@
   },
   {
     "name": "cdns",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "copyOf-github-label-manager",
@@ -65,7 +69,7 @@
   },
   {
     "name": "here-miss",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "howtoubuntu.org",
@@ -85,7 +89,7 @@
   },
   {
     "name": "labs.eustasy.org",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "phoenix",
@@ -93,30 +97,30 @@
   },
   {
     "name": "puff-blog",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-cookiecompliance",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-core",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-db",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-geo",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-members",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "puff-runonce",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   }
 ]
