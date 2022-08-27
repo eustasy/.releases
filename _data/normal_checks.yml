@@ -58,7 +58,3 @@
   normal_checks: false
 - name: puff-runonce
   normal_checks: false
-- name: vanilla.downBoy
-  normal_checks: false
-- name: vanilla.equalize
-  normal_checks: false
