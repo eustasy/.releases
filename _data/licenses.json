@@ -92,8 +92,8 @@
   {
     "name": "extensions.eustasy.org",
     "license_file": "LICENSE.md",
-    "license_type": false,
-    "license_year": false
+    "license_type": "MIT",
+    "license_year": "2022"
   },
   {
     "name": "here-miss",
