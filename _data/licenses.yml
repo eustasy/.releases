@@ -59,8 +59,8 @@
   license_year: '2022'
   name: elementary-theme-for-google-chrome
 - license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+  license_type: false
+  license_year: false
   name: extensions.eustasy.org
 - license_file: LICENSE.md
   license_type: MIT
