@@ -132,34 +132,4 @@
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  name: puff-blog
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: puff-cookiecompliance
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: puff-core
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: puff-db
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: puff-geo
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: puff-members
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: puff-runonce
+  name: puff-server
