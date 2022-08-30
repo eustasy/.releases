@@ -263,6 +263,14 @@
     "name": "Colors.css",
     "releases": [
       {
+        "version": "2.0.8",
+        "release_date": "2022-08-27T19:40:04",
+        "timeago": "3 days ago",
+        "title": "2.0.8",
+        "body": "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\n- Update .Normal Checks.",
+        "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.8"
+      },
+      {
         "version": "2.0.7",
         "release_date": "2020-05-11T00:16:33",
         "timeago": "2 years ago",
@@ -375,7 +383,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 20
+    "new_commits": 0
   },
   {
     "name": "authenticatron",
@@ -485,7 +493,7 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
-    "new_commits": 7
+    "new_commits": 9
   },
   {
     "name": "browning",
@@ -851,7 +859,7 @@
         "href": "https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1"
       }
     ],
-    "new_commits": 33
+    "new_commits": 36
   },
   {
     "name": "phoenix",

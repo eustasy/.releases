@@ -312,8 +312,15 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 20
+  new_commits: 0
   releases:
+  - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
+      \n- Update .Normal Checks."
+    href: https://github.com/eustasy/Colors.css/releases/tag/2.0.8
+    release_date: '2022-08-27T19:40:04'
+    timeago: 3 days ago
+    title: 2.0.8
+    version: 2.0.8
   - body: "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy\
       \ Texts\r\n- Fix How to elementary Texts\r\n"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.7
@@ -406,7 +413,7 @@
     title: Homely
     version: '1.7'
 - name: authenticatron
-  new_commits: 7
+  new_commits: 9
   releases:
   - body: "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt`\
       \ library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\
@@ -884,7 +891,7 @@
     title: '2.0'
     version: '2.0'
 - name: labs.eustasy.org
-  new_commits: 33
+  new_commits: 36
   releases:
   - body: "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules"
     href: https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1
