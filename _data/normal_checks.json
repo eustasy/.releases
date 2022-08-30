@@ -96,31 +96,7 @@
     "normal_checks": "3.0.1"
   },
   {
-    "name": "puff-blog",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "puff-cookiecompliance",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "puff-core",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "puff-db",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "puff-geo",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "puff-members",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "puff-runonce",
+    "name": "puff-server",
     "normal_checks": "3.0.1"
   }
 ]
