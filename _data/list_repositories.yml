@@ -10,15 +10,9 @@
 - authenticatron
 - here-miss
 - phoenix
-- puff-core
-- puff-db
-- puff-blog
-- puff-geo
-- puff-cookiecompliance
+- puff-server
 - .normal
 - Bubbly
-- puff-members
-- puff-runonce
 - bluetooth-proximity-locker-for-elementary
 - extensions.eustasy.org
 - labs.eustasy.org
