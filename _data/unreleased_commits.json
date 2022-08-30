@@ -667,7 +667,7 @@
         "href": "https://github.com/eustasy/here-miss/releases/tag/1.1"
       }
     ],
-    "new_commits": 13
+    "new_commits": 15
   },
   {
     "name": "jQuery.downBoy",
@@ -1015,6 +1015,6 @@
         "href": "https://github.com/eustasy/puff-server/releases/tag/0.1"
       }
     ],
-    "new_commits": 44
+    "new_commits": 47
   }
 ]
