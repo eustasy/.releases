@@ -97,28 +97,4 @@
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
-  name: puff-blog
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: puff-cookiecompliance
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: puff-core
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: puff-db
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: puff-geo
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: puff-members
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: puff-runonce
+  name: puff-server
