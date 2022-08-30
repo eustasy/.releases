@@ -964,67 +964,7 @@
     "new_commits": 13
   },
   {
-    "name": "puff-blog",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:58:36",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Use HTTPS when available for doctypes\r\n- Better semantics",
-        "href": "https://github.com/eustasy/puff-blog/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:38:53",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-blog/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T20:00:22",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n",
-        "href": "https://github.com/eustasy/puff-blog/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 12
-  },
-  {
-    "name": "puff-cookiecompliance",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:15:17",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Update to NC 1.7\r\n- Move cookie setting name to settings.",
-        "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:48:14",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T20:05:11",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n",
-        "href": "https://github.com/eustasy/puff-cookiecompliance/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 8
-  },
-  {
-    "name": "puff-core",
+    "name": "puff-server",
     "releases": [
       {
         "version": "0.5.0",
@@ -1032,7 +972,7 @@
         "timeago": "4 years ago",
         "title": "Full Circle",
         "body": "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT: Add [Normal Checks](https://github.com/eustasy/normal-checks) v1.7\r\n- IMPROVEMENT: Fix file permissions\r\n- IMPROVEMENT: Better auto-linking\r\n- IMPROVEMENT: Add generator meta tag\r\n- IMPROVEMENT: Include `rel=\"noopener\"` when opening links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE: Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading.",
-        "href": "https://github.com/eustasy/puff-core/releases/tag/0.5.0"
+        "href": "https://github.com/eustasy/puff-server/releases/tag/0.5.0"
       },
       {
         "version": "0.4",
@@ -1040,7 +980,7 @@
         "timeago": "6 years ago",
         "title": "Unification",
         "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-core/releases/tag/0.4"
+        "href": "https://github.com/eustasy/puff-server/releases/tag/0.4"
       },
       {
         "version": "0.3",
@@ -1048,7 +988,7 @@
         "timeago": "6 years ago",
         "title": "Split",
         "body": "- Move functions\r\n- Standardize testing\r\n- Permissions\r\n",
-        "href": "https://github.com/eustasy/puff-core/releases/tag/0.3"
+        "href": "https://github.com/eustasy/puff-server/releases/tag/0.3"
       },
       {
         "version": "0.2",
@@ -1056,7 +996,7 @@
         "timeago": "6 years ago",
         "title": "Responsive Settings",
         "body": "- Proper Example Pages\r\n- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- CSP Violation Reporting\r\n- Better Example Pages\r\n- De-duplication\r\n",
-        "href": "https://github.com/eustasy/puff-core/releases/tag/0.2"
+        "href": "https://github.com/eustasy/puff-server/releases/tag/0.2"
       },
       {
         "version": "0.1",
@@ -1064,153 +1004,9 @@
         "timeago": "7 years ago",
         "title": "Core and DB",
         "body": "- Supreme SEO\r\n- Social Built-in\r\n- Standard and Custom Hooks\r\n- Auto-linking stylesheets and scripts.\r\n- Integrated Cron System, including self-refreshing Sitemap.\r\n- A+ Standard SSL Configuration with optional soft-HSTS for older browsers.\r\n- Tracking with Google Analytics that respects Do Not Track headers.\r\n",
-        "href": "https://github.com/eustasy/puff-core/releases/tag/0.1"
+        "href": "https://github.com/eustasy/puff-server/releases/tag/0.1"
       }
     ],
-    "new_commits": 19
-  },
-  {
-    "name": "puff-db",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:39:31",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Add Classes for styling to error page",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:50:06",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T20:06:02",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.3"
-      },
-      {
-        "version": "0.2",
-        "release_date": "2015-11-16T16:06:47",
-        "timeago": "6 years ago",
-        "title": "Responsive Settings",
-        "body": "- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- De-duplication\r\n- Checks\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.2"
-      },
-      {
-        "version": "0.1",
-        "release_date": "2015-08-01T18:55:49",
-        "timeago": "7 years ago",
-        "title": "Core and DB",
-        "body": "- Tested support for MySQL and MariaDB connections.\r\n- Automatically connects at page-load for never-require use.\r\n- Automatically uses persistent connections when supported.\r\n",
-        "href": "https://github.com/eustasy/puff-db/releases/tag/0.1"
-      }
-    ],
-    "new_commits": 12
-  },
-  {
-    "name": "puff-geo",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:53:17",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Fix permissions\r\n- Stop echoing error message to preserve HTML sanity",
-        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:40:27",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T20:01:33",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n",
-        "href": "https://github.com/eustasy/puff-geo/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 9
-  },
-  {
-    "name": "puff-members",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:30:32",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Start logging IPs for sessions and allow similarity checks.\r\n- Update to NC 1.7\r\n- Fix permissions",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T15:04:19",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.4"
-      },
-      {
-        "version": "0.3.1",
-        "release_date": "2015-11-23T09:54:44",
-        "timeago": "6 years ago",
-        "title": "Split - with Patch 1",
-        "body": "- Bugfix for password changing.\r\n",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.3.1"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T18:08:03",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "Initial release with Puff\r\n",
-        "href": "https://github.com/eustasy/puff-members/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 29
-  },
-  {
-    "name": "puff-runonce",
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T17:36:10",
-        "timeago": "4 years ago",
-        "title": "Full Circle",
-        "body": "- Add NC 1.7\r\n- Remove RunOnces older than 1 month\r\n- Move `SecureRandom` from -Members to -RunOnce",
-        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T14:46:07",
-        "timeago": "6 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T18:10:59",
-        "timeago": "6 years ago",
-        "title": "Split",
-        "body": "Initial release with Puff\r\n",
-        "href": "https://github.com/eustasy/puff-runonce/releases/tag/0.3"
-      }
-    ],
-    "new_commits": 11
+    "new_commits": 44
   }
 ]
