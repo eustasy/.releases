@@ -891,7 +891,7 @@
     title: '2.0'
     version: '2.0'
 - name: labs.eustasy.org
-  new_commits: 36
+  new_commits: 40
   releases:
   - body: "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules"
     href: https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1
