@@ -1,5 +1,11 @@
 [
   {
+    "name": ".assets",
+    "license_file": false,
+    "license_type": false,
+    "license_year": false
+  },
+  {
     "name": ".choices",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
