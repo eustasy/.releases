@@ -1,3 +1,5 @@
+- name: .assets
+  normal_checks: false
 - name: .choices
   normal_checks: false
 - name: .github
