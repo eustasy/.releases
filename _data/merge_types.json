@@ -1,5 +1,12 @@
 [
   {
+    "name": ".assets",
+    "default_branch": "main",
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_merge_commit": true
+  },
+  {
     "name": ".choices",
     "default_branch": "main",
     "allow_rebase_merge": false,
