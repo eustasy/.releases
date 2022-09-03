@@ -1029,7 +1029,7 @@
     title: No longer PeerTracker.
     version: v.1.0
 - name: puff-server
-  new_commits: 47
+  new_commits: 48
   releases:
   - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
       \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\
