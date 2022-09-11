@@ -2,9 +2,9 @@
   {
     "name": ".assets",
     "default_branch": "main",
-    "allow_rebase_merge": true,
+    "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": true
+    "allow_merge_commit": false
   },
   {
     "name": ".choices",
@@ -71,10 +71,10 @@
   },
   {
     "name": "bluetooth-proximity-locker-for-elementary",
-    "default_branch": "master",
-    "allow_rebase_merge": true,
+    "default_branch": "main",
+    "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": true
+    "allow_merge_commit": false
   },
   {
     "name": "browning",
@@ -134,7 +134,7 @@
   },
   {
     "name": "howtoelementary.org",
-    "default_branch": "master",
+    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
@@ -148,7 +148,7 @@
   },
   {
     "name": "howtoubuntu.org-v1",
-    "default_branch": "master",
+    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
