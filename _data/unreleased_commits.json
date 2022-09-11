@@ -605,39 +605,9 @@
         "title": "Actual - with Patch 1",
         "body": "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix several colors",
         "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1"
-      },
-      {
-        "version": "3.2",
-        "release_date": "2014-08-20T10:48:09",
-        "timeago": "8 years ago",
-        "title": "Actual",
-        "body": "",
-        "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2"
       }
     ],
     "new_commits": 5
-  },
-  {
-    "name": "extensions.eustasy.org",
-    "releases": [
-      {
-        "version": "2.0.0",
-        "release_date": "2022-08-09T10:24:44",
-        "timeago": "1 month ago",
-        "title": "EOL",
-        "body": "",
-        "href": "https://github.com/eustasy/extensions.eustasy.org/releases/tag/2.0.0"
-      },
-      {
-        "version": "1.0.0",
-        "release_date": "2017-10-16T14:31:17",
-        "timeago": "4 years ago",
-        "title": "Sensible",
-        "body": "Now that we pass builds again, let's have a release so we're not release-less.",
-        "href": "https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0"
-      }
-    ],
-    "new_commits": 3
   },
   {
     "name": "here-miss",
@@ -838,20 +808,6 @@
       }
     ],
     "new_commits": 12
-  },
-  {
-    "name": "labs.eustasy.org",
-    "releases": [
-      {
-        "version": "2017.12.1",
-        "release_date": "2017-12-01T19:10:33",
-        "timeago": "4 years ago",
-        "title": "December 1st, 2017",
-        "body": "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules",
-        "href": "https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1"
-      }
-    ],
-    "new_commits": 40
   },
   {
     "name": "phoenix",

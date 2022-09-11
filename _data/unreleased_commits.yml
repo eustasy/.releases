@@ -642,27 +642,6 @@
     timeago: 4 years ago
     title: Actual - with Patch 1
     version: 3.2.1
-  - body: ''
-    href: https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2
-    release_date: '2014-08-20T10:48:09'
-    timeago: 8 years ago
-    title: Actual
-    version: '3.2'
-- name: extensions.eustasy.org
-  new_commits: 3
-  releases:
-  - body: ''
-    href: https://github.com/eustasy/extensions.eustasy.org/releases/tag/2.0.0
-    release_date: '2022-08-09T10:24:44'
-    timeago: 1 month ago
-    title: EOL
-    version: 2.0.0
-  - body: Now that we pass builds again, let's have a release so we're not release-less.
-    href: https://github.com/eustasy/extensions.eustasy.org/releases/tag/1.0.0
-    release_date: '2017-10-16T14:31:17'
-    timeago: 4 years ago
-    title: Sensible
-    version: 1.0.0
 - name: here-miss
   new_commits: 15
   releases:
@@ -882,15 +861,6 @@
     timeago: 7 years ago
     title: '2.0'
     version: '2.0'
-- name: labs.eustasy.org
-  new_commits: 40
-  releases:
-  - body: "- Add NC 1.7 with failing CSS checks\r\n- Update all submodules"
-    href: https://github.com/eustasy/labs.eustasy.org/releases/tag/2017.12.1
-    release_date: '2017-12-01T19:10:33'
-    timeago: 4 years ago
-    title: December 1st, 2017
-    version: 2017.12.1
 - name: phoenix
   new_commits: 13
   releases:
