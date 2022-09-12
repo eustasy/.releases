@@ -383,7 +383,7 @@
   - body: ' - Fix duplicate selectors #9'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.0
     release_date: '2017-09-13T00:06:34'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Retrospective
     version: 1.9.0
   - body: ' - Update to NC 1.7'
