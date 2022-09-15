@@ -242,7 +242,7 @@
       \ point for custom inclusion.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.7
     release_date: '2016-09-16T23:02:25'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Tinman
     version: '1.7'
   - body: "- BUGFIX: Default to the correct PHP7 socket.\r\n- IMPROVEMENT: Re-organise\
@@ -873,7 +873,7 @@
   - body: '- Update to NC 1.7'
     href: https://github.com/eustasy/phoenix/releases/tag/3.1.4
     release_date: '2017-09-16T23:39:27'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Unicorn - with Patch 4
     version: 3.1.4
   - body: "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\
