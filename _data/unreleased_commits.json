@@ -623,7 +623,7 @@
       {
         "version": "1.2.0",
         "release_date": "2017-09-27T23:02:52",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Secondary",
         "body": "- Remove semi-colons in JS version\r\n- Update license year.\r\n- Test with NC 1.7\r\n- Better documentation.",
         "href": "https://github.com/eustasy/here-miss/releases/tag/1.2.0"
