@@ -801,7 +801,7 @@
       {
         "version": "2.0",
         "release_date": "2014-10-04T19:46:52",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "2.0",
         "body": "### Bugfixes\r\n- Fixes bug where an overlay is added with every call. Now, if one exists a new one is not added.\r\n- Fixes bug where click events would be fired multiple times when the function is called more than once.\r\n\r\n### Features\r\n- Add option for triggering from element, using data-modal-id attribute.\r\n\r\n### Improvements\r\n- No need for additional CSS for the overlay, neither linked nor inlined. It is added with the element.\r\n- Names functions more clearly to avoid conflicts.\r\n- Added official minified version.\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
