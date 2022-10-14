@@ -501,7 +501,7 @@
       {
         "version": "0.29.0",
         "release_date": "2017-10-15T21:35:31",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Square",
         "body": "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate, and Bountysource\r\n- Add NC 1.7\r\n",
         "href": "https://github.com/eustasy/browning/releases/tag/0.29.0"
