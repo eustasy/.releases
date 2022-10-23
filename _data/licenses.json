@@ -74,8 +74,8 @@
   {
     "name": "cdns",
     "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "copyOf-github-label-manager",

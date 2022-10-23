@@ -47,8 +47,8 @@
   license_year: '2022'
   name: browning
 - license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
+  license_type: false
+  license_year: false
   name: cdns
 - license_file: false
   license_type: false
