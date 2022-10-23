@@ -637,7 +637,7 @@
       {
         "version": "1.3.1",
         "release_date": "2017-10-24T02:03:07",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Julian - with Patch 1",
         "body": "- Add jsDelivr Badge\r\n- Update embed code to use jsDelivr with SRI\r\n- Update site scripts to use jsDelivr with version aliasing.",
         "href": "https://github.com/eustasy/jQuery.downBoy/releases/tag/1.3.1"
