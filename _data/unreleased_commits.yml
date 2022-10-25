@@ -690,7 +690,7 @@
       \ 1.7\r\n- Add CDN Delivery links\r\n"
     href: https://github.com/eustasy/jQuery.equalize/releases/tag/1.8.0
     release_date: '2017-10-26T00:17:09'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Julian
     version: 1.8.0
   - body: "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n\
