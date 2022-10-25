@@ -745,7 +745,7 @@
       {
         "version": "2.6.0",
         "release_date": "2017-10-26T05:05:35",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Julian",
         "body": "- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n- Update site to match new \"labs\" style\r\n- Update code style to compliance",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.0"
