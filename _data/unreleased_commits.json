@@ -329,7 +329,7 @@
       {
         "version": "1.9.2",
         "release_date": "2017-10-26T05:50:27",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Retrospective - with Patch 2",
         "body": "- Update jsDelivr embeds\r\n- Update generator to reduce duplication",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.9.2"
@@ -737,7 +737,7 @@
       {
         "version": "2.6.1",
         "release_date": "2017-10-26T05:24:01",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Julian - with Patch 1",
         "body": "- Only buttons should trigger modals, not entire sections",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.1"
