@@ -479,7 +479,7 @@
       {
         "version": "0.2",
         "release_date": "2014-11-06T22:06:59",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "Secure",
         "body": "Significantly improved security within random number generation.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.2"
