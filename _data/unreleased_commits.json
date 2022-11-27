@@ -265,7 +265,7 @@
       {
         "version": "2.0.8",
         "release_date": "2022-08-27T19:40:04",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "2.0.8",
         "body": "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\n- Update .Normal Checks.",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.8"
