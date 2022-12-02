@@ -907,14 +907,6 @@
         "title": "Scraping By",
         "body": "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct default charset.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.1"
-      },
-      {
-        "version": "v.1.0",
-        "release_date": "2014-12-28T22:10:21",
-        "timeago": "7 years ago",
-        "title": "No longer PeerTracker.",
-        "body": "A procedural re-write of peertracker in a modern format.\r\nFixes numerous bugs and massively improves performance, modularity, and maintainability.\r\n",
-        "href": "https://github.com/eustasy/phoenix/releases/tag/v.1.0"
       }
     ],
     "new_commits": 13

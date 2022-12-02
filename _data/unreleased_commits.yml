@@ -982,14 +982,6 @@
     timeago: 7 years ago
     title: Scraping By
     version: v.1.1
-  - body: "A procedural re-write of peertracker in a modern format.\r\nFixes numerous\
-      \ bugs and massively improves performance, modularity, and maintainability.\r\
-      \n"
-    href: https://github.com/eustasy/phoenix/releases/tag/v.1.0
-    release_date: '2014-12-28T22:10:21'
-    timeago: 7 years ago
-    title: No longer PeerTracker.
-    version: v.1.0
 - name: puff-server
   new_commits: 48
   releases:
