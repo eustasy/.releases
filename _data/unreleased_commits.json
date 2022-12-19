@@ -147,7 +147,7 @@
       {
         "version": "2.1.1",
         "release_date": "2017-12-20T21:22:07",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Banquet - with Patch 1",
         "body": "### Upgrade Warnings\r\n- `Expect-CT` now has a default value of 7776000 (90 days), as does HSTS.\r\n\r\n### Bugfix\r\n- Add non-prefixed headers for `X-Content-Type-Options`, `X-XSS-Protection`, `X-UA-Compatible`, and `X-Powered-By` as promoted by new spec.\r\n\r\n### Improvement\r\n- Move HSTS to Headers, away from SSL config.\r\n\r\n### Changes\r\n[2.1.0 to 2.1.1](https://github.com/eustasy/bubbly/compare/2.1.0...2.1.1)",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.1.1"
