@@ -121,9 +121,9 @@
   },
   {
     "name": "jQuery.downBoy",
-    "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
+    "license_file": false,
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "jQuery.equalize",
