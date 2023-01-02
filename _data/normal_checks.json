@@ -81,7 +81,7 @@
   },
   {
     "name": "jQuery.downBoy",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": "jQuery.equalize",
