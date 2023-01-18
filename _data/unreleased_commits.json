@@ -675,7 +675,7 @@
       {
         "version": "1.7",
         "release_date": "2014-01-20T22:15:09",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Cleanly",
         "body": "### Fixes\n- Fix spelling error in raw version\n- Fix legacy PHP in index.html\n- Skip 1.5 and 1.6 due to inconsistencies\n\n### Improvements\n- Update License to 2014\n- Add Version to License\n- Organise Responsive CSS\n- Add `'use strict';` to minified version\n- Expand Description\n- Massively expand readme, including:\n  - Add Version\n  - Add Link\n  - Expand Description\n  - Include Code Examples and Descriptions from index.html\n",
         "href": "https://github.com/eustasy/jQuery.equalize/releases/tag/1.7"
