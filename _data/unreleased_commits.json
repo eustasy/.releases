@@ -793,7 +793,7 @@
       {
         "version": "2.1",
         "release_date": "2015-01-26T16:21:28",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "2.1",
         "body": "### Bugfixes\r\n- Fixes modal overlay widths being set to include margins. Now only includes content and padding.\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.1"
