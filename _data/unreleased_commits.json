@@ -407,7 +407,7 @@
       {
         "version": "0.7.4",
         "release_date": "2016-01-27T15:30:48",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Establishment - with Patch 4 [Documentation]",
         "body": "- FEATURE: Create a nice homepage with only necessary functions.\r\n- IMPROVEMENT: Combine the examples and documentation page.\r\n- IMPROVEMENT: Expand the Glossary\r\n- IMPROVEMENT: Move all TODOs to Issue Tracker\r\n- IMPROVEMENT: Add source and glossary to navigation.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.4"
