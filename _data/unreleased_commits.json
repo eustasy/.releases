@@ -235,7 +235,7 @@
       {
         "version": "1.2",
         "release_date": "2016-02-07T02:01:09",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Multiplex",
         "body": "- BUGFIX: Fixed issue with too many parameters. You can now never have too many parameters, thanks to @alx!\r\n- FEATURE: Added secure HTTPS Redirection.\r\n- IMPROVEMENT: Added further verification instructions for transferring new sites.\r\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.2"
