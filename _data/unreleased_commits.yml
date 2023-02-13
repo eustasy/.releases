@@ -756,7 +756,7 @@
       \n- Remove `top` option\r\n- Add Code of Conduct"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.2
     release_date: '2018-02-14T23:25:57'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Julian - with Patch 2
     version: 2.6.2
   - body: '- Only buttons should trigger modals, not entire sections'

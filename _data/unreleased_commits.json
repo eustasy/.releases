@@ -729,7 +729,7 @@
       {
         "version": "2.6.2",
         "release_date": "2018-02-14T23:25:57",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Julian - with Patch 2",
         "body": "- Center modals with `display: flex`\r\n- Recreate overlay on each modal launch\r\n- Change how overlay handles `opacity` setting to not affect children\r\n- Remove `top` option\r\n- Add Code of Conduct",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.2"
