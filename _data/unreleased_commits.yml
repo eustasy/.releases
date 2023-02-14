@@ -748,7 +748,7 @@
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
     release_date: '2018-02-15T00:32:12'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Julian - with Patch 3
     version: 2.6.3
   - body: "- Center modals with `display: flex`\r\n- Recreate overlay on each modal\
