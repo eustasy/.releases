@@ -6,9 +6,9 @@
   license_type: MIT
   license_year: '2022'
   name: .choices
-- license_file: false
-  license_type: false
-  license_year: false
+- license_file: LICENSE.md
+  license_type: MIT
+  license_year: '2022'
   name: .github
 - license_file: LICENSE.md
   license_type: MIT
