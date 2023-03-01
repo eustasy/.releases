@@ -92,7 +92,7 @@
   - body: The first release to be standardized across our repositories.
     href: https://github.com/eustasy/.normal/releases/tag/1.2
     release_date: '2017-03-02T14:20:23'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Mass Deployment
     version: '1.2'
   - body: 'A little documentation on what you should be doing.
@@ -1012,7 +1012,7 @@
       \ `x` click.\r\n- CHANGE: Re-Architecture.\r\n"
     href: https://github.com/eustasy/puff-server/releases/tag/0.4
     release_date: '2016-03-02T13:38:34'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Unification
     version: '0.4'
   - body: "- Move functions\r\n- Standardize testing\r\n- Permissions\r\n"
