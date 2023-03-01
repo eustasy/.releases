@@ -1,14 +1,6 @@
 - name: .normal
-  new_commits: 7
+  new_commits: 21
   releases:
-  - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
-      \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
-      **Full Changelog**: https://github.com/eustasy/.normal/compare/2.0...3.0"
-    href: https://github.com/eustasy/.normal/releases/tag/3.0.1
-    release_date: '2022-08-22T18:58:28'
-    timeago: 6 months ago
-    title: '3.0: Summer'
-    version: 3.0.1
   - body: "### MAJOR\r\n**- Remove Codacy.**\r\n\r\n### MINOR\r\n- Activate Stylelint\
       \ in Code Climate.\r\n- Rename to .normal\r\n- Remove config check.\r\n- Remove\
       \ permissions check.\r\n\r\n### PATCH\r\n- Change max line length to 140.\r\n\
