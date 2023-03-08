@@ -227,7 +227,7 @@
       {
         "version": "1.3",
         "release_date": "2016-03-09T16:23:59",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Robotic",
         "body": "- BUGFIX: Automatically accept the \"are you sure you want to renew certificates\" option.\r\n- BUGFIX: Use a log file location we have permissions to by default.\r\n- BUGFIX: Fix default permissions on `.sh` files.\r\n- IMPROVEMENT: Move from alias to script.\r\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.3"
