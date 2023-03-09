@@ -862,20 +862,8 @@
     title: '2.0'
     version: '2.0'
 - name: phoenix
-  new_commits: 13
+  new_commits: 28
   releases:
-  - body: "- Improved documentation\r\n- Fixed some links"
-    href: https://github.com/eustasy/phoenix/releases/tag/3.1.5
-    release_date: '2020-04-02T19:37:18'
-    timeago: 2 years ago
-    title: Unicorn - with Patch 5
-    version: 3.1.5
-  - body: '- Update to NC 1.7'
-    href: https://github.com/eustasy/phoenix/releases/tag/3.1.4
-    release_date: '2017-09-16T23:39:27'
-    timeago: 5 years ago
-    title: Unicorn - with Patch 4
-    version: 3.1.4
   - body: "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\
       \n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\
       \n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES:\
