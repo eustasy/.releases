@@ -45,7 +45,7 @@
       {
         "version": "1.9.0",
         "release_date": "2018-03-14T09:22:54",
-        "timeago": "4 years ago",
+        "timeago": "5 years ago",
         "title": "Stacked",
         "body": "- Add PHP 7.2\r\n- Only allow failures on HHVM\r\n- Add support for testing SQL files in MariaDB 10.1\r\n- Add a test SQL file\r\n- Add a header comment to `.travis.yml`\r\n- Update License year\r\n- Make license detectable by GitHub",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.9.0"
