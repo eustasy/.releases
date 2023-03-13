@@ -474,16 +474,6 @@
     timeago: 8 years ago
     title: Settle
     version: '0.6'
-  - body: "- FEATURE: Authentricatron_New\r\n- FEATURE: Documentation\r\n- FEATURE:\
-      \ Server Check\r\n- BUGFIX: Example OpenSSL now returns true if secure.\r\n\
-      - IMPROVEMENT: Check PHPQRCode exists and is readable.\r\n- IMPROVEMENT: QR\
-      \ Code Example\r\n- IMPROVEMENT: Add header.php\r\n- NOTE: Added to Simplet\r\
-      \n"
-    href: https://github.com/eustasy/authenticatron/releases/tag/0.5
-    release_date: '2014-11-19T20:48:49'
-    timeago: 8 years ago
-    title: Simplify
-    version: '0.5'
   - body: "- Improved commenting.\r\n- Check the `gd` function is loaded within the\
       \ QR Code function.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.4
