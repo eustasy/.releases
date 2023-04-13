@@ -847,7 +847,7 @@
       {
         "version": "v.3.1.1",
         "release_date": "2016-04-14T15:04:14",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Unicorn - with Patch 1",
         "body": "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1.1"
@@ -855,7 +855,7 @@
       {
         "version": "v.3.1",
         "release_date": "2016-04-14T14:51:17",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Unicorn",
         "body": "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n- IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES: De-duplicate test initialization and database initialization ([#27](https://github.com/eustasy/phoenix/issues/27)).\r\n- IMPROVES: Automated testing now uses the same database, and respects prefixes, and custom usernames and database names.\r\n- IMPROVES: Update default settings to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n",
         "href": "https://github.com/eustasy/phoenix/releases/tag/v.3.1"
