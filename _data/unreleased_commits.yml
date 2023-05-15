@@ -772,19 +772,6 @@
     timeago: 5 years ago
     title: Julian
     version: 2.6.0
-  - body: '- Improved Responsiveness Centering
-
-      - Add viewport tag
-
-
-      https://github.com/eustasy/jQuery.leanModal2/compare/2.4...2.5
-
-      '
-    href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.5
-    release_date: '2016-06-26T20:45:02'
-    timeago: 6 years ago
-    title: '2.5: Responsive Centering'
-    version: '2.5'
   - body: '- Improved Examples
 
       - Improved Responsiveness
