@@ -30,7 +30,7 @@
       \ Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`"
     href: https://github.com/eustasy/.normal/releases/tag/1.10.1
     release_date: '2018-05-17T10:18:30'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Drop - with Patch 1
     version: 1.10.1
   - body: "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\
