@@ -147,7 +147,7 @@
       [2.1.1 to 2.1.2](https://github.com/eustasy/bubbly/compare/2.1.1...2.1.2)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.1.2
     release_date: '2018-05-30T14:07:43'
-    timeago: 4 years ago
+    timeago: 5 years ago
     title: Banquet - with Patch 2
     version: 2.1.2
   - body: "### Upgrade Warnings\r\n- `Expect-CT` now has a default value of 7776000\
