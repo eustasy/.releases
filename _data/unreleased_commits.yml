@@ -63,16 +63,6 @@
     timeago: 5 years ago
     title: Installable
     version: '1.6'
-  - body: "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n-\
-      \ Config: Build changed so warning is given, but existing settings used.\r\n\
-      - Config: Check moved to body to prevent full build failures.\r\n- JavaScript:\
-      \ Acorn used for Travis CI builds.\r\n- JavaScript: Switch case spacing defined.\r\
-      \n- PHP: Loop spacing defined.\r\n- SQLint: Enabled."
-    href: https://github.com/eustasy/.normal/releases/tag/1.5
-    release_date: '2017-06-17T19:29:02'
-    timeago: 5 years ago
-    title: Planted
-    version: '1.5'
   - body: "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions."
     href: https://github.com/eustasy/.normal/releases/tag/1.4
     release_date: '2017-04-18T17:07:38'
