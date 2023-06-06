@@ -785,7 +785,7 @@
       {
         "version": "2.2",
         "release_date": "2015-06-08T15:30:03",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "2.2: Escape Hatch",
         "body": "- Allow `Esc` to close the modal ([issue](https://github.com/eustasy/jQuery.leanModal2/issues/1))\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.2"
