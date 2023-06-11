@@ -743,8 +743,14 @@
     title: Launch!
     version: '1.0'
 - name: jQuery.leanModal2
-  new_commits: 13
+  new_commits: 12
   releases:
+  - body: '- Move all CSS to a block'
+    href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
+    release_date: '2018-02-15T00:32:12'
+    timeago: 5 years ago
+    title: Julian - with Patch 3
+    version: 2.6.3
   - body: "- Center modals with `display: flex`\r\n- Recreate overlay on each modal\
       \ launch\r\n- Change how overlay handles `opacity` setting to not affect children\r\
       \n- Remove `top` option\r\n- Add Code of Conduct"
