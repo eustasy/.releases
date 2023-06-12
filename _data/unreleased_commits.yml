@@ -423,14 +423,6 @@
     timeago: 5 years ago
     title: Establishment - with Patch 6 [Better PHP 7.2 Support]
     version: 0.7.6
-  - body: "- IMPROVEMENT: Better passing of variables/defaults.\r\n- IMPROVEMENT:\
-      \ Update SSL documentation.\r\n- IMPROVEMENT: Update documentation for PHP versions.\r\
-      \n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors."
-    href: https://github.com/eustasy/authenticatron/releases/tag/0.7.5
-    release_date: '2017-08-22T23:12:33'
-    timeago: 5 years ago
-    title: Establishment - with Patch 5
-    version: 0.7.5
   - body: "- FEATURE: Create a nice homepage with only necessary functions.\r\n- IMPROVEMENT:\
       \ Combine the examples and documentation page.\r\n- IMPROVEMENT: Expand the\
       \ Glossary\r\n- IMPROVEMENT: Move all TODOs to Issue Tracker\r\n- IMPROVEMENT:\
@@ -504,12 +496,6 @@
     timeago: 8 years ago
     title: Secure
     version: '0.2'
-  - body: "Initial release.\r\n"
-    href: https://github.com/eustasy/authenticatron/releases/tag/0.1
-    release_date: '2014-11-06T20:39:44'
-    timeago: 8 years ago
-    title: Initial
-    version: '0.1'
 - name: browning
   new_commits: 13
   releases:
