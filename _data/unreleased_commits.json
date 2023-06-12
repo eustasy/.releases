@@ -397,6 +397,14 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.6"
       },
       {
+        "version": "0.7.5",
+        "release_date": "2017-08-22T23:12:33",
+        "timeago": "5 years ago",
+        "title": "Establishment - with Patch 5",
+        "body": "- IMPROVEMENT: Better passing of variables/defaults.\r\n- IMPROVEMENT: Update SSL documentation.\r\n- IMPROVEMENT: Update documentation for PHP versions.\r\n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors.",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.5"
+      },
+      {
         "version": "0.7.4",
         "release_date": "2016-01-27T15:30:48",
         "timeago": "7 years ago",
@@ -475,6 +483,14 @@
         "title": "Secure",
         "body": "Significantly improved security within random number generation.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.2"
+      },
+      {
+        "version": "0.1",
+        "release_date": "2014-11-06T20:39:44",
+        "timeago": "8 years ago",
+        "title": "Initial",
+        "body": "Initial release.\r\n",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
     "new_commits": 9
