@@ -145,38 +145,6 @@
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.1.2"
       },
       {
-        "version": "2.1.1",
-        "release_date": "2017-12-20T21:22:07",
-        "timeago": "5 years ago",
-        "title": "Banquet - with Patch 1",
-        "body": "### Upgrade Warnings\r\n- `Expect-CT` now has a default value of 7776000 (90 days), as does HSTS.\r\n\r\n### Bugfix\r\n- Add non-prefixed headers for `X-Content-Type-Options`, `X-XSS-Protection`, `X-UA-Compatible`, and `X-Powered-By` as promoted by new spec.\r\n\r\n### Improvement\r\n- Move HSTS to Headers, away from SSL config.\r\n\r\n### Changes\r\n[2.1.0 to 2.1.1](https://github.com/eustasy/bubbly/compare/2.1.0...2.1.1)",
-        "href": "https://github.com/eustasy/Bubbly/releases/tag/2.1.1"
-      },
-      {
-        "version": "2.1.0",
-        "release_date": "2017-12-16T03:32:48",
-        "timeago": "5 years ago",
-        "title": "Banquet",
-        "body": "### Upgrade Warnings\r\n- Support for the new PHP 7.2 is the default. You should modify this to point to the correct PHP version for your server if in use, until such time that you upgrade.\r\n\r\n### Security\r\n- Add `Expect-CT` with default of `enforce, max-age=30, report-uri='/api/report_ect'`\r\n- Add `Referrer-Policy` with default of `strict-origin-when-cross-origin`\r\n\r\n### Bugfix\r\n- Fix some references to log files\r\n\r\n### Feature\r\n- Add option to disable versions in `Server`\r\n\r\n### Improvement\r\n- Add support for PHP 7.2\r\n- Add support end dates for all PHP versions\r\n- Expand Content Security Policy to include report uri\r\n- Add report only versions of Content Security Policy\r\n\r\n### Supporting\r\n- Updated screenshot for Qualys SSL Labs\r\n- Add screenshot for SecurityHeaders.io\r\n- Fix badge from Code Climate\r\n\r\n### Changes\r\n[2.0.2 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.2...2.1.0)\r\n[2.0.1 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.1...2.1.0)\r\n[2.0.0 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.0...2.1.0)",
-        "href": "https://github.com/eustasy/Bubbly/releases/tag/2.1.0"
-      },
-      {
-        "version": "2.0.2",
-        "release_date": "2017-11-21T15:39:11",
-        "timeago": "5 years ago",
-        "title": "Abstraction - with Patch 2",
-        "body": "### Bugfixes\r\n- Fix invalid targets in `groups/performance-common.conf`\r\n- Fix invalid targets in `sites-available/bubbly_live.conf` and `sites-available/bubbly_verify.conf`\r\n- Change target copy from location in `bubbly_copy-configs.sh`\r\n\r\n### Changes\r\n[2.0.1 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.1...2.0.2)\r\n[2.0.0 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.2)",
-        "href": "https://github.com/eustasy/Bubbly/releases/tag/2.0.2"
-      },
-      {
-        "version": "2.0.1",
-        "release_date": "2017-08-27T23:46:12",
-        "timeago": "5 years ago",
-        "title": "Abstraction - with Patch 1",
-        "body": "### Bugfixes\r\n- Remove ssl variable by recommendation\r\n\r\n### Improvements\r\n- Add additional `ssl_ecdh_curve` option\r\n- Add TLSv1.3 option\r\n\r\n### Supporting\r\n- Rename `CODE_OF_CONDUCT.md` to `.github/CODE_OF_CONDUCT.md`\r\n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)",
-        "href": "https://github.com/eustasy/Bubbly/releases/tag/2.0.1"
-      },
-      {
         "version": "2.0.0",
         "release_date": "2017-08-17T22:06:56",
         "timeago": "5 years ago",
@@ -209,14 +177,6 @@
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.6"
       },
       {
-        "version": "1.5",
-        "release_date": "2016-05-26T18:53:54",
-        "timeago": "7 years ago",
-        "title": "Secondary",
-        "body": "- BUGFIX: Moved to HTTP/2 as default now Nginx 1.10 is out.\r\n- IMPROVEMENT: Made HTTP/2 optional in secondary config.\r\n",
-        "href": "https://github.com/eustasy/Bubbly/releases/tag/1.5"
-      },
-      {
         "version": "1.4",
         "release_date": "2016-05-18T15:19:02",
         "timeago": "7 years ago",
@@ -247,14 +207,6 @@
         "title": "Singular",
         "body": "- IMPROVEMENT: Options moved into one configuration file.\r\n- IMPROVEMENT: Tidied references.\r\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.1"
-      },
-      {
-        "version": "1.0",
-        "release_date": "2015-12-30T14:01:40",
-        "timeago": "7 years ago",
-        "title": "Stable",
-        "body": "### Release\r\n- `nginx.conf` for the highest grade of security with OSCP Stapling and HSTS headers, among other things.\r\n- `nginx.next.conf` for the same stuff with HTTP/2 (on Nginx >=1.9.5) and/or PHP 7.0\r\n- `nginx.verify-and-redirect.conf` to enable the `renew-ssl` function to verify, and to redirect non-HTTPS queries on the server.\r\n- `renew-ssl` function can renew certificates without stopping or restarting Nginx.\r\n- [Simple Instructions](https://github.com/eustasy/letsencrypt-with-nginx) for installing, and automatically renewing SSL certificates.\r\n- [Generation Script](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/Generate.sh) for Session Tickets & DH Parameters.\r\n- Let's Encrypt [Configured](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/letsencrypt/cli.ini) for larger keys.\r\n- [Example Crontab](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/crontab)\r\n- [MIT Licensed](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/LICENSE.md)\r\n\r\n### Roadmap\r\n- Public Key Pinning\r\n",
-        "href": "https://github.com/eustasy/Bubbly/releases/tag/1.0"
       }
     ],
     "new_commits": 27
