@@ -203,7 +203,7 @@
       {
         "version": "1.6",
         "release_date": "2016-06-18T20:54:52",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Conspire",
         "body": "- BUGFIX: Default to the correct PHP7 socket.\r\n- IMPROVEMENT: Re-organise the configuration, and label all options and defaults.\r\n- IMPROVEMENT: De-duplicate configuration.\r\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.6"
