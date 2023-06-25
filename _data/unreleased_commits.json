@@ -761,7 +761,7 @@
       {
         "version": "2.4",
         "release_date": "2016-06-26T19:41:10",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "2.4: More Options",
         "body": "- Improved Examples\n- Improved Responsiveness\n- Removed duplicate esc handling.\n- Added `fadeTime` and `modalCenter` options.\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.3.2...2.4\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.4"
