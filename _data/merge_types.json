@@ -70,13 +70,6 @@
     "allow_merge_commit": false
   },
   {
-    "name": "bluetooth-proximity-locker-for-elementary",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
     "name": "browning",
     "default_branch": "main",
     "allow_rebase_merge": false,
@@ -98,20 +91,6 @@
     "allow_merge_commit": true
   },
   {
-    "name": "copyof-SemVish",
-    "default_branch": "main",
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true,
-    "allow_merge_commit": true
-  },
-  {
-    "name": "copyof-jQl",
-    "default_branch": "main",
-    "allow_rebase_merge": true,
-    "allow_squash_merge": true,
-    "allow_merge_commit": true
-  },
-  {
     "name": "elementary-theme-for-google-chrome",
     "default_branch": "main",
     "allow_rebase_merge": false,
@@ -119,50 +98,8 @@
     "allow_merge_commit": false
   },
   {
-    "name": "extensions.eustasy.org",
-    "default_branch": "gh-pages",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "here-miss",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "howtoelementary.org",
-    "default_branch": "gh-pages",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
     "name": "howtoubuntu.org",
     "default_branch": "gh-pages",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "howtoubuntu.org-v1",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "jQuery.downBoy",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "jQuery.equalize",
-    "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false

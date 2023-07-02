@@ -52,11 +52,6 @@
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  name: bluetooth-proximity-locker-for-elementary
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
   name: browning
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -68,16 +63,6 @@
   allow_squash_merge: true
   default_branch: master
   name: copyOf-github-label-manager
-- allow_merge_commit: true
-  allow_rebase_merge: true
-  allow_squash_merge: true
-  default_branch: main
-  name: copyof-SemVish
-- allow_merge_commit: true
-  allow_rebase_merge: true
-  allow_squash_merge: true
-  default_branch: main
-  name: copyof-jQl
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
@@ -87,37 +72,7 @@
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: gh-pages
-  name: extensions.eustasy.org
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: here-miss
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: gh-pages
-  name: howtoelementary.org
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: gh-pages
   name: howtoubuntu.org
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: howtoubuntu.org-v1
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: jQuery.downBoy
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
-  name: jQuery.equalize
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
