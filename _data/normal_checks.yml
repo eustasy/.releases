@@ -18,30 +18,18 @@
   normal_checks: false
 - name: authenticatron
   normal_checks: 3.0.1
-- name: bluetooth-proximity-locker-for-elementary
-  normal_checks: false
 - name: browning
   normal_checks: 3.0.1
 - name: cdns
   normal_checks: 3.0.1
-- name: copyOf-github-label-manager
-  normal_checks: false
-- name: copyof-SemVish
-  normal_checks: false
-- name: copyof-jQl
+- name: elementary-bluetooth-proximity-locker
   normal_checks: false
 - name: elementary-theme-for-google-chrome
   normal_checks: false
-- name: extensions.eustasy.org
+- name: elementaryos-archive
   normal_checks: false
-- name: here-miss
-  normal_checks: 3.0.1
 - name: howtoubuntu.org
   normal_checks: false
-- name: jQuery.downBoy
-  normal_checks: 3.0.1
-- name: jQuery.equalize
-  normal_checks: 3.0.1
 - name: jQuery.leanModal2
   normal_checks: 3.0.1
 - name: labs.eustasy.org
