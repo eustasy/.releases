@@ -72,13 +72,19 @@
     "license_year": "2022"
   },
   {
-    "name": "copyOf-github-label-manager",
-    "license_file": false,
-    "license_type": false,
-    "license_year": false
+    "name": "elementary-bluetooth-proximity-locker",
+    "license_file": "LICENSE.md",
+    "license_type": "MIT",
+    "license_year": "2022"
   },
   {
     "name": "elementary-theme-for-google-chrome",
+    "license_file": "LICENSE.md",
+    "license_type": "MIT",
+    "license_year": "2022"
+  },
+  {
+    "name": "elementaryos-archive",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
     "license_year": "2022"
