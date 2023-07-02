@@ -41,10 +41,6 @@
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
-  name: bluetooth-proximity-locker-for-elementary
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
   name: browning
 - license_file: LICENSE.md
   license_type: MIT
@@ -54,14 +50,6 @@
   license_type: false
   license_year: false
   name: copyOf-github-label-manager
-- license_file: LICENCE
-  license_type: false
-  license_year: '2014'
-  name: copyof-SemVish
-- license_file: false
-  license_type: false
-  license_year: false
-  name: copyof-jQl
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
@@ -69,23 +57,7 @@
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
-  name: extensions.eustasy.org
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: here-miss
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
   name: howtoubuntu.org
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: jQuery.downBoy
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: jQuery.equalize
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
