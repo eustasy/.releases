@@ -84,14 +84,28 @@
     "allow_merge_commit": false
   },
   {
-    "name": "copyOf-github-label-manager",
-    "default_branch": "master",
+    "name": "deployment-guides",
+    "default_branch": "main",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
-    "allow_merge_commit": true
+    "allow_merge_commit": false
+  },
+  {
+    "name": "elementary-bluetooth-proximity-locker",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false
   },
   {
     "name": "elementary-theme-for-google-chrome",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false
+  },
+  {
+    "name": "elementaryos-archive",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,

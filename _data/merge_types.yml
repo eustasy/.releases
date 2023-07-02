@@ -58,16 +58,26 @@
   allow_squash_merge: true
   default_branch: main
   name: cdns
-- allow_merge_commit: true
+- allow_merge_commit: false
   allow_rebase_merge: true
   allow_squash_merge: true
-  default_branch: master
-  name: copyOf-github-label-manager
+  default_branch: main
+  name: deployment-guides
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
+  default_branch: main
+  name: elementary-bluetooth-proximity-locker
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
   name: elementary-theme-for-google-chrome
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
+  default_branch: main
+  name: elementaryos-archive
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
