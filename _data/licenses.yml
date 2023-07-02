@@ -8,7 +8,7 @@
   name: .choices
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
+  license_year: '2023'
   name: .github
 - license_file: LICENSE.md
   license_type: MIT
