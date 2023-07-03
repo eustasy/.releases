@@ -12,10 +12,6 @@
     "normal_checks": false
   },
   {
-    "name": ".monetise",
-    "normal_checks": false
-  },
-  {
     "name": ".normal",
     "normal_checks": "3.0.1"
   },
@@ -30,6 +26,10 @@
   {
     "name": "Colors.css",
     "normal_checks": "3.0.1"
+  },
+  {
+    "name": "Locksmith",
+    "normal_checks": false
   },
   {
     "name": "Monopoly",
