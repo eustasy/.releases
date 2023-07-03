@@ -86,7 +86,7 @@
   {
     "name": "deployment-guides",
     "default_branch": "main",
-    "allow_rebase_merge": true,
+    "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false
   },
@@ -106,7 +106,7 @@
   },
   {
     "name": "elementaryos-archive",
-    "default_branch": "main",
+    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false

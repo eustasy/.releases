@@ -59,7 +59,7 @@
   default_branch: main
   name: cdns
 - allow_merge_commit: false
-  allow_rebase_merge: true
+  allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
   name: deployment-guides
@@ -76,7 +76,7 @@
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: main
+  default_branch: gh-pages
   name: elementaryos-archive
 - allow_merge_commit: false
   allow_rebase_merge: false
