@@ -88,7 +88,7 @@ description: Which Licenses is each repository using?
         {{ repo.license_type }}
       </td>
       <td data-sort="{{ repo.license_year }}">
-        {% if repo.license_year == "2022" %}
+        {% if repo.license_year == "2023" %}
           <span class="status good">Up to date</span>
         {% elsif repo.license_year == "" %}
           <span class="status critical">{{ repo.license_year }}</span>
