@@ -4,7 +4,7 @@
   name: .assets
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
+  license_year: '2023'
   name: .choices
 - license_file: LICENSE.md
   license_type: MIT
@@ -28,7 +28,7 @@
   name: Colors.css
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
+  license_year: '2023'
   name: Locksmith
 - license_file: LICENSE.md
   license_type: MIT
