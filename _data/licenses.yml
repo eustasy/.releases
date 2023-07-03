@@ -13,10 +13,6 @@
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'
-  name: .monetise
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
   name: .normal
 - license_file: LICENSE
   license_type: GPLv3
@@ -30,6 +26,10 @@
   license_type: MIT
   license_year: '2022'
   name: Colors.css
+- license_file: LICENSE.md
+  license_type: MIT
+  license_year: '2022'
+  name: Locksmith
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2022'

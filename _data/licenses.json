@@ -18,12 +18,6 @@
     "license_year": "2023"
   },
   {
-    "name": ".monetise",
-    "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
-  },
-  {
     "name": ".normal",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
@@ -43,6 +37,12 @@
   },
   {
     "name": "Colors.css",
+    "license_file": "LICENSE.md",
+    "license_type": "MIT",
+    "license_year": "2022"
+  },
+  {
+    "name": "Locksmith",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
     "license_year": "2022"
