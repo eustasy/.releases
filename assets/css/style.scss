@@ -2,4 +2,41 @@
 ---
 
 @import "jekyll-theme-minimal";
-@import "custom";
+
+ul.navigation {
+  list-style: none;
+  padding: 0;
+  background: #f4f4f4;
+  border: 1px solid #e0e0e0;
+  border-radius: 5px;
+  width: 250px;
+}
+
+.navigation li {
+  border-bottom: 1px solid #e0e0e0;
+  padding: .5rem;
+}
+.navigation li:first-child {
+  border-radius: 5px 5px 0 0;
+}
+.navigation li:last-child {
+  border-radius: 0 0 5px 5px;
+  border-bottom: 0;
+}
+
+.navigation a {
+  line-height:1;
+  font-size:11px;
+  color:#676767;
+  display:block;
+  text-align:center;
+}
+
+.navigation a:hover, .navigation a:focus {
+  color:#675C5C;
+  font-weight:bold;
+}
+
+.navigation ul a:active {
+  background-color:#f0f0f0;
+}
