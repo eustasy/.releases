@@ -17,11 +17,6 @@
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  name: .monetise
-- allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: true
-  default_branch: main
   name: .normal
 - allow_merge_commit: false
   allow_rebase_merge: false
@@ -38,6 +33,11 @@
   allow_squash_merge: true
   default_branch: main
   name: Colors.css
+- allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
+  default_branch: main
+  name: Locksmith
 - allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true

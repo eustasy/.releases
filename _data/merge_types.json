@@ -21,13 +21,6 @@
     "allow_merge_commit": false
   },
   {
-    "name": ".monetise",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
     "name": ".normal",
     "default_branch": "main",
     "allow_rebase_merge": false,
@@ -50,6 +43,13 @@
   },
   {
     "name": "Colors.css",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false
+  },
+  {
+    "name": "Locksmith",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
