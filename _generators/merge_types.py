@@ -21,9 +21,13 @@ class Repo:
     print(repo.allow_rebase_merge)
     print(repo.allow_squash_merge)
     print(repo.allow_merge_commit)
+    print(repo.allow_auto_merge)
+    print(repo.delete_branch_on_merge)
     self.allow_rebase_merge = True if repo.allow_rebase_merge is True else False
     self.allow_squash_merge = True if repo.allow_squash_merge is True else False
     self.allow_merge_commit = True if repo.allow_merge_commit is True else False
+    self.allow_auto_merge = True if repo.allow_auto_merge is True else False
+    self.delete_branch_on_merge = True if repo.delete_branch_on_merge is True else False
 
 org = g.get_organization('eustasy')
 
@@ -41,7 +45,9 @@ for repo in repos:
     "default_branch": repo.default_branch,
     "allow_rebase_merge": repo.allow_rebase_merge,
     "allow_squash_merge": repo.allow_squash_merge,
-    "allow_merge_commit": repo.allow_merge_commit
+    "allow_merge_commit": repo.allow_merge_commit,
+    "allow_auto_merge": repo.allow_auto_merge,
+    "delete_branch_on_merge": repo.delete_branch_on_merge
   })
 
 output = sorted(output, key=itemgetter('name')) 
