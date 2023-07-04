@@ -1,149 +1,191 @@
 [
   {
     "name": ".assets",
-    "default_branch": "main",
+    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": ".choices",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
+  },
+  {
+    "name": ".deployment-guides",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": ".github",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
   },
   {
     "name": ".normal",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": ".releases",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
   },
   {
     "name": "Bubbly",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
   },
   {
     "name": "Monopoly",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
+  },
+  {
+    "name": "Phoenix",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "authenticatron",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "browning",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "cdns",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "deployment-guides",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "elementary-theme-for-google-chrome",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "elementaryos-archive",
     "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
   },
   {
     "name": "howtoubuntu.org",
     "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
   },
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "labs.eustasy.org",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
-  },
-  {
-    "name": "phoenix",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   },
   {
     "name": "puff-server",
     "default_branch": "main",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
-    "allow_merge_commit": false
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
   }
 ]
