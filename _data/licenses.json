@@ -54,6 +54,12 @@
     "license_year": "2022"
   },
   {
+    "name": "Phoenix",
+    "license_file": "LICENSE.md",
+    "license_type": "MIT",
+    "license_year": "2022"
+  },
+  {
     "name": "authenticatron",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
@@ -103,12 +109,6 @@
   },
   {
     "name": "labs.eustasy.org",
-    "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
-  },
-  {
-    "name": "phoenix",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
     "license_year": "2022"
