@@ -1,11 +1,11 @@
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: gh-pages
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: .assets
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
@@ -17,23 +17,23 @@
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: .deployment-guides
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
   delete_branch_on_merge: true
   name: .github
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: .normal
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
@@ -138,10 +138,10 @@
   default_branch: main
   delete_branch_on_merge: false
   name: labs.eustasy.org
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: puff-server
