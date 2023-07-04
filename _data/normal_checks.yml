@@ -16,6 +16,8 @@
   normal_checks: false
 - name: Monopoly
   normal_checks: false
+- name: Phoenix
+  normal_checks: 3.0.1
 - name: authenticatron
   normal_checks: 3.0.1
 - name: browning
@@ -33,8 +35,6 @@
 - name: jQuery.leanModal2
   normal_checks: 3.0.1
 - name: labs.eustasy.org
-  normal_checks: 3.0.1
-- name: phoenix
   normal_checks: 3.0.1
 - name: puff-server
   normal_checks: 3.0.1

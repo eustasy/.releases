@@ -36,6 +36,10 @@
     "normal_checks": false
   },
   {
+    "name": "Phoenix",
+    "normal_checks": "3.0.1"
+  },
+  {
     "name": "authenticatron",
     "normal_checks": "3.0.1"
   },
@@ -69,10 +73,6 @@
   },
   {
     "name": "labs.eustasy.org",
-    "normal_checks": "3.0.1"
-  },
-  {
-    "name": "phoenix",
     "normal_checks": "3.0.1"
   },
   {
