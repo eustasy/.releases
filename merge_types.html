@@ -125,7 +125,7 @@ description: Which merge types are allowed in each repository?
         {% endif %}
       </td>
       <td data-sort="{{ repo.allow_auto_merge }}">
-        {% if repo.allow_merge_commit == true %}
+        {% if repo.allow_auto_merge == true %}
           <span class="status good">{{ repo.allow_auto_merge }}</span>
         {% elsif repo.allow_merge_commit == false %}
           <span class="status">{{ repo.allow_auto_merge }}</span>
@@ -134,7 +134,7 @@ description: Which merge types are allowed in each repository?
         {% endif %}
       </td>
       <td data-sort="{{ repo.delete_branch_on_merge }}">
-        {% if repo.allow_merge_commit == true %}
+        {% if repo.delete_branch_on_merge == true %}
           <span class="status good">{{ repo.delete_branch_on_merge }}</span>
         {% elsif repo.allow_merge_commit == false %}
           <span class="status">{{ repo.delete_branch_on_merge }}</span>
