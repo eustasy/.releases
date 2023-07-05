@@ -89,28 +89,28 @@
   default_branch: main
   delete_branch_on_merge: true
   name: browning
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: cdns
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: elementary-bluetooth-proximity-locker
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
   default_branch: main
   delete_branch_on_merge: false
   name: elementary-theme-for-google-chrome
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
