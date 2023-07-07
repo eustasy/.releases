@@ -850,6 +850,19 @@
     timeago: 7 years ago
     title: '2.3.2: Priorities'
     version: 2.3.2
+  - body: '- Add a flag for close on overlay click.
+
+      - Add a flag for close on esc.
+
+
+      https://github.com/eustasy/jQuery.leanModal2/compare/2.2...2.3
+
+      '
+    href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3
+    release_date: '2016-03-01T19:37:02'
+    timeago: 7 years ago
+    title: '2.3: Options'
+    version: '2.3'
   - body: "- Allow `Esc` to close the modal ([issue](https://github.com/eustasy/jQuery.leanModal2/issues/1))\r\
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.2
