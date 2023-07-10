@@ -499,6 +499,14 @@
     "name": "authenticatron",
     "releases": [
       {
+        "version": "0.7.6",
+        "release_date": "2018-04-25T22:07:05",
+        "timeago": "5 years ago",
+        "title": "Establishment - with Patch 6 [Better PHP 7.2 Support]",
+        "body": "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt` library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\n- NOTE: Updated badges\r\n- NOTE: Added a Code of Conduct\r\n",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.6"
+      },
+      {
         "version": "0.7.5",
         "release_date": "2017-08-22T23:12:33",
         "timeago": "5 years ago",
@@ -537,6 +545,14 @@
         "title": "Establishment - with Patch 1",
         "body": "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.1"
+      },
+      {
+        "version": "0.7",
+        "release_date": "2015-03-04T00:46:06",
+        "timeago": "8 years ago",
+        "title": "Establishment",
+        "body": "- BUGFIX: Fix string truncation.\r\n- IMPROVEMENT: Cache counts.\r\n- IMPROVEMENT: Flip array only when needed.\r\n- NOTE: Migrate variables for future Simplet.\r\n- NOTE: Update license year.\r\n",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7"
       },
       {
         "version": "0.6",
@@ -587,7 +603,7 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
-    "new_commits": 27
+    "new_commits": 9
   },
   {
     "name": "browning",
