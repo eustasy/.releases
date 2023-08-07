@@ -665,14 +665,6 @@
         "href": "https://github.com/eustasy/browning/releases/tag/0.23"
       },
       {
-        "version": "0.22",
-        "release_date": "2013-12-08T15:58:57",
-        "timeago": "9 years ago",
-        "title": "Smith",
-        "body": "- Removed Unnecessary Recaptcha Files\n- Removed Unnecessary Line Breaks\n- Added Instructions to Readme\n- Added better example function to index\n- Added License to Function File\n- Added GitHub URL to README, Config, and Function\n",
-        "href": "https://github.com/eustasy/browning/releases/tag/0.22"
-      },
-      {
         "version": "0.21",
         "release_date": "2013-12-08T01:00:58",
         "timeago": "9 years ago",

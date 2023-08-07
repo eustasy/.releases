@@ -714,24 +714,6 @@
     timeago: 9 years ago
     title: Danny-Boy
     version: '0.23'
-  - body: '- Removed Unnecessary Recaptcha Files
-
-      - Removed Unnecessary Line Breaks
-
-      - Added Instructions to Readme
-
-      - Added better example function to index
-
-      - Added License to Function File
-
-      - Added GitHub URL to README, Config, and Function
-
-      '
-    href: https://github.com/eustasy/browning/releases/tag/0.22
-    release_date: '2013-12-08T15:58:57'
-    timeago: 9 years ago
-    title: Smith
-    version: '0.22'
   - body: '- Expanded Description in Readme
 
       - Added Instructions to Readme
