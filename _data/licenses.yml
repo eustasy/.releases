@@ -11,16 +11,16 @@
   license_year: '2023'
   name: .github
 - license_file: LICENSE.md
-  license_type: false
-  license_year: false
+  license_type: MIT
+  license_year: '2022'
   name: .normal
 - license_file: LICENSE
-  license_type: false
-  license_year: false
+  license_type: GPLv3
+  license_year: '2007'
   name: .releases
 - license_file: LICENSE.md
-  license_type: false
-  license_year: false
+  license_type: MIT
+  license_year: '2022'
   name: Bubbly
 - license_file: LICENSE.md
   license_type: MIT
@@ -34,13 +34,13 @@
   license_type: MIT
   license_year: '2022'
   name: Monopoly
-- license_file: false
-  license_type: false
-  license_year: false
+- license_file: LICENSE.md
+  license_type: MIT
+  license_year: '2022'
   name: Phoenix
 - license_file: LICENSE.md
-  license_type: false
-  license_year: false
+  license_type: MIT
+  license_year: '2022'
   name: authenticatron
 - license_file: LICENSE.md
   license_type: MIT
@@ -59,8 +59,8 @@
   license_year: '2022'
   name: elementary-theme-for-google-chrome
 - license_file: LICENSE.md
-  license_type: false
-  license_year: false
+  license_type: MIT
+  license_year: '2023'
   name: elementaryos-archive
 - license_file: LICENSE.md
   license_type: MIT
