@@ -53,14 +53,14 @@
       \ lines for deprecated rules"
     href: https://github.com/eustasy/.normal/releases/tag/1.7
     release_date: '2017-08-09T18:16:33'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Updatable
     version: '1.7'
   - body: "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh`\
       \ description\r\n- Config: Add `install.sh`"
     href: https://github.com/eustasy/.normal/releases/tag/1.6
     release_date: '2017-08-09T18:01:49'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Installable
     version: '1.6'
   - body: "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n-\
