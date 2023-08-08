@@ -20,20 +20,20 @@
   {
     "name": ".normal",
     "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": ".releases",
     "license_file": "LICENSE",
-    "license_type": "GPLv3",
-    "license_year": "2007"
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "Bubbly",
     "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "Colors.css",
@@ -55,15 +55,15 @@
   },
   {
     "name": "Phoenix",
-    "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
+    "license_file": false,
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "authenticatron",
     "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2022"
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "browning",
@@ -92,8 +92,8 @@
   {
     "name": "elementaryos-archive",
     "license_file": "LICENSE.md",
-    "license_type": "MIT",
-    "license_year": "2023"
+    "license_type": false,
+    "license_year": false
   },
   {
     "name": "howtoubuntu.org",
