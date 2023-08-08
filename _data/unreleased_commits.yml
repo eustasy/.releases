@@ -389,7 +389,7 @@
   - body: ' - Update to NC 1.7'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.8.2
     release_date: '2017-08-09T19:04:39'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Robotic - with Patch 2
     version: 1.8.2
   - body: '- Fix Travis CI Builds'
@@ -758,7 +758,7 @@
   - body: It's been public for a while, makes sense there would be a release.
     href: https://github.com/eustasy/cdns/releases/tag/0.1.0
     release_date: '2017-08-09T19:11:43'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Common Sense
     version: 0.1.0
 - name: elementary-theme-for-google-chrome
