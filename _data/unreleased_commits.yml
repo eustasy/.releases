@@ -222,7 +222,7 @@
       \n- SUPPORTING: Better linguist detection through [`.gitattributes`](https://github.com/eustasy/bubbly/blob/master/.gitattributes)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.0
     release_date: '2017-08-17T22:06:56'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Abstraction
     version: 2.0.0
   - body: "- SECURITY: **Improve security in configuration files.**\r\n- IMPROVEMENT:\
@@ -507,7 +507,7 @@
       \n- BUGFIX: Fixes issue where cleaning was never logged.\r\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.4
     release_date: '2015-08-18T21:50:42'
-    timeago: 7 years ago
+    timeago: 8 years ago
     title: Totalitarian
     version: v.1.4
   - body: "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\
