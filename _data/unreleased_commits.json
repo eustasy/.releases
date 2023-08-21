@@ -509,7 +509,7 @@
       {
         "version": "0.7.5",
         "release_date": "2017-08-22T23:12:33",
-        "timeago": "5 years ago",
+        "timeago": "6 years ago",
         "title": "Establishment - with Patch 5",
         "body": "- IMPROVEMENT: Better passing of variables/defaults.\r\n- IMPROVEMENT: Update SSL documentation.\r\n- IMPROVEMENT: Update documentation for PHP versions.\r\n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors.",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.5"
