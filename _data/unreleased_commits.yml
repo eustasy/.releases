@@ -672,6 +672,14 @@
     timeago: 8 years ago
     title: Archer
     version: '0.27'
+  - body: 'Trim recaptcha out of release.
+
+      '
+    href: https://github.com/eustasy/browning/releases/tag/0.26
+    release_date: '2015-01-29T14:21:22'
+    timeago: 8 years ago
+    title: Slim
+    version: '0.26'
   - body: 'Patch release for common error.
 
       Simple, non-breaking upgrade.

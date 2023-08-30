@@ -633,6 +633,14 @@
         "href": "https://github.com/eustasy/browning/releases/tag/0.27"
       },
       {
+        "version": "0.26",
+        "release_date": "2015-01-29T14:21:22",
+        "timeago": "8 years ago",
+        "title": "Slim",
+        "body": "Trim recaptcha out of release.\n",
+        "href": "https://github.com/eustasy/browning/releases/tag/0.26"
+      },
+      {
         "version": "0.25",
         "release_date": "2014-12-21T21:32:54",
         "timeago": "8 years ago",
