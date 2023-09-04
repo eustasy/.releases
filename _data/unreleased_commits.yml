@@ -488,6 +488,17 @@
     timeago: 7 years ago
     title: Sanitized
     version: v.3.0
+  - body: "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\
+      \n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\
+      \n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash\
+      \ is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\
+      \n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\
+      \n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v.2.0
+    release_date: '2015-08-20T13:26:02'
+    timeago: 8 years ago
+    title: Unification
+    version: v.2.0
   - body: "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\
       \n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\
       \n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose\
