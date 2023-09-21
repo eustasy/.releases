@@ -732,6 +732,18 @@
     timeago: 9 years ago
     title: Smith
     version: '0.22'
+  - body: '- Expanded Description in Readme
+
+      - Added Instructions to Readme
+
+      - Remove unnecessary comparison in Function
+
+      '
+    href: https://github.com/eustasy/browning/releases/tag/0.21
+    release_date: '2013-12-08T01:00:58'
+    timeago: 9 years ago
+    title: Williams
+    version: '0.21'
   - body: 'First Working Open-Source Release
 
       '
