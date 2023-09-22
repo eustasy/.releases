@@ -33,6 +33,13 @@
     timeago: 5 years ago
     title: Drop - with Patch 1
     version: 1.10.1
+  - body: "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\
+      \n- Add editor config"
+    href: https://github.com/eustasy/.normal/releases/tag/1.10.0
+    release_date: '2018-04-25T04:35:42'
+    timeago: 5 years ago
+    title: Drop
+    version: 1.10.0
   - body: "- Add PHP 7.2\r\n- Only allow failures on HHVM\r\n- Add support for testing\
       \ SQL files in MariaDB 10.1\r\n- Add a test SQL file\r\n- Add a header comment\
       \ to `.travis.yml`\r\n- Update License year\r\n- Make license detectable by\
@@ -88,6 +95,14 @@
     timeago: 6 years ago
     title: Mass Deployment
     version: '1.2'
+  - body: 'A little documentation on what you should be doing.
+
+      '
+    href: https://github.com/eustasy/.normal/releases/tag/1.1
+    release_date: '2017-02-23T23:51:04'
+    timeago: 6 years ago
+    title: Better Documentation
+    version: '1.1'
   - body: 'Initial Release
 
       '
