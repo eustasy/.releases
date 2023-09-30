@@ -1,14 +1,14 @@
-import datetime
 import timeago
 import json
 import yaml
 import os
 import sys
+from datetime import datetime, timezone
 from github import Github
 from operator import itemgetter
 from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
-now = datetime.datetime.now()
+now = datetime.now(utc)
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
 class NoReleasesFound(Exception):
@@ -53,13 +53,10 @@ for repo in repos:
 
   releases = []
   for release in repo.releases:
-    print('1 {}...'.format(release.created_at.isoformat()))
-    print('2 {}...'.format(release.created_at))
-    print('3 {}...'.format(timeago.format(release.created_at.isoformat(), now)))
     releases.append ({
       "version": release.tag_name,
       "release_date": release.created_at.isoformat(),
-      "timeago": timeago.format(release.created_at.isoformat(), now),
+      "timeago": timeago.format(release.created_at, now),
       "title": release.title,
       "body": release.body,
       "href": release.html_url
