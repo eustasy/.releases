@@ -8,7 +8,7 @@ from github import Github
 from operator import itemgetter
 from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
-now = datetime.now(utc)
+now = datetime.now(timezone.utc)
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 
 class NoReleasesFound(Exception):
