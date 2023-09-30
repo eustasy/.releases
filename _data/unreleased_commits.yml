@@ -5,7 +5,7 @@
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
       **Full Changelog**: https://github.com/eustasy/.normal/compare/2.0...3.0"
     href: https://github.com/eustasy/.normal/releases/tag/3.0.1
-    release_date: '2022-08-22T18:58:28'
+    release_date: '2022-08-22T18:58:28+00:00'
     timeago: 1 year ago
     title: '3.0: Summer'
     version: 3.0.1
@@ -15,13 +15,13 @@
       - Move to `focal` (Ubuntu 20.04 LTS).\r\n- Move to PHP 7.4 & 8.0\r\n\r\n**Full\
       \ Changelog**: https://github.com/eustasy/.normal/compare/1.10.2...2.0"
     href: https://github.com/eustasy/.normal/releases/tag/2.0
-    release_date: '2021-10-11T15:47:04'
+    release_date: '2021-10-11T15:47:04+00:00'
     timeago: 1 year ago
     title: '2.0: Winter'
     version: '2.0'
   - body: "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments."
     href: https://github.com/eustasy/.normal/releases/tag/1.10.2
-    release_date: '2018-05-17T16:49:28'
+    release_date: '2018-05-17T16:49:28+00:00'
     timeago: 5 years ago
     title: Drop - with Patch 2
     version: 1.10.2
@@ -29,14 +29,14 @@
       \ threshold to 20\r\n- Increase method-lines threshold to 50\r\n- Disable `Generic\
       \ Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`"
     href: https://github.com/eustasy/.normal/releases/tag/1.10.1
-    release_date: '2018-05-17T10:18:30'
+    release_date: '2018-05-17T10:18:30+00:00'
     timeago: 5 years ago
     title: Drop - with Patch 1
     version: 1.10.1
   - body: "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\
       \n- Add editor config"
     href: https://github.com/eustasy/.normal/releases/tag/1.10.0
-    release_date: '2018-04-25T04:35:42'
+    release_date: '2018-04-25T04:35:42+00:00'
     timeago: 5 years ago
     title: Drop
     version: 1.10.0
@@ -45,21 +45,21 @@
       \ to `.travis.yml`\r\n- Update License year\r\n- Make license detectable by\
       \ GitHub"
     href: https://github.com/eustasy/.normal/releases/tag/1.9.0
-    release_date: '2018-03-14T09:22:54'
+    release_date: '2018-03-14T09:22:54+00:00'
     timeago: 5 years ago
     title: Stacked
     version: 1.9.0
   - body: "- Config: Remove \"selector-no-universal\"\r\n- Config: Add replacement\
       \ lines for deprecated rules"
     href: https://github.com/eustasy/.normal/releases/tag/1.7
-    release_date: '2017-08-09T18:16:33'
+    release_date: '2017-08-09T18:16:33+00:00'
     timeago: 6 years ago
     title: Updatable
     version: '1.7'
   - body: "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh`\
       \ description\r\n- Config: Add `install.sh`"
     href: https://github.com/eustasy/.normal/releases/tag/1.6
-    release_date: '2017-08-09T18:01:49'
+    release_date: '2017-08-09T18:01:49+00:00'
     timeago: 6 years ago
     title: Installable
     version: '1.6'
@@ -69,13 +69,13 @@
       \ Acorn used for Travis CI builds.\r\n- JavaScript: Switch case spacing defined.\r\
       \n- PHP: Loop spacing defined.\r\n- SQLint: Enabled."
     href: https://github.com/eustasy/.normal/releases/tag/1.5
-    release_date: '2017-06-17T19:29:02'
+    release_date: '2017-06-17T19:29:02+00:00'
     timeago: 6 years ago
     title: Planted
     version: '1.5'
   - body: "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions."
     href: https://github.com/eustasy/.normal/releases/tag/1.4
-    release_date: '2017-04-18T17:07:38'
+    release_date: '2017-04-18T17:07:38+00:00'
     timeago: 6 years ago
     title: Activate
     version: '1.4'
@@ -85,13 +85,13 @@
       - Only require most recent PHP version\r\n- Update command-file naming\r\n-\
       \ Massively expand documentation"
     href: https://github.com/eustasy/.normal/releases/tag/1.3
-    release_date: '2017-04-18T03:59:03'
+    release_date: '2017-04-18T03:59:03+00:00'
     timeago: 6 years ago
     title: Graduation
     version: '1.3'
   - body: The first release to be standardized across our repositories.
     href: https://github.com/eustasy/.normal/releases/tag/1.2
-    release_date: '2017-03-02T14:20:23'
+    release_date: '2017-03-02T14:20:23+00:00'
     timeago: 6 years ago
     title: Mass Deployment
     version: '1.2'
@@ -99,7 +99,7 @@
 
       '
     href: https://github.com/eustasy/.normal/releases/tag/1.1
-    release_date: '2017-02-23T23:51:04'
+    release_date: '2017-02-23T23:51:04+00:00'
     timeago: 6 years ago
     title: Better Documentation
     version: '1.1'
@@ -107,7 +107,7 @@
 
       '
     href: https://github.com/eustasy/.normal/releases/tag/1.0
-    release_date: '2017-02-09T04:40:58'
+    release_date: '2017-02-09T04:40:58+00:00'
     timeago: 6 years ago
     title: Version 1.0
     version: '1.0'
@@ -121,7 +121,7 @@
       \ Key size from 4096 to 3072.\r\n- Change RSA Key size from 4096 to 3072.\r\n\
       \r\n### Changes\r\n[2.1.3 to 2.2.0](https://github.com/eustasy/bubbly/compare/2.1.3...2.2.0)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.2.0
-    release_date: '2020-08-02T20:55:34'
+    release_date: '2020-08-02T20:55:34+00:00'
     timeago: 3 years ago
     title: Ceaser
     version: 2.2.0
@@ -132,7 +132,7 @@
       \n- Add [`nixstats_stub-status.conf`](https://github.com/eustasy/bubbly/blob/master/nginx-config/conf.d/nixstats_stub-status.conf)\r\
       \n\r\n### Changes\r\n[2.1.2 to 2.1.3](https://github.com/eustasy/bubbly/compare/2.1.2...2.1.3)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.1.3
-    release_date: '2020-04-02T21:18:14'
+    release_date: '2020-04-02T21:18:14+00:00'
     timeago: 3 years ago
     title: Banquet - with Patch 3
     version: 2.1.3
@@ -146,7 +146,7 @@
       \ to own default file to allow easier customisation.\r\n\r\n### Changes\r\n\
       [2.1.1 to 2.1.2](https://github.com/eustasy/bubbly/compare/2.1.1...2.1.2)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.1.2
-    release_date: '2018-05-30T14:07:43'
+    release_date: '2018-05-30T14:07:43+00:00'
     timeago: 5 years ago
     title: Banquet - with Patch 2
     version: 2.1.2
@@ -156,7 +156,7 @@
       \ as promoted by new spec.\r\n\r\n### Improvement\r\n- Move HSTS to Headers,\
       \ away from SSL config.\r\n\r\n### Changes\r\n[2.1.0 to 2.1.1](https://github.com/eustasy/bubbly/compare/2.1.0...2.1.1)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.1.1
-    release_date: '2017-12-20T21:22:07'
+    release_date: '2017-12-20T21:22:07+00:00'
     timeago: 5 years ago
     title: Banquet - with Patch 1
     version: 2.1.1
@@ -175,7 +175,7 @@
       \n[2.0.1 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.1...2.1.0)\r\
       \n[2.0.0 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.0...2.1.0)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.1.0
-    release_date: '2017-12-16T03:32:48'
+    release_date: '2017-12-16T03:32:48+00:00'
     timeago: 5 years ago
     title: Banquet
     version: 2.1.0
@@ -185,7 +185,7 @@
       \ Changes\r\n[2.0.1 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.1...2.0.2)\r\
       \n[2.0.0 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.2)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.2
-    release_date: '2017-11-21T15:39:11'
+    release_date: '2017-11-21T15:39:11+00:00'
     timeago: 5 years ago
     title: Abstraction - with Patch 2
     version: 2.0.2
@@ -194,7 +194,7 @@
       \ Supporting\r\n- Rename `CODE_OF_CONDUCT.md` to `.github/CODE_OF_CONDUCT.md`\r\
       \n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.1
-    release_date: '2017-08-27T23:46:12'
+    release_date: '2017-08-27T23:46:12+00:00'
     timeago: 6 years ago
     title: Abstraction - with Patch 1
     version: 2.0.1
@@ -221,7 +221,7 @@
       \n- SUPPORTING: Added [`CODE_OF_CONDUCT.md`](https://github.com/eustasy/bubbly/blob/master/CODE_OF_CONDUCT.md)\r\
       \n- SUPPORTING: Better linguist detection through [`.gitattributes`](https://github.com/eustasy/bubbly/blob/master/.gitattributes)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.0
-    release_date: '2017-08-17T22:06:56'
+    release_date: '2017-08-17T22:06:56+00:00'
     timeago: 6 years ago
     title: Abstraction
     version: 2.0.0
@@ -233,7 +233,7 @@
       \ Add a pull request template.\r\n- SUPPORTING: Update license.\r\n- SUPPORTING:\
       \ Add BountySource badge.\r\n- SUPPORTING: Add a contribute package file."
     href: https://github.com/eustasy/Bubbly/releases/tag/1.8
-    release_date: '2017-04-10T18:32:01'
+    release_date: '2017-04-10T18:32:01+00:00'
     timeago: 6 years ago
     title: Primadonna
     version: '1.8'
@@ -241,7 +241,7 @@
       \n- IMPROVEMENT: Add version to `nginx.conf` header.\r\n- IMPROVEMENT: Add option\
       \ point for custom inclusion.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.7
-    release_date: '2016-09-16T23:02:25'
+    release_date: '2016-09-16T23:02:25+00:00'
     timeago: 7 years ago
     title: Tinman
     version: '1.7'
@@ -249,14 +249,14 @@
       \ the configuration, and label all options and defaults.\r\n- IMPROVEMENT: De-duplicate\
       \ configuration.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.6
-    release_date: '2016-06-18T20:54:52'
+    release_date: '2016-06-18T20:54:52+00:00'
     timeago: 7 years ago
     title: Conspire
     version: '1.6'
   - body: "- BUGFIX: Moved to HTTP/2 as default now Nginx 1.10 is out.\r\n- IMPROVEMENT:\
       \ Made HTTP/2 optional in secondary config.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.5
-    release_date: '2016-05-26T18:53:54'
+    release_date: '2016-05-26T18:53:54+00:00'
     timeago: 7 years ago
     title: Secondary
     version: '1.5'
@@ -265,7 +265,7 @@
       \ to crontab.\r\n- IMPROVEMENT: Change default run-point to weekly.\r\n- IMPROVEMENT:\
       \ Statically reference php_params.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.4
-    release_date: '2016-05-18T15:19:02'
+    release_date: '2016-05-18T15:19:02+00:00'
     timeago: 7 years ago
     title: Certbot
     version: '1.4'
@@ -274,7 +274,7 @@
       \n- BUGFIX: Fix default permissions on `.sh` files.\r\n- IMPROVEMENT: Move from\
       \ alias to script.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.3
-    release_date: '2016-03-09T16:23:59'
+    release_date: '2016-03-09T16:23:59+00:00'
     timeago: 7 years ago
     title: Robotic
     version: '1.3'
@@ -283,14 +283,14 @@
       \n- IMPROVEMENT: Added further verification instructions for transferring new\
       \ sites.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.2
-    release_date: '2016-02-07T02:01:09'
+    release_date: '2016-02-07T02:01:09+00:00'
     timeago: 7 years ago
     title: Multiplex
     version: '1.2'
   - body: "- IMPROVEMENT: Options moved into one configuration file.\r\n- IMPROVEMENT:\
       \ Tidied references.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.1
-    release_date: '2016-01-05T21:35:46'
+    release_date: '2016-01-05T21:35:46+00:00'
     timeago: 7 years ago
     title: Singular
     version: '1.1'
@@ -307,7 +307,7 @@
       \n- [MIT Licensed](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/LICENSE.md)\r\
       \n\r\n### Roadmap\r\n- Public Key Pinning\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.0
-    release_date: '2015-12-30T14:01:40'
+    release_date: '2015-12-30T14:01:40+00:00'
     timeago: 7 years ago
     title: Stable
     version: '1.0'
@@ -317,14 +317,14 @@
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
       \n- Update .Normal Checks."
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.8
-    release_date: '2022-08-27T19:40:04'
+    release_date: '2022-08-27T19:40:04+00:00'
     timeago: 1 year ago
     title: 2.0.8
     version: 2.0.8
   - body: "- Fix #19, #12 : Reactive swatches.\r\n- Fix GoddardHale Red\r\n- Fix eustasy\
       \ Texts\r\n- Fix How to elementary Texts\r\n"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.7
-    release_date: '2020-05-11T00:16:33'
+    release_date: '2020-05-11T00:16:33+00:00'
     timeago: 3 years ago
     title: ''
     version: 2.0.7
@@ -332,83 +332,83 @@
       - Add How to elementary color palette.\r\n- Fix: Retain order from JSON on import.\r\
       \n- Fix: Remove unnecessary newline from readme."
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.6
-    release_date: '2020-05-10T22:03:26'
+    release_date: '2020-05-10T22:03:26+00:00'
     timeago: 3 years ago
     title: ''
     version: 2.0.6
   - body: "- Add elementary Mint colors\r\n- Add elementary Text colors"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.5
-    release_date: '2020-04-24T20:35:04'
+    release_date: '2020-04-24T20:35:04+00:00'
     timeago: 3 years ago
     title: ''
     version: 2.0.5
   - body: '- Add CSS Variables'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.4
-    release_date: '2020-04-23T17:52:15'
+    release_date: '2020-04-23T17:52:15+00:00'
     timeago: 3 years ago
     title: ''
     version: 2.0.4
   - body: '- Add Ubuntu palette.'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.2
-    release_date: '2020-04-23T01:50:12'
+    release_date: '2020-04-23T01:50:12+00:00'
     timeago: 3 years ago
     title: ''
     version: 2.0.2
   - body: "- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.0
-    release_date: '2020-04-22T23:06:16'
+    release_date: '2020-04-22T23:06:16+00:00'
     timeago: 3 years ago
     title: ''
     version: 2.0.0
   - body: "- Fix elementary Strawberry ordering\r\n- Add elementary Cocoa\r\n- Add\
       \ Material"
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.3
-    release_date: '2019-03-01T21:54:57'
+    release_date: '2019-03-01T21:54:57+00:00'
     timeago: 4 years ago
     title: Retrospective - with Patch 3
     version: 1.9.3
   - body: "- Update jsDelivr embeds\r\n- Update generator to reduce duplication"
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.2
-    release_date: '2017-10-26T05:50:27'
+    release_date: '2017-10-26T05:50:27+00:00'
     timeago: 5 years ago
     title: Retrospective - with Patch 2
     version: 1.9.2
   - body: "- Add jsDelivr badge to Readme\r\n- Update jsDelivr embed codes (now with\
       \ integrity checks)"
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.1
-    release_date: '2017-09-27T05:35:46'
+    release_date: '2017-09-27T05:35:46+00:00'
     timeago: 6 years ago
     title: Retrospective - with Patch 1
     version: 1.9.1
   - body: ' - Fix duplicate selectors #9'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.0
-    release_date: '2017-09-13T00:06:34'
+    release_date: '2017-09-13T00:06:34+00:00'
     timeago: 6 years ago
     title: Retrospective
     version: 1.9.0
   - body: ' - Update to NC 1.7'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.8.2
-    release_date: '2017-08-09T19:04:39'
+    release_date: '2017-08-09T19:04:39+00:00'
     timeago: 6 years ago
     title: Robotic - with Patch 2
     version: 1.8.2
   - body: '- Fix Travis CI Builds'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.8.1
-    release_date: '2017-07-12T17:31:08'
+    release_date: '2017-07-12T17:31:08+00:00'
     timeago: 6 years ago
     title: Robotic - with Patch 1
     version: 1.8.1
   - body: "- Add Normal Checks 1.5\r\n- Add generator page/script\r\n- Add new elementary\
       \ palette"
     href: https://github.com/eustasy/Colors.css/releases/tag/1.8.0
-    release_date: '2017-07-12T16:34:33'
+    release_date: '2017-07-12T16:34:33+00:00'
     timeago: 6 years ago
     title: Robotic
     version: 1.8.0
   - body: "- Add a homepage.\r\n- Update the license year.\r\n- Re-order some properties.\r\
       \n- Add normalised testing."
     href: https://github.com/eustasy/Colors.css/releases/tag/1.7
-    release_date: '2017-04-14T16:43:25'
+    release_date: '2017-04-14T16:43:25+00:00'
     timeago: 6 years ago
     title: Homely
     version: '1.7'
@@ -417,13 +417,13 @@
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
-    release_date: '2020-04-02T19:37:18'
+    release_date: '2020-04-02T19:37:18+00:00'
     timeago: 3 years ago
     title: Unicorn - with Patch 5
     version: 3.1.5
   - body: '- Update to NC 1.7'
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.4
-    release_date: '2017-09-16T23:39:27'
+    release_date: '2017-09-16T23:39:27+00:00'
     timeago: 6 years ago
     title: Unicorn - with Patch 4
     version: 3.1.4
@@ -436,7 +436,7 @@
       \n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.3
-    release_date: '2017-04-19T20:52:19'
+    release_date: '2017-04-19T20:52:19+00:00'
     timeago: 6 years ago
     title: Unicorn - with Patch 3
     version: 3.1.3
@@ -445,7 +445,7 @@
       \n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.2
-    release_date: '2016-06-15T16:14:43'
+    release_date: '2016-06-15T16:14:43+00:00'
     timeago: 7 years ago
     title: Unicorn - with Patch 2
     version: 3.1.2
@@ -453,7 +453,7 @@
       \ operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.1.1
-    release_date: '2016-04-14T15:04:14'
+    release_date: '2016-04-14T15:04:14+00:00'
     timeago: 7 years ago
     title: Unicorn - with Patch 1
     version: v.3.1.1
@@ -466,7 +466,7 @@
       \ to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\
       \n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.1
-    release_date: '2016-04-14T14:51:17'
+    release_date: '2016-04-14T14:51:17+00:00'
     timeago: 7 years ago
     title: Unicorn
     version: v.3.1
@@ -484,7 +484,7 @@
       \n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\
       \n- REMOVES: Nothing.\r\n\r\nSponsored by a private client."
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.0
-    release_date: '2016-01-21T22:44:34'
+    release_date: '2016-01-21T22:44:34+00:00'
     timeago: 7 years ago
     title: Sanitized
     version: v.3.0
@@ -495,7 +495,7 @@
       \n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.2.0
-    release_date: '2015-08-20T13:26:02'
+    release_date: '2015-08-20T13:26:02+00:00'
     timeago: 8 years ago
     title: Unification
     version: v.2.0
@@ -506,20 +506,20 @@
       \ Fixes scrape counts of torrents by encoding hashes in their binary format.\r\
       \n- BUGFIX: Fixes issue where cleaning was never logged.\r\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.4
-    release_date: '2015-08-18T21:50:42'
+    release_date: '2015-08-18T21:50:42+00:00'
     timeago: 8 years ago
     title: Totalitarian
     version: v.1.4
   - body: "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.3
-    release_date: '2015-02-16T21:01:44'
+    release_date: '2015-02-16T21:01:44+00:00'
     timeago: 8 years ago
     title: Hexa
     version: v.1.3
   - body: "FEATURE: Support Endpoints, rather than just separate ports.\r\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.2
-    release_date: '2014-12-31T22:03:00'
+    release_date: '2014-12-31T22:03:00+00:00'
     timeago: 8 years ago
     title: Endpoints
     version: v.1.2
@@ -529,7 +529,7 @@
       \ scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct\
       \ default charset.\r\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.1
-    release_date: '2014-12-31T12:18:53'
+    release_date: '2014-12-31T12:18:53+00:00'
     timeago: 8 years ago
     title: Scraping By
     version: v.1.1
@@ -537,7 +537,7 @@
       \ bugs and massively improves performance, modularity, and maintainability.\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.0
-    release_date: '2014-12-28T22:10:21'
+    release_date: '2014-12-28T22:10:21+00:00'
     timeago: 8 years ago
     title: No longer PeerTracker.
     version: v.1.0
@@ -548,7 +548,7 @@
       \ library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\
       \n- NOTE: Updated badges\r\n- NOTE: Added a Code of Conduct\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.6
-    release_date: '2018-04-25T22:07:05'
+    release_date: '2018-04-25T22:07:05+00:00'
     timeago: 5 years ago
     title: Establishment - with Patch 6 [Better PHP 7.2 Support]
     version: 0.7.6
@@ -556,7 +556,7 @@
       \ Update SSL documentation.\r\n- IMPROVEMENT: Update documentation for PHP versions.\r\
       \n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors."
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.5
-    release_date: '2017-08-22T23:12:33'
+    release_date: '2017-08-22T23:12:33+00:00'
     timeago: 6 years ago
     title: Establishment - with Patch 5
     version: 0.7.5
@@ -565,25 +565,25 @@
       \ Glossary\r\n- IMPROVEMENT: Move all TODOs to Issue Tracker\r\n- IMPROVEMENT:\
       \ Add source and glossary to navigation.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.4
-    release_date: '2016-01-27T15:30:48'
+    release_date: '2016-01-27T15:30:48+00:00'
     timeago: 7 years ago
     title: Establishment - with Patch 4 [Documentation]
     version: 0.7.4
   - body: "- BUGFIX: Remove unused variable.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.3
-    release_date: '2015-05-26T21:36:32'
+    release_date: '2015-05-26T21:36:32+00:00'
     timeago: 8 years ago
     title: Establishment - with Patch 3
     version: 0.7.3
   - body: "- BUGFIX: Undefined variable.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.2
-    release_date: '2015-05-26T21:32:34'
+    release_date: '2015-05-26T21:32:34+00:00'
     timeago: 8 years ago
     title: Establishment - with Patch 2
     version: 0.7.2
   - body: "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.1
-    release_date: '2015-03-04T13:40:32'
+    release_date: '2015-03-04T13:40:32+00:00'
     timeago: 8 years ago
     title: Establishment - with Patch 1
     version: 0.7.1
@@ -591,7 +591,7 @@
       \ Flip array only when needed.\r\n- NOTE: Migrate variables for future Simplet.\r\
       \n- NOTE: Update license year.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7
-    release_date: '2015-03-04T00:46:06'
+    release_date: '2015-03-04T00:46:06+00:00'
     timeago: 8 years ago
     title: Establishment
     version: '0.7'
@@ -599,7 +599,7 @@
       \ errors.\r\n- Re-organised docs and examples.\r\n- Expected to be the last\
       \ release before v1\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.6
-    release_date: '2014-11-30T22:38:11'
+    release_date: '2014-11-30T22:38:11+00:00'
     timeago: 8 years ago
     title: Settle
     version: '0.6'
@@ -609,33 +609,33 @@
       \ Code Example\r\n- IMPROVEMENT: Add header.php\r\n- NOTE: Added to Simplet\r\
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.5
-    release_date: '2014-11-19T20:48:49'
+    release_date: '2014-11-19T20:48:49+00:00'
     timeago: 8 years ago
     title: Simplify
     version: '0.5'
   - body: "- Improved commenting.\r\n- Check the `gd` function is loaded within the\
       \ QR Code function.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.4
-    release_date: '2014-11-15T11:03:25'
+    release_date: '2014-11-15T11:03:25+00:00'
     timeago: 8 years ago
     title: Talkative
     version: '0.4'
   - body: "Much better example page, http://labs.eustasy.org/authenticatron/example.php?secret=LC26KMUSNVZJD6CO\r\
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.3
-    release_date: '2014-11-09T23:57:46'
+    release_date: '2014-11-09T23:57:46+00:00'
     timeago: 8 years ago
     title: Example
     version: '0.3'
   - body: "Significantly improved security within random number generation.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.2
-    release_date: '2014-11-06T22:06:59'
+    release_date: '2014-11-06T22:06:59+00:00'
     timeago: 8 years ago
     title: Secure
     version: '0.2'
   - body: "Initial release.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.1
-    release_date: '2014-11-06T20:39:44'
+    release_date: '2014-11-06T20:39:44+00:00'
     timeago: 8 years ago
     title: Initial
     version: '0.1'
@@ -646,7 +646,7 @@
       \n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate,\
       \ and Bountysource\r\n- Add NC 1.7\r\n"
     href: https://github.com/eustasy/browning/releases/tag/0.29.0
-    release_date: '2017-10-15T21:35:31'
+    release_date: '2017-10-15T21:35:31+00:00'
     timeago: 5 years ago
     title: Square
     version: 0.29.0
@@ -660,7 +660,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.28
-    release_date: '2016-09-26T18:50:19'
+    release_date: '2016-09-26T18:50:19+00:00'
     timeago: 7 years ago
     title: Reed
     version: '0.28'
@@ -668,7 +668,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.27
-    release_date: '2015-03-24T22:54:09'
+    release_date: '2015-03-24T22:54:09+00:00'
     timeago: 8 years ago
     title: Archer
     version: '0.27'
@@ -676,7 +676,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.26
-    release_date: '2015-01-29T14:21:22'
+    release_date: '2015-01-29T14:21:22+00:00'
     timeago: 8 years ago
     title: Slim
     version: '0.26'
@@ -686,7 +686,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.25
-    release_date: '2014-12-21T21:32:54'
+    release_date: '2014-12-21T21:32:54+00:00'
     timeago: 8 years ago
     title: Rich
     version: '0.25'
@@ -694,7 +694,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.24
-    release_date: '2014-12-03T14:41:36'
+    release_date: '2014-12-03T14:41:36+00:00'
     timeago: 8 years ago
     title: White
     version: '0.24'
@@ -710,7 +710,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.23
-    release_date: '2014-01-06T11:06:10'
+    release_date: '2014-01-06T11:06:10+00:00'
     timeago: 9 years ago
     title: Danny-Boy
     version: '0.23'
@@ -728,7 +728,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.22
-    release_date: '2013-12-08T15:58:57'
+    release_date: '2013-12-08T15:58:57+00:00'
     timeago: 9 years ago
     title: Smith
     version: '0.22'
@@ -740,7 +740,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.21
-    release_date: '2013-12-08T01:00:58'
+    release_date: '2013-12-08T01:00:58+00:00'
     timeago: 9 years ago
     title: Williams
     version: '0.21'
@@ -748,7 +748,7 @@
 
       '
     href: https://github.com/eustasy/browning/releases/tag/0.20
-    release_date: '2013-12-07T15:33:49'
+    release_date: '2013-12-07T15:33:49+00:00'
     timeago: 9 years ago
     title: Jones
     version: '0.20'
@@ -757,7 +757,7 @@
   releases:
   - body: It's been public for a while, makes sense there would be a release.
     href: https://github.com/eustasy/cdns/releases/tag/0.1.0
-    release_date: '2017-08-09T19:11:43'
+    release_date: '2017-08-09T19:11:43+00:00'
     timeago: 6 years ago
     title: Common Sense
     version: 0.1.0
@@ -767,7 +767,7 @@
   - body: "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix\
       \ several colors"
     href: https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1
-    release_date: '2017-10-16T14:21:42'
+    release_date: '2017-10-16T14:21:42+00:00'
     timeago: 5 years ago
     title: Actual - with Patch 1
     version: 3.2.1
@@ -776,7 +776,7 @@
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
-    release_date: '2018-02-15T00:32:12'
+    release_date: '2018-02-15T00:32:12+00:00'
     timeago: 5 years ago
     title: Julian - with Patch 3
     version: 2.6.3
@@ -784,20 +784,20 @@
       \ launch\r\n- Change how overlay handles `opacity` setting to not affect children\r\
       \n- Remove `top` option\r\n- Add Code of Conduct"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.2
-    release_date: '2018-02-14T23:25:57'
+    release_date: '2018-02-14T23:25:57+00:00'
     timeago: 5 years ago
     title: Julian - with Patch 2
     version: 2.6.2
   - body: '- Only buttons should trigger modals, not entire sections'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.1
-    release_date: '2017-10-26T05:24:01'
+    release_date: '2017-10-26T05:24:01+00:00'
     timeago: 5 years ago
     title: Julian - with Patch 1
     version: 2.6.1
   - body: "- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n\
       - Update site to match new \"labs\" style\r\n- Update code style to compliance"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.0
-    release_date: '2017-10-26T05:05:35'
+    release_date: '2017-10-26T05:05:35+00:00'
     timeago: 5 years ago
     title: Julian
     version: 2.6.0
@@ -810,7 +810,7 @@
 
       '
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.5
-    release_date: '2016-06-26T20:45:02'
+    release_date: '2016-06-26T20:45:02+00:00'
     timeago: 7 years ago
     title: '2.5: Responsive Centering'
     version: '2.5'
@@ -827,7 +827,7 @@
 
       '
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.4
-    release_date: '2016-06-26T19:41:10'
+    release_date: '2016-06-26T19:41:10+00:00'
     timeago: 7 years ago
     title: '2.4: More Options'
     version: '2.4'
@@ -846,7 +846,7 @@
 
       '
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3.2
-    release_date: '2016-06-25T16:59:52'
+    release_date: '2016-06-25T16:59:52+00:00'
     timeago: 7 years ago
     title: '2.3.2: Priorities'
     version: 2.3.2
@@ -859,21 +859,21 @@
 
       '
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3
-    release_date: '2016-03-01T19:37:02'
+    release_date: '2016-03-01T19:37:02+00:00'
     timeago: 7 years ago
     title: '2.3: Options'
     version: '2.3'
   - body: "- Allow `Esc` to close the modal ([issue](https://github.com/eustasy/jQuery.leanModal2/issues/1))\r\
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.2
-    release_date: '2015-06-08T15:30:03'
+    release_date: '2015-06-08T15:30:03+00:00'
     timeago: 8 years ago
     title: '2.2: Escape Hatch'
     version: '2.2'
   - body: "### Bugfixes\r\n- Fixes modal overlay widths being set to include margins.\
       \ Now only includes content and padding.\r\n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.1
-    release_date: '2015-01-26T16:21:28'
+    release_date: '2015-01-26T16:21:28+00:00'
     timeago: 8 years ago
     title: '2.1'
     version: '2.1'
@@ -886,7 +886,7 @@
       \ functions more clearly to avoid conflicts.\r\n- Added official minified version.\r\
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0
-    release_date: '2014-10-04T19:46:52'
+    release_date: '2014-10-04T19:46:52+00:00'
     timeago: 8 years ago
     title: '2.0'
     version: '2.0'
@@ -901,7 +901,7 @@
       \ links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE:\
       \ Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading."
     href: https://github.com/eustasy/puff-server/releases/tag/0.5.0
-    release_date: '2017-10-18T16:58:52'
+    release_date: '2017-10-18T16:58:52+00:00'
     timeago: 5 years ago
     title: Full Circle
     version: 0.5.0
@@ -911,20 +911,20 @@
       \ Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on\
       \ `x` click.\r\n- CHANGE: Re-Architecture.\r\n"
     href: https://github.com/eustasy/puff-server/releases/tag/0.4
-    release_date: '2016-03-02T13:38:34'
+    release_date: '2016-03-02T13:38:34+00:00'
     timeago: 7 years ago
     title: Unification
     version: '0.4'
   - body: "- Move functions\r\n- Standardize testing\r\n- Permissions\r\n"
     href: https://github.com/eustasy/puff-server/releases/tag/0.3
-    release_date: '2015-11-22T19:58:18'
+    release_date: '2015-11-22T19:58:18+00:00'
     timeago: 7 years ago
     title: Split
     version: '0.3'
   - body: "- Proper Example Pages\r\n- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\
       \n- CSP Violation Reporting\r\n- Better Example Pages\r\n- De-duplication\r\n"
     href: https://github.com/eustasy/puff-server/releases/tag/0.2
-    release_date: '2015-11-16T12:11:19'
+    release_date: '2015-11-16T12:11:19+00:00'
     timeago: 7 years ago
     title: Responsive Settings
     version: '0.2'
@@ -934,7 +934,7 @@
       \ soft-HSTS for older browsers.\r\n- Tracking with Google Analytics that respects\
       \ Do Not Track headers.\r\n"
     href: https://github.com/eustasy/puff-server/releases/tag/0.1
-    release_date: '2015-07-28T08:45:35'
+    release_date: '2015-07-28T08:45:35+00:00'
     timeago: 8 years ago
     title: Core and DB
     version: '0.1'
