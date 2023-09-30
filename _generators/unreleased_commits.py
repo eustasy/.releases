@@ -53,6 +53,9 @@ for repo in repos:
 
   releases = []
   for release in repo.releases:
+    print(release.created_at.isoformat())
+    print(release.created_at)
+    print(timeago.format(release.created_at, now))
     releases.append ({
       "version": release.tag_name,
       "release_date": release.created_at.isoformat(),
