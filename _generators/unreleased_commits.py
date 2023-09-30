@@ -55,11 +55,11 @@ for repo in repos:
   for release in repo.releases:
     print('1 {}...'.format(release.created_at.isoformat()))
     print('2 {}...'.format(release.created_at))
-    print('3 {}...'.format(timeago.format(release.created_at, now)))
+    print('3 {}...'.format(timeago.format(release.created_at.isoformat(), now)))
     releases.append ({
       "version": release.tag_name,
       "release_date": release.created_at.isoformat(),
-      "timeago": timeago.format(release.created_at, now),
+      "timeago": timeago.format(release.created_at.isoformat(), now),
       "title": release.title,
       "body": release.body,
       "href": release.html_url
