@@ -1,5 +1,5 @@
 - name: .normal
-  new_commits: 11
+  new_commits: 12
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -772,7 +772,7 @@
     title: Actual - with Patch 1
     version: 3.2.1
 - name: jQuery.leanModal2
-  new_commits: 13
+  new_commits: 14
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
