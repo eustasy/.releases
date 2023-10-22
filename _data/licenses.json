@@ -121,8 +121,8 @@
   },
   {
     "name": "puff-serverless",
-    "license_file": false,
-    "license_type": false,
-    "license_year": false
+    "license_file": "LICENSE.md",
+    "license_type": "MIT",
+    "license_year": "2022"
   }
 ]
