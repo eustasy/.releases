@@ -38,3 +38,5 @@
   normal_checks: 3.0.1
 - name: puff-server
   normal_checks: 3.0.1
+- name: puff-serverless
+  normal_checks: false
