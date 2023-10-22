@@ -190,7 +190,7 @@
   },
   {
     "name": "puff-serverless",
-    "default_branch": "main",
+    "default_branch": "cf-pages",
     "allow_rebase_merge": true,
     "allow_squash_merge": true,
     "allow_merge_commit": true,
