@@ -348,12 +348,6 @@
     timeago: 3 years ago
     title: ''
     version: 2.0.4
-  - body: '- Add Ubuntu palette.'
-    href: https://github.com/eustasy/Colors.css/releases/tag/2.0.2
-    release_date: '2020-04-23T01:50:12+00:00'
-    timeago: 3 years ago
-    title: ''
-    version: 2.0.2
   - body: "- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.0
     release_date: '2020-04-22T23:06:16+00:00'
