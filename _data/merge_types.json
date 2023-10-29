@@ -163,7 +163,7 @@
   },
   {
     "name": "jQuery.leanModal2",
-    "default_branch": "main",
+    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false,
