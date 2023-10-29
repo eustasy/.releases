@@ -383,7 +383,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 0
+    "new_commits": 3
   },
   {
     "name": "Phoenix",
@@ -493,7 +493,7 @@
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.1.0"
       }
     ],
-    "new_commits": 13
+    "new_commits": 15
   },
   {
     "name": "authenticatron",
@@ -709,6 +709,14 @@
     "name": "elementary-theme-for-google-chrome",
     "releases": [
       {
+        "version": "3.2.2",
+        "release_date": "2022-08-27T19:32:41+00:00",
+        "timeago": "1 year ago",
+        "title": "Actual - with Patch 2",
+        "body": "- Remove Normal Checks",
+        "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.2"
+      },
+      {
         "version": "3.2.1",
         "release_date": "2017-10-16T14:21:42+00:00",
         "timeago": "6 years ago",
@@ -717,7 +725,7 @@
         "href": "https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1"
       }
     ],
-    "new_commits": 5
+    "new_commits": 0
   },
   {
     "name": "jQuery.leanModal2",
@@ -811,7 +819,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 14
+    "new_commits": 15
   },
   {
     "name": "puff-server",

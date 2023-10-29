@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 0
+  new_commits: 3
   releases:
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
       \n- Update .Normal Checks."
@@ -413,7 +413,7 @@
     title: Homely
     version: '1.7'
 - name: Phoenix
-  new_commits: 13
+  new_commits: 15
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
@@ -762,8 +762,14 @@
     title: Common Sense
     version: 0.1.0
 - name: elementary-theme-for-google-chrome
-  new_commits: 5
+  new_commits: 0
   releases:
+  - body: '- Remove Normal Checks'
+    href: https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.2
+    release_date: '2022-08-27T19:32:41+00:00'
+    timeago: 1 year ago
+    title: Actual - with Patch 2
+    version: 3.2.2
   - body: "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix\
       \ several colors"
     href: https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1
@@ -772,7 +778,7 @@
     title: Actual - with Patch 1
     version: 3.2.1
 - name: jQuery.leanModal2
-  new_commits: 14
+  new_commits: 15
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
