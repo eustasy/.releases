@@ -51,7 +51,7 @@
   allow_merge_commit: false
   allow_rebase_merge: false
   allow_squash_merge: true
-  default_branch: main
+  default_branch: gh-pages
   delete_branch_on_merge: true
   name: Colors.css
 - allow_auto_merge: true
