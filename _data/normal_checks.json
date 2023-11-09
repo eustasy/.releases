@@ -28,6 +28,10 @@
     "normal_checks": "3.0.1"
   },
   {
+    "name": "Flexoki.css",
+    "normal_checks": false
+  },
+  {
     "name": "Locksmith",
     "normal_checks": false
   },
