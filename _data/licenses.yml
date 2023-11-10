@@ -20,16 +20,16 @@
   name: .releases
 - license_file: LICENSE.md
   license_type: MIT
+  license_year: '2023'
+  name: .ui
+- license_file: LICENSE.md
+  license_type: MIT
   license_year: '2022'
   name: Bubbly
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2023'
   name: Colors.css
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2023'
-  name: Flexoki.css
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2023'
