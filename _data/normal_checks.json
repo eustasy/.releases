@@ -20,16 +20,16 @@
     "normal_checks": false
   },
   {
+    "name": ".ui",
+    "normal_checks": false
+  },
+  {
     "name": "Bubbly",
     "normal_checks": "3.0.1"
   },
   {
     "name": "Colors.css",
     "normal_checks": "3.0.1"
-  },
-  {
-    "name": "Flexoki.css",
-    "normal_checks": false
   },
   {
     "name": "Locksmith",
