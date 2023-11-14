@@ -112,19 +112,8 @@
     title: Version 1.0
     version: '1.0'
 - name: Bubbly
-  new_commits: 27
+  new_commits: 39
   releases:
-  - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
-      \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
-      \ breakage. **Remove `git pull bubbly` from cron.**\r\n\r\n### Improvement\r\
-      \n- Change SSL Ticket Key size from 48 to 80.\r\n- Change Diffie-Hellman Parameters\
-      \ Key size from 4096 to 3072.\r\n- Change RSA Key size from 4096 to 3072.\r\n\
-      \r\n### Changes\r\n[2.1.3 to 2.2.0](https://github.com/eustasy/bubbly/compare/2.1.3...2.2.0)"
-    href: https://github.com/eustasy/Bubbly/releases/tag/2.2.0
-    release_date: '2020-08-02T20:55:34+00:00'
-    timeago: 3 years ago
-    title: Ceaser
-    version: 2.2.0
   - body: "### Upgrade Warnings\r\n- Moved to `acme-v02` API endpoint.\r\n- Moved\
       \ protocol preferences in with cipher suite preferences.\r\n- Updated all 3\
       \ cipher suite options.\r\n- Added PHP 7.4 socket option.\r\n- Removed PHP 7.1\
@@ -260,15 +249,6 @@
     timeago: 7 years ago
     title: Secondary
     version: '1.5'
-  - body: "- BUGFIX: Renamed to Certbot upstream, fixed references.\r\n- IMPROVEMENT:\
-      \ Move more configuration to the default config.\r\n- IMPROVEMENT: Adds updating\
-      \ to crontab.\r\n- IMPROVEMENT: Change default run-point to weekly.\r\n- IMPROVEMENT:\
-      \ Statically reference php_params.\r\n"
-    href: https://github.com/eustasy/Bubbly/releases/tag/1.4
-    release_date: '2016-05-18T15:19:02+00:00'
-    timeago: 7 years ago
-    title: Certbot
-    version: '1.4'
   - body: "- BUGFIX: Automatically accept the \"are you sure you want to renew certificates\"\
       \ option.\r\n- BUGFIX: Use a log file location we have permissions to by default.\r\
       \n- BUGFIX: Fix default permissions on `.sh` files.\r\n- IMPROVEMENT: Move from\
@@ -287,13 +267,6 @@
     timeago: 7 years ago
     title: Multiplex
     version: '1.2'
-  - body: "- IMPROVEMENT: Options moved into one configuration file.\r\n- IMPROVEMENT:\
-      \ Tidied references.\r\n"
-    href: https://github.com/eustasy/Bubbly/releases/tag/1.1
-    release_date: '2016-01-05T21:35:46+00:00'
-    timeago: 7 years ago
-    title: Singular
-    version: '1.1'
   - body: "### Release\r\n- `nginx.conf` for the highest grade of security with OSCP\
       \ Stapling and HSTS headers, among other things.\r\n- `nginx.next.conf` for\
       \ the same stuff with HTTP/2 (on Nginx >=1.9.5) and/or PHP 7.0\r\n- `nginx.verify-and-redirect.conf`\
@@ -931,7 +904,7 @@
       \n- CSP Violation Reporting\r\n- Better Example Pages\r\n- De-duplication\r\n"
     href: https://github.com/eustasy/puff-server/releases/tag/0.2
     release_date: '2015-11-16T12:11:19+00:00'
-    timeago: 7 years ago
+    timeago: 8 years ago
     title: Responsive Settings
     version: '0.2'
   - body: "- Supreme SEO\r\n- Social Built-in\r\n- Standard and Custom Hooks\r\n-\
