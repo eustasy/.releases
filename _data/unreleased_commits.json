@@ -557,7 +557,7 @@
       {
         "version": "0.6",
         "release_date": "2014-11-30T22:38:11+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Settle",
         "body": "- Improved Server reconsiderations.\r\n- Fixed a ridiculous amount of spelling errors.\r\n- Re-organised docs and examples.\r\n- Expected to be the last release before v1\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.6"
