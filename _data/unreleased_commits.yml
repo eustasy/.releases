@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 20
+  new_commits: 21
   releases:
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
       \n- Update .Normal Checks."
