@@ -336,6 +336,12 @@
     timeago: 3 years ago
     title: ''
     version: 2.0.6
+  - body: "- Add elementary Mint colors\r\n- Add elementary Text colors"
+    href: https://github.com/eustasy/Colors.css/releases/tag/2.0.5
+    release_date: '2020-04-24T20:35:04+00:00'
+    timeago: 3 years ago
+    title: ''
+    version: 2.0.5
   - body: '- Add CSS Variables'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.4
     release_date: '2020-04-23T17:52:15+00:00'
