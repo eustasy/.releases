@@ -539,6 +539,14 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.2"
       },
       {
+        "version": "0.7.1",
+        "release_date": "2015-03-04T13:40:32+00:00",
+        "timeago": "8 years ago",
+        "title": "Establishment - with Patch 1",
+        "body": "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.1"
+      },
+      {
         "version": "0.7",
         "release_date": "2015-03-04T00:46:06+00:00",
         "timeago": "8 years ago",

@@ -581,6 +581,12 @@
     timeago: 8 years ago
     title: Establishment - with Patch 2
     version: 0.7.2
+  - body: "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n"
+    href: https://github.com/eustasy/authenticatron/releases/tag/0.7.1
+    release_date: '2015-03-04T13:40:32+00:00'
+    timeago: 8 years ago
+    title: Establishment - with Patch 1
+    version: 0.7.1
   - body: "- BUGFIX: Fix string truncation.\r\n- IMPROVEMENT: Cache counts.\r\n- IMPROVEMENT:\
       \ Flip array only when needed.\r\n- NOTE: Migrate variables for future Simplet.\r\
       \n- NOTE: Update license year.\r\n"
