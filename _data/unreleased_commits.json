@@ -471,7 +471,7 @@
       {
         "version": "v.1.2",
         "release_date": "2014-12-31T22:03:00+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Endpoints",
         "body": "FEATURE: Support Endpoints, rather than just separate ports.\r\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.1.2"
