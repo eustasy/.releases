@@ -770,13 +770,6 @@
     timeago: 1 year ago
     title: Actual - with Patch 2
     version: 3.2.2
-  - body: "- Add NC 1.7\r\n- Remove Chrome Classic\r\n- Remove Scrollbars\r\n- Fix\
-      \ several colors"
-    href: https://github.com/eustasy/elementary-theme-for-google-chrome/releases/tag/3.2.1
-    release_date: '2017-10-16T14:21:42+00:00'
-    timeago: 6 years ago
-    title: Actual - with Patch 1
-    version: 3.2.1
 - name: jQuery.leanModal2
   new_commits: 15
   releases:
