@@ -56,19 +56,11 @@
   name: cdns
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
-  name: elementary-bluetooth-proximity-locker
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2022'
-  name: elementary-theme-for-google-chrome
-- license_file: LICENSE.md
-  license_type: MIT
   license_year: '2023'
   name: elementaryos-archive
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
+  license_year: '2024'
   name: howtoubuntu.org
 - license_file: LICENSE.md
   license_type: MIT
@@ -84,5 +76,5 @@
   name: puff-server
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
+  license_year: '2024'
   name: puff-serverless
