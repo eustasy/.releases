@@ -56,14 +56,6 @@
     "normal_checks": "3.0.1"
   },
   {
-    "name": "elementary-bluetooth-proximity-locker",
-    "normal_checks": false
-  },
-  {
-    "name": "elementary-theme-for-google-chrome",
-    "normal_checks": false
-  },
-  {
     "name": "elementaryos-archive",
     "normal_checks": false
   },
