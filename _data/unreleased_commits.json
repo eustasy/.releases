@@ -803,6 +803,14 @@
     "name": "puff-server",
     "releases": [
       {
+        "version": "0.5.0",
+        "release_date": "2017-10-18T16:58:52+00:00",
+        "timeago": "6 years ago",
+        "title": "Full Circle",
+        "body": "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT: Add [Normal Checks](https://github.com/eustasy/normal-checks) v1.7\r\n- IMPROVEMENT: Fix file permissions\r\n- IMPROVEMENT: Better auto-linking\r\n- IMPROVEMENT: Add generator meta tag\r\n- IMPROVEMENT: Include `rel=\"noopener\"` when opening links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE: Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading.",
+        "href": "https://github.com/eustasy/puff-server/releases/tag/0.5.0"
+      },
+      {
         "version": "0.4",
         "release_date": "2016-03-02T13:38:34+00:00",
         "timeago": "7 years ago",
@@ -835,6 +843,6 @@
         "href": "https://github.com/eustasy/puff-server/releases/tag/0.1"
       }
     ],
-    "new_commits": 123
+    "new_commits": 48
   }
 ]
