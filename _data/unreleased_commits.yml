@@ -881,20 +881,8 @@
     title: '2.0'
     version: '2.0'
 - name: puff-server
-  new_commits: 48
+  new_commits: 123
   releases:
-  - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
-      \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\
-      \ Add [Normal Checks](https://github.com/eustasy/normal-checks) v1.7\r\n- IMPROVEMENT:\
-      \ Fix file permissions\r\n- IMPROVEMENT: Better auto-linking\r\n- IMPROVEMENT:\
-      \ Add generator meta tag\r\n- IMPROVEMENT: Include `rel=\"noopener\"` when opening\
-      \ links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE:\
-      \ Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading."
-    href: https://github.com/eustasy/puff-server/releases/tag/0.5.0
-    release_date: '2017-10-18T16:58:52+00:00'
-    timeago: 6 years ago
-    title: Full Circle
-    version: 0.5.0
   - body: "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron\
       \ Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised\
       \ settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT:\
