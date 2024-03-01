@@ -549,7 +549,7 @@
       {
         "version": "0.7",
         "release_date": "2015-03-04T00:46:06+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Establishment",
         "body": "- BUGFIX: Fix string truncation.\r\n- IMPROVEMENT: Cache counts.\r\n- IMPROVEMENT: Flip array only when needed.\r\n- NOTE: Migrate variables for future Simplet.\r\n- NOTE: Update license year.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7"
