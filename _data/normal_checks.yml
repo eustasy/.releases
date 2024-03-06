@@ -1,40 +1,60 @@
-- name: .assets
+- default_branch: gh-pages
+  name: .assets
   normal_checks: false
-- name: .choices
+- default_branch: main
+  name: .choices
   normal_checks: false
-- name: .github
+- default_branch: main
+  name: .github
   normal_checks: false
-- name: .normal
+- default_branch: main
+  name: .normal
   normal_checks: 3.0.1
-- name: .releases
+- default_branch: main
+  name: .releases
   normal_checks: false
-- name: .ui
+- default_branch: main
+  name: .ui
   normal_checks: false
-- name: Bubbly
+- default_branch: main
+  name: Bubbly
   normal_checks: 3.0.1
-- name: Colors.css
+- default_branch: gh-pages
+  name: Colors.css
   normal_checks: 3.0.1
-- name: Locksmith
+- default_branch: main
+  name: Locksmith
   normal_checks: false
-- name: Monopoly
+- default_branch: main
+  name: Monopoly
   normal_checks: false
-- name: Phoenix
+- default_branch: main
+  name: Phoenix
   normal_checks: 3.0.1
-- name: authenticatron
+- default_branch: main
+  name: authenticatron
   normal_checks: 3.0.1
-- name: browning
+- default_branch: main
+  name: browning
   normal_checks: 3.0.1
-- name: cdns
+- default_branch: main
+  name: cdns
   normal_checks: 3.0.1
-- name: elementaryos-archive
+- default_branch: gh-pages
+  name: elementaryos-archive
   normal_checks: false
-- name: howtoubuntu.org
+- default_branch: gh-pages
+  name: howtoubuntu.org
   normal_checks: false
-- name: jQuery.leanModal2
+- default_branch: gh-pages
+  name: jQuery.leanModal2
   normal_checks: 3.0.1
-- name: labs.eustasy.org
+- default_branch: main
+  name: labs.eustasy.org
   normal_checks: 3.0.1
-- name: puff-server
+- default_branch: main
+  name: puff-server
   normal_checks: 3.0.1
-- name: puff-serverless
+- default_branch: cf-pages
+  name: puff-serverless
   normal_checks: false

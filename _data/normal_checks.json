@@ -1,82 +1,102 @@
 [
   {
     "name": ".assets",
+    "default_branch": "gh-pages",
     "normal_checks": false
   },
   {
     "name": ".choices",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
     "name": ".github",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
     "name": ".normal",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": ".releases",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
     "name": ".ui",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
     "name": "Bubbly",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "Colors.css",
+    "default_branch": "gh-pages",
     "normal_checks": "3.0.1"
   },
   {
     "name": "Locksmith",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
     "name": "Monopoly",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
     "name": "Phoenix",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "authenticatron",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "browning",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "cdns",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "elementaryos-archive",
+    "default_branch": "gh-pages",
     "normal_checks": false
   },
   {
     "name": "howtoubuntu.org",
+    "default_branch": "gh-pages",
     "normal_checks": false
   },
   {
     "name": "jQuery.leanModal2",
+    "default_branch": "gh-pages",
     "normal_checks": "3.0.1"
   },
   {
     "name": "labs.eustasy.org",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "puff-server",
+    "default_branch": "main",
     "normal_checks": "3.0.1"
   },
   {
     "name": "puff-serverless",
+    "default_branch": "cf-pages",
     "normal_checks": false
   }
 ]
