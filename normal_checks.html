@@ -104,6 +104,9 @@ description: Which version of Normal Checks is each repository using?
           <span class="status">{{ repo.normal_checks }}</span>
         {% endif %}
       </td>
+      <td>
+        <a href="https://github.com/eustasy/{{ repo.name }}/actions/workflows/normal.yml"><img src="https://github.com/eustasy/{{ repo.name }}/actions/workflows/normal.yml/badge.svg"></a>
+      </td>
     </tr>
     {% endunless %}
   {% endfor %}
