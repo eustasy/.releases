@@ -11,6 +11,7 @@ g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 class Repo:
   def __init__(self, repo):
     self.repo = repo
+    self.default_branch = repo.default_branch
     self.normal_checks = False
 
     try:
@@ -41,6 +42,7 @@ output = []
 for repo in repos:
   output.append ({
     "name": repo.repo.name,
+    "default_branch": repo.default_branch,
     "normal_checks": repo.normal_checks
   })
 
