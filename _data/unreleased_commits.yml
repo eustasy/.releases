@@ -1,5 +1,5 @@
 - name: .normal
-  new_commits: 12
+  new_commits: 13
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -112,7 +112,7 @@
     title: Version 1.0
     version: '1.0'
 - name: Bubbly
-  new_commits: 27
+  new_commits: 29
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 23
+  new_commits: 24
   releases:
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
       \n- Update .Normal Checks."
@@ -413,7 +413,7 @@
     title: Homely
     version: '1.7'
 - name: Phoenix
-  new_commits: 15
+  new_commits: 18
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
@@ -542,7 +542,7 @@
     title: No longer PeerTracker.
     version: v.1.0
 - name: authenticatron
-  new_commits: 9
+  new_commits: 13
   releases:
   - body: "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt`\
       \ library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\
@@ -640,7 +640,7 @@
     title: Initial
     version: '0.1'
 - name: browning
-  new_commits: 13
+  new_commits: 14
   releases:
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
       \n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate,\
@@ -753,7 +753,7 @@
     title: Jones
     version: '0.20'
 - name: cdns
-  new_commits: 14
+  new_commits: 15
   releases:
   - body: It's been public for a while, makes sense there would be a release.
     href: https://github.com/eustasy/cdns/releases/tag/0.1.0
@@ -762,7 +762,7 @@
     title: Common Sense
     version: 0.1.0
 - name: jQuery.leanModal2
-  new_commits: 15
+  new_commits: 17
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
@@ -881,7 +881,7 @@
     title: '2.0'
     version: '2.0'
 - name: puff-server
-  new_commits: 48
+  new_commits: 49
   releases:
   - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
       \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\

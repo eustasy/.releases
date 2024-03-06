@@ -115,7 +115,7 @@
         "href": "https://github.com/eustasy/.normal/releases/tag/1.0"
       }
     ],
-    "new_commits": 12
+    "new_commits": 13
   },
   {
     "name": "Bubbly",
@@ -257,7 +257,7 @@
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.0"
       }
     ],
-    "new_commits": 27
+    "new_commits": 29
   },
   {
     "name": "Colors.css",
@@ -383,7 +383,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 23
+    "new_commits": 24
   },
   {
     "name": "Phoenix",
@@ -493,7 +493,7 @@
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.1.0"
       }
     ],
-    "new_commits": 15
+    "new_commits": 18
   },
   {
     "name": "authenticatron",
@@ -603,7 +603,7 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
-    "new_commits": 9
+    "new_commits": 13
   },
   {
     "name": "browning",
@@ -689,7 +689,7 @@
         "href": "https://github.com/eustasy/browning/releases/tag/0.20"
       }
     ],
-    "new_commits": 13
+    "new_commits": 14
   },
   {
     "name": "cdns",
@@ -703,7 +703,7 @@
         "href": "https://github.com/eustasy/cdns/releases/tag/0.1.0"
       }
     ],
-    "new_commits": 14
+    "new_commits": 15
   },
   {
     "name": "jQuery.leanModal2",
@@ -797,7 +797,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 15
+    "new_commits": 17
   },
   {
     "name": "puff-server",
@@ -843,6 +843,6 @@
         "href": "https://github.com/eustasy/puff-server/releases/tag/0.1"
       }
     ],
-    "new_commits": 48
+    "new_commits": 49
   }
 ]
