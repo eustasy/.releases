@@ -105,7 +105,9 @@ description: Which version of Normal Checks is each repository using?
         {% endif %}
       </td>
       <td>
+        {% if repo.normal_checks != "" %}
         <a href="https://github.com/eustasy/{{ repo.name }}/actions/workflows/normal.yml"><img src="https://github.com/eustasy/{{ repo.name }}/actions/workflows/normal.yml/badge.svg"></a>
+        {% endif %}
       </td>
     </tr>
     {% endunless %}
