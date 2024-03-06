@@ -83,6 +83,19 @@ description: Which version of Normal Checks is each repository using?
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
       </td>
+      <td data-sort="{{ repo.default_branch }}">
+        {% if repo.default_branch == "main" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "gh-pages" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "cf-pages" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "master" %}
+          <span class="status warn">{{ repo.default_branch }}</span>
+        {% else %}
+          <span class="status critical">{{ repo.default_branch }}</span>
+        {% endif %}
+      </td>
       <td data-sort="{{ repo.normal_checks }}">
         {% if repo.normal_checks == "3.0.1" %}
           <span class="status good">Up to date</span>
