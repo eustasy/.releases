@@ -91,10 +91,14 @@ description: Which merge types are allowed in each repository?
       <td data-sort="{{ repo.default_branch }}">
         {% if repo.default_branch == "main" %}
           <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "gh-pages" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "cf-pages" %}
+          <span class="status good">{{ repo.default_branch }}</span>
         {% elsif repo.default_branch == "master" %}
-          <span class="status critical">{{ repo.default_branch }}</span>
+          <span class="status warn">{{ repo.default_branch }}</span>
         {% else %}
-          <span class="status">{{ repo.default_branch }}</span>
+          <span class="status critical">{{ repo.default_branch }}</span>
         {% endif %}
       </td>
       <td data-sort="{{ repo.allow_rebase_merge }}">
