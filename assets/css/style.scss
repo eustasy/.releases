@@ -37,6 +37,23 @@ ul.navigation {
   font-weight:bold;
 }
 
+@media (prefers-color-scheme: dark) {
+    body {
+        filter: invert(1);
+        background-color: #0d1117;
+    }
+    ul.navigation {
+        background: #d7d7d7;
+    }
+    ul.navigation a {
+        color: #267CB9;
+    }
+    .navigation a:hover,
+    .navigation a:focus {
+    color: #267CB9;
+    font-weight: bold;
+}
+}
 .navigation ul a:active {
   background-color:#f0f0f0;
 }
