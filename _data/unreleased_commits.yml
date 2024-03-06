@@ -312,7 +312,7 @@
     title: Stable
     version: '1.0'
 - name: Colors.css
-  new_commits: 24
+  new_commits: 25
   releases:
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
       \n- Update .Normal Checks."
@@ -640,7 +640,7 @@
     title: Initial
     version: '0.1'
 - name: browning
-  new_commits: 14
+  new_commits: 15
   releases:
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
       \n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate,\
@@ -762,7 +762,7 @@
     title: Common Sense
     version: 0.1.0
 - name: jQuery.leanModal2
-  new_commits: 17
+  new_commits: 18
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
