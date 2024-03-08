@@ -80,7 +80,7 @@ description: See releases and commits since for eustasy repositories
   {% for repo in site.data.unreleased_commits %}
     {% unless site.data.exclusions contains repo.name %}
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
-    {% assign commits_href = repo_href | append: "/compare/" | append: repo.releases.first.version | append: "...main" %}
+    {% assign commits_href = repo_href | append: "/compare/" | append: repo.releases.first.version | append: "..." | append: repo.default_branch %}
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
