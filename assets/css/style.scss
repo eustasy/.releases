@@ -32,9 +32,14 @@ ul.navigation {
   text-align:center;
 }
 
-.navigation a:hover, .navigation a:focus {
+.navigation a:hover,
+.navigation a:focus {
   color:#675C5C;
   font-weight:bold;
+}
+
+.navigation ul a:active {
+  background-color: #f0f0f0;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -50,10 +55,7 @@ ul.navigation {
     }
     .navigation a:hover,
     .navigation a:focus {
-    color: #267CB9;
-    font-weight: bold;
-}
-}
-.navigation ul a:active {
-  background-color:#f0f0f0;
+      color: #267CB9;
+      font-weight: bold;
+  }
 }
