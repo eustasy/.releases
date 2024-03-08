@@ -102,6 +102,9 @@ description: Which Licenses is each repository using?
           <span class="status warn">{{ repo.license_year }}</span>
         {% endif %}
       </td>
+      <td data-sort="{{ repo.pushed_at }}">
+        {{ repo.pushed_at | date: "%Y-%-m-%-d" }}
+      </td>
     </tr>
     {% endunless %}
   {% endfor %}
