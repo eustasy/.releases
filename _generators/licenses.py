@@ -63,8 +63,8 @@ output = []
 for repo in repos:
   output.append ({
     "name": repo.repo.name,
-    "pushed_at": repo.pushed_at,
-    "updated_at": repo.updated_at,
+    "pushed_at": repo.pushed_at.isoformat(),
+    "updated_at": repo.updated_at.isoformat(),
     "license_file": repo.license_file,
     "license_type": repo.license_type,
     "license_year": repo.license_year
