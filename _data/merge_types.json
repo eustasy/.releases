@@ -90,15 +90,6 @@
     "delete_branch_on_merge": true
   },
   {
-    "name": "Monopoly",
-    "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false,
-    "allow_auto_merge": true,
-    "delete_branch_on_merge": true
-  },
-  {
     "name": "Phoenix",
     "default_branch": "main",
     "allow_rebase_merge": false,
@@ -128,15 +119,6 @@
   {
     "name": "cdns",
     "default_branch": "main",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": true,
-    "allow_merge_commit": false,
-    "allow_auto_merge": true,
-    "delete_branch_on_merge": true
-  },
-  {
-    "name": "elementaryos-archive",
-    "default_branch": "gh-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false,
