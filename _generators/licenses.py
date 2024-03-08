@@ -12,6 +12,8 @@ g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 class Repo:
   def __init__(self, repo):
     self.repo = repo
+    self.pushed_at = repo.pushed_at
+    self.updated_at = repo.updated_at
     self.license_file = False
     self.license_type = False
     self.license_year = False
@@ -61,6 +63,8 @@ output = []
 for repo in repos:
   output.append ({
     "name": repo.repo.name,
+    "pushed_at": repo.pushed_at,
+    "updated_at": repo.updated_at,
     "license_file": repo.license_file,
     "license_type": repo.license_type,
     "license_year": repo.license_year
