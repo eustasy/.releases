@@ -1,6 +1,7 @@
 [
   {
     "name": ".normal",
+    "default_branch": "main",
     "releases": [
       {
         "version": "3.0.1",
@@ -119,6 +120,7 @@
   },
   {
     "name": "Bubbly",
+    "default_branch": "main",
     "releases": [
       {
         "version": "2.2.0",
@@ -261,6 +263,7 @@
   },
   {
     "name": "Colors.css",
+    "default_branch": "gh-pages",
     "releases": [
       {
         "version": "2.0.8",
@@ -387,6 +390,7 @@
   },
   {
     "name": "Phoenix",
+    "default_branch": "main",
     "releases": [
       {
         "version": "3.1.5",
@@ -497,6 +501,7 @@
   },
   {
     "name": "authenticatron",
+    "default_branch": "main",
     "releases": [
       {
         "version": "0.7.6",
@@ -607,6 +612,7 @@
   },
   {
     "name": "browning",
+    "default_branch": "main",
     "releases": [
       {
         "version": "0.29.0",
@@ -692,21 +698,8 @@
     "new_commits": 15
   },
   {
-    "name": "cdns",
-    "releases": [
-      {
-        "version": "0.1.0",
-        "release_date": "2017-08-09T19:11:43+00:00",
-        "timeago": "6 years ago",
-        "title": "Common Sense",
-        "body": "It's been public for a while, makes sense there would be a release.",
-        "href": "https://github.com/eustasy/cdns/releases/tag/0.1.0"
-      }
-    ],
-    "new_commits": 15
-  },
-  {
     "name": "jQuery.leanModal2",
+    "default_branch": "gh-pages",
     "releases": [
       {
         "version": "2.6.3",
@@ -801,6 +794,7 @@
   },
   {
     "name": "puff-server",
+    "default_branch": "main",
     "releases": [
       {
         "version": "0.5.0",
