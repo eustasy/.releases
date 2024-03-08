@@ -36,10 +36,6 @@
   name: Locksmith
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2022'
-  name: Monopoly
-- license_file: LICENSE.md
-  license_type: MIT
   license_year: '2024'
   name: Phoenix
 - license_file: LICENSE.md
@@ -54,10 +50,6 @@
   license_type: MIT
   license_year: '2022'
   name: cdns
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2023'
-  name: elementaryos-archive
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2024'
