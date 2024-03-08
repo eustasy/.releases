@@ -17,6 +17,7 @@ class NoReleasesFound(Exception):
 class Repo:
   def __init__(self, repo):
     self.repo = repo
+    self.default_branch = repo.default_branch
 
     self.releases = self.repo.get_releases()
     if self.releases.totalCount == 0:
@@ -64,6 +65,7 @@ for repo in repos:
 
   output.append ({
     "name": repo.repo.name,
+    "default_branch": repo.default_branch,
     "releases": releases,
     "new_commits": new_commits
   })
