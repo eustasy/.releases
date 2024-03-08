@@ -1,6 +1,6 @@
 - default_branch: main
   name: .normal
-  new_commits: 13
+  new_commits: 14
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -114,7 +114,7 @@
     version: '1.0'
 - default_branch: main
   name: Bubbly
-  new_commits: 29
+  new_commits: 30
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -315,7 +315,7 @@
     version: '1.0'
 - default_branch: gh-pages
   name: Colors.css
-  new_commits: 25
+  new_commits: 26
   releases:
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
       \n- Update .Normal Checks."
@@ -646,7 +646,7 @@
     version: '0.1'
 - default_branch: main
   name: browning
-  new_commits: 15
+  new_commits: 16
   releases:
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
       \n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate,\
@@ -760,7 +760,7 @@
     version: '0.20'
 - default_branch: gh-pages
   name: jQuery.leanModal2
-  new_commits: 18
+  new_commits: 19
   releases:
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
@@ -880,7 +880,7 @@
     version: '2.0'
 - default_branch: main
   name: puff-server
-  new_commits: 49
+  new_commits: 50
   releases:
   - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
       \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\

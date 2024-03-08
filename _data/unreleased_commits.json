@@ -116,7 +116,7 @@
         "href": "https://github.com/eustasy/.normal/releases/tag/1.0"
       }
     ],
-    "new_commits": 13
+    "new_commits": 14
   },
   {
     "name": "Bubbly",
@@ -259,7 +259,7 @@
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.0"
       }
     ],
-    "new_commits": 29
+    "new_commits": 30
   },
   {
     "name": "Colors.css",
@@ -386,7 +386,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 25
+    "new_commits": 26
   },
   {
     "name": "Phoenix",
@@ -695,7 +695,7 @@
         "href": "https://github.com/eustasy/browning/releases/tag/0.20"
       }
     ],
-    "new_commits": 15
+    "new_commits": 16
   },
   {
     "name": "jQuery.leanModal2",
@@ -790,7 +790,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 18
+    "new_commits": 19
   },
   {
     "name": "puff-server",
@@ -837,6 +837,6 @@
         "href": "https://github.com/eustasy/puff-server/releases/tag/0.1"
       }
     ],
-    "new_commits": 49
+    "new_commits": 50
   }
 ]
