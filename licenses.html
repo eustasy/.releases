@@ -103,7 +103,7 @@ description: Which Licenses is each repository using?
         {% endif %}
       </td>
       <td data-sort="{{ repo.pushed_at }}">
-        {{ repo.pushed_at | date: "%Y-%-m-%-d" }}
+        {{ repo.pushed_at | date: "%Y-%M" }}
       </td>
     </tr>
     {% endunless %}
