@@ -26,9 +26,6 @@
   name: Locksmith
   normal_checks: false
 - default_branch: main
-  name: Monopoly
-  normal_checks: false
-- default_branch: main
   name: Phoenix
   normal_checks: 3.0.1
 - default_branch: main
@@ -40,9 +37,6 @@
 - default_branch: main
   name: cdns
   normal_checks: 3.0.1
-- default_branch: gh-pages
-  name: elementaryos-archive
-  normal_checks: false
 - default_branch: gh-pages
   name: howtoubuntu.org
   normal_checks: false

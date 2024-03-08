@@ -45,11 +45,6 @@
     "normal_checks": false
   },
   {
-    "name": "Monopoly",
-    "default_branch": "main",
-    "normal_checks": false
-  },
-  {
     "name": "Phoenix",
     "default_branch": "main",
     "normal_checks": "3.0.1"
@@ -68,11 +63,6 @@
     "name": "cdns",
     "default_branch": "main",
     "normal_checks": "3.0.1"
-  },
-  {
-    "name": "elementaryos-archive",
-    "default_branch": "gh-pages",
-    "normal_checks": false
   },
   {
     "name": "howtoubuntu.org",
