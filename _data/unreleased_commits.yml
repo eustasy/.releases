@@ -1,6 +1,6 @@
 - default_branch: main
   name: .normal
-  new_commits: 17
+  new_commits: 18
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -114,7 +114,7 @@
     version: '1.0'
 - default_branch: main
   name: Bubbly
-  new_commits: 30
+  new_commits: 32
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -547,7 +547,7 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 43
+  new_commits: 57
   releases:
   - body: "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt`\
       \ library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\
