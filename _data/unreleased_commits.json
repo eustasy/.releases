@@ -504,10 +504,18 @@
     "default_branch": "main",
     "releases": [
       {
+        "version": "v4.0.0",
+        "release_date": "2024-03-14T10:07:04+00:00",
+        "timeago": "22 minutes ago",
+        "title": "v4 - Inauguration",
+        "body": "IMPROVEMENT: Launch Composer package: https://packagist.org/packages/eustasy/authenticatron\r\nMAINTENANCE: Drop [PHPQRCode](https://phpqrcode.sourceforge.net/) for [jysperu/PHP-QR-Code](https://packagist.org/packages/jysperu/php-qr-code)\r\nMAINTENANCE: Add PHP Unit tests with PHPUnit\r\nDEPRECATED: Remove deprecated mcrypt library\r\nNOTE: Updated eustasy/.Normal to 3.0\r\nNOTE: Removed Codacy, Travis-CI\r\nNOTE: Regular testing against PHP 8.3, 8.2, 8.1, 8.0\r\n",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.0.0"
+      },
+      {
         "version": "0.7.6",
         "release_date": "2018-04-25T22:07:05+00:00",
         "timeago": "5 years ago",
-        "title": "Establishment - with Patch 6 [Better PHP 7.2 Support]",
+        "title": "v3 - Establishment - with Patch 6 [Better PHP 7.2 Support]",
         "body": "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt` library\r\n- NOTE: Updated NC to 1.10.0\r\n- NOTE: Updated license for detection\r\n- NOTE: Updated badges\r\n- NOTE: Added a Code of Conduct\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.6"
       },
@@ -608,7 +616,7 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
-    "new_commits": 103
+    "new_commits": 0
   },
   {
     "name": "browning",
