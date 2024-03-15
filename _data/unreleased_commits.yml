@@ -323,7 +323,7 @@
       \ to `gh-pages`\r\n- Publish site on GitHub pages"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.9
     release_date: '2024-03-14T12:24:41+00:00'
-    timeago: 16 hours ago
+    timeago: 20 hours ago
     title: 2.0.9
     version: 2.0.9
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
@@ -556,16 +556,17 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 23
+  new_commits: 27
   releases:
-  - body: "IMPROVEMENT: Launch Composer package: https://packagist.org/packages/eustasy/authenticatron\r\
+  - body: "```bash\r\ncomposer require eustasy/authenticatron\r\n```\r\n\r\nIMPROVEMENT:\
+      \ Launch Composer package: https://packagist.org/packages/eustasy/authenticatron\r\
       \nMAINTENANCE: Drop [PHPQRCode](https://phpqrcode.sourceforge.net/) for [jysperu/PHP-QR-Code](https://packagist.org/packages/jysperu/php-qr-code)\r\
       \nMAINTENANCE: Add PHP Unit tests with PHPUnit\r\nDEPRECATED: Remove deprecated\
       \ mcrypt library\r\nNOTE: Updated eustasy/.Normal to 3.0\r\nNOTE: Removed Codacy,\
       \ Travis-CI\r\nNOTE: Regular testing against PHP 8.3, 8.2, 8.1, 8.0\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.0.0
     release_date: '2024-03-14T10:07:04+00:00'
-    timeago: 18 hours ago
+    timeago: 22 hours ago
     title: v4 - Inauguration
     version: v4.0.0
   - body: "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt`\
