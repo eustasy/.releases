@@ -189,7 +189,7 @@
       {
         "version": "1.8",
         "release_date": "2017-04-10T18:32:01+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Primadonna",
         "body": "- SECURITY: **Improve security in configuration files.**\r\n- IMPROVEMENT: **Massively simplify instructions.**\r\n- IMPROVEMENT: Rename bash scripts to be more descriptive.\r\n- IMPROVEMENT: Add warnings to bash scripts.\r\n- IMPROVEMENT: Deprecate `cli.ini` in favour of command options.\r\n- SUPPORTING: **Rename to Bubbly.**\r\n- SUPPORTING: Add an issue template.\r\n- SUPPORTING: Add a pull request template.\r\n- SUPPORTING: Update license.\r\n- SUPPORTING: Add BountySource badge.\r\n- SUPPORTING: Add a contribute package file.",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.8"
