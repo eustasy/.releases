@@ -578,7 +578,7 @@
       \ Travis-CI\r\nNOTE: Regular testing against PHP 8.3, 8.2, 8.1, 8.0\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.0.0
     release_date: '2024-03-14T10:07:04+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: v4 - Inauguration
     version: v4.0.0
   - body: "- MAINTENANCE: Support new `random_bytes` to replace deprecated `mcrypt`\
