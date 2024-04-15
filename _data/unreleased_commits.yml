@@ -556,7 +556,7 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 0
+  new_commits: 1
   releases:
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
       \ a wider array of non-compliant characters for better reliability with 2fa\
