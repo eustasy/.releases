@@ -1,6 +1,6 @@
 - default_branch: main
   name: .normal
-  new_commits: 19
+  new_commits: 20
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -315,7 +315,7 @@
     version: '1.0'
 - default_branch: gh-pages
   name: Colors.css
-  new_commits: 0
+  new_commits: 1
   releases:
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
       \ for easier overrides\r\n- Fix generator not updating main css file\r\n- Update\
