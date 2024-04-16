@@ -78,7 +78,7 @@
       {
         "version": "1.4",
         "release_date": "2017-04-18T17:07:38+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Activate",
         "body": "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions.",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.4"
