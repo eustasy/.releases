@@ -369,7 +369,7 @@
   - body: "- Re-write to generate in Python on GitHub Actions\r\n- Totally broke documentation"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.0
     release_date: '2020-04-22T23:06:16+00:00'
-    timeago: 3 years ago
+    timeago: 4 years ago
     title: ''
     version: 2.0.0
   - body: "- Fix elementary Strawberry ordering\r\n- Add elementary Cocoa\r\n- Add\
