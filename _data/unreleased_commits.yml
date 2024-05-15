@@ -23,7 +23,7 @@
   - body: "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments."
     href: https://github.com/eustasy/.normal/releases/tag/1.10.2
     release_date: '2018-05-17T16:49:28+00:00'
-    timeago: 5 years ago
+    timeago: 6 years ago
     title: Drop - with Patch 2
     version: 1.10.2
   - body: "- Increase argument-count threshold to 10\r\n- Increase method-complexity\
