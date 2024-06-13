@@ -323,7 +323,7 @@
       \ to `gh-pages`\r\n- Publish site on GitHub pages"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.0.9
     release_date: '2024-03-14T12:24:41+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: 2.0.9
     version: 2.0.9
   - body: "- Add Refactoring UI color palette.\r\n- Add hex code to site preview.\r\
