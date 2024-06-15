@@ -70,7 +70,7 @@
       {
         "version": "1.5",
         "release_date": "2017-06-17T19:29:02+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Planted",
         "body": "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n- Config: Build changed so warning is given, but existing settings used.\r\n- Config: Check moved to body to prevent full build failures.\r\n- JavaScript: Acorn used for Travis CI builds.\r\n- JavaScript: Switch case spacing defined.\r\n- PHP: Loop spacing defined.\r\n- SQLint: Enabled.",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.5"
