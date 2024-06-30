@@ -567,7 +567,7 @@
       \ Better accessibility in docs\r\nMAINTENANCE: Update Iconography\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.0.1
     release_date: '2024-03-31T12:43:39+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: v4.0.1 - Inauguration with Patch 1
     version: v4.0.1
   - body: "```bash\r\ncomposer require eustasy/authenticatron\r\n```\r\n\r\nIMPROVEMENT:\
