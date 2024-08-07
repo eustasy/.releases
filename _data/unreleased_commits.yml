@@ -54,14 +54,14 @@
       \ lines for deprecated rules"
     href: https://github.com/eustasy/.normal/releases/tag/1.7
     release_date: '2017-08-09T18:16:33+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Updatable
     version: '1.7'
   - body: "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh`\
       \ description\r\n- Config: Add `install.sh`"
     href: https://github.com/eustasy/.normal/releases/tag/1.6
     release_date: '2017-08-09T18:01:49+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Installable
     version: '1.6'
   - body: "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n-\
@@ -401,7 +401,7 @@
   - body: ' - Update to NC 1.7'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.8.2
     release_date: '2017-08-09T19:04:39+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Robotic - with Patch 2
     version: 1.8.2
   - body: '- Fix Travis CI Builds'
