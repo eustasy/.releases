@@ -197,7 +197,7 @@
       \n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.1
     release_date: '2017-08-27T23:46:12+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Abstraction - with Patch 1
     version: 2.0.1
   - body: "- SECURITY: Add limits for requests and connections to specified zones\
