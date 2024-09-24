@@ -649,7 +649,7 @@
       {
         "version": "0.28",
         "release_date": "2016-09-26T18:50:19+00:00",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "Reed",
         "body": "- #5 Update code example and add to the homepage.\n- #3 Move to a puff format.\n- #2 Upgrade and conditionally load ReCaptcha.\n- #1 Redesign homepage to be in line with new labs branding.\n",
         "href": "https://github.com/eustasy/browning/releases/tag/0.28"
