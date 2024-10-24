@@ -382,7 +382,7 @@
   - body: "- Update jsDelivr embeds\r\n- Update generator to reduce duplication"
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.2
     release_date: '2017-10-26T05:50:27+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Retrospective - with Patch 2
     version: 1.9.2
   - body: "- Add jsDelivr badge to Readme\r\n- Update jsDelivr embed codes (now with\
@@ -811,14 +811,14 @@
   - body: '- Only buttons should trigger modals, not entire sections'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.1
     release_date: '2017-10-26T05:24:01+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Julian - with Patch 1
     version: 2.6.1
   - body: "- Add [Normal Checks](https://github.com/eustasy/normal-checks) 1.7\r\n\
       - Update site to match new \"labs\" style\r\n- Update code style to compliance"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.0
     release_date: '2017-10-26T05:05:35+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Julian
     version: 2.6.0
   - body: '- Improved Responsiveness Centering
