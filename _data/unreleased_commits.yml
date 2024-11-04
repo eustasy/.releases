@@ -667,13 +667,13 @@
   - body: "Significantly improved security within random number generation.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.2
     release_date: '2014-11-06T22:06:59+00:00'
-    timeago: 9 years ago
+    timeago: 10 years ago
     title: Secure
     version: '0.2'
   - body: "Initial release.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.1
     release_date: '2014-11-06T20:39:44+00:00'
-    timeago: 9 years ago
+    timeago: 10 years ago
     title: Initial
     version: '0.1'
 - default_branch: main
