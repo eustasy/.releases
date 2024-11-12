@@ -602,7 +602,7 @@
       {
         "version": "0.4",
         "release_date": "2014-11-15T11:03:25+00:00",
-        "timeago": "9 years ago",
+        "timeago": "10 years ago",
         "title": "Talkative",
         "body": "- Improved commenting.\r\n- Check the `gd` function is loaded within the QR Code function.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.4"
