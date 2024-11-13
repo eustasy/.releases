@@ -847,7 +847,7 @@
       {
         "version": "0.2",
         "release_date": "2015-11-16T12:11:19+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Responsive Settings",
         "body": "- Proper Example Pages\r\n- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- CSP Violation Reporting\r\n- Better Example Pages\r\n- De-duplication\r\n",
         "href": "https://github.com/eustasy/puff-server/releases/tag/0.2"
