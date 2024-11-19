@@ -165,7 +165,7 @@
       {
         "version": "2.0.2",
         "release_date": "2017-11-21T15:39:11+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Abstraction - with Patch 2",
         "body": "### Bugfixes\r\n- Fix invalid targets in `groups/performance-common.conf`\r\n- Fix invalid targets in `sites-available/bubbly_live.conf` and `sites-available/bubbly_verify.conf`\r\n- Change target copy from location in `bubbly_copy-configs.sh`\r\n\r\n### Changes\r\n[2.0.1 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.1...2.0.2)\r\n[2.0.0 to 2.0.2](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.2)",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.0.2"
