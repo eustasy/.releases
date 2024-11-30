@@ -514,7 +514,7 @@
       {
         "version": "v4.0.1",
         "release_date": "2024-03-31T12:43:39+00:00",
-        "timeago": "7 months ago",
+        "timeago": "8 months ago",
         "title": "v4.0.1 - Inauguration with Patch 1",
         "body": "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips a wider array of non-compliant characters for better reliability with 2fa apps.\r\nBUGFIX: `Authenticatron::new()` now handles not having a secure source by returning `null` and an error message, instead of returning a URL and QR Code for a `null` value secret.\r\n\r\n### Supporting Changes\r\nFEATURE: Optimise docs for mobile\r\nBUGFIX: Fix colors in documentation\r\nMAINTENANCE: Better accessibility in docs\r\nMAINTENANCE: Update Iconography\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.0.1"
