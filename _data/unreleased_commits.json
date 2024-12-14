@@ -157,7 +157,7 @@
       {
         "version": "2.1.0",
         "release_date": "2017-12-16T03:32:48+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Banquet",
         "body": "### Upgrade Warnings\r\n- Support for the new PHP 7.2 is the default. You should modify this to point to the correct PHP version for your server if in use, until such time that you upgrade.\r\n\r\n### Security\r\n- Add `Expect-CT` with default of `enforce, max-age=30, report-uri='/api/report_ect'`\r\n- Add `Referrer-Policy` with default of `strict-origin-when-cross-origin`\r\n\r\n### Bugfix\r\n- Fix some references to log files\r\n\r\n### Feature\r\n- Add option to disable versions in `Server`\r\n\r\n### Improvement\r\n- Add support for PHP 7.2\r\n- Add support end dates for all PHP versions\r\n- Expand Content Security Policy to include report uri\r\n- Add report only versions of Content Security Policy\r\n\r\n### Supporting\r\n- Updated screenshot for Qualys SSL Labs\r\n- Add screenshot for SecurityHeaders.io\r\n- Fix badge from Code Climate\r\n\r\n### Changes\r\n[2.0.2 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.2...2.1.0)\r\n[2.0.1 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.1...2.1.0)\r\n[2.0.0 to 2.1.0](https://github.com/eustasy/bubbly/compare/2.0.0...2.1.0)",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.1.0"
