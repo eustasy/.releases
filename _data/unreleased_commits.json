@@ -253,7 +253,7 @@
       {
         "version": "1.0",
         "release_date": "2015-12-30T14:01:40+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Stable",
         "body": "### Release\r\n- `nginx.conf` for the highest grade of security with OSCP Stapling and HSTS headers, among other things.\r\n- `nginx.next.conf` for the same stuff with HTTP/2 (on Nginx >=1.9.5) and/or PHP 7.0\r\n- `nginx.verify-and-redirect.conf` to enable the `renew-ssl` function to verify, and to redirect non-HTTPS queries on the server.\r\n- `renew-ssl` function can renew certificates without stopping or restarting Nginx.\r\n- [Simple Instructions](https://github.com/eustasy/letsencrypt-with-nginx) for installing, and automatically renewing SSL certificates.\r\n- [Generation Script](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/Generate.sh) for Session Tickets & DH Parameters.\r\n- Let's Encrypt [Configured](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/letsencrypt/cli.ini) for larger keys.\r\n- [Example Crontab](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/crontab)\r\n- [MIT Licensed](https://github.com/eustasy/letsencrypt-with-nginx/blob/master/LICENSE.md)\r\n\r\n### Roadmap\r\n- Public Key Pinning\r\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.0"
