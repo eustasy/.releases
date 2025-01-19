@@ -451,7 +451,7 @@
       {
         "version": "v.3.0",
         "release_date": "2016-01-21T22:44:34+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Sanitized",
         "body": "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\n- FEATURE: Adds normalized checks.\r\n- IMPROVES: Sanitizes super-globals before use ([#16](https://github.com/eustasy/phoenix/issues/16)).\r\n- IMPROVES: Documented hook files ([#23](https://github.com/eustasy/phoenix/issues/23)).\r\n- IMPROVES: Removes duplicated variables ([#20](https://github.com/eustasy/phoenix/issues/20)).\r\n- IMPROVES: Moved to puff-style structure ([#18](https://github.com/eustasy/phoenix/issues/18)).\r\n- IMPROVES: IP detection, especially when reporting IPv4 _and_ IPv6.\r\n- IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.3.0"
