@@ -522,7 +522,7 @@
       {
         "version": "v4.0.0",
         "release_date": "2024-03-14T10:07:04+00:00",
-        "timeago": "10 months ago",
+        "timeago": "11 months ago",
         "title": "v4 - Inauguration",
         "body": "```bash\r\ncomposer require eustasy/authenticatron\r\n```\r\n\r\nIMPROVEMENT: Launch Composer package: https://packagist.org/packages/eustasy/authenticatron\r\nMAINTENANCE: Drop [PHPQRCode](https://phpqrcode.sourceforge.net/) for [jysperu/PHP-QR-Code](https://packagist.org/packages/jysperu/php-qr-code)\r\nMAINTENANCE: Add PHP Unit tests with PHPUnit\r\nDEPRECATED: Remove deprecated mcrypt library\r\nNOTE: Updated eustasy/.Normal to 3.0\r\nNOTE: Removed Codacy, Travis-CI\r\nNOTE: Regular testing against PHP 8.3, 8.2, 8.1, 8.0\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.0.0"
