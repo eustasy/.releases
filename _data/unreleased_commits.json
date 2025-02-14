@@ -475,7 +475,7 @@
       {
         "version": "v.1.3",
         "release_date": "2015-02-16T21:01:44+00:00",
-        "timeago": "9 years ago",
+        "timeago": "10 years ago",
         "title": "Hexa",
         "body": "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.1.3"
