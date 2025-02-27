@@ -784,7 +784,7 @@
       {
         "version": "2.3",
         "release_date": "2016-03-01T19:37:02+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "2.3: Options",
         "body": "- Add a flag for close on overlay click.\n- Add a flag for close on esc.\n\nhttps://github.com/eustasy/jQuery.leanModal2/compare/2.2...2.3\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.3"
