@@ -47,7 +47,7 @@
       \ GitHub"
     href: https://github.com/eustasy/.normal/releases/tag/1.9.0
     release_date: '2018-03-14T09:22:54+00:00'
-    timeago: 6 years ago
+    timeago: 7 years ago
     title: Stacked
     version: 1.9.0
   - body: "- Config: Remove \"selector-no-universal\"\r\n- Config: Add replacement\
