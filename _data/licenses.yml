@@ -26,8 +26,8 @@
   license_type: GPLv3
   license_year: '2007'
   name: .releases
-  pushed_at: '2025-03-30T16:33:17+00:00'
-  updated_at: '2025-03-30T16:33:20+00:00'
+  pushed_at: '2025-03-30T20:29:08+00:00'
+  updated_at: '2025-03-30T20:29:11+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2023'
@@ -39,7 +39,7 @@
   license_year: '2024'
   name: Bubbly
   pushed_at: '2024-07-22T03:41:45+00:00'
-  updated_at: '2025-03-18T15:23:26+00:00'
+  updated_at: '2025-03-30T21:00:04+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2024'
