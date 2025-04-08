@@ -236,7 +236,7 @@
       \ Add BountySource badge.\r\n- SUPPORTING: Add a contribute package file."
     href: https://github.com/eustasy/Bubbly/releases/tag/1.8
     release_date: '2017-04-10T18:32:01+00:00'
-    timeago: 7 years ago
+    timeago: 8 years ago
     title: Primadonna
     version: '1.8'
   - body: "- BUGFIX: Fix syntax of `nginx.conf`\r\n- BUGFIX: Remove duplicate `include`s\r\
