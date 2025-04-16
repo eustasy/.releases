@@ -86,7 +86,7 @@
       {
         "version": "1.3",
         "release_date": "2017-04-18T03:59:03+00:00",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "Graduation",
         "body": "- Add Codacy Configuration\r\n- Update Code Climate Configuration\r\n- Add ESLint Configuration\r\n- Add MDLRC Configuration\r\n- Update Stylelint Configuration\r\n- Add Configuration Check\r\n- Add Permissions Check\r\n- Only require most recent PHP version\r\n- Update command-file naming\r\n- Massively expand documentation",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.3"
