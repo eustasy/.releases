@@ -38,7 +38,7 @@
       {
         "version": "1.10.0",
         "release_date": "2018-04-25T04:35:42+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Drop",
         "body": "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\n- Add editor config",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.10.0"
