@@ -153,6 +153,15 @@
     "delete_branch_on_merge": true
   },
   {
+    "name": "magazine",
+    "default_branch": "main",
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": false
+  },
+  {
     "name": "puff-server",
     "default_branch": "main",
     "allow_rebase_merge": false,

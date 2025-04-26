@@ -117,6 +117,13 @@
   default_branch: main
   delete_branch_on_merge: true
   name: labs.eustasy.org
+- allow_auto_merge: false
+  allow_merge_commit: true
+  allow_rebase_merge: true
+  allow_squash_merge: true
+  default_branch: main
+  delete_branch_on_merge: false
+  name: magazine
 - allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
