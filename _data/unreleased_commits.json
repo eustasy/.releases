@@ -22,7 +22,7 @@
       {
         "version": "1.10.2",
         "release_date": "2018-05-17T16:49:28+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Drop - with Patch 2",
         "body": "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments.",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.10.2"
