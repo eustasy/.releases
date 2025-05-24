@@ -609,13 +609,13 @@
   - body: "- BUGFIX: Remove unused variable.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.3
     release_date: '2015-05-26T21:36:32+00:00'
-    timeago: 9 years ago
+    timeago: 10 years ago
     title: Establishment - with Patch 3
     version: 0.7.3
   - body: "- BUGFIX: Undefined variable.\r\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.7.2
     release_date: '2015-05-26T21:32:34+00:00'
-    timeago: 9 years ago
+    timeago: 10 years ago
     title: Establishment - with Patch 2
     version: 0.7.2
   - body: "- BUGFIX: Unused variable.\r\n- BUGFIX: Uncached count.\r\n"
