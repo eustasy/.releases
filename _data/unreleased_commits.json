@@ -213,7 +213,7 @@
       {
         "version": "1.5",
         "release_date": "2016-05-26T18:53:54+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Secondary",
         "body": "- BUGFIX: Moved to HTTP/2 as default now Nginx 1.10 is out.\r\n- IMPROVEMENT: Made HTTP/2 optional in secondary config.\r\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.5"
