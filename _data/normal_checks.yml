@@ -16,6 +16,9 @@
 - default_branch: main
   name: .ui
   normal_checks: false
+- default_branch: master
+  name: .uptime
+  normal_checks: false
 - default_branch: main
   name: Bubbly
   normal_checks: 3.0.1

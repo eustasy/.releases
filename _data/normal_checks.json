@@ -30,6 +30,11 @@
     "normal_checks": false
   },
   {
+    "name": ".uptime",
+    "default_branch": "master",
+    "normal_checks": false
+  },
+  {
     "name": "Bubbly",
     "default_branch": "main",
     "normal_checks": "3.0.1"
