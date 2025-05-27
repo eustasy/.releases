@@ -52,7 +52,7 @@
   allow_rebase_merge: true
   allow_squash_merge: true
   default_branch: master
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: .uptime
 - allow_auto_merge: true
   allow_merge_commit: false
