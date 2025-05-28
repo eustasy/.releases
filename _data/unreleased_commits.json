@@ -141,7 +141,7 @@
       {
         "version": "2.1.2",
         "release_date": "2018-05-30T14:07:43+00:00",
-        "timeago": "6 years ago",
+        "timeago": "7 years ago",
         "title": "Banquet - with Patch 2",
         "body": "### Upgrade Warnings\r\n- `Expect-CT` now has a default value of 30 seconds.\r\n- `Strict-Transport-Security` now has a default value of 31536000 seconds (365 days).\r\n- `Expect-CT` now has an optional value of 31536000 seconds (365 days).\r\n- If any `Content-Security-Policy` changes have taken place, a normal overwrite upgrade will eradicate them.\r\n\r\n### Bugfix\r\n- Fix error when running `bubbly_generate-statics.sh` due to change in `openssl rand` parameter order strictness.\r\n\r\n### Improvement\r\n- Move `Content-Security-Policy` to own default file to allow easier customisation.\r\n\r\n### Changes\r\n[2.1.1 to 2.1.2](https://github.com/eustasy/bubbly/compare/2.1.1...2.1.2)",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.1.2"
