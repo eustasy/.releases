@@ -887,7 +887,7 @@
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.2
     release_date: '2015-06-08T15:30:03+00:00'
-    timeago: 9 years ago
+    timeago: 10 years ago
     title: '2.2: Escape Hatch'
     version: '2.2'
   - body: "### Bugfixes\r\n- Fixes modal overlay widths being set to include margins.\
