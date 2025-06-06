@@ -33,8 +33,8 @@
   },
   {
     "name": ".releases",
-    "pushed_at": "2025-06-05T20:27:46+00:00",
-    "updated_at": "2025-06-05T20:27:47+00:00",
+    "pushed_at": "2025-06-06T02:17:25+00:00",
+    "updated_at": "2025-06-06T02:17:28+00:00",
     "license_file": "LICENSE",
     "license_type": "GPLv3",
     "license_year": "2007"
@@ -145,7 +145,7 @@
   },
   {
     "name": "puff-serverless",
-    "pushed_at": "2025-06-05T20:37:11+00:00",
+    "pushed_at": "2025-06-06T03:52:44+00:00",
     "updated_at": "2025-06-05T20:37:13+00:00",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
