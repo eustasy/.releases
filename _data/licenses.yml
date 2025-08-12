@@ -20,14 +20,14 @@
   license_type: MIT
   license_year: '2024'
   name: .normal
-  pushed_at: '2025-08-12T00:12:54+00:00'
-  updated_at: '2024-01-03T20:37:22+00:00'
+  pushed_at: '2025-08-12T14:19:37+00:00'
+  updated_at: '2025-08-12T14:19:40+00:00'
 - license_file: LICENSE
   license_type: GPLv3
   license_year: '2007'
   name: .releases
-  pushed_at: '2025-08-12T08:40:50+00:00'
-  updated_at: '2025-08-12T08:40:53+00:00'
+  pushed_at: '2025-08-12T13:01:05+00:00'
+  updated_at: '2025-08-12T13:01:08+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2023'
@@ -110,5 +110,5 @@
   license_type: MIT
   license_year: '2025'
   name: puff-serverless
-  pushed_at: '2025-08-11T05:16:46+00:00'
-  updated_at: '2025-08-05T13:02:57+00:00'
+  pushed_at: '2025-08-12T14:17:29+00:00'
+  updated_at: '2025-08-12T14:17:31+00:00'
