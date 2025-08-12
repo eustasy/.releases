@@ -1,6 +1,6 @@
 - default_branch: main
   name: .normal
-  new_commits: 20
+  new_commits: 21
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
