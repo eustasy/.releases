@@ -315,7 +315,7 @@
     version: '1.0'
 - default_branch: gh-pages
   name: Colors.css
-  new_commits: 1
+  new_commits: 2
   releases:
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
       \ for easier overrides\r\n- Fix generator not updating main css file\r\n- Update\
@@ -556,7 +556,7 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 1
+  new_commits: 2
   releases:
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
       \ a wider array of non-compliant characters for better reliability with 2fa\
