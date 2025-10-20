@@ -26,8 +26,8 @@
   license_type: GPLv3
   license_year: '2007'
   name: .releases
-  pushed_at: '2025-10-19T20:29:55+00:00'
-  updated_at: '2025-10-19T20:29:59+00:00'
+  pushed_at: '2025-10-20T02:17:26+00:00'
+  updated_at: '2025-10-20T02:17:29+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2023'
@@ -110,5 +110,5 @@
   license_type: MIT
   license_year: '2025'
   name: puff-serverless
-  pushed_at: '2025-10-14T16:29:54+00:00'
+  pushed_at: '2025-10-20T03:35:23+00:00'
   updated_at: '2025-10-14T16:29:57+00:00'
