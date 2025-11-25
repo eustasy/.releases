@@ -1,6 +1,6 @@
 - default_branch: main
   name: .normal
-  new_commits: 24
+  new_commits: 25
   releases:
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
       \ MINOR\r\n- Add SQL linting.\r\n\r\n### PATCH\r\n- Add PHP 8.1 & 8.2\r\n\r\n\
@@ -315,7 +315,7 @@
     version: '1.0'
 - default_branch: gh-pages
   name: Colors.css
-  new_commits: 5
+  new_commits: 6
   releases:
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
       \ for easier overrides\r\n- Fix generator not updating main css file\r\n- Update\
@@ -556,7 +556,7 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 4
+  new_commits: 5
   releases:
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
       \ a wider array of non-compliant characters for better reliability with 2fa\
