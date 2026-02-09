@@ -9,7 +9,7 @@
   normal_checks: false
 - default_branch: main
   name: .normal
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: .releases
   normal_checks: false
@@ -30,13 +30,13 @@
   normal_checks: false
 - default_branch: main
   name: Phoenix
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: authenticatron
   normal_checks: 3.0.1
 - default_branch: main
   name: browning
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: cdns
   normal_checks: 3.0.1
