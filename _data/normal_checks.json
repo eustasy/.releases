@@ -17,7 +17,7 @@
   {
     "name": ".normal",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": ".releases",
@@ -52,7 +52,7 @@
   {
     "name": "Phoenix",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "authenticatron",
@@ -62,7 +62,7 @@
   {
     "name": "browning",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": "3.0.1"
   },
   {
     "name": "cdns",
