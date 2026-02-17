@@ -33,10 +33,10 @@
   normal_checks: 3.0.1
 - default_branch: main
   name: authenticatron
-  normal_checks: false
+  normal_checks: 3.0.1
 - default_branch: main
   name: browning
-  normal_checks: false
+  normal_checks: 3.0.1
 - default_branch: main
   name: cdns
   normal_checks: 3.0.1
@@ -51,7 +51,7 @@
   normal_checks: 3.0.1
 - default_branch: main
   name: puff-server
-  normal_checks: false
+  normal_checks: 3.0.1
 - default_branch: cf-pages
   name: puff-serverless
   normal_checks: false
