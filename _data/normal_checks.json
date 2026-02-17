@@ -57,12 +57,12 @@
   {
     "name": "authenticatron",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": "browning",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": "cdns",
@@ -87,7 +87,7 @@
   {
     "name": "puff-server",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": "puff-serverless",
