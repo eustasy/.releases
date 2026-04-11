@@ -315,7 +315,7 @@
     version: '1.0'
 - default_branch: gh-pages
   name: Colors.css
-  new_commits: 6
+  new_commits: 7
   releases:
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
       \ for easier overrides\r\n- Fix generator not updating main css file\r\n- Update\
