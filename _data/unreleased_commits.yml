@@ -114,7 +114,7 @@
     version: '1.0'
 - default_branch: main
   name: Bubbly
-  new_commits: 36
+  new_commits: 37
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -315,7 +315,7 @@
     version: '1.0'
 - default_branch: gh-pages
   name: Colors.css
-  new_commits: 7
+  new_commits: 9
   releases:
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
       \ for easier overrides\r\n- Fix generator not updating main css file\r\n- Update\
@@ -556,7 +556,7 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 8
+  new_commits: 9
   releases:
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
       \ a wider array of non-compliant characters for better reliability with 2fa\
@@ -678,8 +678,15 @@
     version: '0.1'
 - default_branch: main
   name: browning
-  new_commits: 16
+  new_commits: 0
   releases:
+  - body: "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify\
+      \ error returns\r\n- Better composer support"
+    href: https://github.com/eustasy/browning/releases/tag/0.30
+    release_date: '2026-04-20T20:18:18+00:00'
+    timeago: 44 minutes ago
+    title: Circle
+    version: '0.30'
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
       \n- Match new \"labs\" styles\r\n- Add Badges for Travis CI, Codacy, Code Climate,\
       \ and Bountysource\r\n- Add NC 1.7\r\n"
