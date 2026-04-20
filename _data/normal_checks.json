@@ -1,10 +1,5 @@
 [
   {
-    "name": ".assets",
-    "default_branch": "gh-pages",
-    "normal_checks": false
-  },
-  {
     "name": ".choices",
     "default_branch": "main",
     "normal_checks": false
