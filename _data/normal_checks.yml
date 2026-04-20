@@ -37,9 +37,9 @@
 - default_branch: main
   name: browning
   normal_checks: 3.0.1
-- default_branch: main
+- default_branch: gh-pages
   name: cdns
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: gh-pages
   name: howtoubuntu.org
   normal_checks: false

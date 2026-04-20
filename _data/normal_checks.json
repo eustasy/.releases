@@ -66,8 +66,8 @@
   },
   {
     "name": "cdns",
-    "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "default_branch": "gh-pages",
+    "normal_checks": false
   },
   {
     "name": "howtoubuntu.org",
