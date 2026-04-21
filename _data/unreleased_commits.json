@@ -641,7 +641,7 @@
       {
         "version": "0.30",
         "release_date": "2026-04-20T20:18:18+00:00",
-        "timeago": "7 hours ago",
+        "timeago": "9 hours ago",
         "title": "Circle",
         "body": "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify error returns\r\n- Better composer support",
         "href": "https://github.com/eustasy/browning/releases/tag/0.30"
