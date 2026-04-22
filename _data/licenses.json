@@ -25,8 +25,8 @@
   },
   {
     "name": ".releases",
-    "pushed_at": "2026-04-22T09:49:58+00:00",
-    "updated_at": "2026-04-22T09:50:02+00:00",
+    "pushed_at": "2026-04-22T14:06:25+00:00",
+    "updated_at": "2026-04-22T14:06:45+00:00",
     "license_file": "LICENSE",
     "license_type": "GPLv3",
     "license_year": "2007"
@@ -105,8 +105,8 @@
   },
   {
     "name": "howtoubuntu.org",
-    "pushed_at": "2026-04-21T16:06:37+00:00",
-    "updated_at": "2026-04-21T16:06:41+00:00",
+    "pushed_at": "2026-04-22T15:10:05+00:00",
+    "updated_at": "2026-04-22T15:10:12+00:00",
     "license_file": "LICENSE.md",
     "license_type": "MIT",
     "license_year": "2026"
