@@ -308,7 +308,7 @@
       {
         "version": "2.0.4",
         "release_date": "2020-04-23T17:52:15+00:00",
-        "timeago": "5 years ago",
+        "timeago": "6 years ago",
         "title": "",
         "body": "- Add CSS Variables",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.4"
@@ -641,7 +641,7 @@
       {
         "version": "0.30",
         "release_date": "2026-04-20T20:18:18+00:00",
-        "timeago": "1 day ago",
+        "timeago": "2 days ago",
         "title": "Circle",
         "body": "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify error returns\r\n- Better composer support",
         "href": "https://github.com/eustasy/browning/releases/tag/0.30"
