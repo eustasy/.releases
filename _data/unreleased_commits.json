@@ -300,7 +300,7 @@
       {
         "version": "2.0.5",
         "release_date": "2020-04-24T20:35:04+00:00",
-        "timeago": "5 years ago",
+        "timeago": "6 years ago",
         "title": "",
         "body": "- Add elementary Mint colors\r\n- Add elementary Text colors",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.0.5"
@@ -641,7 +641,7 @@
       {
         "version": "0.30",
         "release_date": "2026-04-20T20:18:18+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "title": "Circle",
         "body": "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify error returns\r\n- Better composer support",
         "href": "https://github.com/eustasy/browning/releases/tag/0.30"
