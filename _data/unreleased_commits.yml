@@ -114,7 +114,7 @@
     version: '1.0'
 - default_branch: main
   name: Bubbly
-  new_commits: 48
+  new_commits: 57
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -426,7 +426,7 @@
     version: '1.7'
 - default_branch: main
   name: Phoenix
-  new_commits: 18
+  new_commits: 21
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
