@@ -426,7 +426,7 @@
     version: '1.7'
 - default_branch: main
   name: Phoenix
-  new_commits: 107
+  new_commits: 109
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
