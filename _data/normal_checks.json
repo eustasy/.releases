@@ -12,7 +12,7 @@
   {
     "name": ".normal",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": ".releases",

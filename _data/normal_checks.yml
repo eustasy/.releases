@@ -6,7 +6,7 @@
   normal_checks: false
 - default_branch: main
   name: .normal
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: .releases
   normal_checks: false
