@@ -1,7 +1,4 @@
 - default_branch: main
-  name: .choices
-  normal_checks: false
-- default_branch: main
   name: .github
   normal_checks: false
 - default_branch: main

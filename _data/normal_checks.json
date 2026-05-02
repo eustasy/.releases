@@ -1,10 +1,5 @@
 [
   {
-    "name": ".choices",
-    "default_branch": "main",
-    "normal_checks": false
-  },
-  {
     "name": ".github",
     "default_branch": "main",
     "normal_checks": false
