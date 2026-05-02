@@ -4,9 +4,17 @@
     "default_branch": "main",
     "releases": [
       {
+        "version": "4.0beta3",
+        "release_date": "2026-05-02T04:30:58+00:00",
+        "timeago": "1 hour ago",
+        "title": "Appletini (4.0beta3)",
+        "body": "**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3",
+        "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta3"
+      },
+      {
         "version": "4.0beta2",
         "release_date": "2026-05-02T02:05:39+00:00",
-        "timeago": "1 hour ago",
+        "timeago": "4 hours ago",
         "title": "Appletini (4.0beta2)",
         "body": "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy, loop workflows by @Copilot in https://github.com/eustasy/.normal/pull/24\r\n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta2"
@@ -14,7 +22,7 @@
       {
         "version": "4.0beta1",
         "release_date": "2026-05-01T22:43:30+00:00",
-        "timeago": "5 hours ago",
+        "timeago": "7 hours ago",
         "title": "Appletini (4.0beta1)",
         "body": "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh) with per-language CI workflows.\r\n\r\n### What's new\r\n\r\n**16 CI workflows** replacing the single `normal.yml`:\r\n`security`, `sh`, `sql`, `css`, `md`, `json`, `yaml`, `env`, `xml`, `html`, `js`, `python`, `php`\r\nplus `test-js`, `test-python`, `test-php` (disabled by default \u2014 remove `if: false` to activate).\r\n\r\n**New toolchain:**\r\n\r\n| Replaced | With |\r\n|----------|------|\r\n| CodeClimate | Qlty (`qlty.toml`) |\r\n| ESLint | OXC (`oxlint.json`) |\r\n| mdlrc / mdlrc.style.rb | markdownlint |\r\n| Per-repo Prettier configs | Centralised `.qlty/configs/.prettierrc.json` |\r\n| \u2014 | Ruff (Python lint + format) |\r\n| \u2014 | sqlfluff (SQL lint + format, default dialect: mysql) |\r\n| \u2014 | php-cs-fixer, phpstan, phpmd |\r\n| \u2014 | VS Code `settings.json` (format-on-save) |\r\n\r\n**Languages added:** Python, TypeScript, SCSS, YAML, XML, `.env`\r\n\r\n**Dependabot** now covers `github-actions`, `npm`, `composer`, and `pip`.\r\n\r\n### Breaking changes\r\n\r\n- Requires [connecting the repo on qlty.sh](https://qlty.sh) (replaces Code Climate webhook)\r\n- `.codeclimate.yml`, `.eslintrc.json`, `.eslintignore`, `.stylelintrc.json`, `.stylelintignore`, `.mdlrc`, `.mdlrc.style.rb` are deleted by `install.sh`\r\n- `normal.yml` workflow is deleted and replaced; existing branch protection rules pointing to it will need updating\r\n\r\n### Upgrade\r\n\r\n```bash\r\ngit clone https://github.com/eustasy/.normal.git &&\r\ncp .normal/install.sh install.sh &&\r\nchmod 755 install.sh &&\r\n./install.sh &&\r\nrm install.sh &&\r\nrm -Rf .normal\r\ngit add -A\r\ngit commit -m \"Migrate to eustasy/.Normal 4.0beta1\"\r\ngit push\r\n```\r\n\r\nThen add `QLTY_COVERAGE_TOKEN` to repo secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta1"
@@ -132,7 +140,7 @@
         "href": "https://github.com/eustasy/.normal/releases/tag/1.0"
       }
     ],
-    "new_commits": 4
+    "new_commits": 0
   },
   {
     "name": "Bubbly",
@@ -521,7 +529,7 @@
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.1.0"
       }
     ],
-    "new_commits": 187
+    "new_commits": 188
   },
   {
     "name": "authenticatron",
