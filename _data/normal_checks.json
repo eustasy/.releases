@@ -67,7 +67,7 @@
   {
     "name": "jQuery.leanModal2",
     "default_branch": "gh-pages",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": "labs.eustasy.org",

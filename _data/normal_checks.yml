@@ -39,7 +39,7 @@
   normal_checks: false
 - default_branch: gh-pages
   name: jQuery.leanModal2
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: labs.eustasy.org
   normal_checks: 3.0.1
