@@ -418,7 +418,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 9
+    "new_commits": 10
   },
   {
     "name": "Phoenix",
@@ -535,6 +535,14 @@
     "name": "authenticatron",
     "default_branch": "main",
     "releases": [
+      {
+        "version": "v4.1.0",
+        "release_date": "2026-05-03T14:59:06+00:00",
+        "timeago": "2 hours ago",
+        "title": "v4.1.0 - Oath",
+        "body": "### Package Changes\r\nBUGFIX: `Authenticatron::getCode()` timestamp override now correctly expects a raw time() unix timestamp, converting to 30-second time steps internally. Previously the caller was expected to pre-divide by 30, making overrides inconsistent.\r\nBUGFIX: `Authenticatron::getCodesInRange()` loop now offsets by `$i * 30` seconds rather than `$i` time steps, matching the corrected `getCode()` behaviour.\r\nIMPROVEMENT: `Authenticatron::makeSecret()` now requires PHP >= 8.2 and uses `random_bytes()` exclusively, removing OpenSSL and mcrypt fallbacks. Return type tightened from `?string` to `string.`\r\nIMPROVEMENT: `Authenticatron::new()` simplified \u2014 null-secret guard removed now that `makeSecret()` always returns a string.\r\n\r\n### Supporting Changes\r\nBUGFIX: Fix broken `LICENSE.md` link in footer\r\nBUGFIX: Fix multiple typos in documentation and index page\r\nIMPROVEMENT: Expand test suite with coverage for custom secret length, secret uniqueness, URL special-character stripping, QR data URI format, code determinism, range keys, invalid code rejection, and `new()` output\r\nMAINTENANCE: Remove OpenSSL and mcrypt fallback UI from `documentation.php` and `server.php`\r\nMAINTENANCE: Remove legacy linting config files (CodeClimate, ESLint, stylelint, mdlrc)\r\nMAINTENANCE: Remove unused `.github/workflows/normal.yml` workflow\r\nMAINTENANCE: Expand PHP test matrix to include 8.4, 8.5, and 8.6\r\nMAINTENANCE: Update CI action versions and switch Dependabot to monthly grouped updates\r\nMAINTENANCE: Update copyright year to 2026\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.0.1...v4.1.0",
+        "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.0"
+      },
       {
         "version": "v4.0.1",
         "release_date": "2024-03-31T12:43:39+00:00",
@@ -656,7 +664,7 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
-    "new_commits": 9
+    "new_commits": 0
   },
   {
     "name": "browning",
@@ -751,7 +759,7 @@
         "href": "https://github.com/eustasy/browning/releases/tag/0.20"
       }
     ],
-    "new_commits": 0
+    "new_commits": 1
   },
   {
     "name": "jQuery.leanModal2",
@@ -760,7 +768,7 @@
       {
         "version": "2.6.4",
         "release_date": "2026-05-03T01:50:17+00:00",
-        "timeago": "11 hours ago",
+        "timeago": "15 hours ago",
         "title": "Julian - with Patch 4",
         "body": "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't mention how modals are linked.\r\n- Fix #8: Documentation doesn't mention embedding from jsDelivr.\r\n- Security: DOM text reinterpreted as HTML.\r\n\r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4"
