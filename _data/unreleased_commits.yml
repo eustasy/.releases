@@ -5,7 +5,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 16 hours ago
+    timeago: 23 hours ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -13,7 +13,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 18 hours ago
+    timeago: 1 day ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -42,7 +42,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 22 hours ago
+    timeago: 1 day ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -842,8 +842,17 @@
     version: '0.20'
 - default_branch: gh-pages
   name: jQuery.leanModal2
-  new_commits: 19
+  new_commits: 0
   releases:
+  - body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't\
+      \ mention how modals are linked.\r\n- Fix #8: Documentation doesn't mention\
+      \ embedding from jsDelivr.\r\n- Security: DOM text reinterpreted as HTML.\r\n\
+      \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
+    href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
+    release_date: '2026-05-03T01:50:17+00:00'
+    timeago: 2 hours ago
+    title: Julian - with Patch 4
+    version: 2.6.4
   - body: '- Move all CSS to a block'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.3
     release_date: '2018-02-15T00:32:12+00:00'
