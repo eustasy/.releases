@@ -1,15 +1,9 @@
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2023'
-  name: .choices
-  pushed_at: '2023-10-29T21:39:26+00:00'
-  updated_at: '2023-10-29T21:43:35+00:00'
-- license_file: LICENSE.md
-  license_type: MIT
-  license_year: '2024'
+  license_year: '2026'
   name: .github
-  pushed_at: '2024-03-08T07:48:34+00:00'
-  updated_at: '2023-07-02T13:28:40+00:00'
+  pushed_at: '2026-05-02T21:48:33+00:00'
+  updated_at: '2026-05-02T21:48:37+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -20,8 +14,8 @@
   license_type: GPLv3
   license_year: '2007'
   name: .releases
-  pushed_at: '2026-05-02T17:08:24+00:00'
-  updated_at: '2026-05-02T17:08:27+00:00'
+  pushed_at: '2026-05-02T22:01:21+00:00'
+  updated_at: '2026-05-02T22:01:25+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -32,8 +26,8 @@
   license_type: MIT
   license_year: '2020'
   name: .uptime
-  pushed_at: '2026-05-02T03:31:35+00:00'
-  updated_at: '2026-05-02T03:31:38+00:00'
+  pushed_at: '2026-05-03T03:52:57+00:00'
+  updated_at: '2026-05-03T03:53:01+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -84,10 +78,10 @@
   updated_at: '2026-04-22T15:10:12+00:00'
 - license_file: LICENSE.md
   license_type: MIT
-  license_year: '2024'
+  license_year: '2026'
   name: jQuery.leanModal2
-  pushed_at: '2024-03-08T07:49:32+00:00'
-  updated_at: '2023-10-29T21:46:56+00:00'
+  pushed_at: '2026-05-03T01:52:52+00:00'
+  updated_at: '2026-05-03T01:50:23+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2024'
@@ -104,5 +98,5 @@
   license_type: MIT
   license_year: '2026'
   name: puff-serverless
-  pushed_at: '2026-04-26T14:22:53+00:00'
-  updated_at: '2026-04-26T14:22:55+00:00'
+  pushed_at: '2026-05-03T03:25:37+00:00'
+  updated_at: '2026-05-03T03:25:40+00:00'
