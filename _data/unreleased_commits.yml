@@ -624,7 +624,7 @@
       \ Update copyright year to 2026\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.0.1...v4.1.0"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.0
     release_date: '2026-05-03T14:59:06+00:00'
-    timeago: 2 hours ago
+    timeago: 6 hours ago
     title: v4.1.0 - Oath
     version: v4.1.0
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
@@ -876,7 +876,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
     release_date: '2026-05-03T01:50:17+00:00'
-    timeago: 15 hours ago
+    timeago: 19 hours ago
     title: Julian - with Patch 4
     version: 2.6.4
   - body: '- Move all CSS to a block'
