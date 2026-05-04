@@ -753,7 +753,7 @@
       \ error returns\r\n- Better composer support"
     href: https://github.com/eustasy/browning/releases/tag/0.30
     release_date: '2026-04-20T20:18:18+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Circle
     version: '0.30'
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
