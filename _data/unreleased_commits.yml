@@ -5,7 +5,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -624,7 +624,7 @@
       \ Update copyright year to 2026\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.0.1...v4.1.0"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.0
     release_date: '2026-05-03T14:59:06+00:00'
-    timeago: 13 hours ago
+    timeago: 16 hours ago
     title: v4.1.0 - Oath
     version: v4.1.0
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
