@@ -13,7 +13,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -42,7 +42,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -876,7 +876,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
     release_date: '2026-05-03T01:50:17+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Julian - with Patch 4
     version: 2.6.4
   - body: '- Move all CSS to a block'
