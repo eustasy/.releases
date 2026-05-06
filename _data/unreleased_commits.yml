@@ -1,6 +1,6 @@
 - default_branch: main
   name: .normal
-  new_commits: 0
+  new_commits: 1
   releases:
   - body: '**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
@@ -469,7 +469,7 @@
     version: '1.7'
 - default_branch: main
   name: Phoenix
-  new_commits: 232
+  new_commits: 234
   releases:
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
