@@ -40,9 +40,9 @@
 - default_branch: gh-pages
   name: jQuery.leanModal2
   normal_checks: false
-- default_branch: main
+- default_branch: cf-pages
   name: labs.eustasy.org
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: puff-server
   normal_checks: 3.0.1
