@@ -6,7 +6,7 @@
       {
         "version": "4.0beta3",
         "release_date": "2026-05-02T04:30:58+00:00",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "title": "Appletini (4.0beta3)",
         "body": "**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta3"
@@ -140,7 +140,7 @@
         "href": "https://github.com/eustasy/.normal/releases/tag/1.0"
       }
     ],
-    "new_commits": 2
+    "new_commits": 4
   },
   {
     "name": "Bubbly",
@@ -283,7 +283,7 @@
         "href": "https://github.com/eustasy/Bubbly/releases/tag/1.0"
       }
     ],
-    "new_commits": 57
+    "new_commits": 62
   },
   {
     "name": "Colors.css",
@@ -529,7 +529,7 @@
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.1.0"
       }
     ],
-    "new_commits": 240
+    "new_commits": 257
   },
   {
     "name": "authenticatron",
@@ -664,7 +664,7 @@
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.1"
       }
     ],
-    "new_commits": 0
+    "new_commits": 2
   },
   {
     "name": "browning",
