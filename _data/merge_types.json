@@ -136,7 +136,7 @@
   },
   {
     "name": "labs.eustasy.org",
-    "default_branch": "main",
+    "default_branch": "cf-pages",
     "allow_rebase_merge": false,
     "allow_squash_merge": true,
     "allow_merge_commit": false,
