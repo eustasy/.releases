@@ -507,7 +507,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 10 hours ago
+    timeago: 13 hours ago
     title: v3.2 - Haggard
     version: v.3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
