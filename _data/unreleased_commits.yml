@@ -507,7 +507,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 20 hours ago
+    timeago: 23 hours ago
     title: v3.2 - Haggard
     version: v.3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
@@ -663,7 +663,7 @@
       \ Update copyright year to 2026\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.0.1...v4.1.0"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.0
     release_date: '2026-05-03T14:59:06+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: v4.1.0 - Oath
     version: v4.1.0
   - body: "### Package Changes\r\nIMPROVEMENT: `Authenticatron::getUrl()` now strips\
