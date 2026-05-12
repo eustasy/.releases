@@ -1,0 +1,112 @@
+---
+layout: default
+title: Community Checks
+description: Which community health files does each repository provide?
+---
+
+{% assign org_href = "https://github.com/eustasy" %}
+
+<script defer src="sortable.mega-advanced.min.js"></script>
+
+<style>
+
+  .wrapper {
+    max-width: 1080px;
+    width: auto;
+  }
+
+  section {
+    width: calc(100% - 270px);
+  }
+
+  h1,
+  a:focus,
+  a:hover {
+    font-weight: normal;
+  }
+
+  .name {
+    display: block;
+    font-weight: normal;
+    color: inherit;
+  }
+
+  .status {
+    background-color: rgba(212, 212, 212, 0.5);
+    border-radius: 1em;
+    color: #555761;
+    font-size: 0.85em;
+    padding: 0.15em 0.75em;
+  }
+
+  .version a,
+  .status a {
+    color: inherit;
+    font-weight: inherit;
+  }
+
+  .good {
+    background-color: rgba(209, 255, 130, 0.5);
+    color: #206b00;
+  }
+
+  .warn {
+    background-color: rgba(255, 243, 148, 0.5);
+    color: #ad5f00;
+  }
+
+  .critical {
+    background-color: rgba(255, 140, 130, 0.5);
+    color: #7a0000;
+  }
+
+</style>
+
+<p><small>
+  <span class="status good">Own file</span>
+  <span class="status warn">Fallback to .github</span>
+  <span class="status critical">Missing</span>
+</small></p>
+
+<table class="releases sortable">
+  <thead>
+    <th>Repository</th>
+    <th>Code of Conduct</th>
+    <th>Contributing</th>
+    <th>Issue Templates</th>
+    <th>Pull Request Template</th>
+    <th>README</th>
+  </thead>
+  <tbody>
+  {% for repo in site.data.community_checks %}
+    {% unless site.data.exclusions contains repo.name %}
+    {% assign repo_href = org_href | append: "/" | append: repo.name %}
+    <tr id="{{ repo.name }}" >
+      <td data-sort="{{ repo.name }}">
+        <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
+      </td>
+      {% assign fields = "code_of_conduct,contributing,issue_template,pull_request_template,readme" | split: "," %}
+      {% for field in fields %}
+        {% assign value = repo[field] %}
+        {% case value %}
+          {% when "present" %}
+            <td data-sort="present"><span class="status good">Yes</span></td>
+          {% when "fallback" %}
+            <td data-sort="fallback"><span class="status warn">Fallback</span></td>
+          {% else %}
+            <td data-sort="missing"><span class="status critical">No</span></td>
+        {% endcase %}
+      {% endfor %}
+    </tr>
+    {% endunless %}
+  {% endfor %}
+  </tbody>
+</table>
+
+{% assign st = site.time %}
+<p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
+  {% assign d = st | date: "%-d"  %}
+  {{ st | date: "%B" }}
+  {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ st | date: "%Y at %r %Z" }}
+</time>.</small></p>
