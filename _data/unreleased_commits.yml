@@ -157,7 +157,7 @@
     version: '1.0'
 - default_branch: main
   name: Bubbly
-  new_commits: 62
+  new_commits: 71
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
