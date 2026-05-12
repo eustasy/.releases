@@ -2,12 +2,12 @@ name: Unreleased Commits
 
 on:
   workflow_dispatch:
-#  push:
-#    branches:
-#      - main
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '20 */4 * * *'
+    - cron:  '0 6 * * *'
+
+permissions:
+  contents: write
 
 jobs:
   build:

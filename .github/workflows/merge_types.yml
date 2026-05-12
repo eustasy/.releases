@@ -1,12 +1,13 @@
 name: Merge Types
 
 on:
-#  push:
-#    branches:
-#      - main
+  workflow_dispatch:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '25 * * * *'
+    - cron:  '0 7 * * 1'
+
+permissions:
+  contents: read
 
 jobs:
   build:

@@ -1,12 +1,13 @@
 name: Community Checks
 
 on:
-#  push:
-#    branches:
-#      - main
+  workflow_dispatch:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '20 */4 * * *'
+    - cron:  '15 6 * * 1'
+
+permissions:
+  contents: write
 
 jobs:
   build:
