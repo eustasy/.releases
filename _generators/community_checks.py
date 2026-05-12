@@ -35,23 +35,39 @@ def has_doc_file(tree_paths, filename):
 
 
 def has_funding(tree_paths):
-  return '.github/funding.yml' in tree_paths or '.github/funding.yaml' in tree_paths
+  for location in DOC_FILE_LOCATIONS:
+    if (location + 'funding.yml') in tree_paths:
+      return True
+    if (location + 'funding.yaml') in tree_paths:
+      return True
+  return False
 
 
 def has_discussion_templates(tree_paths):
-  return any(p.startswith('.github/discussion_template/') for p in tree_paths)
+  return any(
+    p.startswith('discussion_template/') or p.startswith('.github/discussion_template/')
+    for p in tree_paths
+  )
 
 
 def has_issue_template(tree_paths):
   if has_doc_file(tree_paths, 'ISSUE_TEMPLATE.md'):
     return True
-  return any(p.startswith('.github/issue_template/') for p in tree_paths)
+  for location in DOC_FILE_LOCATIONS:
+    prefix = location + 'issue_template/'
+    if any(p.startswith(prefix) for p in tree_paths):
+      return True
+  return False
 
 
 def has_pull_request_template(tree_paths):
   if has_doc_file(tree_paths, 'PULL_REQUEST_TEMPLATE.md'):
     return True
-  return any(p.startswith('.github/pull_request_template/') for p in tree_paths)
+  for location in DOC_FILE_LOCATIONS:
+    prefix = location + 'pull_request_template/'
+    if any(p.startswith(prefix) for p in tree_paths):
+      return True
+  return False
 
 
 class Repo:
