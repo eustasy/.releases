@@ -10,8 +10,8 @@ description: Which version of Normal Checks is each repository using?
 
 <p><small>
   <span class="status good">main: Software</span>
-  <span class="status good">gh-pages: Static Site</span>
-  <span class="status good">cf-pages: Dynamic Site</span>
+  <span class="status static">gh-pages: Static Site</span>
+  <span class="status dynamic">cf-pages: Dynamic Site</span>
 </small></p>
 
 <table class="releases sortable">
@@ -33,11 +33,9 @@ description: Which version of Normal Checks is each repository using?
         {% if repo.default_branch == "main" %}
           <span class="status good">{{ repo.default_branch }}</span>
         {% elsif repo.default_branch == "gh-pages" %}
-          <span class="status good">{{ repo.default_branch }}</span>
+          <span class="status static">{{ repo.default_branch }}</span>
         {% elsif repo.default_branch == "cf-pages" %}
-          <span class="status good">{{ repo.default_branch }}</span>
-        {% elsif repo.default_branch == "master" %}
-          <span class="status warn">{{ repo.default_branch }}</span>
+          <span class="status dynamic">{{ repo.default_branch }}</span>
         {% else %}
           <span class="status critical">{{ repo.default_branch }}</span>
         {% endif %}
