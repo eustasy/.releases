@@ -1,4 +1,4 @@
-name: Merge Types
+name: 'Update: Merge Types'
 
 on:
   workflow_dispatch:
@@ -37,6 +37,6 @@ jobs:
 
         git checkout main
         git add .
-        git commit -m "Automatic update of data" && git push --set-upstream origin main || true
+        git commit -m "Update: Merge Types" && git push --set-upstream origin main || true
       env:
         GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}

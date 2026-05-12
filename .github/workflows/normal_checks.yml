@@ -1,4 +1,4 @@
-name: Normal Checks
+name: 'Update: Normal Checks'
 
 on:
   workflow_dispatch:
@@ -36,6 +36,6 @@ jobs:
 
         git checkout main
         git add .
-        git commit -m "Automatic update of data" && git push --set-upstream origin main || true
+        git commit -m "Update: Normal Checks" && git push --set-upstream origin main || true
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
