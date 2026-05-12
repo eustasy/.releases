@@ -19,8 +19,13 @@ description: Which community health files does each repository provide?
     <th>Repository</th>
     <th>Code of Conduct</th>
     <th>Contributing</th>
+    <th>Security</th>
+    <th>Support</th>
+    <th>Governance</th>
+    <th>Funding</th>
     <th>Issue Templates</th>
     <th>Pull Request Template</th>
+    <th>Discussion Templates</th>
     <th>README</th>
   </thead>
   <tbody>
@@ -31,7 +36,7 @@ description: Which community health files does each repository provide?
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
       </td>
-      {% assign fields = "code_of_conduct,contributing,issue_template,pull_request_template,readme" | split: "," %}
+      {% assign fields = "code_of_conduct,contributing,security,support,governance,funding,issue_template,pull_request_template,discussion_templates,readme" | split: "," %}
       {% for field in fields %}
         {% assign value = repo[field] %}
         {% case value %}
