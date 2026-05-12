@@ -11,7 +11,7 @@
     "security": "present",
     "support": "present",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "present",
     "discussion_templates": "missing"
   },
   {
@@ -26,12 +26,12 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
     "name": ".releases",
-    "pushed_at": "2026-05-12T17:08:06+00:00",
+    "pushed_at": "2026-05-12T17:11:58+00:00",
     "updated_at": "2026-05-12T16:52:42+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
@@ -41,7 +41,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -56,7 +56,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -71,7 +71,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -86,7 +86,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -101,7 +101,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -116,7 +116,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -131,7 +131,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -146,7 +146,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -161,7 +161,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -176,7 +176,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -191,7 +191,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -206,7 +206,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -221,7 +221,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -236,7 +236,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -251,7 +251,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   },
   {
@@ -266,7 +266,7 @@
     "security": "fallback",
     "support": "fallback",
     "governance": "missing",
-    "funding": "missing",
+    "funding": "fallback",
     "discussion_templates": "missing"
   }
 ]

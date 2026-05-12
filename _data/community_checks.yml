@@ -1,7 +1,7 @@
 - code_of_conduct: present
   contributing: present
   discussion_templates: missing
-  funding: missing
+  funding: present
   governance: missing
   issue_template: present
   name: .github
@@ -14,7 +14,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: .normal
@@ -27,12 +27,12 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: .releases
   pull_request_template: fallback
-  pushed_at: '2026-05-12T17:08:06+00:00'
+  pushed_at: '2026-05-12T17:11:58+00:00'
   readme: missing
   security: fallback
   support: fallback
@@ -40,7 +40,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: .ui
@@ -53,7 +53,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: present
   name: .uptime
@@ -66,7 +66,7 @@
 - code_of_conduct: fallback
   contributing: present
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: Bubbly
@@ -79,7 +79,7 @@
 - code_of_conduct: fallback
   contributing: present
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: Colors.css
@@ -92,7 +92,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: Locksmith
@@ -105,7 +105,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: Phoenix
@@ -118,7 +118,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: authenticatron
@@ -131,7 +131,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: browning
@@ -144,7 +144,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: cdns
@@ -157,7 +157,7 @@
 - code_of_conduct: missing
   contributing: missing
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: elementary-bluetooth-proximity-locker
@@ -170,7 +170,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: howtoubuntu.org
@@ -183,7 +183,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: jQuery.leanModal2
@@ -196,7 +196,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: labs.eustasy.org
@@ -209,7 +209,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: puff-server
@@ -222,7 +222,7 @@
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
-  funding: missing
+  funding: fallback
   governance: missing
   issue_template: fallback
   name: puff-serverless
