@@ -5,9 +5,14 @@
     "updated_at": "2026-05-06T15:41:26+00:00",
     "code_of_conduct": "present",
     "contributing": "present",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "present",
+    "pull_request_template": "present",
+    "readme": "present",
+    "security": "present",
+    "support": "present",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": ".normal",
@@ -15,19 +20,29 @@
     "updated_at": "2026-05-07T06:48:57+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": ".releases",
-    "pushed_at": "2026-05-12T16:50:45+00:00",
+    "pushed_at": "2026-05-12T17:08:06+00:00",
     "updated_at": "2026-05-12T16:52:42+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "missing"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "missing",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": ".ui",
@@ -35,9 +50,14 @@
     "updated_at": "2026-05-07T05:36:34+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": ".uptime",
@@ -45,9 +65,14 @@
     "updated_at": "2026-05-12T03:49:39+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "present",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "Bubbly",
@@ -55,9 +80,14 @@
     "updated_at": "2026-05-12T15:12:07+00:00",
     "code_of_conduct": "fallback",
     "contributing": "present",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "Colors.css",
@@ -65,9 +95,14 @@
     "updated_at": "2026-05-03T15:55:43+00:00",
     "code_of_conduct": "fallback",
     "contributing": "present",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "Locksmith",
@@ -75,9 +110,14 @@
     "updated_at": "2026-04-21T00:09:14+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "Phoenix",
@@ -85,9 +125,14 @@
     "updated_at": "2026-05-09T17:24:49+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "authenticatron",
@@ -95,9 +140,14 @@
     "updated_at": "2026-05-07T06:47:38+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "browning",
@@ -105,9 +155,14 @@
     "updated_at": "2026-05-03T15:15:35+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "cdns",
@@ -115,9 +170,14 @@
     "updated_at": "2026-04-20T19:08:33+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
@@ -125,9 +185,14 @@
     "updated_at": "2026-05-12T15:13:33+00:00",
     "code_of_conduct": "missing",
     "contributing": "missing",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "missing"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "missing",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "howtoubuntu.org",
@@ -135,9 +200,14 @@
     "updated_at": "2026-04-22T15:10:12+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "missing"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "missing",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "jQuery.leanModal2",
@@ -145,9 +215,14 @@
     "updated_at": "2026-05-03T01:50:23+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "labs.eustasy.org",
@@ -155,19 +230,29 @@
     "updated_at": "2026-05-12T16:27:12+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "puff-server",
     "pushed_at": "2026-05-12T16:08:53+00:00",
-    "updated_at": "2026-04-23T14:41:17+00:00",
+    "updated_at": "2026-05-12T16:56:26+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   },
   {
     "name": "puff-serverless",
@@ -175,8 +260,13 @@
     "updated_at": "2026-05-10T18:05:06+00:00",
     "code_of_conduct": "fallback",
     "contributing": "fallback",
-    "issue_template": "missing",
-    "pull_request_template": "missing",
-    "readme": "present"
+    "issue_template": "fallback",
+    "pull_request_template": "fallback",
+    "readme": "present",
+    "security": "fallback",
+    "support": "fallback",
+    "governance": "missing",
+    "funding": "missing",
+    "discussion_templates": "missing"
   }
 ]
