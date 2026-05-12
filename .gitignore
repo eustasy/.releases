@@ -2,6 +2,7 @@
 _site
 .sass-cache
 .jekyll-metadata
+*.local.*
 
 # Naughty, I know, but we should always use the latest on GitHub pages
 Gemfile.lock
