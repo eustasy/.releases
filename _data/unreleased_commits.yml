@@ -356,7 +356,7 @@
     timeago: 10 years ago
     title: Stable
     version: '1.0'
-- default_branch: gh-pages
+- default_branch: main
   name: Colors.css
   new_commits: 10
   releases:
@@ -507,7 +507,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: v3.2 - Haggard
     version: v.3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
@@ -1036,7 +1036,7 @@
     version: '2.0'
 - default_branch: main
   name: puff-server
-  new_commits: 51
+  new_commits: 52
   releases:
   - body: "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add\
       \ responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT:\
