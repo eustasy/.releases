@@ -6,7 +6,7 @@
       {
         "version": "4.0beta3",
         "release_date": "2026-05-02T04:30:58+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta3)",
         "body": "**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta3"
@@ -14,7 +14,7 @@
       {
         "version": "4.0beta2",
         "release_date": "2026-05-02T02:05:39+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta2)",
         "body": "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy, loop workflows by @Copilot in https://github.com/eustasy/.normal/pull/24\r\n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta2"
@@ -22,7 +22,7 @@
       {
         "version": "4.0beta1",
         "release_date": "2026-05-01T22:43:30+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta1)",
         "body": "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh) with per-language CI workflows.\r\n\r\n### What's new\r\n\r\n**16 CI workflows** replacing the single `normal.yml`:\r\n`security`, `sh`, `sql`, `css`, `md`, `json`, `yaml`, `env`, `xml`, `html`, `js`, `python`, `php`\r\nplus `test-js`, `test-python`, `test-php` (disabled by default \u2014 remove `if: false` to activate).\r\n\r\n**New toolchain:**\r\n\r\n| Replaced | With |\r\n|----------|------|\r\n| CodeClimate | Qlty (`qlty.toml`) |\r\n| ESLint | OXC (`oxlint.json`) |\r\n| mdlrc / mdlrc.style.rb | markdownlint |\r\n| Per-repo Prettier configs | Centralised `.qlty/configs/.prettierrc.json` |\r\n| \u2014 | Ruff (Python lint + format) |\r\n| \u2014 | sqlfluff (SQL lint + format, default dialect: mysql) |\r\n| \u2014 | php-cs-fixer, phpstan, phpmd |\r\n| \u2014 | VS Code `settings.json` (format-on-save) |\r\n\r\n**Languages added:** Python, TypeScript, SCSS, YAML, XML, `.env`\r\n\r\n**Dependabot** now covers `github-actions`, `npm`, `composer`, and `pip`.\r\n\r\n### Breaking changes\r\n\r\n- Requires [connecting the repo on qlty.sh](https://qlty.sh) (replaces Code Climate webhook)\r\n- `.codeclimate.yml`, `.eslintrc.json`, `.eslintignore`, `.stylelintrc.json`, `.stylelintignore`, `.mdlrc`, `.mdlrc.style.rb` are deleted by `install.sh`\r\n- `normal.yml` workflow is deleted and replaced; existing branch protection rules pointing to it will need updating\r\n\r\n### Upgrade\r\n\r\n```bash\r\ngit clone https://github.com/eustasy/.normal.git &&\r\ncp .normal/install.sh install.sh &&\r\nchmod 755 install.sh &&\r\n./install.sh &&\r\nrm install.sh &&\r\nrm -Rf .normal\r\ngit add -A\r\ngit commit -m \"Migrate to eustasy/.Normal 4.0beta1\"\r\ngit push\r\n```\r\n\r\nThen add `QLTY_COVERAGE_TOKEN` to repo secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta1"
@@ -46,7 +46,7 @@
       {
         "version": "1.10.2",
         "release_date": "2018-05-17T16:49:28+00:00",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "Drop - with Patch 2",
         "body": "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments.",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.10.2"
@@ -54,7 +54,7 @@
       {
         "version": "1.10.1",
         "release_date": "2018-05-17T10:18:30+00:00",
-        "timeago": "7 years ago",
+        "timeago": "8 years ago",
         "title": "Drop - with Patch 1",
         "body": "- Increase argument-count threshold to 10\r\n- Increase method-complexity threshold to 20\r\n- Increase method-lines threshold to 50\r\n- Disable `Generic Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.10.1"
@@ -290,6 +290,14 @@
     "default_branch": "main",
     "releases": [
       {
+        "version": "2.1.0",
+        "release_date": "2026-05-15T17:47:29+00:00",
+        "timeago": "14 hours ago",
+        "title": "2.1.0",
+        "body": "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\n- `text-decoration-color`\r\n- `caret-color`\r\n- `accent-color`\r\n\r\n### Changes / Additions to Palettes\r\n- [Expand Flexoki color palette](https://github.com/eustasy/Colors.css/commit/48a9398bdee8d1d564bc5de45d190f17322186b7)\r\n- [Add Latte to elementary](https://github.com/eustasy/Colors.css/commit/1f30897fbde921884cc35a23712431559d233f1e)\r\n- [Correct Blue 600 in RefactoringUI](https://github.com/eustasy/Colors.css/commit/1a74b2f2898517825b1b08e8030a4d732c07025b)\r\n\r\n### Removed Palettes\r\n- Removed eustasy palette\r\n- Removed howtoelementary palette\r\n\r\n### Documentation updates\r\n- Better instructions in README.md + Index.html\r\n- New homepage design with support for copying different color codes\r\n- Removed tracking\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.0.9...2.1.0",
+        "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.0"
+      },
+      {
         "version": "2.0.9",
         "release_date": "2024-03-14T12:24:41+00:00",
         "timeago": "2 years ago",
@@ -418,7 +426,7 @@
         "href": "https://github.com/eustasy/Colors.css/releases/tag/1.7"
       }
     ],
-    "new_commits": 10
+    "new_commits": 0
   },
   {
     "name": "Phoenix",
@@ -427,7 +435,7 @@
       {
         "version": "v.3.2.0",
         "release_date": "2026-05-09T17:18:33+00:00",
-        "timeago": "5 days ago",
+        "timeago": "6 days ago",
         "title": "v3.2 - Haggard",
         "body": "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash script with PHP; add backup_rotate setting. **Cron jobs will require changing and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)). **DB schema modifications required.**\r\n* FEATURE: Allow the admin script to create a configuration file ([#31](https://github.com/eustasy/phoenix/issues/31)).\r\n* FEATURE: Add an Index of publicly listed torrents ([#32](https://github.com/eustasy/phoenix/issues/32)).\r\n* FEATURE: Add a magnet link generator ([#33](https://github.com/eustasy/phoenix/issues/33)).\r\n* IMPROVES: Add authentication to the administration area ([#4](https://github.com/eustasy/phoenix/issues/4)).\r\n* IMPROVES: Add comments to all remaining uncommented files ([#35](https://github.com/eustasy/phoenix/issues/35)).\r\n* IMPROVES: Be more helpful when listing peers ([#36](https://github.com/eustasy/phoenix/issues/36)).\r\n* IMPROVES: Protect against spamming fake peers ([#37](https://github.com/eustasy/phoenix/issues/37)).\r\n* IMPROVES: Exclude peers table from database backup ([#43](https://github.com/eustasy/phoenix/issues/43)).\r\n* IMPROVES: Use `--defaults-extra-file` to avoid exposing DB password in process list.\r\n* IMPROVES: Better filtering of non-hex info_hash and peer_id values.\r\n* IMPROVES: Add most PHP typing.\r\n* BUGFIX: Incorrect uppercase in `tracker_error` - BEP madates lowercase.\r\n* BUGFIX: Sort non-compact bencode peer-dict keys per BEP 3.\r\n* BUGFIX: Fix parse_ipv4 IPv4-mapped IPv6 prefix stripping.\r\n* BUGFIX: Remove double decoding in `once.sanitize.tracker.php`.\r\n* BUGFIX: Unclosed integer in non-compact bencode.\r\n* BUGFIX: Several spelling errors.\r\n* BUGFIX: Honor external_ip setting in address sanitization.\r\n* BUGFIX: Honor random_peers and random_limit settings in peer selection.\r\n* BUGFIX: Filter all torrents on scrape with `tracker_filter_info_hashes`\r\n\r\n### SQL Migration\r\n\r\n```sql\r\nALTER TABLE `your_db`.`your_prefix_peers`\r\n    MODIFY `ipv4` char(15) NOT NULL DEFAULT '',\r\n    MODIFY `ipv6` char(39) NOT NULL DEFAULT '',\r\n    MODIFY `left` bigint(20) unsigned NOT NULL DEFAULT '0',\r\n    ADD COLUMN `uploaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `portv6`,\r\n    ADD COLUMN `downloaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `uploaded`;\r\n\r\nALTER TABLE `your_db`.`your_prefix_torrents`\r\n    ADD COLUMN `size` bigint(20) unsigned NULL AFTER `info_hash`,\r\n    ADD COLUMN `listed` tinyint(1) unsigned NOT NULL DEFAULT '0' AFTER `size`;\r\n```\r\n\r\n### Cron (Scheduled Task) Migration\r\n\r\nThe new backup command is `php ~/phoenix/_cron/hourly/backup-database.php`\r\n\r\n### Configuration Migration\r\n\r\nYour custom config will continue to work, but do take a look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0"
@@ -771,7 +779,7 @@
   },
   {
     "name": "jQuery.leanModal2",
-    "default_branch": "gh-pages",
+    "default_branch": "main",
     "releases": [
       {
         "version": "2.6.4",
@@ -870,7 +878,7 @@
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
       }
     ],
-    "new_commits": 0
+    "new_commits": 2
   },
   {
     "name": "puff-server",

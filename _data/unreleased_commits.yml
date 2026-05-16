@@ -5,7 +5,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -13,7 +13,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -42,7 +42,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -66,7 +66,7 @@
   - body: "- Update Code Climate configuration version.\r\n- Fix `.mdlrc` comments."
     href: https://github.com/eustasy/.normal/releases/tag/1.10.2
     release_date: '2018-05-17T16:49:28+00:00'
-    timeago: 7 years ago
+    timeago: 8 years ago
     title: Drop - with Patch 2
     version: 1.10.2
   - body: "- Increase argument-count threshold to 10\r\n- Increase method-complexity\
@@ -74,7 +74,7 @@
       \ Files LineLength TooLong`\r\n- Disable `CleanCode/BooleanArgumentFlag`"
     href: https://github.com/eustasy/.normal/releases/tag/1.10.1
     release_date: '2018-05-17T10:18:30+00:00'
-    timeago: 7 years ago
+    timeago: 8 years ago
     title: Drop - with Patch 1
     version: 1.10.1
   - body: "- Remove CSS checks from Travis build\r\n- Move installations to pre-script\r\
@@ -358,8 +358,22 @@
     version: '1.0'
 - default_branch: main
   name: Colors.css
-  new_commits: 10
+  new_commits: 0
   releases:
+  - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
+      \n- `text-decoration-color`\r\n- `caret-color`\r\n- `accent-color`\r\n\r\n###\
+      \ Changes / Additions to Palettes\r\n- [Expand Flexoki color palette](https://github.com/eustasy/Colors.css/commit/48a9398bdee8d1d564bc5de45d190f17322186b7)\r\
+      \n- [Add Latte to elementary](https://github.com/eustasy/Colors.css/commit/1f30897fbde921884cc35a23712431559d233f1e)\r\
+      \n- [Correct Blue 600 in RefactoringUI](https://github.com/eustasy/Colors.css/commit/1a74b2f2898517825b1b08e8030a4d732c07025b)\r\
+      \n\r\n### Removed Palettes\r\n- Removed eustasy palette\r\n- Removed howtoelementary\
+      \ palette\r\n\r\n### Documentation updates\r\n- Better instructions in README.md\
+      \ + Index.html\r\n- New homepage design with support for copying different color\
+      \ codes\r\n- Removed tracking\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.0.9...2.1.0"
+    href: https://github.com/eustasy/Colors.css/releases/tag/2.1.0
+    release_date: '2026-05-15T17:47:29+00:00'
+    timeago: 14 hours ago
+    title: 2.1.0
+    version: 2.1.0
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
       \ for easier overrides\r\n- Fix generator not updating main css file\r\n- Update\
       \ eustasy/.normal checks\r\n- Add dependabot updates\r\n- Change main branch\
@@ -507,7 +521,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: v3.2 - Haggard
     version: v.3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
@@ -905,9 +919,9 @@
     timeago: 12 years ago
     title: Jones
     version: '0.20'
-- default_branch: gh-pages
+- default_branch: main
   name: jQuery.leanModal2
-  new_commits: 0
+  new_commits: 2
   releases:
   - body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't\
       \ mention how modals are linked.\r\n- Fix #8: Documentation doesn't mention\
