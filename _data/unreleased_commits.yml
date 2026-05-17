@@ -311,7 +311,7 @@
       \ Statically reference php_params.\r\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/1.4
     release_date: '2016-05-18T15:19:02+00:00'
-    timeago: 9 years ago
+    timeago: 10 years ago
     title: Certbot
     version: '1.4'
   - body: "- BUGFIX: Automatically accept the \"are you sure you want to renew certificates\"\
@@ -371,7 +371,7 @@
       \ codes\r\n- Removed tracking\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.0.9...2.1.0"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.0
     release_date: '2026-05-15T17:47:29+00:00'
-    timeago: 14 hours ago
+    timeago: 1 day ago
     title: 2.1.0
     version: 2.1.0
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
@@ -521,7 +521,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: v3.2 - Haggard
     version: v.3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
@@ -929,7 +929,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
     release_date: '2026-05-03T01:50:17+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Julian - with Patch 4
     version: 2.6.4
   - body: '- Move all CSS to a block'
