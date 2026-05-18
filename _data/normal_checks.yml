@@ -16,9 +16,9 @@
 - default_branch: main
   name: Bubbly
   normal_checks: false
-- default_branch: gh-pages
+- default_branch: main
   name: Colors.css
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: main
   name: Locksmith
   normal_checks: false
@@ -31,17 +31,17 @@
 - default_branch: main
   name: browning
   normal_checks: 3.0.1
-- default_branch: gh-pages
-  name: cdns
+- default_branch: vala
+  name: elementary-bluetooth-proximity-locker
+  normal_checks: false
+- default_branch: cf-pages
+  name: eustasy.org
   normal_checks: false
 - default_branch: gh-pages
   name: howtoubuntu.org
   normal_checks: false
-- default_branch: gh-pages
+- default_branch: main
   name: jQuery.leanModal2
-  normal_checks: false
-- default_branch: cf-pages
-  name: labs.eustasy.org
   normal_checks: false
 - default_branch: main
   name: puff-server

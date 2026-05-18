@@ -31,8 +31,8 @@
   },
   {
     "name": "Colors.css",
-    "default_branch": "gh-pages",
-    "normal_checks": "3.0.1"
+    "default_branch": "main",
+    "normal_checks": false
   },
   {
     "name": "Locksmith",
@@ -55,8 +55,13 @@
     "normal_checks": "3.0.1"
   },
   {
-    "name": "cdns",
-    "default_branch": "gh-pages",
+    "name": "elementary-bluetooth-proximity-locker",
+    "default_branch": "vala",
+    "normal_checks": false
+  },
+  {
+    "name": "eustasy.org",
+    "default_branch": "cf-pages",
     "normal_checks": false
   },
   {
@@ -66,12 +71,7 @@
   },
   {
     "name": "jQuery.leanModal2",
-    "default_branch": "gh-pages",
-    "normal_checks": false
-  },
-  {
-    "name": "labs.eustasy.org",
-    "default_branch": "cf-pages",
+    "default_branch": "main",
     "normal_checks": false
   },
   {
