@@ -371,7 +371,7 @@
       \ codes\r\n- Removed tracking\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.0.9...2.1.0"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.0
     release_date: '2026-05-15T17:47:29+00:00'
-    timeago: 4 days ago
+    timeago: 5 days ago
     title: 2.1.0
     version: 2.1.0
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
@@ -806,7 +806,7 @@
       \ error returns\r\n- Better composer support"
     href: https://github.com/eustasy/browning/releases/tag/0.30
     release_date: '2026-04-20T20:18:18+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Circle
     version: '0.30'
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
