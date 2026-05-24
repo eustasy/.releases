@@ -435,7 +435,7 @@
       {
         "version": "v.3.2.0",
         "release_date": "2026-05-09T17:18:33+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "v3.2 - Haggard",
         "body": "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash script with PHP; add backup_rotate setting. **Cron jobs will require changing and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)). **DB schema modifications required.**\r\n* FEATURE: Allow the admin script to create a configuration file ([#31](https://github.com/eustasy/phoenix/issues/31)).\r\n* FEATURE: Add an Index of publicly listed torrents ([#32](https://github.com/eustasy/phoenix/issues/32)).\r\n* FEATURE: Add a magnet link generator ([#33](https://github.com/eustasy/phoenix/issues/33)).\r\n* IMPROVES: Add authentication to the administration area ([#4](https://github.com/eustasy/phoenix/issues/4)).\r\n* IMPROVES: Add comments to all remaining uncommented files ([#35](https://github.com/eustasy/phoenix/issues/35)).\r\n* IMPROVES: Be more helpful when listing peers ([#36](https://github.com/eustasy/phoenix/issues/36)).\r\n* IMPROVES: Protect against spamming fake peers ([#37](https://github.com/eustasy/phoenix/issues/37)).\r\n* IMPROVES: Exclude peers table from database backup ([#43](https://github.com/eustasy/phoenix/issues/43)).\r\n* IMPROVES: Use `--defaults-extra-file` to avoid exposing DB password in process list.\r\n* IMPROVES: Better filtering of non-hex info_hash and peer_id values.\r\n* IMPROVES: Add most PHP typing.\r\n* BUGFIX: Incorrect uppercase in `tracker_error` - BEP madates lowercase.\r\n* BUGFIX: Sort non-compact bencode peer-dict keys per BEP 3.\r\n* BUGFIX: Fix parse_ipv4 IPv4-mapped IPv6 prefix stripping.\r\n* BUGFIX: Remove double decoding in `once.sanitize.tracker.php`.\r\n* BUGFIX: Unclosed integer in non-compact bencode.\r\n* BUGFIX: Several spelling errors.\r\n* BUGFIX: Honor external_ip setting in address sanitization.\r\n* BUGFIX: Honor random_peers and random_limit settings in peer selection.\r\n* BUGFIX: Filter all torrents on scrape with `tracker_filter_info_hashes`\r\n\r\n### SQL Migration\r\n\r\n```sql\r\nALTER TABLE `your_db`.`your_prefix_peers`\r\n    MODIFY `ipv4` char(15) NOT NULL DEFAULT '',\r\n    MODIFY `ipv6` char(39) NOT NULL DEFAULT '',\r\n    MODIFY `left` bigint(20) unsigned NOT NULL DEFAULT '0',\r\n    ADD COLUMN `uploaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `portv6`,\r\n    ADD COLUMN `downloaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `uploaded`;\r\n\r\nALTER TABLE `your_db`.`your_prefix_torrents`\r\n    ADD COLUMN `size` bigint(20) unsigned NULL AFTER `info_hash`,\r\n    ADD COLUMN `listed` tinyint(1) unsigned NOT NULL DEFAULT '0' AFTER `size`;\r\n```\r\n\r\n### Cron (Scheduled Task) Migration\r\n\r\nThe new backup command is `php ~/phoenix/_cron/hourly/backup-database.php`\r\n\r\n### Configuration Migration\r\n\r\nYour custom config will continue to work, but do take a look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0"
@@ -602,7 +602,7 @@
       {
         "version": "0.7.3",
         "release_date": "2015-05-26T21:36:32+00:00",
-        "timeago": "10 years ago",
+        "timeago": "11 years ago",
         "title": "Establishment - with Patch 3",
         "body": "- BUGFIX: Remove unused variable.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.3"
@@ -610,7 +610,7 @@
       {
         "version": "0.7.2",
         "release_date": "2015-05-26T21:32:34+00:00",
-        "timeago": "10 years ago",
+        "timeago": "11 years ago",
         "title": "Establishment - with Patch 2",
         "body": "- BUGFIX: Undefined variable.\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.2"
@@ -784,7 +784,7 @@
       {
         "version": "2.6.4",
         "release_date": "2026-05-03T01:50:17+00:00",
-        "timeago": "2 weeks ago",
+        "timeago": "3 weeks ago",
         "title": "Julian - with Patch 4",
         "body": "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't mention how modals are linked.\r\n- Fix #8: Documentation doesn't mention embedding from jsDelivr.\r\n- Security: DOM text reinterpreted as HTML.\r\n\r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4"
