@@ -1,0 +1,265 @@
+[
+  {
+    "name": ".deployment-guides",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": ".github",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": ".normal",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": ".releases",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": ".ui",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      },
+      {
+        "package_ecosystem": "npm",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": ".uptime",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": "Bubbly",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "Colors.css",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "Locksmith",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      },
+      {
+        "package_ecosystem": "pip",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "Phoenix",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "composer",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": true
+      },
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "age-verification",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      },
+      {
+        "package_ecosystem": "npm",
+        "directory": "/, /packages/shared, /packages/verify, /packages/business",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "apple-silicon",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      },
+      {
+        "package_ecosystem": "npm",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": true
+      }
+    ]
+  },
+  {
+    "name": "authenticatron",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "composer",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": true
+      },
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "browning",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "composer",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": true
+      },
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "elementary-bluetooth-proximity-locker",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": "eustasy.org",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "bun",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": true
+      },
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "howtoubuntu.org",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": "jQuery.leanModal2",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": "magazine",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "bun",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": true
+      },
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      }
+    ]
+  },
+  {
+    "name": "puff-server",
+    "has_config": false,
+    "updates": []
+  },
+  {
+    "name": "puff-serverless",
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": false
+      },
+      {
+        "package_ecosystem": "npm",
+        "directory": "/",
+        "interval": "weekly",
+        "all_dependencies": true
+      }
+    ]
+  }
+]

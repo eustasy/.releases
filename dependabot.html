@@ -1,0 +1,80 @@
+---
+layout: default
+title: Dependabot
+description: Which package ecosystems, schedules and dependency types does each repository's Dependabot config cover?
+---
+
+{% assign org_href = "https://github.com/eustasy" %}
+
+<script defer src="sortable.mega-advanced.min.js"></script>
+
+<p><small>
+  <span class="status good">daily / weekly</span>
+  <span class="status warn">monthly</span>
+  <span class="status good">dependency-type: all</span>
+  <span class="status critical">No config</span>
+</small></p>
+
+<table class="releases sortable">
+  <thead>
+    <th>Repository</th>
+    <th>Package Ecosystem</th>
+    <th>Directory</th>
+    <th>Frequency</th>
+    <th>Dependency Type: all</th>
+  </thead>
+  <tbody>
+  {% for repo in site.data.dependabot %}
+    {% unless site.data.exclusions contains repo.name %}
+    {% assign repo_href = org_href | append: "/" | append: repo.name %}
+    {% if repo.updates.size > 0 %}
+      {% for u in repo.updates %}
+      <tr id="{{ repo.name }}-{{ u.package_ecosystem }}-{{ forloop.index }}">
+        <td data-sort="{{ repo.name }}">
+          <a href="{{ repo_href }}/blob/HEAD/.github/dependabot.yml" class="name">{{ repo.name }}</a>
+        </td>
+        <td data-sort="{{ u.package_ecosystem }}">
+          <span class="status">{{ u.package_ecosystem }}</span>
+        </td>
+        <td data-sort="{{ u.directory }}">{{ u.directory }}</td>
+        <td data-sort="{{ u.interval }}">
+          {% if u.interval == "daily" or u.interval == "weekly" %}
+            <span class="status good">{{ u.interval }}</span>
+          {% elsif u.interval == "monthly" %}
+            <span class="status warn">{{ u.interval }}</span>
+          {% else %}
+            <span class="status critical">{{ u.interval }}</span>
+          {% endif %}
+        </td>
+        <td data-sort="{{ u.all_dependencies }}">
+          {% if u.all_dependencies %}
+            <span class="status good">all</span>
+          {% else %}
+            <span class="status">direct</span>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    {% else %}
+      <tr id="{{ repo.name }}">
+        <td data-sort="{{ repo.name }}">
+          <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
+        </td>
+        <td data-sort=""><span class="status critical">No config</span></td>
+        <td data-sort=""></td>
+        <td data-sort=""></td>
+        <td data-sort=""></td>
+      </tr>
+    {% endif %}
+    {% endunless %}
+  {% endfor %}
+  </tbody>
+</table>
+
+{% assign st = site.time %}
+<p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
+  {% assign d = st | date: "%-d"  %}
+  {{ st | date: "%B" }}
+  {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ st | date: "%Y at %r %Z" }}
+</time>.</small></p>

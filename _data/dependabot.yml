@@ -1,0 +1,159 @@
+- has_config: false
+  name: .deployment-guides
+  updates: []
+- has_config: false
+  name: .github
+  updates: []
+- has_config: true
+  name: .normal
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: true
+  name: .releases
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: true
+  name: .ui
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: npm
+- has_config: false
+  name: .uptime
+  updates: []
+- has_config: true
+  name: Bubbly
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: true
+  name: Colors.css
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+- has_config: true
+  name: Locksmith
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: pip
+- has_config: true
+  name: Phoenix
+  updates:
+  - all_dependencies: true
+    directory: /
+    interval: monthly
+    package_ecosystem: composer
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: true
+  name: age-verification
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+  - all_dependencies: false
+    directory: /, /packages/shared, /packages/verify, /packages/business
+    interval: monthly
+    package_ecosystem: npm
+- has_config: true
+  name: apple-silicon
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+  - all_dependencies: true
+    directory: /
+    interval: weekly
+    package_ecosystem: npm
+- has_config: true
+  name: authenticatron
+  updates:
+  - all_dependencies: true
+    directory: /
+    interval: monthly
+    package_ecosystem: composer
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: true
+  name: browning
+  updates:
+  - all_dependencies: true
+    directory: /
+    interval: monthly
+    package_ecosystem: composer
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: false
+  name: elementary-bluetooth-proximity-locker
+  updates: []
+- has_config: true
+  name: eustasy.org
+  updates:
+  - all_dependencies: true
+    directory: /
+    interval: monthly
+    package_ecosystem: bun
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+- has_config: false
+  name: howtoubuntu.org
+  updates: []
+- has_config: false
+  name: jQuery.leanModal2
+  updates: []
+- has_config: true
+  name: magazine
+  updates:
+  - all_dependencies: true
+    directory: /
+    interval: weekly
+    package_ecosystem: bun
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+- has_config: false
+  name: puff-server
+  updates: []
+- has_config: true
+  name: puff-serverless
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+  - all_dependencies: true
+    directory: /
+    interval: weekly
+    package_ecosystem: npm
