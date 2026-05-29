@@ -96,10 +96,13 @@ for repo in repos:
 
 output = sorted(output, key=itemgetter('name'))
 
-with open('_data/labels.yml', 'w') as file:
+# Label names contain emoji, so keep Unicode literal in both outputs. Escaped
+# astral characters (🚨) are invalid surrogate escapes to Jekyll's
+# YAML/JSON parser and break the build.
+with open('_data/labels.yml', 'w', encoding='utf-8') as file:
   print('Saving as YML')
-  yaml.dump(output, file)
+  yaml.dump(output, file, allow_unicode=True)
 
-with open('_data/labels.json', 'w') as file:
+with open('_data/labels.json', 'w', encoding='utf-8') as file:
   print('Saving as JSON')
-  json.dump(output, file, indent=2)
+  json.dump(output, file, indent=2, ensure_ascii=False)

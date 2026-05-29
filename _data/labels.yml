@@ -7,21 +7,21 @@
   - ':chart: Status: Fix Released'
   - ':face_with_head_bandage: Status: Won''t Fix'
   - ':white_check_mark: Status: Fix Committed'
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing:
   - 'Language: Bash'
@@ -61,21 +61,21 @@
   - ':white_check_mark: Status: Fix Committed'
   - dependencies
   - github_actions
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: .normal
@@ -100,17 +100,17 @@
   - ':white_check_mark: Status: Fix Committed'
   - dependencies
   - github_actions
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing:
   - 'Language: Bash'
@@ -135,21 +135,21 @@
   - ':white_check_mark: Status: Fix Committed'
   - dependencies
   - javascript
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: .ui
@@ -175,21 +175,21 @@
   - how-to-elementary
   - status
   - status-eustasy-org
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: .uptime
@@ -207,9 +207,9 @@
   extra:
   - dependencies
   - github_actions
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: Bubbly
@@ -234,21 +234,21 @@
   - ':white_check_mark: Status: Fix Committed'
   - dependencies
   - github_actions
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing:
   - 'Language: Bash'
@@ -273,21 +273,21 @@
   - ':white_check_mark: Status: Fix Committed'
   - dependencies
   - github_actions
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing:
   - 'Language: Bash'
@@ -310,17 +310,17 @@
   - ':chart: Status: Fix Released'
   - ':face_with_head_bandage: Status: Won''t Fix'
   - ':white_check_mark: Status: Fix Committed'
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: Phoenix
@@ -346,21 +346,21 @@
   - dependencies
   - github_actions
   - javascript
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: age-verification
@@ -413,21 +413,21 @@
   - dependencies
   - github_actions
   - php
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: authenticatron
@@ -450,21 +450,21 @@
   - ':chart: Status: Fix Released'
   - ':face_with_head_bandage: Status: Won''t Fix'
   - ':white_check_mark: Status: Fix Committed'
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: browning
@@ -487,21 +487,21 @@
   - ':chart: Status: Fix Released'
   - ':face_with_head_bandage: Status: Won''t Fix'
   - ':white_check_mark: Status: Fix Committed'
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing:
   - 'Language: Bash'
@@ -534,7 +534,7 @@
   - 'Language: PHP'
 - default_branch: gh-pages
   extra:
-  - "\U0001F6A9 Priority: High"
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: howtoubuntu.org
@@ -557,17 +557,17 @@
   - ':chart: Status: Fix Released'
   - ':face_with_head_bandage: Status: Won''t Fix'
   - ':white_check_mark: Status: Fix Committed'
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing:
   - 'Language: Bash'
@@ -593,21 +593,21 @@
   - dependencies
   - github_actions
   - javascript
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: magazine
@@ -630,21 +630,21 @@
   - ':chart: Status: Fix Released'
   - ':face_with_head_bandage: Status: Won''t Fix'
   - ':white_check_mark: Status: Fix Committed'
-  - "\u26A0\uFE0F Priority: Medium"
-  - "\u2728 Type: Enhancement"
-  - "\u2754 Type: Question"
-  - "\U0001F31E Type: Maintenance"
-  - "\U0001F340 Size: Bytesize"
-  - "\U0001F3EC Size: Goliath"
-  - "\U0001F41D Type: Bug"
-  - "\U0001F49A Priority: Low"
-  - "\U0001F4A3 Status: New"
-  - "\U0001F4B5 Has: Bounty"
-  - "\U0001F527 Status: In Progress"
-  - "\U0001F60D Priority: Wishlist"
-  - "\U0001F6A7 Status: Blocked"
-  - "\U0001F6A8 Priority: Critical"
-  - "\U0001F6A9 Priority: High"
+  - '⚠️ Priority: Medium'
+  - '✨ Type: Enhancement'
+  - '❔ Type: Question'
+  - '🌞 Type: Maintenance'
+  - '🍀 Size: Bytesize'
+  - '🏬 Size: Goliath'
+  - '🐝 Type: Bug'
+  - '💚 Priority: Low'
+  - '💣 Status: New'
+  - '💵 Has: Bounty'
+  - '🔧 Status: In Progress'
+  - '😍 Priority: Wishlist'
+  - '🚧 Status: Blocked'
+  - '🚨 Priority: Critical'
+  - '🚩 Priority: High'
   mismatched: []
   missing: []
   name: puff-server
