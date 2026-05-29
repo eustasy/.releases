@@ -1,0 +1,101 @@
+---
+layout: default
+title: Labels
+description: How do each repository's labels compare to the organisation defaults?
+---
+
+{% assign org_href = "https://github.com/eustasy" %}
+
+<script defer src="sortable.mega-advanced.min.js"></script>
+
+<p><small>
+  <span class="status good">Matches default</span>
+  <span class="status warn">Drifted (colour/description)</span>
+  <span class="status critical">Missing</span>
+  <span class="status">Extra (not a default)</span>
+</small></p>
+
+<table class="releases sortable">
+  <thead>
+    <th>Repository</th>
+    <th>Default Branch</th>
+    <th>Matching</th>
+    <th>Missing</th>
+    <th>Mismatched</th>
+    <th>Extra</th>
+  </thead>
+  <tbody>
+  {% for repo in site.data.labels %}
+    {% unless site.data.exclusions contains repo.name %}
+    {% assign repo_href = org_href | append: "/" | append: repo.name %}
+    {% assign matching = repo.present | size %}
+    {% assign missing = repo.missing | size %}
+    {% assign mismatched = repo.mismatched | size %}
+    {% assign extra = repo.extra | size %}
+    {% assign total_defaults = site.data.default_labels | size %}
+    <tr id="{{ repo.name }}" >
+      <td data-sort="{{ repo.name }}">
+        <a href="{{ repo_href }}/labels" class="name">{{ repo.name }}</a>
+      </td>
+      <td data-sort="{{ repo.default_branch }}">
+        {% if repo.default_branch == "main" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "gh-pages" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "cf-pages" %}
+          <span class="status good">{{ repo.default_branch }}</span>
+        {% elsif repo.default_branch == "master" %}
+          <span class="status warn">{{ repo.default_branch }}</span>
+        {% else %}
+          <span class="status critical">{{ repo.default_branch }}</span>
+        {% endif %}
+      </td>
+      <td data-sort="{{ matching }}">
+        {% if matching == total_defaults %}
+          <span class="status good">{{ matching }} / {{ total_defaults }}</span>
+        {% else %}
+          <span class="status">{{ matching }} / {{ total_defaults }}</span>
+        {% endif %}
+      </td>
+      <td data-sort="{{ missing }}">
+        {% if missing == 0 %}
+          <span class="status good">0</span>
+        {% else %}
+          <span class="status critical" title="{{ repo.missing | join: ', ' }}">{{ missing }}</span>
+          <br><small>{{ repo.missing | join: ', ' }}</small>
+        {% endif %}
+      </td>
+      <td data-sort="{{ mismatched }}">
+        {% if mismatched == 0 %}
+          <span class="status good">0</span>
+        {% else %}
+          {% assign mismatched_names = "" %}
+          {% for label in repo.mismatched %}
+            {% assign mismatched_names = mismatched_names | append: label.name | append: " (" | append: label.diff | append: ")" %}
+            {% unless forloop.last %}{% assign mismatched_names = mismatched_names | append: ", " %}{% endunless %}
+          {% endfor %}
+          <span class="status warn" title="{{ mismatched_names }}">{{ mismatched }}</span>
+          <br><small>{{ mismatched_names }}</small>
+        {% endif %}
+      </td>
+      <td data-sort="{{ extra }}">
+        {% if extra == 0 %}
+          <span class="status good">0</span>
+        {% else %}
+          <span class="status" title="{{ repo.extra | join: ', ' }}">{{ extra }}</span>
+          <br><small>{{ repo.extra | join: ', ' }}</small>
+        {% endif %}
+      </td>
+    </tr>
+    {% endunless %}
+  {% endfor %}
+  </tbody>
+</table>
+
+{% assign st = site.time %}
+<p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
+  {% assign d = st | date: "%-d"  %}
+  {{ st | date: "%B" }}
+  {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ st | date: "%Y at %r %Z" }}
+</time>.</small></p>

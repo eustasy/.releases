@@ -1,0 +1,37 @@
+# Organisation default labels for eustasy.
+#
+# GitHub does not expose org-level default labels via the API, so this file is
+# the hand-maintained source of truth. Keep it in sync with the org settings at:
+#   https://github.com/organizations/eustasy/settings/repository-defaults
+#
+# _generators/labels.py compares every repository's labels against this list and
+# labels.html renders the result. Colours are 6-digit hex without a leading '#'.
+
+# Language
+- name: ':bookmark_tabs: Language: Documentation'
+  color: e861b2
+  description: ''
+- name: ':snake: Language: Python'
+  color: '3776ab'
+  description: ''
+- name: 'Language: Bash'
+  color: '000000'
+  description: ''
+- name: 'Language: Copy'
+  color: 5fadc6
+  description: ''
+- name: 'Language: CSS'
+  color: 006b75
+  description: ''
+- name: 'Language: HTML'
+  color: 207de5
+  description: ''
+- name: 'Language: Image'
+  color: '009800'
+  description: ''
+- name: 'Language: JavaScript'
+  color: '0052cc'
+  description: ''
+- name: 'Language: PHP'
+  color: 5319e7
+  description: ''
