@@ -71,6 +71,19 @@ description: See releases and commits since for eustasy repositories
   </tbody>
 </table>
 
+{% capture no_releases_present %}{% for repo in site.data.no_releases %}{% unless site.data.exclusions contains repo.name %}x{% endunless %}{% endfor %}{% endcapture %}
+{% if no_releases_present != "" %}
+<h2>No Releases</h2>
+<p>These repositories have no published releases:</p>
+<ul class="no-releases">
+  {% for repo in site.data.no_releases %}
+  {% unless site.data.exclusions contains repo.name %}
+  <li><a href="{{ org_href }}/{{ repo.name }}/releases" class="name">{{ repo.name }}</a></li>
+  {% endunless %}
+  {% endfor %}
+</ul>
+{% endif %}
+
 {% assign st = site.time %}
 <p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
   {% assign d = st | date: "%-d"  %}

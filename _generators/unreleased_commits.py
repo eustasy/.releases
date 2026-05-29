@@ -29,15 +29,19 @@ class Repo:
 org = g.get_organization('eustasy')
 
 repos = []
+no_releases = []
 for repo in org.get_repos():
   # Skip archived repositories
   if repo.archived is False:
     print ('Processing {}...'.format(repo.name))
     try:
       repos.append(Repo(repo))
-    # This catches repos that don't have releases and ignores them
+    # This catches repos that don't have releases and records them separately
     except NoReleasesFound:
-      pass
+      no_releases.append({
+        "name": repo.name,
+        "default_branch": repo.default_branch
+      })
 
 repos = sorted(repos, key=lambda repo: repo.last_release_timestamp, reverse=True)
 
@@ -70,12 +74,22 @@ for repo in repos:
     "new_commits": new_commits
   })
 
-output = sorted(output, key=itemgetter('name')) 
+output = sorted(output, key=itemgetter('name'))
+
+no_releases = sorted(no_releases, key=itemgetter('name'))
 
 with open('_data/unreleased_commits.yml', 'w') as file:
     print ('Saving as YML')
     yaml.dump(output, file)
-  
+
 with open('_data/unreleased_commits.json', 'w') as file:
     print ('Saving as JSON')
     json.dump(output, file, indent=2)
+
+with open('_data/no_releases.yml', 'w') as file:
+    print ('Saving No Releases as YML')
+    yaml.dump(no_releases, file)
+
+with open('_data/no_releases.json', 'w') as file:
+    print ('Saving No Releases as JSON')
+    json.dump(no_releases, file, indent=2)

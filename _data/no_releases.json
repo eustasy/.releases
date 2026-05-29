@@ -1,0 +1,50 @@
+[
+  {
+    "name": ".github",
+    "default_branch": "main"
+  },
+  {
+    "name": ".releases",
+    "default_branch": "main"
+  },
+  {
+    "name": ".ui",
+    "default_branch": "main"
+  },
+  {
+    "name": ".uptime",
+    "default_branch": "master"
+  },
+  {
+    "name": "Locksmith",
+    "default_branch": "main"
+  },
+  {
+    "name": "age-verification",
+    "default_branch": "main"
+  },
+  {
+    "name": "apple-silicon",
+    "default_branch": "main"
+  },
+  {
+    "name": "elementary-bluetooth-proximity-locker",
+    "default_branch": "vala"
+  },
+  {
+    "name": "eustasy.org",
+    "default_branch": "cf-pages"
+  },
+  {
+    "name": "howtoubuntu.org",
+    "default_branch": "gh-pages"
+  },
+  {
+    "name": "magazine",
+    "default_branch": "main"
+  },
+  {
+    "name": "puff-serverless",
+    "default_branch": "cf-pages"
+  }
+]
