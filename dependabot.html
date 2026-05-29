@@ -22,6 +22,7 @@ description: Which package ecosystems, schedules and dependency types does each 
     <th>Package Ecosystem</th>
     <th>Frequency</th>
     <th>Dependency Type: all</th>
+    <th>Branch</th>
     <th>Directory</th>
   </thead>
   <tbody>
@@ -57,6 +58,13 @@ description: Which package ecosystems, schedules and dependency types does each 
             <span class="status">direct</span>
           {% endif %}
         </td>
+        <td data-sort="{{ u.target_branch }}">
+          {% if u.target_branch == "main" or u.target_branch == "gh-pages" or u.target_branch == "cf-pages" %}
+            <span class="status good">{{ u.target_branch }}</span>
+          {% else %}
+            <span class="status">{{ u.target_branch }}</span>
+          {% endif %}
+        </td>
         <td data-sort="{{ u.directory }}">{{ u.directory }}</td>
       </tr>
       {% endfor %}
@@ -66,6 +74,7 @@ description: Which package ecosystems, schedules and dependency types does each 
           <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
         </td>
         <td data-sort=""><span class="status critical">No config</span></td>
+        <td data-sort=""></td>
         <td data-sort=""></td>
         <td data-sort=""></td>
         <td data-sort=""></td>

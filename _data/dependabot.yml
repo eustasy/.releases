@@ -12,6 +12,7 @@
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: true
   name: .releases
   updates:
@@ -20,6 +21,7 @@
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: true
   name: .ui
   updates:
@@ -28,11 +30,13 @@
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
   - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: npm
     supports_all: true
+    target_branch: main
 - has_config: false
   name: .uptime
   updates: []
@@ -44,6 +48,7 @@
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: true
   name: Colors.css
   updates:
@@ -52,6 +57,7 @@
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: true
   name: Locksmith
   updates:
@@ -60,11 +66,13 @@
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
   - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: pip
     supports_all: true
+    target_branch: main
 - has_config: true
   name: Phoenix
   updates:
@@ -73,11 +81,25 @@
     interval: monthly
     package_ecosystem: composer
     supports_all: true
+    target_branch: 3.x
+  - all_dependencies: true
+    directory: /
+    interval: weekly
+    package_ecosystem: composer
+    supports_all: true
+    target_branch: main
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: 3.x
+  - all_dependencies: false
+    directory: /
+    interval: weekly
+    package_ecosystem: github-actions
+    supports_all: false
+    target_branch: main
 - has_config: true
   name: age-verification
   updates:
@@ -86,11 +108,13 @@
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
   - all_dependencies: false
     directory: /, /packages/shared, /packages/verify, /packages/business
     interval: monthly
     package_ecosystem: npm
     supports_all: true
+    target_branch: main
 - has_config: true
   name: apple-silicon
   updates:
@@ -99,11 +123,13 @@
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
   - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: npm
     supports_all: true
+    target_branch: main
 - has_config: true
   name: authenticatron
   updates:
@@ -112,11 +138,13 @@
     interval: monthly
     package_ecosystem: composer
     supports_all: true
+    target_branch: main
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: true
   name: browning
   updates:
@@ -125,11 +153,13 @@
     interval: monthly
     package_ecosystem: composer
     supports_all: true
+    target_branch: main
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: false
   name: elementary-bluetooth-proximity-locker
   updates: []
@@ -141,11 +171,13 @@
     interval: monthly
     package_ecosystem: bun
     supports_all: true
+    target_branch: cf-pages
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: cf-pages
 - has_config: false
   name: howtoubuntu.org
   updates: []
@@ -160,11 +192,13 @@
     interval: weekly
     package_ecosystem: bun
     supports_all: true
+    target_branch: main
   - all_dependencies: false
     directory: /
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
 - has_config: false
   name: puff-server
   updates: []
@@ -176,8 +210,10 @@
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: cf-pages
   - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: npm
     supports_all: true
+    target_branch: cf-pages

@@ -73,15 +73,18 @@ class Repo:
         continue
       schedule = update.get('schedule') or {}
       ecosystem = update.get('package-ecosystem', 'unknown')
+      # `target-branch` is optional; without it Dependabot uses the default branch.
+      target_branch = update.get('target-branch') or repo.default_branch
       self.updates.append({
         'package_ecosystem': ecosystem,
+        'target_branch': target_branch,
         'directory': directory_label(update),
         'interval': schedule.get('interval', 'unknown'),
         'all_dependencies': allows_all(update),
         'supports_all': ecosystem in INDIRECT_ALL_ECOSYSTEMS,
       })
 
-    self.updates.sort(key=itemgetter('package_ecosystem', 'directory'))
+    self.updates.sort(key=itemgetter('package_ecosystem', 'target_branch', 'directory'))
 
 
 org = g.get_organization(ORG)
