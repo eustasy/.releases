@@ -5,6 +5,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -12,34 +13,9 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
-    "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": ".github",
@@ -47,6 +23,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -54,9 +31,7 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
     "extra": []
   },
@@ -77,30 +52,8 @@
     "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
-      "github_actions",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "github_actions"
     ]
   },
   {
@@ -109,6 +62,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -116,31 +70,11 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
-      "github_actions",
-      "⚠️ Priority: Medium",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "github_actions"
     ]
   },
   {
@@ -160,30 +94,8 @@
     "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
-      "javascript",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "javascript"
     ]
   },
   {
@@ -203,31 +115,9 @@
     "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "how-to-elementary",
       "status",
-      "status-eustasy-org",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "status-eustasy-org"
     ]
   },
   {
@@ -248,10 +138,7 @@
     "mismatched": [],
     "extra": [
       "dependencies",
-      "github_actions",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "github_actions"
     ]
   },
   {
@@ -260,6 +147,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -267,35 +155,11 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
-      "github_actions",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "github_actions"
     ]
   },
   {
@@ -304,6 +168,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -311,35 +176,11 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
-      "github_actions",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "github_actions"
     ]
   },
   {
@@ -358,26 +199,7 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
-      "⚠️ Priority: Medium",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": "age-verification",
@@ -396,31 +218,9 @@
     "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
       "github_actions",
-      "javascript",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "javascript"
     ]
   },
   {
@@ -471,31 +271,9 @@
     "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
       "github_actions",
-      "php",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "php"
     ]
   },
   {
@@ -514,30 +292,7 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
@@ -556,30 +311,7 @@
       "Language: Bash"
     ],
     "mismatched": [],
-    "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": "eustasy.org",
@@ -619,9 +351,7 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": [
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": "jQuery.leanModal2",
@@ -640,26 +370,7 @@
       "Language: Bash"
     ],
     "mismatched": [],
-    "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
-      "⚠️ Priority: Medium",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": "magazine",
@@ -678,31 +389,9 @@
     "missing": [],
     "mismatched": [],
     "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
       "dependencies",
       "github_actions",
-      "javascript",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
+      "javascript"
     ]
   },
   {
@@ -721,30 +410,7 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": [
-      ":+1: Status: Confirmed",
-      ":2nd_place_medal: Status: Duplicate",
-      ":alien: Status: Invalid",
-      ":ballot_box: Status: Voting",
-      ":chart: Status: Fix Released",
-      ":face_with_head_bandage: Status: Won't Fix",
-      ":white_check_mark: Status: Fix Committed",
-      "⚠️ Priority: Medium",
-      "✨ Type: Enhancement",
-      "❔ Type: Question",
-      "🌞 Type: Maintenance",
-      "🍀 Size: Bytesize",
-      "🏬 Size: Goliath",
-      "🐝 Type: Bug",
-      "💚 Priority: Low",
-      "💣 Status: New",
-      "💵 Has: Bounty",
-      "🔧 Status: In Progress",
-      "😍 Priority: Wishlist",
-      "🚧 Status: Blocked",
-      "🚨 Priority: Critical",
-      "🚩 Priority: High"
-    ]
+    "extra": []
   },
   {
     "name": "puff-serverless",

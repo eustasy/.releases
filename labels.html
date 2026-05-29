@@ -18,7 +18,6 @@ description: How do each repository's labels compare to the organisation default
 <table class="releases sortable">
   <thead>
     <th>Repository</th>
-    <th>Default Branch</th>
     <th>Matching</th>
     <th>Missing</th>
     <th>Mismatched</th>
@@ -36,19 +35,6 @@ description: How do each repository's labels compare to the organisation default
     <tr id="{{ repo.name }}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}/labels" class="name">{{ repo.name }}</a>
-      </td>
-      <td data-sort="{{ repo.default_branch }}">
-        {% if repo.default_branch == "main" %}
-          <span class="status good">{{ repo.default_branch }}</span>
-        {% elsif repo.default_branch == "gh-pages" %}
-          <span class="status good">{{ repo.default_branch }}</span>
-        {% elsif repo.default_branch == "cf-pages" %}
-          <span class="status good">{{ repo.default_branch }}</span>
-        {% elsif repo.default_branch == "master" %}
-          <span class="status warn">{{ repo.default_branch }}</span>
-        {% else %}
-          <span class="status critical">{{ repo.default_branch }}</span>
-        {% endif %}
       </td>
       <td data-sort="{{ matching }}">
         {% if matching == total_defaults %}
