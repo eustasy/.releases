@@ -12,6 +12,7 @@ description: Which package ecosystems, schedules and dependency types does each 
   <span class="status good">daily / weekly</span>
   <span class="status warn">monthly</span>
   <span class="status good">dependency-type: all</span>
+  <span class="status critical">direct (where all is available)</span>
   <span class="status critical">No config</span>
 </small></p>
 
@@ -19,9 +20,9 @@ description: Which package ecosystems, schedules and dependency types does each 
   <thead>
     <th>Repository</th>
     <th>Package Ecosystem</th>
-    <th>Directory</th>
     <th>Frequency</th>
     <th>Dependency Type: all</th>
+    <th>Directory</th>
   </thead>
   <tbody>
   {% for repo in site.data.dependabot %}
@@ -31,12 +32,13 @@ description: Which package ecosystems, schedules and dependency types does each 
       {% for u in repo.updates %}
       <tr id="{{ repo.name }}-{{ u.package_ecosystem }}-{{ forloop.index }}">
         <td data-sort="{{ repo.name }}">
+          {% if forloop.first %}
           <a href="{{ repo_href }}/blob/HEAD/.github/dependabot.yml" class="name">{{ repo.name }}</a>
+          {% endif %}
         </td>
         <td data-sort="{{ u.package_ecosystem }}">
           <span class="status">{{ u.package_ecosystem }}</span>
         </td>
-        <td data-sort="{{ u.directory }}">{{ u.directory }}</td>
         <td data-sort="{{ u.interval }}">
           {% if u.interval == "daily" or u.interval == "weekly" %}
             <span class="status good">{{ u.interval }}</span>
@@ -49,10 +51,13 @@ description: Which package ecosystems, schedules and dependency types does each 
         <td data-sort="{{ u.all_dependencies }}">
           {% if u.all_dependencies %}
             <span class="status good">all</span>
+          {% elsif u.supports_all %}
+            <span class="status critical">direct</span>
           {% else %}
             <span class="status">direct</span>
           {% endif %}
         </td>
+        <td data-sort="{{ u.directory }}">{{ u.directory }}</td>
       </tr>
       {% endfor %}
     {% else %}

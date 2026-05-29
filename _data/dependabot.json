@@ -17,7 +17,8 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -29,7 +30,8 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -41,13 +43,15 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       },
       {
         "package_ecosystem": "npm",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": true,
+        "supports_all": true
       }
     ]
   },
@@ -64,7 +68,8 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -76,7 +81,8 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -88,13 +94,15 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       },
       {
         "package_ecosystem": "pip",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": true,
+        "supports_all": true
       }
     ]
   },
@@ -106,13 +114,15 @@
         "package_ecosystem": "composer",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       },
       {
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -124,13 +134,15 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       },
       {
         "package_ecosystem": "npm",
         "directory": "/, /packages/shared, /packages/verify, /packages/business",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": true
       }
     ]
   },
@@ -142,13 +154,15 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       },
       {
         "package_ecosystem": "npm",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       }
     ]
   },
@@ -160,13 +174,15 @@
         "package_ecosystem": "composer",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       },
       {
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -178,13 +194,15 @@
         "package_ecosystem": "composer",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       },
       {
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -201,13 +219,15 @@
         "package_ecosystem": "bun",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       },
       {
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -229,13 +249,15 @@
         "package_ecosystem": "bun",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       },
       {
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       }
     ]
   },
@@ -252,13 +274,15 @@
         "package_ecosystem": "github-actions",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": false
+        "all_dependencies": false,
+        "supports_all": false
       },
       {
         "package_ecosystem": "npm",
         "directory": "/",
         "interval": "weekly",
-        "all_dependencies": true
+        "all_dependencies": true,
+        "supports_all": true
       }
     ]
   }

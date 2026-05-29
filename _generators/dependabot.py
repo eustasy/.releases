@@ -12,6 +12,24 @@ ORG = 'eustasy'
 # Dependabot config lives at one of these paths.
 CONFIG_PATHS = ['.github/dependabot.yml', '.github/dependabot.yaml']
 
+# Lockfile-based ecosystems where `dependency-type: "all"` also covers indirect
+# (transitive) dependencies. For ecosystems without a lockfile / transitive
+# concept (github-actions, docker, ...) `all` is equivalent to `direct`, so
+# `direct` is not a shortfall there.
+INDIRECT_ALL_ECOSYSTEMS = {
+  'bundler',
+  'pip',
+  'composer',
+  'cargo',
+  'gomod',
+  'uv',
+  'npm',
+  'bun',
+  'pnpm',
+  'yarn',
+  'nuget',
+}
+
 
 def load_config(repo):
   for path in CONFIG_PATHS:
@@ -54,11 +72,13 @@ class Repo:
       if not isinstance(update, dict):
         continue
       schedule = update.get('schedule') or {}
+      ecosystem = update.get('package-ecosystem', 'unknown')
       self.updates.append({
-        'package_ecosystem': update.get('package-ecosystem', 'unknown'),
+        'package_ecosystem': ecosystem,
         'directory': directory_label(update),
         'interval': schedule.get('interval', 'unknown'),
         'all_dependencies': allows_all(update),
+        'supports_all': ecosystem in INDIRECT_ALL_ECOSYSTEMS,
       })
 
     self.updates.sort(key=itemgetter('package_ecosystem', 'directory'))

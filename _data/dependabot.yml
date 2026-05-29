@@ -11,6 +11,7 @@
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: true
   name: .releases
   updates:
@@ -18,6 +19,7 @@
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: true
   name: .ui
   updates:
@@ -25,10 +27,12 @@
     directory: /
     interval: weekly
     package_ecosystem: github-actions
-  - all_dependencies: false
+    supports_all: false
+  - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: npm
+    supports_all: true
 - has_config: false
   name: .uptime
   updates: []
@@ -39,6 +43,7 @@
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: true
   name: Colors.css
   updates:
@@ -46,6 +51,7 @@
     directory: /
     interval: weekly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: true
   name: Locksmith
   updates:
@@ -53,10 +59,12 @@
     directory: /
     interval: weekly
     package_ecosystem: github-actions
-  - all_dependencies: false
+    supports_all: false
+  - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: pip
+    supports_all: true
 - has_config: true
   name: Phoenix
   updates:
@@ -64,10 +72,12 @@
     directory: /
     interval: monthly
     package_ecosystem: composer
+    supports_all: true
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: true
   name: age-verification
   updates:
@@ -75,10 +85,12 @@
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
   - all_dependencies: false
     directory: /, /packages/shared, /packages/verify, /packages/business
     interval: monthly
     package_ecosystem: npm
+    supports_all: true
 - has_config: true
   name: apple-silicon
   updates:
@@ -86,10 +98,12 @@
     directory: /
     interval: weekly
     package_ecosystem: github-actions
+    supports_all: false
   - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: npm
+    supports_all: true
 - has_config: true
   name: authenticatron
   updates:
@@ -97,10 +111,12 @@
     directory: /
     interval: monthly
     package_ecosystem: composer
+    supports_all: true
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: true
   name: browning
   updates:
@@ -108,10 +124,12 @@
     directory: /
     interval: monthly
     package_ecosystem: composer
+    supports_all: true
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: false
   name: elementary-bluetooth-proximity-locker
   updates: []
@@ -122,10 +140,12 @@
     directory: /
     interval: monthly
     package_ecosystem: bun
+    supports_all: true
   - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: false
   name: howtoubuntu.org
   updates: []
@@ -139,10 +159,12 @@
     directory: /
     interval: weekly
     package_ecosystem: bun
+    supports_all: true
   - all_dependencies: false
     directory: /
     interval: weekly
     package_ecosystem: github-actions
+    supports_all: false
 - has_config: false
   name: puff-server
   updates: []
@@ -153,7 +175,9 @@
     directory: /
     interval: weekly
     package_ecosystem: github-actions
+    supports_all: false
   - all_dependencies: true
     directory: /
     interval: weekly
     package_ecosystem: npm
+    supports_all: true
