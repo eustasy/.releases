@@ -20,10 +20,6 @@
     "default_branch": "main"
   },
   {
-    "name": "age-verification",
-    "default_branch": "main"
-  },
-  {
     "name": "apple-silicon",
     "default_branch": "main"
   },
@@ -38,10 +34,6 @@
   {
     "name": "howtoubuntu.org",
     "default_branch": "gh-pages"
-  },
-  {
-    "name": "magazine",
-    "default_branch": "main"
   },
   {
     "name": "puff-serverless",

@@ -1,21 +1,11 @@
 - default_branch: main
-  name: .deployment-guides
-  new_commits: 25
-  releases:
-  - body: ''
-    href: https://github.com/eustasy/.deployment-guides/releases/tag/Version.5.2016-07-03
-    release_date: '2016-06-09T17:54:06+00:00'
-    timeago: 9 years ago
-    title: Version 5 (2016-07-03)
-    version: Version.5.2016-07-03
-- default_branch: main
   name: .normal
   new_commits: 4
   releases:
   - body: '**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -23,7 +13,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -52,7 +42,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -493,7 +483,7 @@
     version: '1.7'
 - default_branch: main
   name: Phoenix
-  new_commits: 3
+  new_commits: 4
   releases:
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
       \ script with PHP; add backup_rotate setting. **Cron jobs will require changing\
