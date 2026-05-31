@@ -1,0 +1,91 @@
+---
+layout: default
+title: Workflows
+description: What is the status and most recent run of every GitHub Actions workflow in each repository?
+---
+
+{% assign org_href = "https://github.com/eustasy" %}
+
+<script defer src="sortable.mega-advanced.min.js"></script>
+
+<p><small>
+  <span class="status good">success</span>
+  <span class="status warn">cancelled / skipped / in progress</span>
+  <span class="status critical">failure</span>
+  <span class="status">disabled / never run</span>
+</small></p>
+
+<table class="releases sortable">
+  <thead>
+    <th>Repository</th>
+    <th>Workflow</th>
+    <th>Status</th>
+    <th>Last Run</th>
+  </thead>
+  <tbody>
+  {% for repo in site.data.workflows %}
+    {% unless site.data.exclusions contains repo.name %}
+    {% assign repo_href = org_href | append: "/" | append: repo.name %}
+    {% if repo.workflows.size > 0 %}
+      {% for w in repo.workflows %}
+      <tr id="{{ repo.name }}-{{ w.file }}">
+        <td data-sort="{{ repo.name }}">
+          {% if forloop.first %}
+          <a href="{{ repo_href }}/actions" class="name">{{ repo.name }}</a>
+          {% endif %}
+        </td>
+        <td data-sort="{{ w.name }}">
+          <a href="{{ repo_href }}/actions/workflows/{{ w.slug }}" class="name">{{ w.name }}</a>
+          <sub class="human-readable-subtitle">{{ w.file }}{% if w.state != "active" %} &middot; disabled{% endif %}</sub>
+        </td>
+        <td data-sort="{{ w.conclusion | default: w.status | default: w.state }}">
+          {% if w.conclusion == "success" %}
+            <span class="status good"><a href="{{ w.run_url }}">success</a></span>
+          {% elsif w.conclusion == "failure" or w.conclusion == "startup_failure" or w.conclusion == "timed_out" %}
+            <span class="status critical"><a href="{{ w.run_url }}">{{ w.conclusion }}</a></span>
+          {% elsif w.conclusion %}
+            <span class="status warn"><a href="{{ w.run_url }}">{{ w.conclusion }}</a></span>
+          {% elsif w.status %}
+            <span class="status warn"><a href="{{ w.run_url }}">{{ w.status }}</a></span>
+          {% else %}
+            <span class="status">never run</span>
+          {% endif %}
+        </td>
+        <td data-sort="{{ w.last_run }}">
+          {% if w.last_run %}
+          <a href="{{ w.run_url }}">
+            <time datetime="{{ w.last_run }}">
+              {% assign d = w.last_run | date: "%-d" %}
+              {{ w.last_run | date: "%B" }}
+              {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+              {{ w.last_run | date: "%Y" }}
+            </time>
+          </a>
+          <br>
+          <sub class="human-readable-subtitle"><time datetime="{{ w.last_run }}">{{ w.timeago }}</time></sub>
+          {% endif %}
+        </td>
+      </tr>
+      {% endfor %}
+    {% else %}
+      <tr id="{{ repo.name }}">
+        <td data-sort="{{ repo.name }}">
+          <a href="{{ repo_href }}/actions" class="name">{{ repo.name }}</a>
+        </td>
+        <td data-sort=""><span class="status">No workflows</span></td>
+        <td data-sort=""></td>
+        <td data-sort=""></td>
+      </tr>
+    {% endif %}
+    {% endunless %}
+  {% endfor %}
+  </tbody>
+</table>
+
+{% assign st = site.time %}
+<p><small>Last updated <time datetime="{{ st }}" title="{{ st }}">
+  {% assign d = st | date: "%-d"  %}
+  {{ st | date: "%B" }}
+  {% case d %}{% when '1' or '21' or '31' %}{{ d }}st{% when '2' or '22' %}{{ d }}nd{% when '3' or '23' %}{{ d }}rd{% else %}{{ d }}th{% endcase %},
+  {{ st | date: "%Y at %r %Z" }}
+</time>.</small></p>
