@@ -45,6 +45,11 @@
     "normal_checks": "3.0.1"
   },
   {
+    "name": "apple-silicon",
+    "default_branch": "main",
+    "normal_checks": false
+  },
+  {
     "name": "authenticatron",
     "default_branch": "main",
     "normal_checks": false
@@ -52,7 +57,7 @@
   {
     "name": "browning",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": false
   },
   {
     "name": "elementary-bluetooth-proximity-locker",

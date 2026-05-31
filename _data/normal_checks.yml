@@ -26,11 +26,14 @@
   name: Phoenix
   normal_checks: 3.0.1
 - default_branch: main
+  name: apple-silicon
+  normal_checks: false
+- default_branch: main
   name: authenticatron
   normal_checks: false
 - default_branch: main
   name: browning
-  normal_checks: 3.0.1
+  normal_checks: false
 - default_branch: vala
   name: elementary-bluetooth-proximity-locker
   normal_checks: false
