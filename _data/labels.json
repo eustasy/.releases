@@ -1,23 +1,5 @@
 [
   {
-    "name": ".deployment-guides",
-    "default_branch": "main",
-    "present": [
-      ":bookmark_tabs: Language: Documentation",
-      ":snake: Language: Python",
-      "Language: Bash",
-      "Language: CSS",
-      "Language: Copy",
-      "Language: HTML",
-      "Language: Image",
-      "Language: JavaScript",
-      "Language: PHP"
-    ],
-    "missing": [],
-    "mismatched": [],
-    "extra": []
-  },
-  {
     "name": ".github",
     "default_branch": "main",
     "present": [
@@ -199,38 +181,20 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": []
-  },
-  {
-    "name": "age-verification",
-    "default_branch": "main",
-    "present": [
-      ":bookmark_tabs: Language: Documentation",
-      ":snake: Language: Python",
-      "Language: Bash",
-      "Language: CSS",
-      "Language: Copy",
-      "Language: HTML",
-      "Language: Image",
-      "Language: JavaScript",
-      "Language: PHP"
-    ],
-    "missing": [],
-    "mismatched": [],
     "extra": [
       "dependencies",
-      "github_actions",
-      "javascript"
+      "github_actions"
     ]
   },
   {
     "name": "apple-silicon",
     "default_branch": "main",
-    "present": [],
+    "present": [
+      "Language: Bash"
+    ],
     "missing": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
-      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -292,7 +256,10 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": []
+    "extra": [
+      "dependencies",
+      "github_actions"
+    ]
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
@@ -300,6 +267,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -307,9 +275,7 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
     "extra": []
   },
@@ -319,6 +285,7 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
+      "Language: Bash",
       "Language: CSS",
       "Language: Copy",
       "Language: HTML",
@@ -326,9 +293,7 @@
       "Language: JavaScript",
       "Language: PHP"
     ],
-    "missing": [
-      "Language: Bash"
-    ],
+    "missing": [],
     "mismatched": [],
     "extra": [
       "dependencies",
@@ -359,25 +324,6 @@
     "present": [
       ":bookmark_tabs: Language: Documentation",
       ":snake: Language: Python",
-      "Language: CSS",
-      "Language: Copy",
-      "Language: HTML",
-      "Language: Image",
-      "Language: JavaScript",
-      "Language: PHP"
-    ],
-    "missing": [
-      "Language: Bash"
-    ],
-    "mismatched": [],
-    "extra": []
-  },
-  {
-    "name": "magazine",
-    "default_branch": "main",
-    "present": [
-      ":bookmark_tabs: Language: Documentation",
-      ":snake: Language: Python",
       "Language: Bash",
       "Language: CSS",
       "Language: Copy",
@@ -388,11 +334,7 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": [
-      "dependencies",
-      "github_actions",
-      "javascript"
-    ]
+    "extra": []
   },
   {
     "name": "puff-server",
