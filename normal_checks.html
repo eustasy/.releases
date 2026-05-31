@@ -46,7 +46,7 @@ description: Which version of Normal Checks is each repository using?
         {% elsif repo.status == "behind" %}
           <span class="status warn">{{ repo.normal_checks }}</span>
         {% elsif repo.status == "outdated" %}
-          <span class="status critical">{{ repo.normal_checks }} (outdated)</span>
+          <span class="status critical">{{ repo.normal_checks }}</span>
         {% elsif repo.normal_checks %}
           <span class="status">{{ repo.normal_checks }}</span>
         {% endif %}
