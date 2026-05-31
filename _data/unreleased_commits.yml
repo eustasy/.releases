@@ -483,7 +483,7 @@
     version: '1.7'
 - default_branch: main
   name: Phoenix
-  new_commits: 4
+  new_commits: 9
   releases:
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
       \ script with PHP; add backup_rotate setting. **Cron jobs will require changing\
@@ -521,7 +521,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: v3.2 - Haggard
     version: v.3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
@@ -929,7 +929,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
     release_date: '2026-05-03T01:50:17+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Julian - with Patch 4
     version: 2.6.4
   - body: '- Move all CSS to a block'
