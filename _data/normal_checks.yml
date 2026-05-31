@@ -1,51 +1,84 @@
 - default_branch: main
+  name: .deployment-guides
+  normal_checks: false
+  status: false
+- default_branch: main
   name: .github
   normal_checks: false
+  status: false
 - default_branch: main
   name: .normal
   normal_checks: false
+  status: false
 - default_branch: main
   name: .releases
   normal_checks: false
+  status: false
 - default_branch: main
   name: .ui
   normal_checks: false
+  status: false
 - default_branch: master
   name: .uptime
   normal_checks: false
+  status: false
 - default_branch: main
   name: Bubbly
   normal_checks: false
+  status: false
 - default_branch: main
   name: Colors.css
   normal_checks: false
+  status: false
 - default_branch: main
   name: Locksmith
   normal_checks: false
+  status: false
 - default_branch: main
   name: Phoenix
-  normal_checks: 3.0.1
+  normal_checks: 3.x
+  status: outdated
+- default_branch: main
+  name: age-verification
+  normal_checks: false
+  status: false
+- default_branch: main
+  name: apple-silicon
+  normal_checks: false
+  status: false
 - default_branch: main
   name: authenticatron
-  normal_checks: false
+  normal_checks: 4.0beta8
+  status: current
 - default_branch: main
   name: browning
-  normal_checks: 3.0.1
+  normal_checks: 4.0beta7
+  status: behind
 - default_branch: vala
   name: elementary-bluetooth-proximity-locker
   normal_checks: false
+  status: false
 - default_branch: cf-pages
   name: eustasy.org
   normal_checks: false
+  status: false
 - default_branch: gh-pages
   name: howtoubuntu.org
   normal_checks: false
+  status: false
 - default_branch: main
   name: jQuery.leanModal2
   normal_checks: false
+  status: false
+- default_branch: main
+  name: magazine
+  normal_checks: false
+  status: false
 - default_branch: main
   name: puff-server
-  normal_checks: 3.0.1
+  normal_checks: 3.x
+  status: outdated
 - default_branch: cf-pages
   name: puff-serverless
   normal_checks: false
+  status: false

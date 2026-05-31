@@ -1,87 +1,128 @@
 [
   {
+    "name": ".deployment-guides",
+    "default_branch": "main",
+    "normal_checks": false,
+    "status": false
+  },
+  {
     "name": ".github",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": ".normal",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": ".releases",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": ".ui",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": ".uptime",
     "default_branch": "master",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "Bubbly",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "Phoenix",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": "3.x",
+    "status": "outdated"
+  },
+  {
+    "name": "age-verification",
+    "default_branch": "main",
+    "normal_checks": false,
+    "status": false
+  },
+  {
+    "name": "apple-silicon",
+    "default_branch": "main",
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "authenticatron",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": "4.0beta8",
+    "status": "current"
   },
   {
     "name": "browning",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": "4.0beta7",
+    "status": "behind"
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
     "default_branch": "vala",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "eustasy.org",
     "default_branch": "cf-pages",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "howtoubuntu.org",
     "default_branch": "gh-pages",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
+  },
+  {
+    "name": "magazine",
+    "default_branch": "main",
+    "normal_checks": false,
+    "status": false
   },
   {
     "name": "puff-server",
     "default_branch": "main",
-    "normal_checks": "3.0.1"
+    "normal_checks": "3.x",
+    "status": "outdated"
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
-    "normal_checks": false
+    "normal_checks": false,
+    "status": false
   }
 ]

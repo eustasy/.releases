@@ -41,29 +41,21 @@ description: Which version of Normal Checks is each repository using?
         {% endif %}
       </td>
       <td data-sort="{{ repo.normal_checks }}">
-        {% if repo.normal_checks == "3.0.1" %}
-          <span class="status good">Up to date</span>
-        {% elsif repo.normal_checks == "3.0" %}
+        {% if repo.status == "current" %}
+          <span class="status good">{{ repo.normal_checks }}</span>
+        {% elsif repo.status == "behind" %}
           <span class="status warn">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "2.0" %}
-          <span class="status warn">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "1.10.1" %}
-          <span class="status warn">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "1.10.0" %}
-          <span class="status warn">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "1.9" %}
-          <span class="status warn">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "1.7" %}
-          <span class="status critical">{{ repo.normal_checks }}</span>
-        {% elsif repo.normal_checks == "1.4" %}
-          <span class="status critical">{{ repo.normal_checks }}</span>
-        {% else %}
+        {% elsif repo.status == "outdated" %}
+          <span class="status critical">{{ repo.normal_checks }} (outdated)</span>
+        {% elsif repo.normal_checks %}
           <span class="status">{{ repo.normal_checks }}</span>
         {% endif %}
       </td>
       <td>
-        {% if repo.normal_checks != false %}
+        {% if repo.status == "outdated" %}
         <a href="https://github.com/eustasy/{{ repo.name }}/actions/workflows/normal.yml"><img src="https://github.com/eustasy/{{ repo.name }}/actions/workflows/normal.yml/badge.svg"></a>
+        {% elsif repo.normal_checks %}
+        <a href="https://github.com/eustasy/{{ repo.name }}/actions/workflows/security.yml"><img src="https://github.com/eustasy/{{ repo.name }}/actions/workflows/security.yml/badge.svg"></a>
         {% endif %}
       </td>
     </tr>
