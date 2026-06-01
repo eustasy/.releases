@@ -33,19 +33,19 @@
     "name": "Bubbly",
     "default_branch": "main",
     "normal_checks": "4.0beta8",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
     "normal_checks": "4.0beta8",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
-    "normal_checks": false,
-    "status": false
+    "normal_checks": "4.0beta9",
+    "status": "current"
   },
   {
     "name": "Phoenix",
@@ -63,7 +63,7 @@
     "name": "authenticatron",
     "default_branch": "main",
     "normal_checks": "4.0beta8",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "browning",
@@ -93,7 +93,7 @@
     "name": "jQuery.leanModal2",
     "default_branch": "main",
     "normal_checks": "4.0beta8",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "puff-server",

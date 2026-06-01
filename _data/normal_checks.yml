@@ -21,15 +21,15 @@
 - default_branch: main
   name: Bubbly
   normal_checks: 4.0beta8
-  status: current
+  status: behind
 - default_branch: main
   name: Colors.css
   normal_checks: 4.0beta8
-  status: current
+  status: behind
 - default_branch: main
   name: Locksmith
-  normal_checks: false
-  status: false
+  normal_checks: 4.0beta9
+  status: current
 - default_branch: main
   name: Phoenix
   normal_checks: 3.x
@@ -41,7 +41,7 @@
 - default_branch: main
   name: authenticatron
   normal_checks: 4.0beta8
-  status: current
+  status: behind
 - default_branch: main
   name: browning
   normal_checks: 4.0beta7
@@ -61,7 +61,7 @@
 - default_branch: main
   name: jQuery.leanModal2
   normal_checks: 4.0beta8
-  status: current
+  status: behind
 - default_branch: main
   name: puff-server
   normal_checks: 3.x
