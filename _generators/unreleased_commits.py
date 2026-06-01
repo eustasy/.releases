@@ -84,7 +84,7 @@ with open('_data/unreleased_commits.yml', 'w') as file:
 
 with open('_data/unreleased_commits.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(output, file, indent=2)
+    json.dump(output, file, indent=2, ensure_ascii=False)
 
 with open('_data/no_releases.yml', 'w') as file:
     print ('Saving No Releases as YML')
@@ -92,4 +92,4 @@ with open('_data/no_releases.yml', 'w') as file:
 
 with open('_data/no_releases.json', 'w') as file:
     print ('Saving No Releases as JSON')
-    json.dump(no_releases, file, indent=2)
+    json.dump(no_releases, file, indent=2, ensure_ascii=False)

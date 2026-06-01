@@ -198,4 +198,4 @@ with open('_data/community_checks.yml', 'w') as file:
 
 with open('_data/community_checks.json', 'w') as file:
   print('Saving as JSON')
-  json.dump(output, file, indent=2)
+  json.dump(output, file, indent=2, ensure_ascii=False)

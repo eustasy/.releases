@@ -58,4 +58,4 @@ with open('_data/merge_types.yml', 'w') as file:
   
 with open('_data/merge_types.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(output, file, indent=2)
+    json.dump(output, file, indent=2, ensure_ascii=False)

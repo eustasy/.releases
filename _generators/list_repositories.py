@@ -23,4 +23,4 @@ with open('_data/list_repositories.yml', 'w') as file:
   
 with open('_data/list_repositories.json', 'w') as file:
     print ('Saving as JSON')
-    json.dump(repos, file, indent=2)
+    json.dump(repos, file, indent=2, ensure_ascii=False)
