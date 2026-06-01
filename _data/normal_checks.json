@@ -1,11 +1,5 @@
 [
   {
-    "name": ".deployment-guides",
-    "default_branch": "main",
-    "normal_checks": false,
-    "status": false
-  },
-  {
     "name": ".github",
     "default_branch": "main",
     "normal_checks": false,
@@ -44,8 +38,8 @@
   {
     "name": "Colors.css",
     "default_branch": "main",
-    "normal_checks": false,
-    "status": false
+    "normal_checks": "4.0beta8",
+    "status": "current"
   },
   {
     "name": "Locksmith",
@@ -58,12 +52,6 @@
     "default_branch": "main",
     "normal_checks": "3.x",
     "status": "outdated"
-  },
-  {
-    "name": "age-verification",
-    "default_branch": "main",
-    "normal_checks": false,
-    "status": false
   },
   {
     "name": "apple-silicon",
@@ -103,12 +91,6 @@
   },
   {
     "name": "jQuery.leanModal2",
-    "default_branch": "main",
-    "normal_checks": false,
-    "status": false
-  },
-  {
-    "name": "magazine",
     "default_branch": "main",
     "normal_checks": false,
     "status": false

@@ -1,8 +1,4 @@
 - default_branch: main
-  name: .deployment-guides
-  normal_checks: false
-  status: false
-- default_branch: main
   name: .github
   normal_checks: false
   status: false
@@ -28,8 +24,8 @@
   status: false
 - default_branch: main
   name: Colors.css
-  normal_checks: false
-  status: false
+  normal_checks: 4.0beta8
+  status: current
 - default_branch: main
   name: Locksmith
   normal_checks: false
@@ -38,10 +34,6 @@
   name: Phoenix
   normal_checks: 3.x
   status: outdated
-- default_branch: main
-  name: age-verification
-  normal_checks: false
-  status: false
 - default_branch: main
   name: apple-silicon
   normal_checks: false
@@ -68,10 +60,6 @@
   status: false
 - default_branch: main
   name: jQuery.leanModal2
-  normal_checks: false
-  status: false
-- default_branch: main
-  name: magazine
   normal_checks: false
   status: false
 - default_branch: main
