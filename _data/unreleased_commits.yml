@@ -10,7 +10,7 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta8
     release_date: '2026-05-31T19:39:53+00:00'
-    timeago: 15 hours ago
+    timeago: 19 hours ago
     title: Appletini (4.0beta8)
     version: 4.0beta8
   - body: "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal\
@@ -38,14 +38,14 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta4
     release_date: '2026-05-31T19:43:40+00:00'
-    timeago: 15 hours ago
+    timeago: 19 hours ago
     title: Appletini (4.0beta4)
     version: 4.0beta4
   - body: "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**:\
       \ https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -53,7 +53,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -398,8 +398,14 @@
     version: '1.0'
 - default_branch: main
   name: Colors.css
-  new_commits: 23
+  new_commits: 0
   releases:
+  - body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
+    href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
+    release_date: '2026-06-01T11:14:25+00:00'
+    timeago: 3 hours ago
+    title: 2.1.1
+    version: 2.1.1
   - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
       \n- `text-decoration-color`\r\n- `caret-color`\r\n- `accent-color`\r\n\r\n###\
       \ Changes / Additions to Palettes\r\n- [Expand Flexoki color palette](https://github.com/eustasy/Colors.css/commit/48a9398bdee8d1d564bc5de45d190f17322186b7)\r\
@@ -718,7 +724,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
     release_date: '2026-05-31T21:00:55+00:00'
-    timeago: 14 hours ago
+    timeago: 18 hours ago
     title: v4.1.1 - Oath with Patch 1
     version: v4.1.1
   - body: "### Package Changes\r\nBUGFIX: `Authenticatron::getCode()` timestamp override\
@@ -905,7 +911,7 @@
       \ and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31"
     href: https://github.com/eustasy/browning/releases/tag/1.31
     release_date: '2026-05-31T15:38:03+00:00'
-    timeago: 19 hours ago
+    timeago: 23 hours ago
     title: Browning v1.31
     version: '1.31'
   - body: "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify\
@@ -1027,7 +1033,7 @@
     version: '0.20'
 - default_branch: main
   name: jQuery.leanModal2
-  new_commits: 2
+  new_commits: 10
   releases:
   - body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't\
       \ mention how modals are linked.\r\n- Fix #8: Documentation doesn't mention\
