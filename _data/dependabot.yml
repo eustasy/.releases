@@ -1,7 +1,4 @@
 - has_config: false
-  name: .deployment-guides
-  updates: []
-- has_config: false
   name: .github
   updates: []
 - has_config: true
@@ -9,7 +6,7 @@
   updates:
   - all_dependencies: false
     directory: /
-    interval: monthly
+    interval: daily
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
@@ -54,7 +51,7 @@
   updates:
   - all_dependencies: false
     directory: /
-    interval: weekly
+    interval: monthly
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
@@ -99,21 +96,6 @@
     interval: weekly
     package_ecosystem: github-actions
     supports_all: false
-    target_branch: main
-- has_config: true
-  name: age-verification
-  updates:
-  - all_dependencies: false
-    directory: /
-    interval: monthly
-    package_ecosystem: github-actions
-    supports_all: false
-    target_branch: main
-  - all_dependencies: false
-    directory: /, /packages/shared, /packages/verify, /packages/business
-    interval: monthly
-    package_ecosystem: npm
-    supports_all: true
     target_branch: main
 - has_config: true
   name: apple-silicon
@@ -184,21 +166,6 @@
 - has_config: false
   name: jQuery.leanModal2
   updates: []
-- has_config: true
-  name: magazine
-  updates:
-  - all_dependencies: true
-    directory: /
-    interval: weekly
-    package_ecosystem: bun
-    supports_all: true
-    target_branch: main
-  - all_dependencies: false
-    directory: /
-    interval: weekly
-    package_ecosystem: github-actions
-    supports_all: false
-    target_branch: main
 - has_config: false
   name: puff-server
   updates: []

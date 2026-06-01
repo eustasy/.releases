@@ -1,10 +1,5 @@
 [
   {
-    "name": ".deployment-guides",
-    "has_config": false,
-    "updates": []
-  },
-  {
     "name": ".github",
     "has_config": false,
     "updates": []
@@ -17,7 +12,7 @@
         "package_ecosystem": "github-actions",
         "target_branch": "main",
         "directory": "/",
-        "interval": "monthly",
+        "interval": "daily",
         "all_dependencies": false,
         "supports_all": false
       }
@@ -86,7 +81,7 @@
         "package_ecosystem": "github-actions",
         "target_branch": "main",
         "directory": "/",
-        "interval": "weekly",
+        "interval": "monthly",
         "all_dependencies": false,
         "supports_all": false
       }
@@ -149,28 +144,6 @@
         "interval": "weekly",
         "all_dependencies": false,
         "supports_all": false
-      }
-    ]
-  },
-  {
-    "name": "age-verification",
-    "has_config": true,
-    "updates": [
-      {
-        "package_ecosystem": "github-actions",
-        "target_branch": "main",
-        "directory": "/",
-        "interval": "monthly",
-        "all_dependencies": false,
-        "supports_all": false
-      },
-      {
-        "package_ecosystem": "npm",
-        "target_branch": "main",
-        "directory": "/, /packages/shared, /packages/verify, /packages/business",
-        "interval": "monthly",
-        "all_dependencies": false,
-        "supports_all": true
       }
     ]
   },
@@ -276,28 +249,6 @@
     "name": "jQuery.leanModal2",
     "has_config": false,
     "updates": []
-  },
-  {
-    "name": "magazine",
-    "has_config": true,
-    "updates": [
-      {
-        "package_ecosystem": "bun",
-        "target_branch": "main",
-        "directory": "/",
-        "interval": "weekly",
-        "all_dependencies": true,
-        "supports_all": true
-      },
-      {
-        "package_ecosystem": "github-actions",
-        "target_branch": "main",
-        "directory": "/",
-        "interval": "weekly",
-        "all_dependencies": false,
-        "supports_all": false
-      }
-    ]
   },
   {
     "name": "puff-server",
