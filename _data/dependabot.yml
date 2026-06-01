@@ -163,9 +163,15 @@
 - has_config: false
   name: howtoubuntu.org
   updates: []
-- has_config: false
+- has_config: true
   name: jQuery.leanModal2
-  updates: []
+  updates:
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: github-actions
+    supports_all: false
+    target_branch: main
 - has_config: false
   name: puff-server
   updates: []

@@ -247,8 +247,17 @@
   },
   {
     "name": "jQuery.leanModal2",
-    "has_config": false,
-    "updates": []
+    "has_config": true,
+    "updates": [
+      {
+        "package_ecosystem": "github-actions",
+        "target_branch": "main",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false,
+        "supports_all": false
+      }
+    ]
   },
   {
     "name": "puff-server",
