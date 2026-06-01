@@ -20,8 +20,8 @@
   status: false
 - default_branch: main
   name: Bubbly
-  normal_checks: false
-  status: false
+  normal_checks: 4.0beta8
+  status: current
 - default_branch: main
   name: Colors.css
   normal_checks: 4.0beta8
