@@ -92,8 +92,8 @@
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
-    "normal_checks": false,
-    "status": false
+    "normal_checks": "4.0beta8",
+    "status": "current"
   },
   {
     "name": "puff-server",
