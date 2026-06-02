@@ -1,7 +1,15 @@
 - default_branch: main
   name: .normal
-  new_commits: 6
+  new_commits: 1
   releases:
+  - body: "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\
+      \n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\
+      \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
+    href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
+    release_date: '2026-06-01T18:31:19+00:00'
+    timeago: 15 hours ago
+    title: Appletini (4.0beta9)
+    version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
       \n- [Add step to install PHP dependencies with Composer](https://github.com/eustasy/.normal/commit/ede47cc0ed0c51c73e0ac8f6d15c0d0752cb4612)\r\
       \n- [Update files finding for html/xml](https://github.com/eustasy/.normal/commit/d748b4e6736e6543e53145b6b8dcd4b64ece56c2)\r\
@@ -10,7 +18,7 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta8
     release_date: '2026-05-31T19:39:53+00:00'
-    timeago: 19 hours ago
+    timeago: 1 day ago
     title: Appletini (4.0beta8)
     version: 4.0beta8
   - body: "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal\
@@ -31,14 +39,14 @@
       \n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta5
     release_date: '2026-05-31T09:49:47+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Appletini (4.0beta5)
     version: 4.0beta5
   - body: "- Reduce to one linter per language by @lewisgoddard in https://github.com/eustasy/.normal/pull/27\r\
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta4
     release_date: '2026-05-31T19:43:40+00:00'
-    timeago: 19 hours ago
+    timeago: 1 day ago
     title: Appletini (4.0beta4)
     version: 4.0beta4
   - body: "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**:\
@@ -197,7 +205,7 @@
     version: '1.0'
 - default_branch: main
   name: Bubbly
-  new_commits: 71
+  new_commits: 81
   releases:
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
       \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -403,7 +411,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
     release_date: '2026-06-01T11:14:25+00:00'
-    timeago: 3 hours ago
+    timeago: 22 hours ago
     title: 2.1.1
     version: 2.1.1
   - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
@@ -529,7 +537,7 @@
     version: '1.7'
 - default_branch: main
   name: Phoenix
-  new_commits: 9
+  new_commits: 16
   releases:
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
       \ script with PHP; add backup_rotate setting. **Cron jobs will require changing\
@@ -698,7 +706,7 @@
     version: v.1.0
 - default_branch: main
   name: authenticatron
-  new_commits: 0
+  new_commits: 3
   releases:
   - body: "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws\
       \ a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead\
@@ -724,7 +732,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
     release_date: '2026-05-31T21:00:55+00:00'
-    timeago: 18 hours ago
+    timeago: 1 day ago
     title: v4.1.1 - Oath with Patch 1
     version: v4.1.1
   - body: "### Package Changes\r\nBUGFIX: `Authenticatron::getCode()` timestamp override\
@@ -911,7 +919,7 @@
       \ and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31"
     href: https://github.com/eustasy/browning/releases/tag/1.31
     release_date: '2026-05-31T15:38:03+00:00'
-    timeago: 23 hours ago
+    timeago: 1 day ago
     title: Browning v1.31
     version: '1.31'
   - body: "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify\
