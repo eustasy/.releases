@@ -50,8 +50,8 @@
   {
     "name": "Phoenix",
     "default_branch": "main",
-    "normal_checks": "3.x",
-    "status": "outdated"
+    "normal_checks": "4.0beta9",
+    "status": "current"
   },
   {
     "name": "apple-silicon",
