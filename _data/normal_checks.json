@@ -45,13 +45,13 @@
     "name": "Locksmith",
     "default_branch": "main",
     "normal_checks": "4.0beta9",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Phoenix",
     "default_branch": "main",
     "normal_checks": "4.0beta9",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "apple-silicon",

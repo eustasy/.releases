@@ -29,11 +29,11 @@
 - default_branch: main
   name: Locksmith
   normal_checks: 4.0beta9
-  status: current
+  status: behind
 - default_branch: main
   name: Phoenix
   normal_checks: 4.0beta9
-  status: current
+  status: behind
 - default_branch: main
   name: apple-silicon
   normal_checks: false
