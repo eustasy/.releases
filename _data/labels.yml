@@ -231,6 +231,7 @@
   extra:
   - dependencies
   - github_actions
+  - javascript
   mismatched: []
   missing: []
   name: eustasy.org
