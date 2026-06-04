@@ -4,7 +4,7 @@ on:
   workflow_dispatch:
   schedule:
     # * is a special character in YAML so you have to quote this string
-    - cron:  '45 6 * * *'
+    - cron:  '30 12 * * *'
 
 permissions:
   contents: write
@@ -36,6 +36,22 @@ jobs:
 
         git checkout main
         git add .
-        git commit -m "Update: Normal Checks" && git push --set-upstream origin main || true
+        if git diff --cached --quiet; then
+          echo "No changes to commit."
+        else
+          git commit -m "Update: Normal Checks"
+          # main may have moved while this job ran; rebase and retry so the
+          # commit is never silently dropped on a non-fast-forward push.
+          attempt=1
+          until git push origin main; do
+            if [ "$attempt" -ge 5 ]; then
+              echo "Push failed after $attempt attempts."
+              exit 1
+            fi
+            echo "Push rejected; syncing with main and retrying ($attempt)..."
+            git pull --rebase origin main
+            attempt=$((attempt + 1))
+          done
+        fi
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
