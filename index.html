@@ -18,21 +18,26 @@ description: See releases and commits since for eustasy repositories
   {% for repo in site.data.unreleased_commits %}
     {% unless site.data.exclusions contains repo.name %}
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
-    {% assign commits_href = repo_href | append: "/compare/" | append: repo.releases.first.version | append: "..." | append: repo.default_branch %}
-    <tr id="{{ repo.name }}" >
+    {% for branch in repo.branches %}
+    {% assign release = branch.release %}
+    {% assign commits_href = repo_href | append: "/compare/" | append: release.version | append: "..." | append: branch.name %}
+    <tr id="{{ repo.name }}{% if repo.branches.size > 1 %}-{{ branch.name }}{% endif %}" >
       <td data-sort="{{ repo.name }}">
         <a href="{{ repo_href }}" class="name">{{ repo.name }}</a>
-        {% if repo.releases.first.version contains 'alpha' %}
+        {% if repo.branches.size > 1 %}
+        <a class="branch" href="{{ repo_href }}/tree/{{ branch.name }}">{{ branch.name }}</a>
+        {% endif %}
+        {% if release.version contains 'alpha' %}
         {% assign classes = "alpha version" %}
-        {% elsif repo.releases.first.version contains 'beta' %}
+        {% elsif release.version contains 'beta' %}
         {% assign classes = "beta version" %}
         {% else %}
         {% assign classes = "version" %}
         {% endif %}
-        <a class="{{classes}}" href="{{ repo.releases.first.href }}">{{ repo.releases.first.version }}</a>
+        <a class="{{classes}}" href="{{ release.href }}">{{ release.version }}</a>
       </td>
-      <td data-sort="{{ repo.releases.first.release_date }}">
-         {% assign rd = repo.releases.first.release_date %}
+      <td data-sort="{{ release.release_date }}">
+         {% assign rd = release.release_date %}
         <time datetime="{{ rd }}">
           {% assign d = rd | date: "%-d"  %}
           {{ rd | date: "%B" }}
@@ -41,31 +46,32 @@ description: See releases and commits since for eustasy repositories
         </time>
         <br>
         <sub class="human-readable-subtitle"><time datetime="{{ rd }}">
-          {{ repo.releases.first.timeago }}
+          {{ release.timeago }}
         </time></sub>
       </td>
-      <td data-sort="{{ repo.new_commits }}">
-        {% if repo.new_commits == 0 %}
+      <td data-sort="{{ branch.new_commits }}">
+        {% if branch.new_commits == 0 %}
           <span class="status good">Up to date</span>
-        {% elsif repo.new_commits == 1 %}
+        {% elsif branch.new_commits == 1 %}
           <span class="status">
-            <a href="{{ commits_href }}">{{ repo.new_commits }} commit</a>
+            <a href="{{ commits_href }}">{{ branch.new_commits }} commit</a>
           </span>
-        {% elsif repo.new_commits < 3 %}
+        {% elsif branch.new_commits < 3 %}
           <span class="status">
-            <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
+            <a href="{{ commits_href }}">{{ branch.new_commits }} commits</a>
           </span>
-        {% elsif repo.new_commits < 10 %}
+        {% elsif branch.new_commits < 10 %}
           <span class="status warn">
-            <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
+            <a href="{{ commits_href }}">{{ branch.new_commits }} commits</a>
           </span>
          {% else %}
           <span class="status critical">
-            <a href="{{ commits_href }}">{{ repo.new_commits }} commits</a>
+            <a href="{{ commits_href }}">{{ branch.new_commits }} commits</a>
           </span>
         {% endif %}
       </td>
     </tr>
+    {% endfor %}
     {% endunless %}
   {% endfor %}
   </tbody>

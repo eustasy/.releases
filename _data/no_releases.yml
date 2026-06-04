@@ -16,5 +16,7 @@
   name: eustasy.org
 - default_branch: gh-pages
   name: howtoubuntu.org
+- default_branch: main
+  name: magazine
 - default_branch: cf-pages
   name: puff-serverless
