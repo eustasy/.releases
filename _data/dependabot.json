@@ -11,7 +11,7 @@
       {
         "package_ecosystem": "github-actions",
         "target_branch": "main",
-        "directory": "/",
+        "directory": "/, /configs",
         "interval": "daily",
         "all_dependencies": false,
         "supports_all": false
@@ -95,7 +95,7 @@
         "package_ecosystem": "github-actions",
         "target_branch": "main",
         "directory": "/",
-        "interval": "weekly",
+        "interval": "monthly",
         "all_dependencies": false,
         "supports_all": false
       },
@@ -103,7 +103,7 @@
         "package_ecosystem": "pip",
         "target_branch": "main",
         "directory": "/",
-        "interval": "weekly",
+        "interval": "monthly",
         "all_dependencies": true,
         "supports_all": true
       }
@@ -115,33 +115,17 @@
     "updates": [
       {
         "package_ecosystem": "composer",
-        "target_branch": "3.x",
+        "target_branch": "main",
         "directory": "/",
         "interval": "monthly",
         "all_dependencies": true,
         "supports_all": true
       },
       {
-        "package_ecosystem": "composer",
-        "target_branch": "main",
-        "directory": "/",
-        "interval": "weekly",
-        "all_dependencies": true,
-        "supports_all": true
-      },
-      {
         "package_ecosystem": "github-actions",
-        "target_branch": "3.x",
+        "target_branch": "main",
         "directory": "/",
         "interval": "monthly",
-        "all_dependencies": false,
-        "supports_all": false
-      },
-      {
-        "package_ecosystem": "github-actions",
-        "target_branch": "main",
-        "directory": "/",
-        "interval": "weekly",
         "all_dependencies": false,
         "supports_all": false
       }

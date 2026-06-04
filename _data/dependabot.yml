@@ -5,7 +5,7 @@
   name: .normal
   updates:
   - all_dependencies: false
-    directory: /
+    directory: /, /configs
     interval: daily
     package_ecosystem: github-actions
     supports_all: false
@@ -60,13 +60,13 @@
   updates:
   - all_dependencies: false
     directory: /
-    interval: weekly
+    interval: monthly
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
   - all_dependencies: true
     directory: /
-    interval: weekly
+    interval: monthly
     package_ecosystem: pip
     supports_all: true
     target_branch: main
@@ -78,22 +78,10 @@
     interval: monthly
     package_ecosystem: composer
     supports_all: true
-    target_branch: 3.x
-  - all_dependencies: true
-    directory: /
-    interval: weekly
-    package_ecosystem: composer
-    supports_all: true
     target_branch: main
   - all_dependencies: false
     directory: /
     interval: monthly
-    package_ecosystem: github-actions
-    supports_all: false
-    target_branch: 3.x
-  - all_dependencies: false
-    directory: /
-    interval: weekly
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
