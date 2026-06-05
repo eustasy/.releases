@@ -1,45 +1,16 @@
 [
   {
-    "name": ".deployment-guides",
-    "default_branch": "main",
-    "branches": [
-      {
-        "name": "main",
-        "is_default": true,
-        "new_commits": 25,
-        "release": {
-          "version": "Version.5.2016-07-03",
-          "release_date": "2016-06-09T17:54:06+00:00",
-          "timeago": "9 years ago",
-          "title": "Version 5 (2016-07-03)",
-          "body": "",
-          "href": "https://github.com/eustasy/.deployment-guides/releases/tag/Version.5.2016-07-03"
-        }
-      }
-    ],
-    "releases": [
-      {
-        "version": "Version.5.2016-07-03",
-        "release_date": "2016-06-09T17:54:06+00:00",
-        "timeago": "9 years ago",
-        "title": "Version 5 (2016-07-03)",
-        "body": "",
-        "href": "https://github.com/eustasy/.deployment-guides/releases/tag/Version.5.2016-07-03"
-      }
-    ]
-  },
-  {
     "name": ".normal",
     "default_branch": "main",
     "branches": [
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 1,
+        "new_commits": 9,
         "release": {
           "version": "4.0beta10",
           "release_date": "2026-06-03T21:14:07+00:00",
-          "timeago": "13 hours ago",
+          "timeago": "1 day ago",
           "title": "Appletini (4.0beta10)",
           "body": "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10",
           "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta10"
@@ -50,7 +21,7 @@
       {
         "version": "4.0beta10",
         "release_date": "2026-06-03T21:14:07+00:00",
-        "timeago": "13 hours ago",
+        "timeago": "1 day ago",
         "title": "Appletini (4.0beta10)",
         "body": "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta10"
@@ -58,7 +29,7 @@
       {
         "version": "4.0beta9",
         "release_date": "2026-06-01T18:31:19+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "title": "Appletini (4.0beta9)",
         "body": "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta9"
@@ -66,7 +37,7 @@
       {
         "version": "4.0beta8",
         "release_date": "2026-05-31T19:39:53+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "title": "Appletini (4.0beta8)",
         "body": "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\n- [Add step to install PHP dependencies with Composer](https://github.com/eustasy/.normal/commit/ede47cc0ed0c51c73e0ac8f6d15c0d0752cb4612)\r\n- [Update files finding for html/xml](https://github.com/eustasy/.normal/commit/d748b4e6736e6543e53145b6b8dcd4b64ece56c2)\r\n- [Update markdownlint configuration for line length](https://github.com/eustasy/.normal/commit/5387aff82f59111debfad7700b6508797024ad4d)\r\n- [Variable dependabot](https://github.com/eustasy/.normal/commit/185694affcd35a6134e8975754140b0554909176)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta8"
@@ -74,7 +45,7 @@
       {
         "version": "4.0beta7",
         "release_date": "2026-05-31T10:51:26+00:00",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "title": "Appletini (4.0beta7)",
         "body": "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal when installing workflows and dependabot.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta6...4.0beta7",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta7"
@@ -82,7 +53,7 @@
       {
         "version": "4.0beta6",
         "release_date": "2026-05-31T10:31:27+00:00",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "title": "Appletini (4.0beta6)",
         "body": "- Expand exclusions\r\n- Do not install json workflow for machine generated files\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta5...4.0beta6",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta6"
@@ -90,7 +61,7 @@
       {
         "version": "4.0beta5",
         "release_date": "2026-05-31T09:49:47+00:00",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "title": "Appletini (4.0beta5)",
         "body": "- Add `workflow_dispatch`\r\n- Remove `semgrep`\r\n- Fix exclude patterns\r\n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta5"
@@ -98,7 +69,7 @@
       {
         "version": "4.0beta4",
         "release_date": "2026-05-31T19:43:40+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "title": "Appletini (4.0beta4)",
         "body": "- Reduce to one linter per language by @lewisgoddard in https://github.com/eustasy/.normal/pull/27\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta4"
@@ -409,7 +380,7 @@
         "release": {
           "version": "2.1.1",
           "release_date": "2026-06-01T11:14:25+00:00",
-          "timeago": "2 days ago",
+          "timeago": "4 days ago",
           "title": "2.1.1",
           "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -420,7 +391,7 @@
       {
         "version": "2.1.1",
         "release_date": "2026-06-01T11:14:25+00:00",
-        "timeago": "2 days ago",
+        "timeago": "4 days ago",
         "title": "2.1.1",
         "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -570,20 +541,20 @@
       {
         "name": "3.x",
         "is_default": false,
-        "new_commits": 1,
+        "new_commits": 2,
         "release": {
-          "version": "v.3.2.0",
+          "version": "3.2.0",
           "release_date": "2026-05-09T17:18:33+00:00",
           "timeago": "3 weeks ago",
-          "title": "v3.2 - Haggard",
+          "title": "Phoenix 3.2.0 - Haggard",
           "body": "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash script with PHP; add backup_rotate setting. **Cron jobs will require changing and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)). **DB schema modifications required.**\r\n* FEATURE: Allow the admin script to create a configuration file ([#31](https://github.com/eustasy/phoenix/issues/31)).\r\n* FEATURE: Add an Index of publicly listed torrents ([#32](https://github.com/eustasy/phoenix/issues/32)).\r\n* FEATURE: Add a magnet link generator ([#33](https://github.com/eustasy/phoenix/issues/33)).\r\n* IMPROVES: Add authentication to the administration area ([#4](https://github.com/eustasy/phoenix/issues/4)).\r\n* IMPROVES: Add comments to all remaining uncommented files ([#35](https://github.com/eustasy/phoenix/issues/35)).\r\n* IMPROVES: Be more helpful when listing peers ([#36](https://github.com/eustasy/phoenix/issues/36)).\r\n* IMPROVES: Protect against spamming fake peers ([#37](https://github.com/eustasy/phoenix/issues/37)).\r\n* IMPROVES: Exclude peers table from database backup ([#43](https://github.com/eustasy/phoenix/issues/43)).\r\n* IMPROVES: Use `--defaults-extra-file` to avoid exposing DB password in process list.\r\n* IMPROVES: Better filtering of non-hex info_hash and peer_id values.\r\n* IMPROVES: Add most PHP typing.\r\n* BUGFIX: Incorrect uppercase in `tracker_error` - BEP madates lowercase.\r\n* BUGFIX: Sort non-compact bencode peer-dict keys per BEP 3.\r\n* BUGFIX: Fix parse_ipv4 IPv4-mapped IPv6 prefix stripping.\r\n* BUGFIX: Remove double decoding in `once.sanitize.tracker.php`.\r\n* BUGFIX: Unclosed integer in non-compact bencode.\r\n* BUGFIX: Several spelling errors.\r\n* BUGFIX: Honor external_ip setting in address sanitization.\r\n* BUGFIX: Honor random_peers and random_limit settings in peer selection.\r\n* BUGFIX: Filter all torrents on scrape with `tracker_filter_info_hashes`\r\n\r\n### SQL Migration\r\n\r\n```sql\r\nALTER TABLE `your_db`.`your_prefix_peers`\r\n    MODIFY `ipv4` char(15) NOT NULL DEFAULT '',\r\n    MODIFY `ipv6` char(39) NOT NULL DEFAULT '',\r\n    MODIFY `left` bigint(20) unsigned NOT NULL DEFAULT '0',\r\n    ADD COLUMN `uploaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `portv6`,\r\n    ADD COLUMN `downloaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `uploaded`;\r\n\r\nALTER TABLE `your_db`.`your_prefix_torrents`\r\n    ADD COLUMN `size` bigint(20) unsigned NULL AFTER `info_hash`,\r\n    ADD COLUMN `listed` tinyint(1) unsigned NOT NULL DEFAULT '0' AFTER `size`;\r\n```\r\n\r\n### Cron (Scheduled Task) Migration\r\n\r\nThe new backup command is `php ~/phoenix/_cron/hourly/backup-database.php`\r\n\r\n### Configuration Migration\r\n\r\nYour custom config will continue to work, but do take a look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)",
-          "href": "https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0"
+          "href": "https://github.com/eustasy/Phoenix/releases/tag/3.2.0"
         }
       },
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 315,
+        "new_commits": 319,
         "release": {
           "version": "3.1.5",
           "release_date": "2020-04-02T19:37:18+00:00",
@@ -596,12 +567,12 @@
     ],
     "releases": [
       {
-        "version": "v.3.2.0",
+        "version": "3.2.0",
         "release_date": "2026-05-09T17:18:33+00:00",
         "timeago": "3 weeks ago",
-        "title": "v3.2 - Haggard",
+        "title": "Phoenix 3.2.0 - Haggard",
         "body": "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash script with PHP; add backup_rotate setting. **Cron jobs will require changing and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)). **DB schema modifications required.**\r\n* FEATURE: Allow the admin script to create a configuration file ([#31](https://github.com/eustasy/phoenix/issues/31)).\r\n* FEATURE: Add an Index of publicly listed torrents ([#32](https://github.com/eustasy/phoenix/issues/32)).\r\n* FEATURE: Add a magnet link generator ([#33](https://github.com/eustasy/phoenix/issues/33)).\r\n* IMPROVES: Add authentication to the administration area ([#4](https://github.com/eustasy/phoenix/issues/4)).\r\n* IMPROVES: Add comments to all remaining uncommented files ([#35](https://github.com/eustasy/phoenix/issues/35)).\r\n* IMPROVES: Be more helpful when listing peers ([#36](https://github.com/eustasy/phoenix/issues/36)).\r\n* IMPROVES: Protect against spamming fake peers ([#37](https://github.com/eustasy/phoenix/issues/37)).\r\n* IMPROVES: Exclude peers table from database backup ([#43](https://github.com/eustasy/phoenix/issues/43)).\r\n* IMPROVES: Use `--defaults-extra-file` to avoid exposing DB password in process list.\r\n* IMPROVES: Better filtering of non-hex info_hash and peer_id values.\r\n* IMPROVES: Add most PHP typing.\r\n* BUGFIX: Incorrect uppercase in `tracker_error` - BEP madates lowercase.\r\n* BUGFIX: Sort non-compact bencode peer-dict keys per BEP 3.\r\n* BUGFIX: Fix parse_ipv4 IPv4-mapped IPv6 prefix stripping.\r\n* BUGFIX: Remove double decoding in `once.sanitize.tracker.php`.\r\n* BUGFIX: Unclosed integer in non-compact bencode.\r\n* BUGFIX: Several spelling errors.\r\n* BUGFIX: Honor external_ip setting in address sanitization.\r\n* BUGFIX: Honor random_peers and random_limit settings in peer selection.\r\n* BUGFIX: Filter all torrents on scrape with `tracker_filter_info_hashes`\r\n\r\n### SQL Migration\r\n\r\n```sql\r\nALTER TABLE `your_db`.`your_prefix_peers`\r\n    MODIFY `ipv4` char(15) NOT NULL DEFAULT '',\r\n    MODIFY `ipv6` char(39) NOT NULL DEFAULT '',\r\n    MODIFY `left` bigint(20) unsigned NOT NULL DEFAULT '0',\r\n    ADD COLUMN `uploaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `portv6`,\r\n    ADD COLUMN `downloaded` bigint(20) unsigned NOT NULL DEFAULT '0' AFTER `uploaded`;\r\n\r\nALTER TABLE `your_db`.`your_prefix_torrents`\r\n    ADD COLUMN `size` bigint(20) unsigned NULL AFTER `info_hash`,\r\n    ADD COLUMN `listed` tinyint(1) unsigned NOT NULL DEFAULT '0' AFTER `size`;\r\n```\r\n\r\n### Cron (Scheduled Task) Migration\r\n\r\nThe new backup command is `php ~/phoenix/_cron/hourly/backup-database.php`\r\n\r\n### Configuration Migration\r\n\r\nYour custom config will continue to work, but do take a look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)",
-        "href": "https://github.com/eustasy/Phoenix/releases/tag/v.3.2.0"
+        "href": "https://github.com/eustasy/Phoenix/releases/tag/3.2.0"
       },
       {
         "version": "3.1.5",
@@ -720,7 +691,7 @@
         "release": {
           "version": "v4.1.1",
           "release_date": "2026-05-31T21:00:55+00:00",
-          "timeago": "3 days ago",
+          "timeago": "4 days ago",
           "title": "v4.1.1 - Oath with Patch 1",
           "body": "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead of silently continuing with an invalid result.\r\n  IMPROVEMENT: `Authenticatron::makeSecret()` now guards the requested length with `max(1, $length)`, preventing `random_bytes()` from being called with a non-positive value.\r\n  IMPROVEMENT: Type-safety hardening across `src/authenticatron.php` to satisfy strict static analysis (PHPStan) — explicit string/int casts in the Base32 decode and code-generation paths,\r\n  plus array-shape PHPDoc annotations (`@return array<int, string>` and `array{Secret: string, URL: string, QR: string|null}`) on `getCodesInRange()` and `new()`.\r\n\r\n  ### Supporting Changes\r\n  SECURITY: Set `persist-credentials: false` on `actions/checkout` in CI so the `GITHUB_TOKEN` is no longer persisted into the workspace and cannot leak through workflow artifacts.\r\n  SECURITY: Pin `shivammathur/setup-php` to a full commit SHA (`accd6127…` / v2.37.0) instead of the floating `@v2` tag, hardening against supply-chain tampering of the action.\r\n  MAINTENANCE: Adopt the shared `eustasy/.Normal` tooling baseline — `.editorconfig`, `.vscode` settings, qlty configs, and css / markdown / php / security / test workflows.\r\n  MAINTENANCE: Migrate test reporting to qlty.sh; add a root `phpunit.xml`, retire the standalone `test-composer.yml` workflow, and surface maintainability/coverage badges in the README.\r\n  MAINTENANCE: Stop tracking `composer.lock` (this is a library, not an application).\r\n  MAINTENANCE: Format the codebase with php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1",
           "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
@@ -731,7 +702,7 @@
       {
         "version": "v4.1.1",
         "release_date": "2026-05-31T21:00:55+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "title": "v4.1.1 - Oath with Patch 1",
         "body": "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead of silently continuing with an invalid result.\r\n  IMPROVEMENT: `Authenticatron::makeSecret()` now guards the requested length with `max(1, $length)`, preventing `random_bytes()` from being called with a non-positive value.\r\n  IMPROVEMENT: Type-safety hardening across `src/authenticatron.php` to satisfy strict static analysis (PHPStan) — explicit string/int casts in the Base32 decode and code-generation paths,\r\n  plus array-shape PHPDoc annotations (`@return array<int, string>` and `array{Secret: string, URL: string, QR: string|null}`) on `getCodesInRange()` and `new()`.\r\n\r\n  ### Supporting Changes\r\n  SECURITY: Set `persist-credentials: false` on `actions/checkout` in CI so the `GITHUB_TOKEN` is no longer persisted into the workspace and cannot leak through workflow artifacts.\r\n  SECURITY: Pin `shivammathur/setup-php` to a full commit SHA (`accd6127…` / v2.37.0) instead of the floating `@v2` tag, hardening against supply-chain tampering of the action.\r\n  MAINTENANCE: Adopt the shared `eustasy/.Normal` tooling baseline — `.editorconfig`, `.vscode` settings, qlty configs, and css / markdown / php / security / test workflows.\r\n  MAINTENANCE: Migrate test reporting to qlty.sh; add a root `phpunit.xml`, retire the standalone `test-composer.yml` workflow, and surface maintainability/coverage badges in the README.\r\n  MAINTENANCE: Stop tracking `composer.lock` (this is a library, not an application).\r\n  MAINTENANCE: Format the codebase with php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
@@ -877,7 +848,7 @@
         "release": {
           "version": "1.31",
           "release_date": "2026-05-31T15:38:03+00:00",
-          "timeago": "3 days ago",
+          "timeago": "4 days ago",
           "title": "Browning v1.31",
           "body": "A ground-up rewrite from a single global function into a small, namespaced, dependency-injected library. This is a breaking release : the `Browning()` / `Recaptcha_Verify()` functions and the `global $Browning` config are gone, replaced by classes you construct with your config.\r\n\r\n## ⚠️ Breaking changes\r\n\r\n- Requires PHP 8.1+ (was 7.4). Now declares `ext-curl` (was `lib-curl`).\r\n- No more global functions or `global $Browning` — configuration is injected into classes instead.\r\n- PSR-4 autoloading under `Eustasy\\Browning\\` (replaces the files autoloader).\r\n- The config file now returns an array instead of populating globals.\r\n- Installs as `composer require eustasy/browning`.\r\n\r\n### Migration\r\n\r\n#### Sending email\r\n\r\n```php\r\n// Before (v0.30)\r\nrequire 'config/browning.php';                 // set global $Browning\r\n$mail = Browning('to@example.com', 'Subject', 'Body');\r\nif ($mail['Success']) { /* ... */ }\r\n\r\n// After (v1.31)\r\nuse Eustasy\\Browning\\Mailer;\r\n$config = require 'config/browning.php';        // returns an array\r\n$result = Mailer::fromArray($config)->send('to@example.com', 'Subject', 'Body');\r\nif ($result->success) { /* ... */ } else { echo $result->error; }\r\n```\r\n\r\n#### reCAPTCHA\r\n\r\n```php\r\n// Before\r\n$v = Recaptcha_Verify($secret, $_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);\r\nif ($v['Success']) { /* ... */ }\r\n\r\n// After\r\nuse Eustasy\\Browning\\Recaptcha;\r\n$v = Recaptcha::fromArray($config)->verify($_POST['g-recaptcha-response'] ?? null, $_SERVER['REMOTE_ADDR'] ?? null);\r\nif ($v->success) { /* ... */ }\r\n```\r\n\r\n## ✨ What's new\r\n\r\n- New Mailer and Recaptcha classes with typed value-object results (`Result`, `RecaptchaResult`) `->success`, `->error`, `->errorCodes`.\r\n- A Transport interface + default `CurlTransport`: the cURL call is injectable, so it can be swapped (e.g. for tests) without touching the network.\r\n- `Mailer::fromArray()` / `Recaptcha::fromArray()` build straight from the config array.\r\n- Friendly-vs-technical error messages via a debug flag (`Mailer::fromArray($config, debug: true)`).\r\n\r\n### 🧪 Quality\r\n\r\n- New PHPUnit suite (23 tests) : logic unit-tested through a fake transport, plus a real-cURL integration test.\r\n- Fully type-hinted; PHPStan-clean through max.\r\n- The Test (PHP) workflow is enabled (PHP 8.3–8.6, coverage to Qlty).\r\n\r\n### 📝 Docs\r\n\r\n- README rewritten for the new API.\r\n- Config ships as `config/browning.default.php` : copy it to your own location and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31",
           "href": "https://github.com/eustasy/browning/releases/tag/1.31"
@@ -888,7 +859,7 @@
       {
         "version": "1.31",
         "release_date": "2026-05-31T15:38:03+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "title": "Browning v1.31",
         "body": "A ground-up rewrite from a single global function into a small, namespaced, dependency-injected library. This is a breaking release : the `Browning()` / `Recaptcha_Verify()` functions and the `global $Browning` config are gone, replaced by classes you construct with your config.\r\n\r\n## ⚠️ Breaking changes\r\n\r\n- Requires PHP 8.1+ (was 7.4). Now declares `ext-curl` (was `lib-curl`).\r\n- No more global functions or `global $Browning` — configuration is injected into classes instead.\r\n- PSR-4 autoloading under `Eustasy\\Browning\\` (replaces the files autoloader).\r\n- The config file now returns an array instead of populating globals.\r\n- Installs as `composer require eustasy/browning`.\r\n\r\n### Migration\r\n\r\n#### Sending email\r\n\r\n```php\r\n// Before (v0.30)\r\nrequire 'config/browning.php';                 // set global $Browning\r\n$mail = Browning('to@example.com', 'Subject', 'Body');\r\nif ($mail['Success']) { /* ... */ }\r\n\r\n// After (v1.31)\r\nuse Eustasy\\Browning\\Mailer;\r\n$config = require 'config/browning.php';        // returns an array\r\n$result = Mailer::fromArray($config)->send('to@example.com', 'Subject', 'Body');\r\nif ($result->success) { /* ... */ } else { echo $result->error; }\r\n```\r\n\r\n#### reCAPTCHA\r\n\r\n```php\r\n// Before\r\n$v = Recaptcha_Verify($secret, $_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);\r\nif ($v['Success']) { /* ... */ }\r\n\r\n// After\r\nuse Eustasy\\Browning\\Recaptcha;\r\n$v = Recaptcha::fromArray($config)->verify($_POST['g-recaptcha-response'] ?? null, $_SERVER['REMOTE_ADDR'] ?? null);\r\nif ($v->success) { /* ... */ }\r\n```\r\n\r\n## ✨ What's new\r\n\r\n- New Mailer and Recaptcha classes with typed value-object results (`Result`, `RecaptchaResult`) `->success`, `->error`, `->errorCodes`.\r\n- A Transport interface + default `CurlTransport`: the cURL call is injectable, so it can be swapped (e.g. for tests) without touching the network.\r\n- `Mailer::fromArray()` / `Recaptcha::fromArray()` build straight from the config array.\r\n- Friendly-vs-technical error messages via a debug flag (`Mailer::fromArray($config, debug: true)`).\r\n\r\n### 🧪 Quality\r\n\r\n- New PHPUnit suite (23 tests) : logic unit-tested through a fake transport, plus a real-cURL integration test.\r\n- Fully type-hinted; PHPStan-clean through max.\r\n- The Test (PHP) workflow is enabled (PHP 8.3–8.6, coverage to Qlty).\r\n\r\n### 📝 Docs\r\n\r\n- README rewritten for the new API.\r\n- Config ships as `config/browning.default.php` : copy it to your own location and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31",
         "href": "https://github.com/eustasy/browning/releases/tag/1.31"
@@ -990,7 +961,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 10,
+        "new_commits": 15,
         "release": {
           "version": "2.6.4",
           "release_date": "2026-05-03T01:50:17+00:00",

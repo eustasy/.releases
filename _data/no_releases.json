@@ -36,10 +36,6 @@
     "default_branch": "gh-pages"
   },
   {
-    "name": "magazine",
-    "default_branch": "main"
-  },
-  {
     "name": "puff-serverless",
     "default_branch": "cf-pages"
   }
