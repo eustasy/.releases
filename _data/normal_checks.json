@@ -92,8 +92,8 @@
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
-    "normal_checks": "4.0beta8",
-    "status": "behind"
+    "normal_checks": "4.0beta10",
+    "status": "current"
   },
   {
     "name": "puff-server",
@@ -104,7 +104,7 @@
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
-    "normal_checks": false,
-    "status": false
+    "normal_checks": "4.0beta10",
+    "status": "current"
   }
 ]
