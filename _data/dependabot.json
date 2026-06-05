@@ -256,7 +256,7 @@
         "package_ecosystem": "github-actions",
         "target_branch": "cf-pages",
         "directory": "/",
-        "interval": "weekly",
+        "interval": "monthly",
         "all_dependencies": false,
         "supports_all": false
       },
@@ -264,7 +264,7 @@
         "package_ecosystem": "npm",
         "target_branch": "cf-pages",
         "directory": "/",
-        "interval": "weekly",
+        "interval": "monthly",
         "all_dependencies": true,
         "supports_all": true
       }
