@@ -9,7 +9,7 @@
         \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
       release_date: '2026-06-03T21:14:07+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Appletini (4.0beta10)
       version: 4.0beta10
   default_branch: main
@@ -21,7 +21,7 @@
       \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
     release_date: '2026-06-03T21:14:07+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta10)
     version: 4.0beta10
   - body: "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\
@@ -29,7 +29,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 4 days ago
+    timeago: 5 days ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -40,35 +40,35 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta8
     release_date: '2026-05-31T19:39:53+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: Appletini (4.0beta8)
     version: 4.0beta8
   - body: "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal\
       \ when installing workflows and dependabot.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta6...4.0beta7"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta7
     release_date: '2026-05-31T10:51:26+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta7)
     version: 4.0beta7
   - body: "- Expand exclusions\r\n- Do not install json workflow for machine generated\
       \ files\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta5...4.0beta6"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta6
     release_date: '2026-05-31T10:31:27+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta6)
     version: 4.0beta6
   - body: "- Add `workflow_dispatch`\r\n- Remove `semgrep`\r\n- Fix exclude patterns\r\
       \n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta5
     release_date: '2026-05-31T09:49:47+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta5)
     version: 4.0beta5
   - body: "- Reduce to one linter per language by @lewisgoddard in https://github.com/eustasy/.normal/pull/27\r\
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta4
     release_date: '2026-05-31T19:43:40+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: Appletini (4.0beta4)
     version: 4.0beta4
   - body: "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**:\
@@ -449,7 +449,7 @@
       body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
       release_date: '2026-06-01T11:14:25+00:00'
-      timeago: 5 days ago
+      timeago: 6 days ago
       title: 2.1.1
       version: 2.1.1
   default_branch: main
@@ -458,7 +458,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
     release_date: '2026-06-01T11:14:25+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: 2.1.1
     version: 2.1.1
   - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
@@ -623,7 +623,7 @@
         \ look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
       href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
       release_date: '2026-05-09T17:18:33+00:00'
-      timeago: 3 weeks ago
+      timeago: 4 weeks ago
       title: Phoenix 3.2.0 - Haggard
       version: 3.2.0
   - is_default: true
@@ -675,7 +675,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Phoenix 3.2.0 - Haggard
     version: 3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
@@ -833,7 +833,7 @@
         \ php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
       href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
       release_date: '2026-05-31T21:00:55+00:00'
-      timeago: 5 days ago
+      timeago: 6 days ago
       title: v4.1.1 - Oath with Patch 1
       version: v4.1.1
   default_branch: main
@@ -863,7 +863,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
     release_date: '2026-05-31T21:00:55+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: v4.1.1 - Oath with Patch 1
     version: v4.1.1
   - body: "### Package Changes\r\nBUGFIX: `Authenticatron::getCode()` timestamp override\
@@ -1052,7 +1052,7 @@
         \ https://github.com/eustasy/browning/compare/0.30...1.31"
       href: https://github.com/eustasy/browning/releases/tag/1.31
       release_date: '2026-05-31T15:38:03+00:00'
-      timeago: 5 days ago
+      timeago: 6 days ago
       title: Browning v1.31
       version: '1.31'
   default_branch: main
@@ -1094,7 +1094,7 @@
       \ and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31"
     href: https://github.com/eustasy/browning/releases/tag/1.31
     release_date: '2026-05-31T15:38:03+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: Browning v1.31
     version: '1.31'
   - body: "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify\
