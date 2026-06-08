@@ -92,19 +92,13 @@
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
-    "normal_checks": "4.0beta8",
-    "status": "behind"
-  },
-  {
-    "name": "puff-server",
-    "default_branch": "main",
-    "normal_checks": "3.x",
-    "status": "outdated"
+    "normal_checks": "4.0beta10",
+    "status": "current"
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
-    "normal_checks": false,
-    "status": false
+    "normal_checks": "4.0beta10",
+    "status": "current"
   }
 ]

@@ -160,21 +160,18 @@
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
-- has_config: false
-  name: puff-server
-  updates: []
 - has_config: true
   name: puff-serverless
   updates:
   - all_dependencies: false
     directory: /
-    interval: weekly
+    interval: monthly
     package_ecosystem: github-actions
     supports_all: false
     target_branch: cf-pages
   - all_dependencies: true
     directory: /
-    interval: weekly
+    interval: monthly
     package_ecosystem: npm
     supports_all: true
     target_branch: cf-pages

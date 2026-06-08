@@ -60,13 +60,9 @@
   status: false
 - default_branch: main
   name: jQuery.leanModal2
-  normal_checks: 4.0beta8
-  status: behind
-- default_branch: main
-  name: puff-server
-  normal_checks: 3.x
-  status: outdated
+  normal_checks: 4.0beta10
+  status: current
 - default_branch: cf-pages
   name: puff-serverless
-  normal_checks: false
-  status: false
+  normal_checks: 4.0beta10
+  status: current
