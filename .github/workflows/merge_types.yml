@@ -7,7 +7,7 @@ on:
     - cron:  '45 0 * * 1'
 
 permissions:
-  contents: read
+  contents: write
 
 jobs:
   build:
@@ -55,4 +55,4 @@ jobs:
           done
         fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
