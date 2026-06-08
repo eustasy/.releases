@@ -96,12 +96,6 @@
     "status": "current"
   },
   {
-    "name": "puff-server",
-    "default_branch": "main",
-    "normal_checks": "3.x",
-    "status": "outdated"
-  },
-  {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
     "normal_checks": "4.0beta10",
