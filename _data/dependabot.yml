@@ -160,9 +160,6 @@
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
-- has_config: false
-  name: puff-server
-  updates: []
 - has_config: true
   name: puff-serverless
   updates:
