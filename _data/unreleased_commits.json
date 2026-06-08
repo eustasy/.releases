@@ -10,7 +10,7 @@
         "release": {
           "version": "4.0beta10",
           "release_date": "2026-06-03T21:14:07+00:00",
-          "timeago": "3 days ago",
+          "timeago": "4 days ago",
           "title": "Appletini (4.0beta10)",
           "body": "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10",
           "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta10"
@@ -21,7 +21,7 @@
       {
         "version": "4.0beta10",
         "release_date": "2026-06-03T21:14:07+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "title": "Appletini (4.0beta10)",
         "body": "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta10"
@@ -29,7 +29,7 @@
       {
         "version": "4.0beta9",
         "release_date": "2026-06-01T18:31:19+00:00",
-        "timeago": "5 days ago",
+        "timeago": "6 days ago",
         "title": "Appletini (4.0beta9)",
         "body": "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta9"
@@ -37,7 +37,7 @@
       {
         "version": "4.0beta8",
         "release_date": "2026-05-31T19:39:53+00:00",
-        "timeago": "6 days ago",
+        "timeago": "1 week ago",
         "title": "Appletini (4.0beta8)",
         "body": "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\n- [Add step to install PHP dependencies with Composer](https://github.com/eustasy/.normal/commit/ede47cc0ed0c51c73e0ac8f6d15c0d0752cb4612)\r\n- [Update files finding for html/xml](https://github.com/eustasy/.normal/commit/d748b4e6736e6543e53145b6b8dcd4b64ece56c2)\r\n- [Update markdownlint configuration for line length](https://github.com/eustasy/.normal/commit/5387aff82f59111debfad7700b6508797024ad4d)\r\n- [Variable dependabot](https://github.com/eustasy/.normal/commit/185694affcd35a6134e8975754140b0554909176)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta8"
@@ -69,7 +69,7 @@
       {
         "version": "4.0beta4",
         "release_date": "2026-05-31T19:43:40+00:00",
-        "timeago": "6 days ago",
+        "timeago": "1 week ago",
         "title": "Appletini (4.0beta4)",
         "body": "- Reduce to one linter per language by @lewisgoddard in https://github.com/eustasy/.normal/pull/27\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta4"
@@ -380,7 +380,7 @@
         "release": {
           "version": "2.1.1",
           "release_date": "2026-06-01T11:14:25+00:00",
-          "timeago": "6 days ago",
+          "timeago": "1 week ago",
           "title": "2.1.1",
           "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -391,7 +391,7 @@
       {
         "version": "2.1.1",
         "release_date": "2026-06-01T11:14:25+00:00",
-        "timeago": "6 days ago",
+        "timeago": "1 week ago",
         "title": "2.1.1",
         "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -691,7 +691,7 @@
         "release": {
           "version": "v4.1.1",
           "release_date": "2026-05-31T21:00:55+00:00",
-          "timeago": "6 days ago",
+          "timeago": "1 week ago",
           "title": "v4.1.1 - Oath with Patch 1",
           "body": "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead of silently continuing with an invalid result.\r\n  IMPROVEMENT: `Authenticatron::makeSecret()` now guards the requested length with `max(1, $length)`, preventing `random_bytes()` from being called with a non-positive value.\r\n  IMPROVEMENT: Type-safety hardening across `src/authenticatron.php` to satisfy strict static analysis (PHPStan) — explicit string/int casts in the Base32 decode and code-generation paths,\r\n  plus array-shape PHPDoc annotations (`@return array<int, string>` and `array{Secret: string, URL: string, QR: string|null}`) on `getCodesInRange()` and `new()`.\r\n\r\n  ### Supporting Changes\r\n  SECURITY: Set `persist-credentials: false` on `actions/checkout` in CI so the `GITHUB_TOKEN` is no longer persisted into the workspace and cannot leak through workflow artifacts.\r\n  SECURITY: Pin `shivammathur/setup-php` to a full commit SHA (`accd6127…` / v2.37.0) instead of the floating `@v2` tag, hardening against supply-chain tampering of the action.\r\n  MAINTENANCE: Adopt the shared `eustasy/.Normal` tooling baseline — `.editorconfig`, `.vscode` settings, qlty configs, and css / markdown / php / security / test workflows.\r\n  MAINTENANCE: Migrate test reporting to qlty.sh; add a root `phpunit.xml`, retire the standalone `test-composer.yml` workflow, and surface maintainability/coverage badges in the README.\r\n  MAINTENANCE: Stop tracking `composer.lock` (this is a library, not an application).\r\n  MAINTENANCE: Format the codebase with php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1",
           "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
@@ -702,7 +702,7 @@
       {
         "version": "v4.1.1",
         "release_date": "2026-05-31T21:00:55+00:00",
-        "timeago": "6 days ago",
+        "timeago": "1 week ago",
         "title": "v4.1.1 - Oath with Patch 1",
         "body": "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead of silently continuing with an invalid result.\r\n  IMPROVEMENT: `Authenticatron::makeSecret()` now guards the requested length with `max(1, $length)`, preventing `random_bytes()` from being called with a non-positive value.\r\n  IMPROVEMENT: Type-safety hardening across `src/authenticatron.php` to satisfy strict static analysis (PHPStan) — explicit string/int casts in the Base32 decode and code-generation paths,\r\n  plus array-shape PHPDoc annotations (`@return array<int, string>` and `array{Secret: string, URL: string, QR: string|null}`) on `getCodesInRange()` and `new()`.\r\n\r\n  ### Supporting Changes\r\n  SECURITY: Set `persist-credentials: false` on `actions/checkout` in CI so the `GITHUB_TOKEN` is no longer persisted into the workspace and cannot leak through workflow artifacts.\r\n  SECURITY: Pin `shivammathur/setup-php` to a full commit SHA (`accd6127…` / v2.37.0) instead of the floating `@v2` tag, hardening against supply-chain tampering of the action.\r\n  MAINTENANCE: Adopt the shared `eustasy/.Normal` tooling baseline — `.editorconfig`, `.vscode` settings, qlty configs, and css / markdown / php / security / test workflows.\r\n  MAINTENANCE: Migrate test reporting to qlty.sh; add a root `phpunit.xml`, retire the standalone `test-composer.yml` workflow, and surface maintainability/coverage badges in the README.\r\n  MAINTENANCE: Stop tracking `composer.lock` (this is a library, not an application).\r\n  MAINTENANCE: Format the codebase with php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
@@ -848,7 +848,7 @@
         "release": {
           "version": "1.31",
           "release_date": "2026-05-31T15:38:03+00:00",
-          "timeago": "6 days ago",
+          "timeago": "1 week ago",
           "title": "Browning v1.31",
           "body": "A ground-up rewrite from a single global function into a small, namespaced, dependency-injected library. This is a breaking release : the `Browning()` / `Recaptcha_Verify()` functions and the `global $Browning` config are gone, replaced by classes you construct with your config.\r\n\r\n## ⚠️ Breaking changes\r\n\r\n- Requires PHP 8.1+ (was 7.4). Now declares `ext-curl` (was `lib-curl`).\r\n- No more global functions or `global $Browning` — configuration is injected into classes instead.\r\n- PSR-4 autoloading under `Eustasy\\Browning\\` (replaces the files autoloader).\r\n- The config file now returns an array instead of populating globals.\r\n- Installs as `composer require eustasy/browning`.\r\n\r\n### Migration\r\n\r\n#### Sending email\r\n\r\n```php\r\n// Before (v0.30)\r\nrequire 'config/browning.php';                 // set global $Browning\r\n$mail = Browning('to@example.com', 'Subject', 'Body');\r\nif ($mail['Success']) { /* ... */ }\r\n\r\n// After (v1.31)\r\nuse Eustasy\\Browning\\Mailer;\r\n$config = require 'config/browning.php';        // returns an array\r\n$result = Mailer::fromArray($config)->send('to@example.com', 'Subject', 'Body');\r\nif ($result->success) { /* ... */ } else { echo $result->error; }\r\n```\r\n\r\n#### reCAPTCHA\r\n\r\n```php\r\n// Before\r\n$v = Recaptcha_Verify($secret, $_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);\r\nif ($v['Success']) { /* ... */ }\r\n\r\n// After\r\nuse Eustasy\\Browning\\Recaptcha;\r\n$v = Recaptcha::fromArray($config)->verify($_POST['g-recaptcha-response'] ?? null, $_SERVER['REMOTE_ADDR'] ?? null);\r\nif ($v->success) { /* ... */ }\r\n```\r\n\r\n## ✨ What's new\r\n\r\n- New Mailer and Recaptcha classes with typed value-object results (`Result`, `RecaptchaResult`) `->success`, `->error`, `->errorCodes`.\r\n- A Transport interface + default `CurlTransport`: the cURL call is injectable, so it can be swapped (e.g. for tests) without touching the network.\r\n- `Mailer::fromArray()` / `Recaptcha::fromArray()` build straight from the config array.\r\n- Friendly-vs-technical error messages via a debug flag (`Mailer::fromArray($config, debug: true)`).\r\n\r\n### 🧪 Quality\r\n\r\n- New PHPUnit suite (23 tests) : logic unit-tested through a fake transport, plus a real-cURL integration test.\r\n- Fully type-hinted; PHPStan-clean through max.\r\n- The Test (PHP) workflow is enabled (PHP 8.3–8.6, coverage to Qlty).\r\n\r\n### 📝 Docs\r\n\r\n- README rewritten for the new API.\r\n- Config ships as `config/browning.default.php` : copy it to your own location and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31",
           "href": "https://github.com/eustasy/browning/releases/tag/1.31"
@@ -859,7 +859,7 @@
       {
         "version": "1.31",
         "release_date": "2026-05-31T15:38:03+00:00",
-        "timeago": "6 days ago",
+        "timeago": "1 week ago",
         "title": "Browning v1.31",
         "body": "A ground-up rewrite from a single global function into a small, namespaced, dependency-injected library. This is a breaking release : the `Browning()` / `Recaptcha_Verify()` functions and the `global $Browning` config are gone, replaced by classes you construct with your config.\r\n\r\n## ⚠️ Breaking changes\r\n\r\n- Requires PHP 8.1+ (was 7.4). Now declares `ext-curl` (was `lib-curl`).\r\n- No more global functions or `global $Browning` — configuration is injected into classes instead.\r\n- PSR-4 autoloading under `Eustasy\\Browning\\` (replaces the files autoloader).\r\n- The config file now returns an array instead of populating globals.\r\n- Installs as `composer require eustasy/browning`.\r\n\r\n### Migration\r\n\r\n#### Sending email\r\n\r\n```php\r\n// Before (v0.30)\r\nrequire 'config/browning.php';                 // set global $Browning\r\n$mail = Browning('to@example.com', 'Subject', 'Body');\r\nif ($mail['Success']) { /* ... */ }\r\n\r\n// After (v1.31)\r\nuse Eustasy\\Browning\\Mailer;\r\n$config = require 'config/browning.php';        // returns an array\r\n$result = Mailer::fromArray($config)->send('to@example.com', 'Subject', 'Body');\r\nif ($result->success) { /* ... */ } else { echo $result->error; }\r\n```\r\n\r\n#### reCAPTCHA\r\n\r\n```php\r\n// Before\r\n$v = Recaptcha_Verify($secret, $_POST['g-recaptcha-response'], $_SERVER['REMOTE_ADDR']);\r\nif ($v['Success']) { /* ... */ }\r\n\r\n// After\r\nuse Eustasy\\Browning\\Recaptcha;\r\n$v = Recaptcha::fromArray($config)->verify($_POST['g-recaptcha-response'] ?? null, $_SERVER['REMOTE_ADDR'] ?? null);\r\nif ($v->success) { /* ... */ }\r\n```\r\n\r\n## ✨ What's new\r\n\r\n- New Mailer and Recaptcha classes with typed value-object results (`Result`, `RecaptchaResult`) `->success`, `->error`, `->errorCodes`.\r\n- A Transport interface + default `CurlTransport`: the cURL call is injectable, so it can be swapped (e.g. for tests) without touching the network.\r\n- `Mailer::fromArray()` / `Recaptcha::fromArray()` build straight from the config array.\r\n- Friendly-vs-technical error messages via a debug flag (`Mailer::fromArray($config, debug: true)`).\r\n\r\n### 🧪 Quality\r\n\r\n- New PHPUnit suite (23 tests) : logic unit-tested through a fake transport, plus a real-cURL integration test.\r\n- Fully type-hinted; PHPStan-clean through max.\r\n- The Test (PHP) workflow is enabled (PHP 8.3–8.6, coverage to Qlty).\r\n\r\n### 📝 Docs\r\n\r\n- README rewritten for the new API.\r\n- Config ships as `config/browning.default.php` : copy it to your own location and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31",
         "href": "https://github.com/eustasy/browning/releases/tag/1.31"
@@ -1068,67 +1068,6 @@
         "title": "2.0",
         "body": "### Bugfixes\r\n- Fixes bug where an overlay is added with every call. Now, if one exists a new one is not added.\r\n- Fixes bug where click events would be fired multiple times when the function is called more than once.\r\n\r\n### Features\r\n- Add option for triggering from element, using data-modal-id attribute.\r\n\r\n### Improvements\r\n- No need for additional CSS for the overlay, neither linked nor inlined. It is added with the element.\r\n- Names functions more clearly to avoid conflicts.\r\n- Added official minified version.\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0"
-      }
-    ]
-  },
-  {
-    "name": "puff-server",
-    "default_branch": "main",
-    "branches": [
-      {
-        "name": "main",
-        "is_default": true,
-        "new_commits": 52,
-        "release": {
-          "version": "0.5.0",
-          "release_date": "2017-10-18T16:58:52+00:00",
-          "timeago": "8 years ago",
-          "title": "Full Circle",
-          "body": "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT: Add [Normal Checks](https://github.com/eustasy/normal-checks) v1.7\r\n- IMPROVEMENT: Fix file permissions\r\n- IMPROVEMENT: Better auto-linking\r\n- IMPROVEMENT: Add generator meta tag\r\n- IMPROVEMENT: Include `rel=\"noopener\"` when opening links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE: Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading.",
-          "href": "https://github.com/eustasy/puff-server/releases/tag/0.5.0"
-        }
-      }
-    ],
-    "releases": [
-      {
-        "version": "0.5.0",
-        "release_date": "2017-10-18T16:58:52+00:00",
-        "timeago": "8 years ago",
-        "title": "Full Circle",
-        "body": "- FEATURE: Add XSS Warning\r\n- FEATURE: Add robots.txt\r\n- FEATURE: Add responsive Priority and ChangeFreq to Sitemap generator\r\n- IMPROVEMENT: Add [Normal Checks](https://github.com/eustasy/normal-checks) v1.7\r\n- IMPROVEMENT: Fix file permissions\r\n- IMPROVEMENT: Better auto-linking\r\n- IMPROVEMENT: Add generator meta tag\r\n- IMPROVEMENT: Include `rel=\"noopener\"` when opening links in new tab.\r\n- IMPROVEMENT: Change template points\r\n- MAINTENANCE: Update jsDelivr links\r\n- BUGFIX: Fix `Internal` JS loading.",
-        "href": "https://github.com/eustasy/puff-server/releases/tag/0.5.0"
-      },
-      {
-        "version": "0.4",
-        "release_date": "2016-03-02T13:38:34+00:00",
-        "timeago": "10 years ago",
-        "title": "Unification",
-        "body": "- FEATURE: Test scripts, integrated with Travis CI.\r\n- FEATURE: Cron Scripts to clear out older Runonces and Sessions.\r\n- IMPROVEMENT: Re-organised settings.\r\n- IMPROVEMENT: Improved Path Matching in some cases.\r\n- IMPROVEMENT: Improved IP Catching in some cases.\r\n- BUGFIX: Banner does not close on `x` click.\r\n- CHANGE: Re-Architecture.\r\n",
-        "href": "https://github.com/eustasy/puff-server/releases/tag/0.4"
-      },
-      {
-        "version": "0.3",
-        "release_date": "2015-11-22T19:58:18+00:00",
-        "timeago": "10 years ago",
-        "title": "Split",
-        "body": "- Move functions\r\n- Standardize testing\r\n- Permissions\r\n",
-        "href": "https://github.com/eustasy/puff-server/releases/tag/0.3"
-      },
-      {
-        "version": "0.2",
-        "release_date": "2015-11-16T12:11:19+00:00",
-        "timeago": "10 years ago",
-        "title": "Responsive Settings",
-        "body": "- Proper Example Pages\r\n- Functions Auto-Loading\r\n- Configuration Auto-Loading\r\n- CSP Violation Reporting\r\n- Better Example Pages\r\n- De-duplication\r\n",
-        "href": "https://github.com/eustasy/puff-server/releases/tag/0.2"
-      },
-      {
-        "version": "0.1",
-        "release_date": "2015-07-28T08:45:35+00:00",
-        "timeago": "10 years ago",
-        "title": "Core and DB",
-        "body": "- Supreme SEO\r\n- Social Built-in\r\n- Standard and Custom Hooks\r\n- Auto-linking stylesheets and scripts.\r\n- Integrated Cron System, including self-refreshing Sitemap.\r\n- A+ Standard SSL Configuration with optional soft-HSTS for older browsers.\r\n- Tracking with Google Analytics that respects Do Not Track headers.\r\n",
-        "href": "https://github.com/eustasy/puff-server/releases/tag/0.1"
       }
     ]
   }
