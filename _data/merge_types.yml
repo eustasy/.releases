@@ -1,16 +1,23 @@
 - allow_auto_merge: false
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
-  name: .github
-- allow_auto_merge: false
+  delete_branch_on_merge: true
+  name: .deployment-guides
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
+  name: .github
+- allow_auto_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
+  default_branch: main
+  delete_branch_on_merge: true
   name: .normal
 - allow_auto_merge: true
   allow_merge_commit: false
@@ -19,101 +26,108 @@
   default_branch: main
   delete_branch_on_merge: true
   name: .releases
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: .ui
 - allow_auto_merge: false
-  allow_merge_commit: false
-  allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_merge_commit: true
+  allow_rebase_merge: true
+  allow_squash_merge: true
   default_branch: master
   delete_branch_on_merge: false
   name: .uptime
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: Bubbly
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: Colors.css
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: Locksmith
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: Phoenix
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: apple-silicon
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: authenticatron
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: browning
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: vala
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: elementary-bluetooth-proximity-locker
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: cf-pages
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: eustasy.org
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: gh-pages
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: howtoubuntu.org
-- allow_auto_merge: false
+- allow_auto_merge: true
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
   default_branch: main
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: jQuery.leanModal2
 - allow_auto_merge: false
   allow_merge_commit: false
   allow_rebase_merge: false
-  allow_squash_merge: false
+  allow_squash_merge: true
+  default_branch: main
+  delete_branch_on_merge: true
+  name: magazine
+- allow_auto_merge: true
+  allow_merge_commit: false
+  allow_rebase_merge: false
+  allow_squash_merge: true
   default_branch: cf-pages
-  delete_branch_on_merge: false
+  delete_branch_on_merge: true
   name: puff-serverless
