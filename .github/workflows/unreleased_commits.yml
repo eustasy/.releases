@@ -5,6 +5,11 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '15 11 * * *'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/unreleased_commits.yml'
+      - '_generators/unreleased_commits.py'
 
 permissions:
   contents: write

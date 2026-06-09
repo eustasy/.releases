@@ -5,6 +5,11 @@ on:
   schedule:
     # * is a special character in YAML so you have to quote this string
     - cron:  '45 0 * * 1'
+  push:
+    branches: [main]
+    paths:
+      - '.github/workflows/merge_types.yml'
+      - '_generators/merge_types.py'
 
 permissions:
   contents: write
