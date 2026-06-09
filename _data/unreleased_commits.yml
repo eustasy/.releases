@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 10
+    new_commits: 11
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -9,7 +9,7 @@
         \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
       release_date: '2026-06-03T21:14:07+00:00'
-      timeago: 4 days ago
+      timeago: 5 days ago
       title: Appletini (4.0beta10)
       version: 4.0beta10
   default_branch: main
@@ -21,7 +21,7 @@
       \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
     release_date: '2026-06-03T21:14:07+00:00'
-    timeago: 4 days ago
+    timeago: 5 days ago
     title: Appletini (4.0beta10)
     version: 4.0beta10
   - body: "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\
@@ -29,7 +29,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -623,7 +623,7 @@
         \ look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
       href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
       release_date: '2026-05-09T17:18:33+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: Phoenix 3.2.0 - Haggard
       version: 3.2.0
   - is_default: true
@@ -675,7 +675,7 @@
       \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Phoenix 3.2.0 - Haggard
     version: 3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
