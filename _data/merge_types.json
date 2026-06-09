@@ -1,21 +1,30 @@
 [
   {
+    "name": ".deployment-guides",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_auto_merge": false,
+    "delete_branch_on_merge": true
+  },
+  {
     "name": ".github",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": ".normal",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": ".releases",
@@ -30,17 +39,17 @@
     "name": ".ui",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": ".uptime",
     "default_branch": "master",
-    "allow_rebase_merge": false,
-    "allow_squash_merge": false,
-    "allow_merge_commit": false,
+    "allow_rebase_merge": true,
+    "allow_squash_merge": true,
+    "allow_merge_commit": true,
     "allow_auto_merge": false,
     "delete_branch_on_merge": false
   },
@@ -48,108 +57,117 @@
     "name": "Bubbly",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "Phoenix",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "apple-silicon",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "authenticatron",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "browning",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
     "default_branch": "vala",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "eustasy.org",
     "default_branch": "cf-pages",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "howtoubuntu.org",
     "default_branch": "gh-pages",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   },
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
+    "allow_merge_commit": false,
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
+  },
+  {
+    "name": "magazine",
+    "default_branch": "main",
+    "allow_rebase_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
     "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "delete_branch_on_merge": true
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
     "allow_rebase_merge": false,
-    "allow_squash_merge": false,
+    "allow_squash_merge": true,
     "allow_merge_commit": false,
-    "allow_auto_merge": false,
-    "delete_branch_on_merge": false
+    "allow_auto_merge": true,
+    "delete_branch_on_merge": true
   }
 ]
