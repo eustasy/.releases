@@ -19,11 +19,11 @@
   issue_template: fallback
   name: .normal
   pull_request_template: fallback
-  pushed_at: '2026-06-05T18:05:57+00:00'
+  pushed_at: '2026-06-08T22:46:53+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-06-05T18:06:00+00:00'
+  updated_at: '2026-06-08T22:46:54+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
@@ -32,11 +32,11 @@
   issue_template: fallback
   name: .releases
   pull_request_template: fallback
-  pushed_at: '2026-06-07T14:35:16+00:00'
+  pushed_at: '2026-06-09T16:05:25+00:00'
   readme: missing
   security: fallback
   support: fallback
-  updated_at: '2026-06-07T14:35:19+00:00'
+  updated_at: '2026-06-09T15:53:11+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
@@ -58,11 +58,11 @@
   issue_template: present
   name: .uptime
   pull_request_template: fallback
-  pushed_at: '2026-06-08T02:35:08+00:00'
+  pushed_at: '2026-06-09T01:59:45+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-06-08T02:35:12+00:00'
+  updated_at: '2026-06-09T01:59:49+00:00'
 - code_of_conduct: fallback
   contributing: present
   discussion_templates: missing
@@ -175,11 +175,11 @@
   issue_template: fallback
   name: eustasy.org
   pull_request_template: fallback
-  pushed_at: '2026-06-07T21:19:47+00:00'
+  pushed_at: '2026-06-09T13:22:32+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-06-07T21:19:50+00:00'
+  updated_at: '2026-06-09T13:29:10+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
@@ -214,8 +214,8 @@
   issue_template: fallback
   name: puff-serverless
   pull_request_template: fallback
-  pushed_at: '2026-06-07T23:55:34+00:00'
+  pushed_at: '2026-06-08T23:23:55+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-06-07T23:55:37+00:00'
+  updated_at: '2026-06-08T23:23:59+00:00'
