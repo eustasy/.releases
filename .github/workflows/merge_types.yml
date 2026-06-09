@@ -55,4 +55,8 @@ jobs:
           done
         fi
       env:
-        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        # The default GITHUB_TOKEN is scoped only to this repo, so it can read
+        # merge settings for .releases but returns null for every other repo
+        # (GitHub only exposes allow_*_merge to tokens with admin on the repo).
+        # GORGON_V2 is an org-wide admin PAT, which is required to read them.
+        GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}

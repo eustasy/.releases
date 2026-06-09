@@ -14,20 +14,34 @@ g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
 class NoReleasesFound(Exception):
   pass
 
+class MergeSettingsUnreadable(Exception):
+  pass
+
+# GitHub only returns these fields to a token with admin access on the repo.
+# For any other repo they come back as None -- which is NOT the same as
+# "disabled". Coercing None to False (as this script used to) silently
+# publishes wrong data, so we treat None as a hard failure instead.
+MERGE_FIELDS = (
+  'allow_rebase_merge',
+  'allow_squash_merge',
+  'allow_merge_commit',
+  'allow_auto_merge',
+  'delete_branch_on_merge',
+)
+
 class Repo:
   def __init__(self, repo):
     self.name = repo.name
     self.default_branch = repo.default_branch
-    print(repo.allow_rebase_merge)
-    print(repo.allow_squash_merge)
-    print(repo.allow_merge_commit)
-    print(repo.allow_auto_merge)
-    print(repo.delete_branch_on_merge)
-    self.allow_rebase_merge = True if repo.allow_rebase_merge is True else False
-    self.allow_squash_merge = True if repo.allow_squash_merge is True else False
-    self.allow_merge_commit = True if repo.allow_merge_commit is True else False
-    self.allow_auto_merge = True if repo.allow_auto_merge is True else False
-    self.delete_branch_on_merge = True if repo.delete_branch_on_merge is True else False
+    for field in MERGE_FIELDS:
+      value = getattr(repo, field)
+      if value is None:
+        raise MergeSettingsUnreadable(
+          '{}.{} came back as None -- the token lacks admin access to read '
+          'merge settings for this repo. Aborting so good data is not '
+          'overwritten with incorrect values.'.format(repo.name, field)
+        )
+      setattr(self, field, bool(value))
 
 org = g.get_organization('eustasy')
 
