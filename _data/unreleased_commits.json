@@ -45,7 +45,7 @@
       {
         "version": "4.0beta7",
         "release_date": "2026-05-31T10:51:26+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta7)",
         "body": "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal when installing workflows and dependabot.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta6...4.0beta7",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta7"
@@ -53,7 +53,7 @@
       {
         "version": "4.0beta6",
         "release_date": "2026-05-31T10:31:27+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta6)",
         "body": "- Expand exclusions\r\n- Do not install json workflow for machine generated files\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta5...4.0beta6",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta6"
@@ -61,7 +61,7 @@
       {
         "version": "4.0beta5",
         "release_date": "2026-05-31T09:49:47+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta5)",
         "body": "- Add `workflow_dispatch`\r\n- Remove `semgrep`\r\n- Fix exclude patterns\r\n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta5"
@@ -554,7 +554,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 337,
+        "new_commits": 361,
         "release": {
           "version": "3.1.5",
           "release_date": "2020-04-02T19:37:18+00:00",
@@ -601,7 +601,7 @@
       {
         "version": "3.1.2",
         "release_date": "2016-06-15T16:14:43+00:00",
-        "timeago": "9 years ago",
+        "timeago": "10 years ago",
         "title": "Unicorn - with Patch 2",
         "body": "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/3.1.2"
