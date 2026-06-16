@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 16,
+        "new_commits": 17,
         "release": {
           "version": "4.0beta10",
           "release_date": "2026-06-03T21:14:07+00:00",
@@ -29,7 +29,7 @@
       {
         "version": "4.0beta9",
         "release_date": "2026-06-01T18:31:19+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "title": "Appletini (4.0beta9)",
         "body": "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta9"
@@ -165,7 +165,7 @@
       {
         "version": "1.5",
         "release_date": "2017-06-17T19:29:02+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Planted",
         "body": "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n- Config: Build changed so warning is given, but existing settings used.\r\n- Config: Check moved to body to prevent full build failures.\r\n- JavaScript: Acorn used for Travis CI builds.\r\n- JavaScript: Switch case spacing defined.\r\n- PHP: Loop spacing defined.\r\n- SQLint: Enabled.",
         "href": "https://github.com/eustasy/.normal/releases/tag/1.5"
@@ -554,7 +554,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 384,
+        "new_commits": 397,
         "release": {
           "version": "3.1.5",
           "release_date": "2020-04-02T19:37:18+00:00",

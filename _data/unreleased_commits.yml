@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 16
+    new_commits: 17
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -29,7 +29,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -184,7 +184,7 @@
       \n- PHP: Loop spacing defined.\r\n- SQLint: Enabled."
     href: https://github.com/eustasy/.normal/releases/tag/1.5
     release_date: '2017-06-17T19:29:02+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Planted
     version: '1.5'
   - body: "- Update path exclusions\r\n- Only notify on change\r\n- Better setup instructions."
@@ -628,7 +628,7 @@
       version: 3.2.0
   - is_default: true
     name: main
-    new_commits: 384
+    new_commits: 397
     release:
       body: "- Improved documentation\r\n- Fixed some links"
       href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
