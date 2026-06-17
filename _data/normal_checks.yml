@@ -32,8 +32,8 @@
   status: behind
 - default_branch: main
   name: Phoenix
-  normal_checks: 4.0beta9
-  status: behind
+  normal_checks: 4.0beta10
+  status: current
 - default_branch: main
   name: apple-silicon
   normal_checks: false
