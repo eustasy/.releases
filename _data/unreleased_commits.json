@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 19,
+        "new_commits": 21,
         "release": {
           "version": "4.0beta10",
           "release_date": "2026-06-03T21:14:07+00:00",
@@ -554,7 +554,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 434,
+        "new_commits": 438,
         "release": {
           "version": "3.1.5",
           "release_date": "2020-04-02T19:37:18+00:00",
