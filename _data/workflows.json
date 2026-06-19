@@ -16,10 +16,10 @@
         "status": "completed",
         "conclusion": "skipped",
         "event": "pull_request_review",
-        "branch": "dependabot/github_actions/gha-patching-1b48ff550f",
-        "last_run": "2026-06-18T02:49:30+00:00",
-        "timeago": "13 hours ago",
-        "run_url": "https://github.com/eustasy/.normal/actions/runs/27733436167"
+        "branch": "dependabot/github_actions/actions/checkout-7",
+        "last_run": "2026-06-19T04:02:29+00:00",
+        "timeago": "11 hours ago",
+        "run_url": "https://github.com/eustasy/.normal/actions/runs/27804572561"
       },
       {
         "name": "Claude Code Review",
@@ -29,10 +29,10 @@
         "status": "completed",
         "conclusion": "failure",
         "event": "pull_request",
-        "branch": "dependabot/github_actions/gha-patching-1b48ff550f",
-        "last_run": "2026-06-17T17:34:40+00:00",
+        "branch": "dependabot/github_actions/actions/checkout-7",
+        "last_run": "2026-06-18T17:34:14+00:00",
         "timeago": "22 hours ago",
-        "run_url": "https://github.com/eustasy/.normal/actions/runs/27707824051"
+        "run_url": "https://github.com/eustasy/.normal/actions/runs/27777784732"
       },
       {
         "name": "CodeQL",
@@ -43,9 +43,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-18T02:49:37+00:00",
-        "timeago": "13 hours ago",
-        "run_url": "https://github.com/eustasy/.normal/actions/runs/27733439274"
+        "last_run": "2026-06-19T04:02:37+00:00",
+        "timeago": "11 hours ago",
+        "run_url": "https://github.com/eustasy/.normal/actions/runs/27804576492"
       },
       {
         "name": "Copilot cloud agent",
@@ -69,9 +69,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-17T17:33:50+00:00",
+        "last_run": "2026-06-18T17:33:30+00:00",
         "timeago": "22 hours ago",
-        "run_url": "https://github.com/eustasy/.normal/actions/runs/27707775898"
+        "run_url": "https://github.com/eustasy/.normal/actions/runs/27777742512"
       }
     ]
   },
@@ -88,9 +88,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-18T14:25:09+00:00",
+        "last_run": "2026-06-19T14:22:50+00:00",
         "timeago": "1 hour ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27766387829"
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27831307262"
       },
       {
         "name": "Dependabot Updates",
@@ -115,7 +115,7 @@
         "event": "schedule",
         "branch": "main",
         "last_run": "2026-06-15T04:57:58+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "run_url": "https://github.com/eustasy/.releases/actions/runs/27524987472"
       },
       {
@@ -127,9 +127,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "main",
-        "last_run": "2026-06-18T15:51:30+00:00",
-        "timeago": "14 minutes ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27771869723"
+        "last_run": "2026-06-19T15:40:55+00:00",
+        "timeago": "12 minutes ago",
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27835133884"
       },
       {
         "name": "Update: Labels",
@@ -141,7 +141,7 @@
         "event": "schedule",
         "branch": "main",
         "last_run": "2026-06-15T05:29:34+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "run_url": "https://github.com/eustasy/.releases/actions/runs/27526041084"
       },
       {
@@ -154,7 +154,7 @@
         "event": "schedule",
         "branch": "main",
         "last_run": "2026-06-15T05:35:24+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "run_url": "https://github.com/eustasy/.releases/actions/runs/27526241751"
       },
       {
@@ -166,9 +166,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "main",
-        "last_run": "2026-06-18T13:55:38+00:00",
-        "timeago": "2 hours ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27764534204"
+        "last_run": "2026-06-19T13:58:00+00:00",
+        "timeago": "1 hour ago",
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27830057071"
       },
       {
         "name": "Update: Merge Types",
@@ -180,7 +180,7 @@
         "event": "schedule",
         "branch": "main",
         "last_run": "2026-06-15T06:06:43+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "run_url": "https://github.com/eustasy/.releases/actions/runs/27527356372"
       },
       {
@@ -192,9 +192,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "main",
-        "last_run": "2026-06-18T15:59:46+00:00",
-        "timeago": "6 minutes ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27772371766"
+        "last_run": "2026-06-19T15:48:06+00:00",
+        "timeago": "4 minutes ago",
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27835473945"
       },
       {
         "name": "Update: Unreleased Commits",
@@ -205,9 +205,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "main",
-        "last_run": "2026-06-18T14:24:27+00:00",
+        "last_run": "2026-06-19T14:22:13+00:00",
         "timeago": "1 hour ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27766343763"
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27831277174"
       },
       {
         "name": "Update: Workflows",
@@ -218,9 +218,9 @@
         "conclusion": null,
         "event": "schedule",
         "branch": "main",
-        "last_run": "2026-06-18T16:06:00+00:00",
-        "timeago": "12 seconds ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27772751616"
+        "last_run": "2026-06-19T15:52:45+00:00",
+        "timeago": "15 seconds ago",
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27835694008"
       },
       {
         "name": "pages-build-deployment",
@@ -231,9 +231,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-18T14:25:08+00:00",
+        "last_run": "2026-06-19T14:22:50+00:00",
         "timeago": "1 hour ago",
-        "run_url": "https://github.com/eustasy/.releases/actions/runs/27766387387"
+        "run_url": "https://github.com/eustasy/.releases/actions/runs/27831307086"
       }
     ]
   },
@@ -251,7 +251,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-16T03:09:31+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "run_url": "https://github.com/eustasy/.ui/actions/runs/27591429529"
       },
       {
@@ -264,7 +264,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-16T03:09:29+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "run_url": "https://github.com/eustasy/.ui/actions/runs/27591428729"
       },
       {
@@ -277,7 +277,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-15T19:08:04+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "run_url": "https://github.com/eustasy/.ui/actions/runs/27569810938"
       },
       {
@@ -290,7 +290,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-16T03:09:29+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "run_url": "https://github.com/eustasy/.ui/actions/runs/27591428607"
       }
     ]
@@ -308,9 +308,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T03:55:40+00:00",
-        "timeago": "12 hours ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27735637960"
+        "last_run": "2026-06-19T04:15:16+00:00",
+        "timeago": "11 hours ago",
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27805006795"
       },
       {
         "name": "Response Time CI",
@@ -321,9 +321,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T00:13:46+00:00",
+        "last_run": "2026-06-19T00:23:41+00:00",
         "timeago": "15 hours ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27728078610"
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27797639469"
       },
       {
         "name": "Setup CI",
@@ -347,9 +347,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T05:28:23+00:00",
-        "timeago": "10 hours ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27738805942"
+        "last_run": "2026-06-19T06:08:34+00:00",
+        "timeago": "9 hours ago",
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27808806638"
       },
       {
         "name": "Summary CI",
@@ -360,9 +360,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T02:35:19+00:00",
+        "last_run": "2026-06-19T02:51:30+00:00",
         "timeago": "13 hours ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27732965848"
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27802383530"
       },
       {
         "name": "Update Template CI",
@@ -373,9 +373,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T04:20:09+00:00",
+        "last_run": "2026-06-19T04:48:00+00:00",
         "timeago": "11 hours ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27736459933"
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27806043965"
       },
       {
         "name": "Updates CI",
@@ -386,9 +386,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T08:04:17+00:00",
-        "timeago": "8 hours ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27745584620"
+        "last_run": "2026-06-19T08:28:33+00:00",
+        "timeago": "7 hours ago",
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27814669513"
       },
       {
         "name": "Uptime CI",
@@ -399,9 +399,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "master",
-        "last_run": "2026-06-18T15:50:59+00:00",
-        "timeago": "15 minutes ago",
-        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27771837519"
+        "last_run": "2026-06-19T14:20:11+00:00",
+        "timeago": "1 hour ago",
+        "run_url": "https://github.com/eustasy/.uptime/actions/runs/27831176656"
       },
       {
         "name": "pages-build-deployment",
@@ -458,7 +458,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-18T08:33:27+00:00",
-        "timeago": "7 hours ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Bubbly/actions/runs/27747122066"
       },
       {
@@ -620,7 +620,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-16T17:41:37+00:00",
-        "timeago": "1 day ago",
+        "timeago": "2 days ago",
         "run_url": "https://github.com/eustasy/Colors.css/actions/runs/27636585466"
       },
       {
@@ -756,7 +756,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-15T17:14:07+00:00",
-        "timeago": "2 days ago",
+        "timeago": "3 days ago",
         "run_url": "https://github.com/eustasy/Locksmith/actions/runs/27563367319"
       },
       {
@@ -865,9 +865,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-18T15:16:27+00:00",
-        "timeago": "49 minutes ago",
-        "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27769683711"
+        "last_run": "2026-06-19T15:21:46+00:00",
+        "timeago": "31 minutes ago",
+        "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27834224616"
       },
       {
         "name": "Dependabot Updates",
@@ -879,7 +879,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-17T02:29:36+00:00",
-        "timeago": "1 day ago",
+        "timeago": "2 days ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27661771017"
       },
       {
@@ -892,7 +892,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-17T09:34:16+00:00",
-        "timeago": "1 day ago",
+        "timeago": "2 days ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27679625930"
       },
       {
@@ -905,7 +905,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-17T09:34:16+00:00",
-        "timeago": "1 day ago",
+        "timeago": "2 days ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27679625879"
       },
       {
@@ -918,7 +918,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T04:16:43+00:00",
-        "timeago": "11 hours ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27736346972"
       },
       {
@@ -931,7 +931,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T15:11:57+00:00",
-        "timeago": "54 minutes ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27769391468"
       },
       {
@@ -944,7 +944,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T15:16:32+00:00",
-        "timeago": "49 minutes ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27769688595"
       },
       {
@@ -957,7 +957,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T11:40:08+00:00",
-        "timeago": "4 hours ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27756886539"
       },
       {
@@ -970,7 +970,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T15:16:32+00:00",
-        "timeago": "49 minutes ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27769688515"
       },
       {
@@ -983,7 +983,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-17T02:26:58+00:00",
-        "timeago": "1 day ago",
+        "timeago": "2 days ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27661682216"
       },
       {
@@ -996,7 +996,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T10:04:03+00:00",
-        "timeago": "6 hours ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27751996044"
       },
       {
@@ -1009,7 +1009,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T15:16:32+00:00",
-        "timeago": "49 minutes ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27769688619"
       },
       {
@@ -1022,7 +1022,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-18T15:16:32+00:00",
-        "timeago": "49 minutes ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/Phoenix/actions/runs/27769688468"
       }
     ]
@@ -1040,9 +1040,9 @@
         "conclusion": "success",
         "event": "push",
         "branch": "main",
-        "last_run": "2026-06-11T21:14:39+00:00",
-        "timeago": "6 days ago",
-        "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27377873082"
+        "last_run": "2026-06-19T04:02:40+00:00",
+        "timeago": "11 hours ago",
+        "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27804578192"
       },
       {
         "name": "CodeQL",
@@ -1054,7 +1054,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-15T11:01:19+00:00",
-        "timeago": "3 days ago",
+        "timeago": "4 days ago",
         "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27541726439"
       },
       {
@@ -1063,12 +1063,12 @@
         "slug": "dependabot/dependabot-updates",
         "state": "active",
         "status": "completed",
-        "conclusion": "success",
+        "conclusion": "failure",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-11T19:43:05+00:00",
-        "timeago": "6 days ago",
-        "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27372860077"
+        "last_run": "2026-06-19T04:02:45+00:00",
+        "timeago": "11 hours ago",
+        "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27804580723"
       },
       {
         "name": "Validate Formatting",
@@ -1079,9 +1079,9 @@
         "conclusion": "success",
         "event": "push",
         "branch": "main",
-        "last_run": "2026-06-11T21:14:39+00:00",
-        "timeago": "6 days ago",
-        "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27377873103"
+        "last_run": "2026-06-19T04:02:40+00:00",
+        "timeago": "11 hours ago",
+        "run_url": "https://github.com/eustasy/apple-silicon/actions/runs/27804578195"
       }
     ]
   },
@@ -1099,7 +1099,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-18T07:10:39+00:00",
-        "timeago": "8 hours ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/authenticatron/actions/runs/27742979110"
       },
       {
@@ -1209,7 +1209,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-13T08:51:57+00:00",
-        "timeago": "5 days ago",
+        "timeago": "6 days ago",
         "run_url": "https://github.com/eustasy/browning/actions/runs/27462144300"
       },
       {
@@ -1297,9 +1297,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "cf-pages",
-        "last_run": "2026-06-18T15:58:42+00:00",
-        "timeago": "7 minutes ago",
-        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27772308639"
+        "last_run": "2026-06-19T15:46:23+00:00",
+        "timeago": "6 minutes ago",
+        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27835395203"
       },
       {
         "name": "Dependabot Updates",
@@ -1323,9 +1323,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "cf-pages",
-        "last_run": "2026-06-18T15:44:35+00:00",
-        "timeago": "21 minutes ago",
-        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27771449894"
+        "last_run": "2026-06-19T15:35:31+00:00",
+        "timeago": "17 minutes ago",
+        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27834882510"
       },
       {
         "name": "Refresh discussions data",
@@ -1336,9 +1336,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "cf-pages",
-        "last_run": "2026-06-18T15:58:24+00:00",
-        "timeago": "7 minutes ago",
-        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27772291697"
+        "last_run": "2026-06-19T15:46:07+00:00",
+        "timeago": "6 minutes ago",
+        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27835383337"
       },
       {
         "name": "Refresh repos data",
@@ -1349,9 +1349,9 @@
         "conclusion": "success",
         "event": "schedule",
         "branch": "cf-pages",
-        "last_run": "2026-06-18T10:19:46+00:00",
+        "last_run": "2026-06-19T10:24:59+00:00",
         "timeago": "5 hours ago",
-        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27752823322"
+        "run_url": "https://github.com/eustasy/eustasy.org/actions/runs/27820149368"
       }
     ]
   },
@@ -1387,9 +1387,9 @@
         "conclusion": "success",
         "event": "dynamic",
         "branch": "main",
-        "last_run": "2026-06-16T07:35:20+00:00",
-        "timeago": "2 days ago",
-        "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/27601823618"
+        "last_run": "2026-06-19T09:00:54+00:00",
+        "timeago": "6 hours ago",
+        "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/27816169437"
       },
       {
         "name": "Dependabot Updates",
@@ -1401,7 +1401,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-04T21:50:54+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981743113"
       },
       {
@@ -1414,7 +1414,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-04T21:50:51+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981740059"
       },
       {
@@ -1427,7 +1427,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-04T21:50:51+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981740046"
       },
       {
@@ -1440,7 +1440,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-04T21:53:46+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981876054"
       },
       {
@@ -1453,7 +1453,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-04T21:52:56+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981838152"
       },
       {
@@ -1466,7 +1466,7 @@
         "event": "push",
         "branch": "main",
         "last_run": "2026-06-04T21:53:46+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981876038"
       },
       {
@@ -1479,7 +1479,7 @@
         "event": "dynamic",
         "branch": "main",
         "last_run": "2026-06-04T21:53:44+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/jQuery.leanModal2/actions/runs/26981874290"
       }
     ]
@@ -1511,7 +1511,7 @@
         "event": "dynamic",
         "branch": "cf-pages",
         "last_run": "2026-06-18T09:44:39+00:00",
-        "timeago": "6 hours ago",
+        "timeago": "1 day ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/27750945045"
       },
       {
@@ -1537,7 +1537,7 @@
         "event": "dynamic",
         "branch": "cf-pages",
         "last_run": "2026-06-14T13:04:54+00:00",
-        "timeago": "4 days ago",
+        "timeago": "5 days ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/27499764123"
       },
       {
@@ -1550,7 +1550,7 @@
         "event": "push",
         "branch": "cf-pages",
         "last_run": "2026-06-05T12:38:10+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/27015293986"
       },
       {
@@ -1563,7 +1563,7 @@
         "event": "push",
         "branch": "cf-pages",
         "last_run": "2026-06-05T12:38:10+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/27015294008"
       },
       {
@@ -1602,7 +1602,7 @@
         "event": "push",
         "branch": "cf-pages",
         "last_run": "2026-06-05T12:38:10+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/27015294010"
       },
       {
@@ -1628,7 +1628,7 @@
         "event": "push",
         "branch": "cf-pages",
         "last_run": "2026-06-05T12:38:10+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/27015293998"
       },
       {
@@ -1667,7 +1667,7 @@
         "event": "workflow_dispatch",
         "branch": "cf-pages",
         "last_run": "2026-06-04T22:01:33+00:00",
-        "timeago": "1 week ago",
+        "timeago": "2 weeks ago",
         "run_url": "https://github.com/eustasy/puff-serverless/actions/runs/26982226191"
       }
     ]
