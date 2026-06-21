@@ -45,7 +45,7 @@
       {
         "version": "4.0beta7",
         "release_date": "2026-05-31T10:51:26+00:00",
-        "timeago": "2 weeks ago",
+        "timeago": "3 weeks ago",
         "title": "Appletini (4.0beta7)",
         "body": "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal when installing workflows and dependabot.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta6...4.0beta7",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta7"
@@ -53,7 +53,7 @@
       {
         "version": "4.0beta6",
         "release_date": "2026-05-31T10:31:27+00:00",
-        "timeago": "2 weeks ago",
+        "timeago": "3 weeks ago",
         "title": "Appletini (4.0beta6)",
         "body": "- Expand exclusions\r\n- Do not install json workflow for machine generated files\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta5...4.0beta6",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta6"
@@ -61,7 +61,7 @@
       {
         "version": "4.0beta5",
         "release_date": "2026-05-31T09:49:47+00:00",
-        "timeago": "2 weeks ago",
+        "timeago": "3 weeks ago",
         "title": "Appletini (4.0beta5)",
         "body": "- Add `workflow_dispatch`\r\n- Remove `semgrep`\r\n- Fix exclude patterns\r\n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta5"
@@ -867,7 +867,7 @@
       {
         "version": "0.30",
         "release_date": "2026-04-20T20:18:18+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "Circle",
         "body": "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify error returns\r\n- Better composer support",
         "href": "https://github.com/eustasy/browning/releases/tag/0.30"
