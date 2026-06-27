@@ -12,7 +12,7 @@
         "package_ecosystem": "github-actions",
         "target_branch": "main",
         "directory": "/, /configs",
-        "interval": "daily",
+        "interval": "weekly",
         "all_dependencies": false,
         "supports_all": false
       }

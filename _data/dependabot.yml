@@ -6,7 +6,7 @@
   updates:
   - all_dependencies: false
     directory: /, /configs
-    interval: daily
+    interval: weekly
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
