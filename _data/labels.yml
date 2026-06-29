@@ -50,6 +50,7 @@
 - default_branch: main
   extra:
   - dependencies
+  - github_actions
   - javascript
   mismatched: []
   missing: []
