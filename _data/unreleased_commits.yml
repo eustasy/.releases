@@ -29,7 +29,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
