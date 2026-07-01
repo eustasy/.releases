@@ -112,7 +112,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -807,7 +807,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 3
+    new_commits: 5
     release:
       body: "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws\
         \ a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead\
@@ -1013,7 +1013,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 2
+    new_commits: 3
     release:
       body: "A ground-up rewrite from a single global function into a small, namespaced,\
         \ dependency-injected library. This is a breaking release : the `Browning()`\
