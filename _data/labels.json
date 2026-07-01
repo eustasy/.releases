@@ -336,7 +336,10 @@
     ],
     "missing": [],
     "mismatched": [],
-    "extra": []
+    "extra": [
+      "dependencies",
+      "github_actions"
+    ]
   },
   {
     "name": "puff-serverless",

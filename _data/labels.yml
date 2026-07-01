@@ -262,7 +262,9 @@
   - 'Language: JavaScript'
   - 'Language: PHP'
 - default_branch: main
-  extra: []
+  extra:
+  - dependencies
+  - github_actions
   mismatched: []
   missing: []
   name: jQuery.leanModal2
