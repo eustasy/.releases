@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 29
+    new_commits: 35
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -40,35 +40,35 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta8
     release_date: '2026-05-31T19:39:53+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta8)
     version: 4.0beta8
   - body: "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal\
       \ when installing workflows and dependabot.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta6...4.0beta7"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta7
     release_date: '2026-05-31T10:51:26+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta7)
     version: 4.0beta7
   - body: "- Expand exclusions\r\n- Do not install json workflow for machine generated\
       \ files\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta5...4.0beta6"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta6
     release_date: '2026-05-31T10:31:27+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta6)
     version: 4.0beta6
   - body: "- Add `workflow_dispatch`\r\n- Remove `semgrep`\r\n- Fix exclude patterns\r\
       \n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta5
     release_date: '2026-05-31T09:49:47+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta5)
     version: 4.0beta5
   - body: "- Reduce to one linter per language by @lewisgoddard in https://github.com/eustasy/.normal/pull/27\r\
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta4
     release_date: '2026-05-31T19:43:40+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta4)
     version: 4.0beta4
   - body: "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**:\
@@ -628,7 +628,7 @@
       version: 3.2.0
   - is_default: true
     name: main
-    new_commits: 439
+    new_commits: 440
     release:
       body: "- Improved documentation\r\n- Fixed some links"
       href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
@@ -833,7 +833,7 @@
         \ php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
       href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
       release_date: '2026-05-31T21:00:55+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: v4.1.1 - Oath with Patch 1
       version: v4.1.1
   default_branch: main
@@ -863,7 +863,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
     release_date: '2026-05-31T21:00:55+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: v4.1.1 - Oath with Patch 1
     version: v4.1.1
   - body: "### Package Changes\r\nBUGFIX: `Authenticatron::getCode()` timestamp override\
@@ -1052,7 +1052,7 @@
         \ https://github.com/eustasy/browning/compare/0.30...1.31"
       href: https://github.com/eustasy/browning/releases/tag/1.31
       release_date: '2026-05-31T15:38:03+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: Browning v1.31
       version: '1.31'
   default_branch: main
@@ -1094,7 +1094,7 @@
       \ and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31"
     href: https://github.com/eustasy/browning/releases/tag/1.31
     release_date: '2026-05-31T15:38:03+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Browning v1.31
     version: '1.31'
   - body: "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify\
@@ -1217,7 +1217,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 15
+    new_commits: 16
     release:
       body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation\
         \ doesn't mention how modals are linked.\r\n- Fix #8: Documentation doesn't\
