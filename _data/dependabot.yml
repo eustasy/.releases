@@ -5,8 +5,8 @@
   name: .normal
   updates:
   - all_dependencies: false
-    directory: /, /configs
-    interval: weekly
+    directory: /, /configs/.github/workflows
+    interval: daily
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main

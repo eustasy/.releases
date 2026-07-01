@@ -11,8 +11,8 @@
       {
         "package_ecosystem": "github-actions",
         "target_branch": "main",
-        "directory": "/, /configs",
-        "interval": "weekly",
+        "directory": "/, /configs/.github/workflows",
+        "interval": "daily",
         "all_dependencies": false,
         "supports_all": false
       }
