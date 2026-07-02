@@ -9,7 +9,7 @@
         \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
       release_date: '2026-06-03T21:14:07+00:00'
-      timeago: 3 weeks ago
+      timeago: 4 weeks ago
       title: Appletini (4.0beta10)
       version: 4.0beta10
   default_branch: main
@@ -21,7 +21,7 @@
       \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
     release_date: '2026-06-03T21:14:07+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Appletini (4.0beta10)
     version: 4.0beta10
   - body: "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\
@@ -29,7 +29,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -75,7 +75,7 @@
       \ https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -83,7 +83,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -228,7 +228,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 82
+    new_commits: 84
     release:
       body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
         \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -444,12 +444,12 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 2
     release:
       body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
       release_date: '2026-06-01T11:14:25+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: 2.1.1
       version: 2.1.1
   default_branch: main
@@ -458,7 +458,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
     release_date: '2026-06-01T11:14:25+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: 2.1.1
     version: 2.1.1
   - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
@@ -1013,7 +1013,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 3
+    new_commits: 4
     release:
       body: "A ground-up rewrite from a single global function into a small, namespaced,\
         \ dependency-injected library. This is a breaking release : the `Browning()`\

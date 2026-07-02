@@ -10,7 +10,7 @@
         "release": {
           "version": "4.0beta10",
           "release_date": "2026-06-03T21:14:07+00:00",
-          "timeago": "3 weeks ago",
+          "timeago": "4 weeks ago",
           "title": "Appletini (4.0beta10)",
           "body": "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10",
           "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta10"
@@ -21,7 +21,7 @@
       {
         "version": "4.0beta10",
         "release_date": "2026-06-03T21:14:07+00:00",
-        "timeago": "3 weeks ago",
+        "timeago": "4 weeks ago",
         "title": "Appletini (4.0beta10)",
         "body": "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta10"
@@ -29,7 +29,7 @@
       {
         "version": "4.0beta9",
         "release_date": "2026-06-01T18:31:19+00:00",
-        "timeago": "4 weeks ago",
+        "timeago": "1 month ago",
         "title": "Appletini (4.0beta9)",
         "body": "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta9"
@@ -77,7 +77,7 @@
       {
         "version": "4.0beta3",
         "release_date": "2026-05-02T04:30:58+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "Appletini (4.0beta3)",
         "body": "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta3"
@@ -85,7 +85,7 @@
       {
         "version": "4.0beta2",
         "release_date": "2026-05-02T02:05:39+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "Appletini (4.0beta2)",
         "body": "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy, loop workflows by @Copilot in https://github.com/eustasy/.normal/pull/24\r\n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta2"
@@ -219,7 +219,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 82,
+        "new_commits": 84,
         "release": {
           "version": "2.2.0",
           "release_date": "2020-08-02T20:55:34+00:00",
@@ -376,11 +376,11 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 0,
+        "new_commits": 2,
         "release": {
           "version": "2.1.1",
           "release_date": "2026-06-01T11:14:25+00:00",
-          "timeago": "4 weeks ago",
+          "timeago": "1 month ago",
           "title": "2.1.1",
           "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -391,7 +391,7 @@
       {
         "version": "2.1.1",
         "release_date": "2026-06-01T11:14:25+00:00",
-        "timeago": "4 weeks ago",
+        "timeago": "1 month ago",
         "title": "2.1.1",
         "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -844,7 +844,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 3,
+        "new_commits": 4,
         "release": {
           "version": "1.31",
           "release_date": "2026-05-31T15:38:03+00:00",
