@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 36
+    new_commits: 37
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -585,60 +585,47 @@
 - branches:
   - is_default: false
     name: 3.x
-    new_commits: 2
+    new_commits: 0
     release:
-      body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
-        \ script with PHP; add backup_rotate setting. **Cron jobs will require changing\
-        \ and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)).\
-        \ **DB schema modifications required.**\r\n* FEATURE: Allow the admin script\
-        \ to create a configuration file ([#31](https://github.com/eustasy/phoenix/issues/31)).\r\
-        \n* FEATURE: Add an Index of publicly listed torrents ([#32](https://github.com/eustasy/phoenix/issues/32)).\r\
-        \n* FEATURE: Add a magnet link generator ([#33](https://github.com/eustasy/phoenix/issues/33)).\r\
-        \n* IMPROVES: Add authentication to the administration area ([#4](https://github.com/eustasy/phoenix/issues/4)).\r\
-        \n* IMPROVES: Add comments to all remaining uncommented files ([#35](https://github.com/eustasy/phoenix/issues/35)).\r\
-        \n* IMPROVES: Be more helpful when listing peers ([#36](https://github.com/eustasy/phoenix/issues/36)).\r\
-        \n* IMPROVES: Protect against spamming fake peers ([#37](https://github.com/eustasy/phoenix/issues/37)).\r\
-        \n* IMPROVES: Exclude peers table from database backup ([#43](https://github.com/eustasy/phoenix/issues/43)).\r\
-        \n* IMPROVES: Use `--defaults-extra-file` to avoid exposing DB password in\
-        \ process list.\r\n* IMPROVES: Better filtering of non-hex info_hash and peer_id\
-        \ values.\r\n* IMPROVES: Add most PHP typing.\r\n* BUGFIX: Incorrect uppercase\
-        \ in `tracker_error` - BEP madates lowercase.\r\n* BUGFIX: Sort non-compact\
-        \ bencode peer-dict keys per BEP 3.\r\n* BUGFIX: Fix parse_ipv4 IPv4-mapped\
-        \ IPv6 prefix stripping.\r\n* BUGFIX: Remove double decoding in `once.sanitize.tracker.php`.\r\
-        \n* BUGFIX: Unclosed integer in non-compact bencode.\r\n* BUGFIX: Several\
-        \ spelling errors.\r\n* BUGFIX: Honor external_ip setting in address sanitization.\r\
-        \n* BUGFIX: Honor random_peers and random_limit settings in peer selection.\r\
-        \n* BUGFIX: Filter all torrents on scrape with `tracker_filter_info_hashes`\r\
-        \n\r\n### SQL Migration\r\n\r\n```sql\r\nALTER TABLE `your_db`.`your_prefix_peers`\r\
-        \n    MODIFY `ipv4` char(15) NOT NULL DEFAULT '',\r\n    MODIFY `ipv6` char(39)\
-        \ NOT NULL DEFAULT '',\r\n    MODIFY `left` bigint(20) unsigned NOT NULL DEFAULT\
-        \ '0',\r\n    ADD COLUMN `uploaded` bigint(20) unsigned NOT NULL DEFAULT '0'\
-        \ AFTER `portv6`,\r\n    ADD COLUMN `downloaded` bigint(20) unsigned NOT NULL\
-        \ DEFAULT '0' AFTER `uploaded`;\r\n\r\nALTER TABLE `your_db`.`your_prefix_torrents`\r\
-        \n    ADD COLUMN `size` bigint(20) unsigned NULL AFTER `info_hash`,\r\n  \
-        \  ADD COLUMN `listed` tinyint(1) unsigned NOT NULL DEFAULT '0' AFTER `size`;\r\
-        \n```\r\n\r\n### Cron (Scheduled Task) Migration\r\n\r\nThe new backup command\
-        \ is `php ~/phoenix/_cron/hourly/backup-database.php`\r\n\r\n### Configuration\
-        \ Migration\r\n\r\nYour custom config will continue to work, but do take a\
-        \ look at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
-      href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
-      release_date: '2026-05-09T17:18:33+00:00'
-      timeago: 1 month ago
-      title: Phoenix 3.2.0 - Haggard
-      version: 3.2.0
+      body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
+        \ PHP 8.1+ via `never`/`true` return types, union types, and `str_starts_with()`.\r\
+        \n* BUGFIX: Only delete a peer and fire the `stopped` hook when that peer\
+        \ was actually being tracked.\r\n* BUGFIX: Normalize uppercase `info_hash`\
+        \ and `peer_id` to lowercase so a torrent is not split across two swarms.\r\
+        \n* IMPROVES: Update README backup and cron instructions to match the PHP\
+        \ backup script.\r\n* IMPROVES: Correct `parse_ipv4` and `peer_format_bencode`\
+        \ unit tests to match intended behavior."
+      href: https://github.com/eustasy/Phoenix/releases/tag/3.2.1
+      release_date: '2026-07-07T10:13:33+00:00'
+      timeago: 3 hours ago
+      title: Haggard (3.2.1)
+      version: 3.2.1
   - is_default: true
     name: main
-    new_commits: 462
+    new_commits: 466
     release:
       body: "- Improved documentation\r\n- Fixed some links"
       href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
       release_date: '2020-04-02T19:37:18+00:00'
       timeago: 6 years ago
-      title: Unicorn - with Patch 5
+      title: Unicorn (3.1.5)
       version: 3.1.5
   default_branch: main
   name: Phoenix
   releases:
+  - body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
+      \ PHP 8.1+ via `never`/`true` return types, union types, and `str_starts_with()`.\r\
+      \n* BUGFIX: Only delete a peer and fire the `stopped` hook when that peer was\
+      \ actually being tracked.\r\n* BUGFIX: Normalize uppercase `info_hash` and `peer_id`\
+      \ to lowercase so a torrent is not split across two swarms.\r\n* IMPROVES: Update\
+      \ README backup and cron instructions to match the PHP backup script.\r\n* IMPROVES:\
+      \ Correct `parse_ipv4` and `peer_format_bencode` unit tests to match intended\
+      \ behavior."
+    href: https://github.com/eustasy/Phoenix/releases/tag/3.2.1
+    release_date: '2026-07-07T10:13:33+00:00'
+    timeago: 3 hours ago
+    title: Haggard (3.2.1)
+    version: 3.2.1
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
       \ script with PHP; add backup_rotate setting. **Cron jobs will require changing\
       \ and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)).\
@@ -676,19 +663,19 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
     release_date: '2026-05-09T17:18:33+00:00'
     timeago: 1 month ago
-    title: Phoenix 3.2.0 - Haggard
+    title: Haggard (3.2.0)
     version: 3.2.0
   - body: "- Improved documentation\r\n- Fixed some links"
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
     release_date: '2020-04-02T19:37:18+00:00'
     timeago: 6 years ago
-    title: Unicorn - with Patch 5
+    title: Unicorn (3.1.5)
     version: 3.1.5
   - body: '- Update to NC 1.7'
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.4
     release_date: '2017-09-16T23:39:27+00:00'
     timeago: 8 years ago
-    title: Unicorn - with Patch 4
+    title: Unicorn (3.1.4)
     version: 3.1.4
   - body: "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\
       \n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\
@@ -701,7 +688,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.3
     release_date: '2017-04-19T20:52:19+00:00'
     timeago: 9 years ago
-    title: Unicorn - with Patch 3
+    title: Unicorn (3.1.3)
     version: 3.1.3
   - body: "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare\
       \ 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\
@@ -710,7 +697,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/3.1.2
     release_date: '2016-06-15T16:14:43+00:00'
     timeago: 10 years ago
-    title: Unicorn - with Patch 2
+    title: Unicorn (3.1.2)
     version: 3.1.2
   - body: "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal\
       \ operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\
@@ -718,7 +705,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.1.1
     release_date: '2016-04-14T15:04:14+00:00'
     timeago: 10 years ago
-    title: Unicorn - with Patch 1
+    title: Unicorn (3.1.1)
     version: v.3.1.1
   - body: "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to\
       \ set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n\
@@ -731,7 +718,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.1
     release_date: '2016-04-14T14:51:17+00:00'
     timeago: 10 years ago
-    title: Unicorn
+    title: Unicorn (3.1)
     version: v.3.1
   - body: "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\
       \n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\
@@ -749,7 +736,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.3.0
     release_date: '2016-01-21T22:44:34+00:00'
     timeago: 10 years ago
-    title: Sanitized
+    title: Sanitized (3.0)
     version: v.3.0
   - body: "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\
       \n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\
@@ -760,7 +747,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.2.0
     release_date: '2015-08-20T13:26:02+00:00'
     timeago: 10 years ago
-    title: Unification
+    title: Unification (2.0)
     version: v.2.0
   - body: "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\
       \n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\
@@ -771,20 +758,20 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.4
     release_date: '2015-08-18T21:50:42+00:00'
     timeago: 10 years ago
-    title: Totalitarian
+    title: Totalitarian (1.4)
     version: v.1.4
   - body: "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.3
     release_date: '2015-02-16T21:01:44+00:00'
     timeago: 11 years ago
-    title: Hexa
+    title: Hexa (1.3)
     version: v.1.3
   - body: "FEATURE: Support Endpoints, rather than just separate ports.\r\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.2
     release_date: '2014-12-31T22:03:00+00:00'
     timeago: 11 years ago
-    title: Endpoints
+    title: Endpoints (1.2)
     version: v.1.2
   - body: "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds\
       \ HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on\
@@ -794,7 +781,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.1
     release_date: '2014-12-31T12:18:53+00:00'
     timeago: 11 years ago
-    title: Scraping By
+    title: Scraping By (1.1)
     version: v.1.1
   - body: "A procedural re-write of peertracker in a modern format.\r\nFixes numerous\
       \ bugs and massively improves performance, modularity, and maintainability.\r\
@@ -802,7 +789,7 @@
     href: https://github.com/eustasy/Phoenix/releases/tag/v.1.0
     release_date: '2014-12-28T22:10:21+00:00'
     timeago: 11 years ago
-    title: No longer PeerTracker.
+    title: No longer PeerTracker (1.0)
     version: v.1.0
 - branches:
   - is_default: true
