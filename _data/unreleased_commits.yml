@@ -594,25 +594,170 @@
         \ and `peer_id` to lowercase so a torrent is not split across two swarms.\r\
         \n* IMPROVES: Update README backup and cron instructions to match the PHP\
         \ backup script.\r\n* IMPROVES: Correct `parse_ipv4` and `peer_format_bencode`\
-        \ unit tests to match intended behavior."
-      href: https://github.com/eustasy/Phoenix/releases/tag/3.2.1
+        \ unit tests to match intended behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
+      href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
       release_date: '2026-07-07T10:13:33+00:00'
-      timeago: 3 hours ago
-      title: Haggard (3.2.1)
-      version: 3.2.1
+      timeago: 5 hours ago
+      title: Haggard (v3.2.1)
+      version: v3.2.1
   - is_default: true
     name: main
-    new_commits: 466
+    new_commits: 3
     release:
-      body: "- Improved documentation\r\n- Fixed some links"
-      href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
-      release_date: '2020-04-02T19:37:18+00:00'
-      timeago: 6 years ago
-      title: Unicorn (3.1.5)
-      version: 3.1.5
+      body: "A security-hardening release following a full audit of the 4.3 codebase.\
+        \ It rebuilds the trusted-proxy / forwarded-address model to be restrictive\
+        \ by default, stores API keys as hashes with an admin UI to manage them, gates\
+        \ the first-run installer behind a filesystem setup token, forces an admin\
+        \ password on first access, adds a recommended security-header set and an\
+        \ opt-in error-reporting hook (Sentry-ready), and raises the default announce/scrape\
+        \ intervals. **DB schema modification required** for the widened peers `left`\
+        \ column (an announce that omits `left` otherwise 500s under a strict-mode\
+        \ database).\n\n- FIX: Rebuild forwarded-address handling to be safe by default\
+        \ and close trivial IP spoofing. The old `honor_xff` flag and single `X-Forwarded-For`\
+        \ parse are replaced by a `forwarded_headers` allowlist (recognising `x-forwarded-for`,\
+        \ RFC 7239 `forwarded`, `x-real-ip`, `cf-connecting-ip`, `true-client-ip`,\
+        \ and the legacy `client-ip`), honoured only when the direct connection (`REMOTE_ADDR`)\
+        \ falls inside a `trusted_proxies` range, with chain headers walked from the\
+        \ right past trusted hops to find the real client. **The new default is an\
+        \ empty `forwarded_headers`, trusting only the direct connection** \u2014\
+        \ an existing install that relied on `honor_xff` must now list the header\
+        \ its proxy sets. A new `allow_any_proxy` opt-in restores honouring headers\
+        \ from any peer (insecure; documented as such).\n- FEATURE: Manage the management-API\
+        \ keys from the admin panel. A new **API Keys** page issues a key (a `phx_`-prefixed\
+        \ 256-bit CSPRNG token, shown once) and revokes existing ones; `api_keys`\
+        \ now stores only each key's **SHA-256 hash**, never the plaintext, and a\
+        \ presented key is hashed once and compared timing-safe. A lost key cannot\
+        \ be recovered \u2014 re-issue it.\n- FEATURE: Gate the otherwise-unauthenticated\
+        \ first-run installer behind a **setup token** written to a server-only file\
+        \ in `config/` (outside the docroot). Only someone with filesystem access\
+        \ \u2014 the real operator \u2014 can read it and complete setup; a network\
+        \ attacker who reaches `admin.php` in the pre-setup window cannot. The token\
+        \ is deleted once setup succeeds.\n- FEATURE: When no admin password is set,\
+        \ `admin.php` now forces a one-time **set-password** step instead of running\
+        \ wide open, with a client-side Have I Been Pwned (k-anonymity) breach check\
+        \ that advises against a known-breached password (no password ever leaves\
+        \ the browser). The previous no-password behaviour is still available via\
+        \ the new `admin_auth_optional` setting, for panels protected by reverse-proxy\
+        \ auth or an IP allowlist.\n- FEATURE: Emit a recommended HTTP **security-header\
+        \ set** per response profile \u2014 `nosniff` on every response, plus `Referrer-Policy`,\
+        \ `X-Frame-Options`, `Cache-Control: no-store`, and a Content-Security-Policy\
+        \ scoped to exactly what each surface loads (tracker, public HTML, admin,\
+        \ and a locked-down `default-src 'none'` for the API).\n- FEATURE: Opt-in\
+        \ error reporting. A new `report_errors` setting fires an `error` lifecycle\
+        \ hook (`src/hooks/phoenix.error.php`) for server-side failures, caught model-write\
+        \ exceptions, and \u2014 when enabled \u2014 uncaught exceptions and fatal\
+        \ shutdowns, so an external monitor such as Sentry can be wired in without\
+        \ touching core. Off by default; a default install registers nothing and behaves\
+        \ exactly as before.\n- FEATURE: Transparently upgrade the stored admin password\
+        \ hash on a **successful** login when `PASSWORD_DEFAULT` has moved on (a new\
+        \ algorithm or a higher cost). Best-effort and fail-open \u2014 a read-only\
+        \ config, common in hardened deployments, simply leaves the hash as-is and\
+        \ never blocks sign-in.\n- FIX: Close an open-redirect on the admin login/logout\
+        \ post-redirect-GET. Only a same-origin absolute path passes through; protocol-relative\
+        \ (`//host`, `/\\host`) and absolute-URL targets fall back to a fixed local\
+        \ page, so a crafted request target can never bounce the admin off-site.\n\
+        - FIX: Widen the peers `left` column to **signed** so the `left = -1` \"bytes\
+        \ remaining unknown\" sentinel (set when a client omits `left`) round-trips.\
+        \ On the modern strict-mode default this previously threw an out-of-range\
+        \ error and 500'd the announce. Seeder/leecher counts read `state`, not `left`,\
+        \ so aggregation is unaffected. Fresh installs get the signed column automatically;\
+        \ existing installs apply `sql/migrations/2026-07-04_4.3-peers-left-signed.sql`\
+        \ (or the admin panel's Upgrade Schema action). **DB schema modification required.**\n\
+        - IMPROVES: Raise the announce-interval defaults to cut tracker load \u2014\
+        \ `announce_interval` from 5 to 30 minutes and `min_interval` from 1 to 10\
+        \ minutes.\n- FEATURE: Advertise BEP 48's `min_request_interval` in the scrape\
+        \ response via the new `scrape_min_interval` setting (default 30 minutes;\
+        \ `0` does not advertise it), so a client knows the minimum gap between scrapes.\n\
+        - FIX: Serve the scrape XML/JSON responses with the correct charset and content\
+        \ type.\n- IMPROVES: Guard the best-effort model writes against the PHP 8.1+\
+        \ `mysqli` strict-error default \u2014 the non-critical downloads counter\
+        \ and similar writes catch a `mysqli_sql_exception` instead of escaping as\
+        \ an uncaught 500 on the announce path, surfacing it through the error hook\
+        \ when `report_errors` is on.\n\n[Compare v4.3beta8 with v4.3beta7](https://github.com/eustasy/Phoenix/compare/v4.3beta7...v4.3beta8)\n\
+        [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
+      href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
+      release_date: '2026-07-07T01:19:09+00:00'
+      timeago: 14 hours ago
+      title: Avenue (v4.3beta8)
+      version: v4.3beta8
   default_branch: main
   name: Phoenix
   releases:
+  - body: "A security-hardening release following a full audit of the 4.3 codebase.\
+      \ It rebuilds the trusted-proxy / forwarded-address model to be restrictive\
+      \ by default, stores API keys as hashes with an admin UI to manage them, gates\
+      \ the first-run installer behind a filesystem setup token, forces an admin password\
+      \ on first access, adds a recommended security-header set and an opt-in error-reporting\
+      \ hook (Sentry-ready), and raises the default announce/scrape intervals. **DB\
+      \ schema modification required** for the widened peers `left` column (an announce\
+      \ that omits `left` otherwise 500s under a strict-mode database).\n\n- FIX:\
+      \ Rebuild forwarded-address handling to be safe by default and close trivial\
+      \ IP spoofing. The old `honor_xff` flag and single `X-Forwarded-For` parse are\
+      \ replaced by a `forwarded_headers` allowlist (recognising `x-forwarded-for`,\
+      \ RFC 7239 `forwarded`, `x-real-ip`, `cf-connecting-ip`, `true-client-ip`, and\
+      \ the legacy `client-ip`), honoured only when the direct connection (`REMOTE_ADDR`)\
+      \ falls inside a `trusted_proxies` range, with chain headers walked from the\
+      \ right past trusted hops to find the real client. **The new default is an empty\
+      \ `forwarded_headers`, trusting only the direct connection** \u2014 an existing\
+      \ install that relied on `honor_xff` must now list the header its proxy sets.\
+      \ A new `allow_any_proxy` opt-in restores honouring headers from any peer (insecure;\
+      \ documented as such).\n- FEATURE: Manage the management-API keys from the admin\
+      \ panel. A new **API Keys** page issues a key (a `phx_`-prefixed 256-bit CSPRNG\
+      \ token, shown once) and revokes existing ones; `api_keys` now stores only each\
+      \ key's **SHA-256 hash**, never the plaintext, and a presented key is hashed\
+      \ once and compared timing-safe. A lost key cannot be recovered \u2014 re-issue\
+      \ it.\n- FEATURE: Gate the otherwise-unauthenticated first-run installer behind\
+      \ a **setup token** written to a server-only file in `config/` (outside the\
+      \ docroot). Only someone with filesystem access \u2014 the real operator \u2014\
+      \ can read it and complete setup; a network attacker who reaches `admin.php`\
+      \ in the pre-setup window cannot. The token is deleted once setup succeeds.\n\
+      - FEATURE: When no admin password is set, `admin.php` now forces a one-time\
+      \ **set-password** step instead of running wide open, with a client-side Have\
+      \ I Been Pwned (k-anonymity) breach check that advises against a known-breached\
+      \ password (no password ever leaves the browser). The previous no-password behaviour\
+      \ is still available via the new `admin_auth_optional` setting, for panels protected\
+      \ by reverse-proxy auth or an IP allowlist.\n- FEATURE: Emit a recommended HTTP\
+      \ **security-header set** per response profile \u2014 `nosniff` on every response,\
+      \ plus `Referrer-Policy`, `X-Frame-Options`, `Cache-Control: no-store`, and\
+      \ a Content-Security-Policy scoped to exactly what each surface loads (tracker,\
+      \ public HTML, admin, and a locked-down `default-src 'none'` for the API).\n\
+      - FEATURE: Opt-in error reporting. A new `report_errors` setting fires an `error`\
+      \ lifecycle hook (`src/hooks/phoenix.error.php`) for server-side failures, caught\
+      \ model-write exceptions, and \u2014 when enabled \u2014 uncaught exceptions\
+      \ and fatal shutdowns, so an external monitor such as Sentry can be wired in\
+      \ without touching core. Off by default; a default install registers nothing\
+      \ and behaves exactly as before.\n- FEATURE: Transparently upgrade the stored\
+      \ admin password hash on a **successful** login when `PASSWORD_DEFAULT` has\
+      \ moved on (a new algorithm or a higher cost). Best-effort and fail-open \u2014\
+      \ a read-only config, common in hardened deployments, simply leaves the hash\
+      \ as-is and never blocks sign-in.\n- FIX: Close an open-redirect on the admin\
+      \ login/logout post-redirect-GET. Only a same-origin absolute path passes through;\
+      \ protocol-relative (`//host`, `/\\host`) and absolute-URL targets fall back\
+      \ to a fixed local page, so a crafted request target can never bounce the admin\
+      \ off-site.\n- FIX: Widen the peers `left` column to **signed** so the `left\
+      \ = -1` \"bytes remaining unknown\" sentinel (set when a client omits `left`)\
+      \ round-trips. On the modern strict-mode default this previously threw an out-of-range\
+      \ error and 500'd the announce. Seeder/leecher counts read `state`, not `left`,\
+      \ so aggregation is unaffected. Fresh installs get the signed column automatically;\
+      \ existing installs apply `sql/migrations/2026-07-04_4.3-peers-left-signed.sql`\
+      \ (or the admin panel's Upgrade Schema action). **DB schema modification required.**\n\
+      - IMPROVES: Raise the announce-interval defaults to cut tracker load \u2014\
+      \ `announce_interval` from 5 to 30 minutes and `min_interval` from 1 to 10 minutes.\n\
+      - FEATURE: Advertise BEP 48's `min_request_interval` in the scrape response\
+      \ via the new `scrape_min_interval` setting (default 30 minutes; `0` does not\
+      \ advertise it), so a client knows the minimum gap between scrapes.\n- FIX:\
+      \ Serve the scrape XML/JSON responses with the correct charset and content type.\n\
+      - IMPROVES: Guard the best-effort model writes against the PHP 8.1+ `mysqli`\
+      \ strict-error default \u2014 the non-critical downloads counter and similar\
+      \ writes catch a `mysqli_sql_exception` instead of escaping as an uncaught 500\
+      \ on the announce path, surfacing it through the error hook when `report_errors`\
+      \ is on.\n\n[Compare v4.3beta8 with v4.3beta7](https://github.com/eustasy/Phoenix/compare/v4.3beta7...v4.3beta8)\n\
+      [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
+    release_date: '2026-07-07T01:19:09+00:00'
+    timeago: 14 hours ago
+    title: Avenue (v4.3beta8)
+    version: v4.3beta8
   - body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
       \ PHP 8.1+ via `never`/`true` return types, union types, and `str_starts_with()`.\r\
       \n* BUGFIX: Only delete a peer and fire the `stopped` hook when that peer was\
@@ -620,12 +765,356 @@
       \ to lowercase so a torrent is not split across two swarms.\r\n* IMPROVES: Update\
       \ README backup and cron instructions to match the PHP backup script.\r\n* IMPROVES:\
       \ Correct `parse_ipv4` and `peer_format_bencode` unit tests to match intended\
-      \ behavior."
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.2.1
+      \ behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
     release_date: '2026-07-07T10:13:33+00:00'
-    timeago: 3 hours ago
-    title: Haggard (3.2.1)
-    version: 3.2.1
+    timeago: 5 hours ago
+    title: Haggard (v3.2.1)
+    version: v3.2.1
+  - body: "A correctness-and-polish follow-up to the 4.3 redesign: maintenance tasks\
+      \ now keep a run history recording who ran each, duplicate announces from clients\
+      \ that send every request twice no longer double-count, and the public index\
+      \ gains a read-path index plus a health-first default sort. **DB schema modifications\
+      \ required** for the new task-run history.\n\n- FEATURE: Record a history of\
+      \ maintenance-task runs and **who triggered each** \u2014 `admin` (the panel),\
+      \ `cron` (the `bin/` scripts), or `auto` (the announce-time cleanup). A new\
+      \ `task_runs` append log keeps the full history (pruned by the new `task_retention`\
+      \ setting \u2014 days to keep, `0` = forever, the default), while the `tasks`\
+      \ table still holds each task's latest run for the Dashboard, which now shows\
+      \ a **By** column. Scheduled cron backups are logged too \u2014 previously only\
+      \ admin-panel backups were recorded. **DB schema modifications required.**\n\
+      - FIX: Stop double-counting from clients that send every announce twice (e.g.\
+      \ Transmission). A duplicate `completed` no longer increments the downloads\
+      \ counter twice, and duplicate `completed` / `stopped` announces no longer double-log\
+      \ stat events: a completion is counted only on the leech\u2192seed transition,\
+      \ and a stop acts only when a peer actually exists. (A small race remains under\
+      \ genuinely concurrent workers, noted in the code.)\n- IMPROVES: The public\
+      \ Torrent Index now sorts by **Health, healthiest first**, on load instead of\
+      \ alphabetically, so a seederless or unhealthy torrent stands out. Still client-side\
+      \ and overridable by clicking any column header; no-JS visitors keep the alphabetical\
+      \ server order.\n- IMPROVES: Index the torrents `listed` column so the public\
+      \ index filters listed torrents without a full table scan. Fresh installs get\
+      \ the index automatically; existing installs add it once with `ALTER TABLE <prefix>torrents\
+      \ ADD INDEX listed (listed);` \u2014 it is a performance index, so there is\
+      \ no migration.\n- FIX: The click-to-copy info-hash button reverts from the\
+      \ tick back to the copy icon after a moment, so it reads as ready to reuse (it\
+      \ previously stuck on the checkmark).\n- IMPROVES: Internal tidy-ups with no\
+      \ behaviour change \u2014 extract the announce event dispatch into a single\
+      \ `peer_handle_event()` (thinner controller, unit-testable), and de-duplicate\
+      \ the three stat-tracking hooks into a shared `stats_log_event()`.\n\n[Compare\
+      \ v4.3beta7 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta7)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta7
+    release_date: '2026-06-18T11:40:01+00:00'
+    timeago: 2 weeks ago
+    title: Avenue (v4.3beta7)
+    version: v4.3beta7
+  - body: "The 4.3 line is a top-to-bottom visual redesign of every HTML surface onto\
+      \ a shared, dependency-light design system, plus an expansion of the 4.2 admin\
+      \ panel with new Geography, Peers, and bulk-upload pages. At the protocol layer\
+      \ it adds two BEP-conformance features and a full audit of Phoenix against the\
+      \ BEP index. The database schema is unchanged \u2014 **no DB migration is required**\
+      \ \u2014 and the new tracker-response keys are additive, so existing clients\
+      \ are unaffected.\n\n- FEATURE: Restyle every HTML surface \u2014 public index,\
+      \ public stats, login, installer, and all nine admin pages \u2014 onto a shared\
+      \ design system: a vendored `ds.css` bundle plus a Phoenix stylesheet (`public/assets/`),\
+      \ the Inter web font, Lucide icons, the flame mark, and a persisted light/dark\
+      \ theme toggle that applies before first paint to avoid a flash. The public\
+      \ index and stats pages, previously near-unstyled, are now first-class pages.\
+      \ No build step \u2014 the assets are served as-is.\n- FEATURE: Rework the admin\
+      \ panel into an app shell \u2014 a sticky flame-marked sidebar with Tracker\
+      \ / Server nav groups (icons + active state), theme toggle, and logout, and\
+      \ a main column with a breadcrumb + title top bar. The layout owns the page\
+      \ heading and actions, so each page passes title/crumb/actions/body; every existing\
+      \ form contract (process values, CSRF fields, field names, multipart upload)\
+      \ is preserved.\n- FEATURE: Add an admin **Geography** page \u2014 a world map\
+      \ of the swarm by country (active peers, or logged events when stat-tracking\
+      \ is on) with a metric toggle. Backed by new geo-aggregation models and gated\
+      \ on a configured GeoLite2 database; coarse country only, no IP is ever stored.\n\
+      - FEATURE: Add a global **Peers** page listing every peer across all swarms\
+      \ \u2014 client (detected from the peer_id for display, never stored), address,\
+      \ seeding/leeching state, transfer totals, and last-seen \u2014 with a client-side\
+      \ filter and pagination.\n- FEATURE: Add a **Bulk Upload** page that accepts\
+      \ many `.torrent` files or a whole folder (drag-and-drop or picker) and POSTs\
+      \ each to the add API in the browser, with a per-file results table; it halts\
+      \ cleanly if the server stops responding. It needs an admin session (CSRF),\
+      \ and explains the alternative when no admin password is set.\n- FEATURE: The\
+      \ **Add a Torrent** page now parses a dropped or picked `.torrent` in the browser\
+      \ and fills the form, so the operator can amend any field before submitting\
+      \ \u2014 the file itself is never uploaded.\n- FEATURE: Surface the opt-in geo\
+      \ stat-tracking from 4.1 in the UI \u2014 offer the `stats_enabled` / `stats_geo`\
+      \ toggles at install and on the Settings page, and auto-discover a (gitignored)\
+      \ GeoLite2 database so geo enrichment lights up without a path setting. Show\
+      \ live torrent and peer counts as badges in the sidebar nav.\n- FEATURE: Click-to-copy\
+      \ info hashes, and client-side filtering/sorting on the torrent and peer tables\
+      \ and the public index, all without a page reload.\n- FEATURE: Return the client's\
+      \ own public IP in the announce response under the BEP 24 `external ip` key,\
+      \ so a NATed peer can learn how the tracker sees it \u2014 packed to raw bytes\
+      \ in the bencode response, and mirrored as a human-readable string in the `?xml`/`?json`\
+      \ debug views. It prefers the address family the request arrived on, and is\
+      \ gated by the new `announce_external_ip` setting (default on) ([#68](https://github.com/eustasy/phoenix/issues/68)).\n\
+      - FEATURE: Annotate tracker failure responses with BEP 31's `retry in` key,\
+      \ so a client knows whether and when to retry \u2014 `\"never\"` for permanent\
+      \ rejections (invalid info_hash/peer_id, a disallowed torrent, scraping disabled)\
+      \ and the rate-limit window in seconds for a throttled announce. Threaded through\
+      \ `tracker_error()` into the bencode, `?xml`, and `?json` error formats ([#69](https://github.com/eustasy/phoenix/issues/69)).\n\
+      - IMPROVES: Extract all inline CSS, JavaScript, and large HTML bodies into separate\
+      \ files under `public/assets/` and `src/partials/`, so each can be linted (stylelint,\
+      \ prettier/oxc, html-validate) and browser-cached, replacing the per-page inline\
+      \ `<style>`/`<script>` blocks.\n- IMPROVES: Accessibility pass over the forms\
+      \ and interactive surfaces \u2014 every input associated with a `<label>`, `role=\"\
+      alert\"`/`role=\"status\"` on result banners (including the JS-revealed ones),\
+      \ `aria-label` on icon-only buttons, and `aria-current` on the active nav item.\n\
+      - IMPROVES: Add `BEPs.md`, a conformance audit of all 54 indexed BEPs (implemented\
+      \ / not-applicable / missing), and correct the HTTP scrape references throughout\
+      \ the code and docs from BEP 15 (the UDP tracker protocol) to BEP 48 (the HTTP\
+      \ scrape convention Phoenix actually implements).\n\n[Compare v4.3beta6 with\
+      \ v4.2beta5](https://github.com/eustasy/Phoenix/compare/v4.2beta5...v4.3beta6)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta6
+    release_date: '2026-06-17T15:55:59+00:00'
+    timeago: 2 weeks ago
+    title: Avenue (v4.3beta6)
+    version: v4.3beta6
+  - body: "The 4.2 line expands the admin panel into a full web management UI on top\
+      \ of 4.1's management API, adds a torrent-update endpoint, and ships a disposable\
+      \ Docker development environment. The tracker protocol and database schema are\
+      \ unchanged \u2014 **no DB migration is required.**\n\n- FEATURE: A web admin\
+      \ panel built on a shared layout, top navigation, and a light `?page=` router,\
+      \ with every state-changing form CSRF-protected and the login behind a hardened\
+      \ session and a failed-login throttle ([#54](https://github.com/eustasy/phoenix/issues/54)).\
+      \ The nav covers a Dashboard, Torrents, Add Torrent, Server Support (PHP/MySQL/extension\
+      \ diagnostics), Utilities (database setup/reset, clean, optimize, schema migrate),\
+      \ Backups, and Settings \u2014 each page below hangs off it.\n- FEATURE: A **Dashboard**\
+      \ showing live tracker stats \u2014 seeders/leechers/peers, registered torrents,\
+      \ completed downloads, and traffic \u2014 plus the last-run time of each maintenance\
+      \ task and a post-install confirmation banner ([#55](https://github.com/eustasy/phoenix/issues/55)).\n\
+      - FEATURE: A **Torrents** page listing every torrent (listed or not, any owner)\
+      \ with swarm stats, and per-row actions to list/de-list, delete (with its peers),\
+      \ edit, or drill into its peers ([#56](https://github.com/eustasy/phoenix/issues/56)).\n\
+      - FEATURE: A per-torrent **peer drill-down** \u2014 client (detected from the\
+      \ peer_id for display, never stored), address, seeding/leeching state, up/down/left,\
+      \ and last-seen time. It also surfaces _unregistered swarms_: info_hashes with\
+      \ active peers but no torrents row (e.g. announced to an open tracker and never\
+      \ registered), so their peers are still counted and inspectable.\n- FEATURE:\
+      \ An **Add a Torrent** page accepting the fields manually or a `.torrent` upload\
+      \ (drag-and-drop or file picker, parsed server-side); admin-added torrents record\
+      \ no API owner ([#66](https://github.com/eustasy/phoenix/issues/66)).\n- FEATURE:\
+      \ A **Backups** page to run an on-demand database dump and download an existing\
+      \ one. The download name is validated against the backup list, so there is no\
+      \ path traversal; the action needs `mysqldump`, `proc_open`, and a writable\
+      \ backup directory ([#57](https://github.com/eustasy/phoenix/issues/57)).\n\
+      - FEATURE: A **Settings** page \u2014 a read-only view of the effective settings\
+      \ (secrets masked), an admin-password change, and toggles for the `open_tracker`\
+      \ / `public_index` / `full_scrape` / `db_reset` flags \u2014 all gated on a\
+      \ writable `config/` directory ([#58](https://github.com/eustasy/phoenix/issues/58)).\n\
+      - FEATURE: Enable or disable the admin TOTP second factor from the Settings\
+      \ page after install (4.1 only offered enrolment at install time). Enabling\
+      \ shows a fresh QR and requires a confirming code; disabling requires a current\
+      \ code, so a hijacked-but-authenticated session cannot silently turn 2FA off.\n\
+      - FEATURE: Add `/api/torrent/update` (`public/api/torrent/update.php`) to edit\
+      \ an existing torrent's name, size, `listed`, and meta fields, with a matching\
+      \ admin **Edit** page. Same ownership rules as list/delist/delete \u2014 an\
+      \ owner key edits only its own torrents, the `'*'` admin (key or `admin.php`\
+      \ session) edits any. The API does a partial update (only the fields you send\
+      \ change; info_hash, owner, and the downloads counter are immutable); the admin\
+      \ form does a full replace. JSON by default, XML with `?xml`.\n- FEATURE: A\
+      \ disposable Docker development environment (`docker-compose.dev.yml` + `docker/`)\
+      \ \u2014 MariaDB plus PHP with the needed extensions, Composer, and a MariaDB-compatible\
+      \ `mysqldump` \u2014 that boots straight into the installer for testing setup\
+      \ and configuration end to end, without touching the host checkout.\n- IMPROVES:\
+      \ Reorganise the documentation along development / installation / deployment\
+      \ lines. The README is now installation-focused, with a table of contents, a\
+      \ single requirements list, two install paths (server access vs managed LAMP\
+      \ / shared hosting), and an index of the other docs; the local Docker environment\
+      \ and test instructions moved to `CONTRIBUTING.md`; the Apache/Nginx example\
+      \ configs fold in the safely-assumable features (`.php` stripping, `Authorization`\
+      \ passthrough, HTTPS redirect, dotfile denial); and admin-password and 2FA recovery\
+      \ are now documented.\n- FIX: Serve the admin panel as UTF-8. It was inheriting\
+      \ the `iso-8859-1` charset the bootstrap sets for the binary tracker protocol,\
+      \ which mangled non-ASCII torrent names and the em-dash in the panel.\n- FIX:\
+      \ Two-factor enrolment QR \u2014 drop a doubled `data:image/png;base64,` prefix\
+      \ that left the image broken, and guard `generateQrCode()` behind `ext-gd` so\
+      \ an install that has the authenticatron library but not gd falls back to the\
+      \ manual secret / `otpauth://` entry instead of fatalling (in both the installer\
+      \ and the Settings page).\n- FIX: Adding a torrent from a `.torrent` upload\
+      \ no longer fails when the form's other fields are left blank \u2014 a blank\
+      \ field falls back to the value parsed from the file instead of overwriting\
+      \ it.\n\n[Compare v4.2beta5 with v4.1beta4](https://github.com/eustasy/Phoenix/compare/v4.1beta4...v4.2beta5)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.2beta5
+    release_date: '2026-06-14T11:08:26+00:00'
+    timeago: 3 weeks ago
+    title: Avenue (v4.2beta5)
+    version: v4.2beta5
+  - body: "- FEATURE: Add a tracker management API under `public/api/`, with one thin\
+      \ entry-point file per path (no action router) and authenticated by per-user\
+      \ API keys in the new `api_keys` setting (`'user' => 'key'` pairs), sent as\
+      \ an `Authorization: Bearer <key>` header (keys never ride query strings). The\
+      \ first endpoint is `/api/torrent/add` (`public/api/torrent/add.php`), which\
+      \ adds a torrent \u2014 POST only, add-only (an already-tracked info_hash is\
+      \ an error) \u2014 recording the key's user in a new `user` column on the torrents\
+      \ table. Responds with JSON by default, XML with `?xml`. **DB schema modifications\
+      \ required.**\n- FEATURE: Add `/api/torrents` (`public/api/torrents.php`) to\
+      \ the management API \u2014 a GET read endpoint listing torrents with swarm\
+      \ stats (seeders/leechers/peers/traffic) plus each torrent's `user` and `listed`\
+      \ flag. Scoped: a normal key sees only its own torrents, while the `'*'` admin\
+      \ (its key, or a logged-in `admin.php` session) sees every torrent, listed and\
+      \ unlisted, any owner. JSON by default, XML with `?xml`.\n- FEATURE: Add the\
+      \ management-API mutations `/api/torrent/list` and `/api/torrent/delist` (`public/api/torrent/{list,delist}.php`)\
+      \ to toggle a torrent's public-index visibility (`listed` 1/0). POST only. Authorization:\
+      \ an owner key (via the `Authorization: Bearer` header) may only touch its own\
+      \ torrents, while the reserved `'*'` admin owner \u2014 its API key, or a logged-in\
+      \ `admin.php` session carrying a CSRF token \u2014 may touch any torrent, including\
+      \ announce-created rows with no owner. A missing row and a not-owned row both\
+      \ report `Torrent not found.`, so ownership never discloses existence. JSON\
+      \ by default, XML with `?xml`.\n- FEATURE: Add `/api/torrent/delete` (`public/api/torrent/delete.php`)\
+      \ to delete a torrent and its peer rows (so the swarm disappears at once). POST\
+      \ only, same Bearer-header / admin-session ownership rules as list/delist, and\
+      \ gated by the new `api_allow_delete` setting (off by default; the `'*'` admin\
+      \ is always exempt). **Caveat:** on an open tracker a deleted torrent reappears\
+      \ on its next announce \u2014 deletion is only decisive on a closed tracker.\n\
+      - FEATURE: Add the API discovery index `/api` (`public/api/index.php`), returning\
+      \ the running Phoenix version under a `phoenix` object. Unauthenticated (no\
+      \ torrent data, just a version signature). JSON by default, XML with `?xml`.\n\
+      - FEATURE: Track torrent meta \u2014 `filename`, a structured `files` list,\
+      \ extra `trackers`, and `webseeds` \u2014 in four new nullable columns on the\
+      \ torrents table. Populated via the API add (explicit fields or a `.torrent`\
+      \ upload parsed server-side, capped by the new `torrent_upload_max` setting)\
+      \ and served on the public index JSON/XML when the new `index_show_meta` setting\
+      \ is on (default off; output unchanged). **DB schema modifications required.**\n\
+      - FEATURE: Add a minimal migration mechanism: idempotent SQL files under `sql/migrations/`\
+      \ (importable manually with `mysql <database> < sql/migrations/<file>.sql`),\
+      \ runnable from a new admin-panel \"Upgrade Schema\" action.\n- IMPROVES: Document\
+      \ the contribution conventions in `CONTRIBUTING.md` and enforce the one-function-per-file\
+      \ rule from the test suite, splitting the multi-function files accordingly.\n\
+      - FEATURE: The public index now serves a ready-made magnet link for every torrent\
+      \ in all three formats (HTML link column, JSON `magnet` field, XML `<magnet>`\
+      \ element), assembled from the stored info_hash/name/size, the new `announce_url`\
+      \ setting as the first `tr=` tier, and \u2014 only when `index_show_meta` is\
+      \ on \u2014 the stored trackers and webseeds.\n- FEATURE: Opt-in stat-tracking:\
+      \ announce events (completions by default; optionally started/stopped via `stats_events`)\
+      \ are logged to a new `events` table with a coarse client label and an optional\
+      \ minified geo location (country/continent, via the suggested `geoip2/geoip2`\
+      \ library and an operator-supplied GeoLite2 database). Privacy-preserving by\
+      \ design \u2014 no IP, peer_id, or port is ever stored. The table is created\
+      \ at install; existing installs get it from the admin panel's Upgrade Schema\
+      \ action (which now also creates newly-added tables) or `mysql <database> <\
+      \ sql/events.sql`. Off by default via `stats_enabled`. The regular cleanup prunes\
+      \ events older than `stats_retention` days (0 = keep forever, the default).\n\
+      - FEATURE: Optional TOTP two-factor authentication on the admin panel, via the\
+      \ suggested `eustasy/authenticatron` library (the QR code needs PHP's `gd` extension;\
+      \ without it the installer shows the secret + `otpauth://` URL for manual entry).\
+      \ Enrolment is offered during install and is skippable \u2014 scan the code\
+      \ and enter a current code to confirm (proving the authenticator works before\
+      \ the secret is stored), or leave it blank to stay password-only. When enabled,\
+      \ login requires a 6-digit code alongside the password, verified independently\
+      \ and fail-closed: a configured secret with the library missing denies login\
+      \ rather than silently downgrading. Stored as the new `admin_totp_secret` setting;\
+      \ recover by removing that line from `phoenix.custom.php`.\n\n### SQL Migration\
+      \ (from 4.0beta3 or 3.2)\n\nRun the files in `sql/migrations/` (or use the admin\
+      \ panel's Upgrade Schema action), which apply:\n\n```sql\nALTER TABLE `your_db`.`your_prefix_torrents`\n\
+      \    ADD COLUMN IF NOT EXISTS `user` varchar(255) NULL FIRST,\n    ADD COLUMN\
+      \ IF NOT EXISTS `filename` varchar(255) NULL,\n    ADD COLUMN IF NOT EXISTS\
+      \ `files` longtext NULL,\n    ADD COLUMN IF NOT EXISTS `trackers` longtext NULL,\n\
+      \    ADD COLUMN IF NOT EXISTS `webseeds` longtext NULL;\n```\n\n[Compare v4.1beta4\
+      \ with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.1beta4)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.1beta4
+    release_date: '2026-06-13T02:46:28+00:00'
+    timeago: 3 weeks ago
+    title: Avenue (v4.1beta4)
+    version: v4.1beta4
+  - body: "A security-review pass over the refactored 4.0 codebase, plus the CI static-analysis\
+      \ and formatting toolchain, endpoint smoke tests, and this changelog and the\
+      \ migration guide themselves. The tracker protocol and database schema are unchanged\
+      \ \u2014 **no DB migration is required.** The 4.0 layout, configuration, and\
+      \ cron changes that affect a 3.x upgrade all landed in v4.0beta1 (below); operators\
+      \ upgrading from 3.x should read its notes and the [3.x \u2192 4.0 Migration\
+      \ Guide](MIGRATING.md) first.\n\n- IMPROVES: Add CSRF tokens to admin panel\
+      \ state-changing forms ([#59](https://github.com/eustasy/phoenix/issues/59)).\n\
+      - IMPROVES: Add a brute-force throttle to admin login (session hardening landed\
+      \ in beta1).\n- IMPROVES: Use prepared statements for client-data queries.\n\
+      - IMPROVES: Tighten the `Access-Control-Allow-Origin` scope and route source-IP\
+      \ handling through `reject_private_ips`, parsing multi-hop `X-Forwarded-For`\
+      \ correctly.\n- IMPROVES: Add an XML-escape helper for stats/scrape XML output.\n\
+      - IMPROVES: Add CI static analysis and formatting via qlty (phpstan + php-cs-fixer),\
+      \ sqlfluff, and markdownlint, and split the single CI workflow into per-concern\
+      \ workflows (markdown, PHP, security, smoke, SQL, tests).\n- IMPROVES: Add endpoint\
+      \ smoke tests to the suite, exercising announce/scrape/admin end to end in CI.\n\
+      - DOCS: Add this changelog and the 3.x \u2192 4.0 migration guide ([#61](https://github.com/eustasy/phoenix/issues/61)).\n\
+      \n[Compare v4.0beta3 with v4.0beta2](https://github.com/eustasy/Phoenix/compare/v4.0beta2...v4.0beta3)\n\
+      [Compare v4.0beta3 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta3)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta3
+    release_date: '2026-06-04T17:36:53+00:00'
+    timeago: 1 month ago
+    title: Avenue (v4.0beta3)
+    version: v4.0beta3
+  - body: "A structural-refinement cut on the way to 4.0: finalise the file-naming\
+      \ convention, extract the single bencode emitter into its own function, and\
+      \ reorganise the test suite. No behaviour change \u2014 **no DB migration is\
+      \ required.**\n\n- IMPROVES: Finalise the one-function-per-file naming \u2014\
+      \ drop the `function.` prefix so each file is named for the function it defines\
+      \ (`parse.ipv4.php`, `sanitize.tracker.php`, \u2026), the convention `ConventionsTest`\
+      \ now enforces.\n- IMPROVES: Funnel all bencode output through a single `bencode_encode()`\
+      \ emitter (`src/functions/bencode.encode.php`) that owns length prefixes, container\
+      \ tokens, and BEP-3 dict-key ordering; rename `peer.format.bencode` \u2192 `peer.format.dict`\
+      \ so a view builds a PHP structure and hands it to the one emitter.\n- IMPROVES:\
+      \ Reorganise the PHPUnit suite \u2014 rename test classes to match the renamed\
+      \ functions and split combined cases.\n- IMPROVES: Configure Dependabot for\
+      \ GitHub Actions and Composer, and bump `shivammathur/setup-php` ([#51](https://github.com/eustasy/phoenix/issues/51)).\n\
+      \n[Compare v4.0beta2 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta2)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta2
+    release_date: '2026-05-30T15:20:16+00:00'
+    timeago: 1 month ago
+    title: Avenue (v4.0beta2)
+    version: v4.0beta2
+  - body: "The 4.0 line is a ground-up refactor of the 3.x codebase: a new on-disk\
+      \ layout, an MVC-inspired split of the old \"puff\" files, a full PHPUnit suite,\
+      \ JSON/XML announce responses, and an initial security and correctness pass.\
+      \ The tracker protocol behaviour is unchanged. **Operators upgrading from 3.x\
+      \ should read the [3.x \u2192 4.0 Migration Guide](MIGRATING.md) first** \u2014\
+      \ the document root, configuration, and cron paths have all moved.\r\n\r\n-\
+      \ BREAKING: Adopt a Public Document Standard layout \u2014 only `public/` is\
+      \ web-served, with `src/`, `bin/`, `config/`, and `tests/` above the web root\
+      \ ([#48](https://github.com/eustasy/phoenix/issues/48)). **The web server document\
+      \ root must be re-pointed at `public/`.** See [APACHE.md](APACHE.md) / [NGINX.md](NGINX.md).\r\
+      \n- BREAKING: Maintenance scripts moved from `_cron/hourly/` to `bin/` (`bin/backup-database.php`,\
+      \ `bin/clean-and-optimize.php`). **Cron jobs must be updated.**\r\n- BREAKING:\
+      \ User configuration moved from `_settings/phoenix.custom.php` to `config/phoenix.custom.php`\
+      \ (template: `config/phoenix.default.php`). Existing overrides are forward-compatible.\r\
+      \n- BREAKING: Minimum PHP raised to 8.2, requiring the `mysqli` and `xml` extensions\
+      \ ([#41](https://github.com/eustasy/phoenix/issues/41)).\r\n- FEATURE: Tables\
+      \ are now defined in standalone `sql/*.sql` files (importable with `mysql <database>\
+      \ < sql/peers.sql`), loaded automatically by `db_create()`. Same schema as 3.2\
+      \ \u2014 **no DB migration is required.**\r\n- FEATURE: Announce responses can\
+      \ be requested as JSON (`?json`) or XML (`?xml`), matching scrape's alternative\
+      \ formats.\r\n- IMPROVES: Reorganise the \"puff\" files into an MVC-inspired\
+      \ split \u2014 thin `public/` entry points delegating to `src/controller/`,\
+      \ `src/model/`, `src/views/`, and `src/functions/`.\r\n- IMPROVES: Replace the\
+      \ bespoke test harness with a PHPUnit suite, run in CI across PHP 8.2\u2013\
+      8.6 against a MariaDB service container.\r\n- IMPROVES: Apply `declare(strict_types=1)`\
+      \ across the project and add PHP type declarations throughout.\r\n- IMPROVES:\
+      \ Harden the admin session \u2014 a secure, host-only session cookie, session-id\
+      \ regeneration on login, and POST-only logout.\r\n- IMPROVES: Reject non-hex\
+      \ `info_hash` and `peer_id` values at the boundary.\r\n- IMPROVES: Send a `Content-Type`\
+      \ header on bencode announce and scrape responses, and content-negotiate `tracker_error`\
+      \ output.\r\n- IMPROVES: Pin `normalize.css` and `Colors.css` with SRI integrity,\
+      \ and drop the jQuery dependency from the admin panel.\r\n- IMPROVES: Document\
+      \ server-level security expectations ([#47](https://github.com/eustasy/phoenix/issues/47)).\r\
+      \n- BUGFIX: Filter rejected `info_hash`es out of multi-torrent scrape so a closed\
+      \ tracker never leaks disallowed torrents ([#49](https://github.com/eustasy/phoenix/issues/49)).\r\
+      \n- BUGFIX: Wrap the XML scrape response in a `<scrape>` root element.\r\n-\
+      \ BUGFIX: Default the `ipv4`/`ipv6` peer columns to an empty-string sentinel\
+      \ rather than `'0'`.\r\n- BUGFIX: Skip bare query-string keys in `sanitize_tracker_params`,\
+      \ and guard announce input validation against a `false` sanitiser result.\r\n\
+      - BUGFIX: Consume the first `multi_query` result in `task_optimize`, and guard\
+      \ the admin MySQL-version `substr` against `strpos` returning `false`.\r\n\r\
+      \n### Database Migration\r\n\r\nNone. 4.0 uses the same schema as 3.2. If upgrading\
+      \ from 3.1 or earlier, apply the **v.3.2** SQL migration below first; from 3.2\
+      \ there are no database changes. See the [Migration Guide](MIGRATING.md) for\
+      \ full upgrade steps.\r\n\r\n[Compare v4.0beta1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v4.0beta1)"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta1
+    release_date: '2026-05-09T17:24:36+00:00'
+    timeago: 1 month ago
+    title: Avenue (v4.0beta1)
+    version: v4.0beta1
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
       \ script with PHP; add backup_rotate setting. **Cron jobs will require changing\
       \ and testing.**\r\n* BREAKING: Track size of downloads ([#34](https://github.com/eustasy/phoenix/issues/34)).\
@@ -659,54 +1148,61 @@
       ```\r\n\r\n### Cron (Scheduled Task) Migration\r\n\r\nThe new backup command\
       \ is `php ~/phoenix/_cron/hourly/backup-database.php`\r\n\r\n### Configuration\
       \ Migration\r\n\r\nYour custom config will continue to work, but do take a look\
-      \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)"
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.2.0
+      \ at the new config options in [`_settings/phoenix.default.php`](https://github.com/eustasy/Phoenix/blob/3.x/_settings/phoenix.default.php)\n\
+      \n[Compare v3.2 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.2)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.2
     release_date: '2026-05-09T17:18:33+00:00'
     timeago: 1 month ago
-    title: Haggard (3.2.0)
-    version: 3.2.0
-  - body: "- Improved documentation\r\n- Fixed some links"
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.1.5
+    title: Haggard (v3.2.0)
+    version: v3.2
+  - body: "- Improved documentation\r\n- Fixed some links\n\n[Compare v3.1.5 with\
+      \ v3.1.4](https://github.com/eustasy/Phoenix/compare/v3.1.4...v3.1.5)\n[Compare\
+      \ v3.1.5 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.1.5)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.1.5
     release_date: '2020-04-02T19:37:18+00:00'
     timeago: 6 years ago
-    title: Unicorn (3.1.5)
-    version: 3.1.5
-  - body: '- Update to NC 1.7'
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.1.4
+    title: Unicorn (v3.1.5)
+    version: v3.1.5
+  - body: '- Update to NC 1.7
+
+
+      [Compare v3.1.4 with v3.1.3](https://github.com/eustasy/Phoenix/compare/v3.1.3...v3.1.4)
+
+      [Compare v3.1.4 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.1.4)
+
+      '
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.1.4
     release_date: '2017-09-16T23:39:27+00:00'
     timeago: 8 years ago
-    title: Unicorn (3.1.4)
-    version: 3.1.4
+    title: Unicorn (v3.1.4)
+    version: v3.1.4
   - body: "- IMPROVES: Upgrades [NC to 1.4](https://github.com/eustasy/normal-checks#what-it-checks)\r\
       \n- IMPROVES: Adds configuration fallback to main initializer and test initializer.\r\
       \n- IMPROVES: Prepares settings file for automated generation.\r\n- IMPROVES:\
       \ Idle peers removed in 1% of requests instead of 10% by default.\r\n- BUGFIX:\
-      \ Stops backups running in home directory if not configured.\r\n\r\n[Compare\
-      \ 3.1.3 with v.3.1.2](https://github.com/eustasy/phoenix/compare/v.3.1.2...3.1.3)\r\
-      \n[Compare 3.1.3 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.3)\r\
-      \n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.1.3
+      \ Stops backups running in home directory if not configured.\r\n\r\n\n[Compare\
+      \ v3.1.3 with v3.1.2](https://github.com/eustasy/Phoenix/compare/v3.1.2...v3.1.3)\n\
+      [Compare v3.1.3 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.1.3)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.1.3
     release_date: '2017-04-19T20:52:19+00:00'
     timeago: 9 years ago
-    title: Unicorn (3.1.3)
-    version: 3.1.3
-  - body: "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n[Compare\
-      \ 3.1.2 with v.3.1.1](https://github.com/eustasy/phoenix/compare/v.3.1.1...3.1.2)\r\
-      \n[Compare 3.1.2 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...3.1.2)\r\
-      \n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.1.2
+    title: Unicorn (v3.1.3)
+    version: v3.1.3
+  - body: "- IMPROVES: Updates minimum versions with PHP CompatInfo.\r\n\r\n\n[Compare\
+      \ v3.1.2 with v3.1.1](https://github.com/eustasy/Phoenix/compare/v3.1.1...v3.1.2)\n\
+      [Compare v3.1.2 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.1.2)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.1.2
     release_date: '2016-06-15T16:14:43+00:00'
     timeago: 10 years ago
-    title: Unicorn (3.1.2)
-    version: 3.1.2
+    title: Unicorn (v3.1.2)
+    version: v3.1.2
   - body: "- BUGFIX: Fixes Travis CI testing for root access. Unimportant for normal\
-      \ operation.\r\n\r\n[Compare v.3.1.1 with v.3.1](https://github.com/eustasy/phoenix/compare/v.3.1...v.3.1.1)\r\
-      \n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.3.1.1
+      \ operation.\r\n\r\n\n[Compare v3.1.1 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.1.1)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.1.1
     release_date: '2016-04-14T15:04:14+00:00'
     timeago: 10 years ago
-    title: Unicorn (3.1.1)
-    version: v.3.1.1
+    title: Unicorn (v3.1.1)
+    version: v3.1.1
   - body: "- IMPROVES: Switched to MIT Licensing.\r\n- IMPROVES: Documented how to\
       \ set up cron jobs ([#28](https://github.com/eustasy/phoenix/issues/28)).\r\n\
       - IMPROVES: Documented where custom configuration _should_ be stored.\r\n- IMPROVES:\
@@ -714,12 +1210,13 @@
       \n- IMPROVES: Automated testing now uses the same database, and respects prefixes,\
       \ and custom usernames and database names.\r\n- IMPROVES: Update default settings\
       \ to not allow database resets.\r\n- IMPROVES: Some tests are now stricter.\r\
-      \n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.3.1
+      \n- BUGFIX: Fixes table-size erroring when no tables are deployed.\r\n\n[Compare\
+      \ v3.1 with v3.0](https://github.com/eustasy/Phoenix/compare/v3.0...v3.1)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.1
     release_date: '2016-04-14T14:51:17+00:00'
     timeago: 10 years ago
-    title: Unicorn (3.1)
-    version: v.3.1
+    title: Unicorn (v3.1)
+    version: v3.1
   - body: "- FEATURE: Adds multi-torrent scraping ([#19](https://github.com/eustasy/phoenix/issues/19)).\r\
       \n- FEATURE: Optionally replace tasks with cron jobs ([#22](https://github.com/eustasy/phoenix/issues/22)).\r\
       \n- FEATURE: Adds unit-tests for functions ([#17](https://github.com/eustasy/phoenix/issues/17)).\r\
@@ -732,65 +1229,68 @@
       \ IMPROVES: Adds database size to `admin.php`\r\n- BUGFIX: Variables should\
       \ be named in international english ([#21](https://github.com/eustasy/phoenix/issues/21)).\r\
       \n- BUGFIX: Fix compact reporting for IPv4.\r\n- BUGFIX: Fix full-tracker scraping.\r\
-      \n- REMOVES: Nothing.\r\n\r\nSponsored by a private client."
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.3.0
+      \n- REMOVES: Nothing.\r\n\r\nSponsored by a private client.\n\n[Compare v3.0\
+      \ with v2.0](https://github.com/eustasy/Phoenix/compare/v2.0...v3.0)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.0
     release_date: '2016-01-21T22:44:34+00:00'
     timeago: 10 years ago
-    title: Sanitized (3.0)
-    version: v.3.0
+    title: Sanitized (v3.0)
+    version: v3.0
   - body: "- FEATURE: Adds support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\
       \n- IMPROVES: More tasks are logged.\r\n- BUGFIX: Task names being trimmed.\r\
       \n- BUGFIX: Task being duplicated.\r\n- BUGFIX: Certain torrents binary hash\
       \ is malformed due to a poorly implemented \"verbose\" mode ([#14](https://github.com/eustasy/phoenix/issues/14)).\r\
       \n- REMOVES: Verbose mode for torrent scraping. JSON and XML are still available.\r\
-      \n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.2.0
+      \n\n[Compare v2.0 with v1.4](https://github.com/eustasy/Phoenix/compare/v1.4...v2.0)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v2.0
     release_date: '2015-08-20T13:26:02+00:00'
     timeago: 10 years ago
-    title: Unification (2.0)
-    version: v.2.0
+    title: Unification (v2.0)
+    version: v2.0
   - body: "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\
       \n- FEATURE: Add preliminary support for IPv6 ([#3](https://github.com/eustasy/phoenix/issues/3)).\r\
       \n- IMPROVES: Git ignores hooks or custom files.\r\n- IMPROVES: Adds verbose\
       \ option to torrent scraping for better display of bencoded content.\r\n- BUGFIX:\
       \ Fixes scrape counts of torrents by encoding hashes in their binary format.\r\
-      \n- BUGFIX: Fixes issue where cleaning was never logged.\r\n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.1.4
+      \n- BUGFIX: Fixes issue where cleaning was never logged.\r\n\n[Compare v1.4\
+      \ with v1.3](https://github.com/eustasy/Phoenix/compare/v1.3...v1.4)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v1.4
     release_date: '2015-08-18T21:50:42+00:00'
     timeago: 10 years ago
-    title: Totalitarian (1.4)
-    version: v.1.4
+    title: Totalitarian (v1.4)
+    version: v1.4
   - body: "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\
-      \n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.1.3
+      \n\n[Compare v1.3 with v1.2](https://github.com/eustasy/Phoenix/compare/v1.2...v1.3)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v1.3
     release_date: '2015-02-16T21:01:44+00:00'
     timeago: 11 years ago
-    title: Hexa (1.3)
-    version: v.1.3
-  - body: "FEATURE: Support Endpoints, rather than just separate ports.\r\n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.1.2
+    title: Hexa (v1.3)
+    version: v1.3
+  - body: "FEATURE: Support Endpoints, rather than just separate ports.\r\n\n[Compare\
+      \ v1.2 with v1.1](https://github.com/eustasy/Phoenix/compare/v1.1...v1.2)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v1.2
     release_date: '2014-12-31T22:03:00+00:00'
     timeago: 11 years ago
-    title: Endpoints (1.2)
-    version: v.1.2
+    title: Endpoints (v1.2)
+    version: v1.2
   - body: "FEATURE: Adds JSON and XML output to scrapes and stats.\r\nFEATURE: Adds\
       \ HEX info_hash support to announce.\r\nIMPROVES: Stop double-submissions on\
       \ admin page.\r\nIMPROVES: Improves configuration defaults.\r\nBUGFIX: Fix broken\
       \ scraping when requesting a torrent as a binary value.\r\nBUGFIX: Set correct\
-      \ default charset.\r\n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.1.1
+      \ default charset.\r\n\n[Compare v1.1 with v1.0](https://github.com/eustasy/Phoenix/compare/v1.0...v1.1)\n"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v1.1
     release_date: '2014-12-31T12:18:53+00:00'
     timeago: 11 years ago
-    title: Scraping By (1.1)
-    version: v.1.1
+    title: Scraping By (v1.1)
+    version: v1.1
   - body: "A procedural re-write of peertracker in a modern format.\r\nFixes numerous\
       \ bugs and massively improves performance, modularity, and maintainability.\r\
       \n"
-    href: https://github.com/eustasy/Phoenix/releases/tag/v.1.0
+    href: https://github.com/eustasy/Phoenix/releases/tag/v1.0
     release_date: '2014-12-28T22:10:21+00:00'
     timeago: 11 years ago
-    title: No longer PeerTracker (1.0)
-    version: v.1.0
+    title: No longer PeerTracker (v1.0)
+    version: v1.0
 - branches:
   - is_default: true
     name: main
