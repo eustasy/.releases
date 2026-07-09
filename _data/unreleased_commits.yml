@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 38
+    new_commits: 39
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -597,7 +597,7 @@
         \ unit tests to match intended behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
       release_date: '2026-07-07T10:13:33+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: Haggard (v3.2.1)
       version: v3.2.1
   - is_default: true
@@ -677,7 +677,7 @@
         [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
       release_date: '2026-07-07T01:19:09+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: Avenue (v4.3beta8)
       version: v4.3beta8
   default_branch: main
@@ -755,7 +755,7 @@
       [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
     release_date: '2026-07-07T01:19:09+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Avenue (v4.3beta8)
     version: v4.3beta8
   - body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
@@ -768,7 +768,7 @@
       \ behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
     release_date: '2026-07-07T10:13:33+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Haggard (v3.2.1)
     version: v3.2.1
   - body: "A correctness-and-polish follow-up to the 4.3 redesign: maintenance tasks\
@@ -805,7 +805,7 @@
       \ v4.3beta7 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta7)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta7
     release_date: '2026-06-18T11:40:01+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: Avenue (v4.3beta7)
     version: v4.3beta7
   - body: "The 4.3 line is a top-to-bottom visual redesign of every HTML surface onto\
@@ -871,7 +871,7 @@
       \ v4.2beta5](https://github.com/eustasy/Phoenix/compare/v4.2beta5...v4.3beta6)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta6
     release_date: '2026-06-17T15:55:59+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: Avenue (v4.3beta6)
     version: v4.3beta6
   - body: "The 4.2 line expands the admin panel into a full web management UI on top\
@@ -1112,7 +1112,7 @@
       \ full upgrade steps.\r\n\r\n[Compare v4.0beta1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v4.0beta1)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta1
     release_date: '2026-05-09T17:24:36+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Avenue (v4.0beta1)
     version: v4.0beta1
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
@@ -1152,7 +1152,7 @@
       \n[Compare v3.2 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.2)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Haggard (v3.2.0)
     version: v3.2
   - body: "- Improved documentation\r\n- Fixed some links\n\n[Compare v3.1.5 with\
