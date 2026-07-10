@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 39
+    new_commits: 40
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -597,7 +597,7 @@
         \ unit tests to match intended behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
       release_date: '2026-07-07T10:13:33+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Haggard (v3.2.1)
       version: v3.2.1
   - is_default: true
@@ -677,7 +677,7 @@
         [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
       release_date: '2026-07-07T01:19:09+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Avenue (v4.3beta8)
       version: v4.3beta8
   default_branch: main
@@ -755,7 +755,7 @@
       [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
     release_date: '2026-07-07T01:19:09+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Avenue (v4.3beta8)
     version: v4.3beta8
   - body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
@@ -768,7 +768,7 @@
       \ behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
     release_date: '2026-07-07T10:13:33+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Haggard (v3.2.1)
     version: v3.2.1
   - body: "A correctness-and-polish follow-up to the 4.3 redesign: maintenance tasks\
