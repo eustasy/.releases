@@ -597,7 +597,7 @@
         \ unit tests to match intended behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
       release_date: '2026-07-07T10:13:33+00:00'
-      timeago: 4 days ago
+      timeago: 5 days ago
       title: Haggard (v3.2.1)
       version: v3.2.1
   - is_default: true
@@ -677,7 +677,7 @@
         [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
       release_date: '2026-07-07T01:19:09+00:00'
-      timeago: 4 days ago
+      timeago: 5 days ago
       title: Avenue (v4.3beta8)
       version: v4.3beta8
   default_branch: main
@@ -755,7 +755,7 @@
       [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
     release_date: '2026-07-07T01:19:09+00:00'
-    timeago: 4 days ago
+    timeago: 5 days ago
     title: Avenue (v4.3beta8)
     version: v4.3beta8
   - body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
@@ -768,7 +768,7 @@
       \ behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
     release_date: '2026-07-07T10:13:33+00:00'
-    timeago: 4 days ago
+    timeago: 5 days ago
     title: Haggard (v3.2.1)
     version: v3.2.1
   - body: "A correctness-and-polish follow-up to the 4.3 redesign: maintenance tasks\
@@ -941,7 +941,7 @@
       \ it.\n\n[Compare v4.2beta5 with v4.1beta4](https://github.com/eustasy/Phoenix/compare/v4.1beta4...v4.2beta5)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.2beta5
     release_date: '2026-06-14T11:08:26+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Avenue (v4.2beta5)
     version: v4.2beta5
   - body: "- FEATURE: Add a tracker management API under `public/api/`, with one thin\
