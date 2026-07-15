@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 42
+    new_commits: 44
     release:
       body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
         \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
@@ -587,22 +587,46 @@
     name: 3.x
     new_commits: 0
     release:
-      body: "* BUGFIX: Restore PHP 7.1 compatibility \u2014 3.2 unintentionally required\
-        \ PHP 8.1+ via `never`/`true` return types, union types, and `str_starts_with()`.\r\
-        \n* BUGFIX: Only delete a peer and fire the `stopped` hook when that peer\
-        \ was actually being tracked.\r\n* BUGFIX: Normalize uppercase `info_hash`\
-        \ and `peer_id` to lowercase so a torrent is not split across two swarms.\r\
-        \n* IMPROVES: Update README backup and cron instructions to match the PHP\
-        \ backup script.\r\n* IMPROVES: Correct `parse_ipv4` and `peer_format_bencode`\
-        \ unit tests to match intended behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
-      href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
-      release_date: '2026-07-07T10:13:33+00:00'
-      timeago: 1 week ago
-      title: Haggard (v3.2.1)
-      version: v3.2.1
+      body: "* BUGFIX: Full and multi-hash scrapes emitted malformed bencode whenever\
+        \ more or fewer than exactly one torrent matched; all torrents now share a\
+        \ single sorted `files` dictionary.\r\n* BUGFIX: XML scrapes had no root element\
+        \ and JSON scrapes returned `null` for an empty result set.\r\n* BUGFIX: The\
+        \ clean task could delete real torrents whose name matched the unescaped test-residue\
+        \ pattern (e.g. \"untested\"); the purge now only runs against `TESTING_`-prefixed\
+        \ tables and escapes its `LIKE` wildcards.\r\n* BUGFIX: Announces without\
+        \ `left`, or with an out-of-range port, failed against strict-mode MySQL/MariaDB\
+        \ (the default since MySQL 5.7 / MariaDB 10.2.4). The `left` sentinel is clamped\
+        \ at the SQL boundary and ports are validated to 1\u201365535.\r\n* BUGFIX:\
+        \ Duplicate `completed` announces (Transmission sends every announce twice)\
+        \ double-counted downloads; the counter and `download.complete` hook now only\
+        \ fire when the peer was not already seeding.\r\n* BUGFIX: On PHP 8.1+ any\
+        \ database failure surfaced as an uncaught `mysqli_sql_exception` (HTTP 500)\
+        \ instead of a bencoded tracker error; mysqli error reporting is pinned to\
+        \ return-value mode everywhere.\r\n* BUGFIX: The connection-failure diagnostic\
+        \ never worked (`mysqli_connect_error()` takes no arguments \u2014 fatal on\
+        \ PHP 8.0); the driver detail now goes to the server error log while clients\
+        \ receive a generic failure.\r\n* BUGFIX: The `tracker_error` test relied\
+        \ on overriding the exit code from a shutdown function, which PHP 7.x ignores\
+        \ for scripts run from a file; it now checks a child process, and the test\
+        \ runner's aggregate exit code finally works.\r\n* IMPROVES: The backup script\
+        \ creates its backup directory on first run (mode `0700`) and reports unwritable\
+        \ or uncreatable directories with clear messages and a non-zero exit for cron\
+        \ to capture.\r\n* IMPROVES: Document Nginx and Apache rules denying `.` and\
+        \ `_` prefixed paths, so settings, backups, tests, and internals cannot be\
+        \ fetched over HTTP ([README](README.md#securing-the-web-root)).\r\n* IMPROVES:\
+        \ The install guide now leads with the `admin.php` installer; hand-written\
+        \ configs get an explicit warning that unreplaced `%placeholder%` values are\
+        \ truthy (a leftover `%open_tracker%` silently opened the tracker).\r\n* IMPROVES:\
+        \ Document admin authentication: bcrypt hash storage, empty password meaning\
+        \ no authentication, and how to reset or recover the password."
+      href: https://github.com/eustasy/Phoenix/releases/tag/3.2.2
+      release_date: '2026-07-15T11:06:45+00:00'
+      timeago: 1 hour ago
+      title: Haggard (v3.2.2)
+      version: 3.2.2
   - is_default: true
     name: main
-    new_commits: 3
+    new_commits: 6
     release:
       body: "A security-hardening release following a full audit of the 4.3 codebase.\
         \ It rebuilds the trusted-proxy / forwarded-address model to be restrictive\
@@ -683,6 +707,42 @@
   default_branch: main
   name: Phoenix
   releases:
+  - body: "* BUGFIX: Full and multi-hash scrapes emitted malformed bencode whenever\
+      \ more or fewer than exactly one torrent matched; all torrents now share a single\
+      \ sorted `files` dictionary.\r\n* BUGFIX: XML scrapes had no root element and\
+      \ JSON scrapes returned `null` for an empty result set.\r\n* BUGFIX: The clean\
+      \ task could delete real torrents whose name matched the unescaped test-residue\
+      \ pattern (e.g. \"untested\"); the purge now only runs against `TESTING_`-prefixed\
+      \ tables and escapes its `LIKE` wildcards.\r\n* BUGFIX: Announces without `left`,\
+      \ or with an out-of-range port, failed against strict-mode MySQL/MariaDB (the\
+      \ default since MySQL 5.7 / MariaDB 10.2.4). The `left` sentinel is clamped\
+      \ at the SQL boundary and ports are validated to 1\u201365535.\r\n* BUGFIX:\
+      \ Duplicate `completed` announces (Transmission sends every announce twice)\
+      \ double-counted downloads; the counter and `download.complete` hook now only\
+      \ fire when the peer was not already seeding.\r\n* BUGFIX: On PHP 8.1+ any database\
+      \ failure surfaced as an uncaught `mysqli_sql_exception` (HTTP 500) instead\
+      \ of a bencoded tracker error; mysqli error reporting is pinned to return-value\
+      \ mode everywhere.\r\n* BUGFIX: The connection-failure diagnostic never worked\
+      \ (`mysqli_connect_error()` takes no arguments \u2014 fatal on PHP 8.0); the\
+      \ driver detail now goes to the server error log while clients receive a generic\
+      \ failure.\r\n* BUGFIX: The `tracker_error` test relied on overriding the exit\
+      \ code from a shutdown function, which PHP 7.x ignores for scripts run from\
+      \ a file; it now checks a child process, and the test runner's aggregate exit\
+      \ code finally works.\r\n* IMPROVES: The backup script creates its backup directory\
+      \ on first run (mode `0700`) and reports unwritable or uncreatable directories\
+      \ with clear messages and a non-zero exit for cron to capture.\r\n* IMPROVES:\
+      \ Document Nginx and Apache rules denying `.` and `_` prefixed paths, so settings,\
+      \ backups, tests, and internals cannot be fetched over HTTP ([README](README.md#securing-the-web-root)).\r\
+      \n* IMPROVES: The install guide now leads with the `admin.php` installer; hand-written\
+      \ configs get an explicit warning that unreplaced `%placeholder%` values are\
+      \ truthy (a leftover `%open_tracker%` silently opened the tracker).\r\n* IMPROVES:\
+      \ Document admin authentication: bcrypt hash storage, empty password meaning\
+      \ no authentication, and how to reset or recover the password."
+    href: https://github.com/eustasy/Phoenix/releases/tag/3.2.2
+    release_date: '2026-07-15T11:06:45+00:00'
+    timeago: 1 hour ago
+    title: Haggard (v3.2.2)
+    version: 3.2.2
   - body: "A security-hardening release following a full audit of the 4.3 codebase.\
       \ It rebuilds the trusted-proxy / forwarded-address model to be restrictive\
       \ by default, stores API keys as hashes with an admin UI to manage them, gates\
@@ -941,7 +1001,7 @@
       \ it.\n\n[Compare v4.2beta5 with v4.1beta4](https://github.com/eustasy/Phoenix/compare/v4.1beta4...v4.2beta5)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.2beta5
     release_date: '2026-06-14T11:08:26+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Avenue (v4.2beta5)
     version: v4.2beta5
   - body: "- FEATURE: Add a tracker management API under `public/api/`, with one thin\
