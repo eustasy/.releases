@@ -1,20 +1,51 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 44
+    new_commits: 0
     release:
-      body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
-        \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
-        \n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs\
-        \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
-      href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
-      release_date: '2026-06-03T21:14:07+00:00'
-      timeago: 1 month ago
-      title: Appletini (4.0beta10)
-      version: 4.0beta10
+      body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
+        \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
+        \ by `if: false` like the test workflows; `install.sh` installs and cleans\
+        \ them up alongside the others\r\n- Prettier reined in: `.prettierrc.json`\
+        \ updates (`trailingComma`, `semi`) and scoping so it stops formatting files\
+        \ it shouldn't\r\n- `.markdownlint.json` updated\r\n- `.vscode/settings.json`\
+        \ reworked (format-on-save / extension settings)\r\n- JS workflow gains an\
+        \ `npm ci` step, and workflows were renamed/normalized\r\n- Action bumps inside\
+        \ the installed workflows: `actions/checkout` v6\u2192v7, `actions/setup-node`\
+        \ v6\u2192v7, `shivammathur/setup-php` bump\r\n\r\n### Docs and repo housekeeping:\r\
+        \n- README: documents the type workflows, adds a new \"Default Branch\" section\
+        \ (workflows only trigger on main unless edited), and the migration steps\
+        \ now mention typecheck workflows\r\n- `.gitattributes` added to normalize\
+        \ line endings\r\n- Dependabot config tweaks and the usual `claude-code-action`\
+        \ bumps (repo-only, not installed downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
+      href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
+      release_date: '2026-07-16T12:13:20+00:00'
+      timeago: 39 minutes ago
+      title: Appletini (4.0beta11)
+      version: 4.0beta11
   default_branch: main
   name: .normal
   releases:
+  - body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
+      \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
+      \ by `if: false` like the test workflows; `install.sh` installs and cleans them\
+      \ up alongside the others\r\n- Prettier reined in: `.prettierrc.json` updates\
+      \ (`trailingComma`, `semi`) and scoping so it stops formatting files it shouldn't\r\
+      \n- `.markdownlint.json` updated\r\n- `.vscode/settings.json` reworked (format-on-save\
+      \ / extension settings)\r\n- JS workflow gains an `npm ci` step, and workflows\
+      \ were renamed/normalized\r\n- Action bumps inside the installed workflows:\
+      \ `actions/checkout` v6\u2192v7, `actions/setup-node` v6\u2192v7, `shivammathur/setup-php`\
+      \ bump\r\n\r\n### Docs and repo housekeeping:\r\n- README: documents the type\
+      \ workflows, adds a new \"Default Branch\" section (workflows only trigger on\
+      \ main unless edited), and the migration steps now mention typecheck workflows\r\
+      \n- `.gitattributes` added to normalize line endings\r\n- Dependabot config\
+      \ tweaks and the usual `claude-code-action` bumps (repo-only, not installed\
+      \ downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
+    href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
+    release_date: '2026-07-16T12:13:20+00:00'
+    timeago: 39 minutes ago
+    title: Appletini (4.0beta11)
+    version: 4.0beta11
   - body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
       \n- [Run workflows on changes to config or self](https://github.com/eustasy/.normal/commit/e5e7f7788bbea4e222e49b3c4c5815341ee6e1c3)\r\
       \n- Pin Qlty actions to avoid security flags\r\n- Update workflows in configs\
@@ -472,7 +503,7 @@
       \ codes\r\n- Removed tracking\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.0.9...2.1.0"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.0
     release_date: '2026-05-15T17:47:29+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: 2.1.0
     version: 2.1.0
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
@@ -583,6 +614,85 @@
     title: Homely
     version: '1.7'
 - branches:
+  - is_default: true
+    name: main
+    new_commits: 0
+    release:
+      body: "A correctness-and-hardening follow-up to beta8, prompted by a review\
+        \ of the beta8 changes. It reworks announce IP/port validation to be per-family\
+        \ and fail as a client fault, makes configuration writes atomic, replaces\
+        \ the truthy `%placeholder%` defaults with real typed values, and turns the\
+        \ announce rate-limit into a self-contained tunable \u2014 plus smaller fixes\
+        \ for `numwant=0` and non-UTF-8 client labels, a walk-back of beta8's most\
+        \ aggressive interval defaults, and a round of setting renames for clarity.\
+        \ The tracker protocol and database schema are unchanged \u2014 **no DB migration\
+        \ is required.**\r\n\r\n- BREAKING: Rename several hand-edited settings for\
+        \ clarity and consistency. A `phoenix.custom.php` that sets an old key silently\
+        \ falls back to the new default, so update any overrides: `external_ip` \u2192\
+        \ `allow_client_ip` (it _accepts_ a client-supplied IP \u2014 not to be confused\
+        \ with `announce_external_ip`, which _returns_ one), `announce_interval` \u2192\
+        \ `announce_rec_interval` and `min_interval` \u2192 `announce_min_interval`\
+        \ (symmetry with `scrape_min_interval`), `random_limit` \u2192 `random_peers_threshold`,\
+        \ `clean_with_requests` \u2192 `clean_request_percent`, `allow_any_proxy`\
+        \ \u2192 `trust_any_forwarded`, and `backup_rotate` \u2192 `backup_retention`\
+        \ (matching `task_retention` / `stats_retention`). The installer and admin\
+        \ panel only ever write unaffected keys, so a normal install needs no change.\r\
+        \n- FIX: Rework announce IP/port validation to be per-family and reject bad\
+        \ input as a client fault rather than a server one. A resolved address with\
+        \ no listening port (`?port` omitted, `?port=0`) is now rejected up front\
+        \ (`Missing port.`) instead of being stored as an unreachable peer or left\
+        \ to fail at insert; an out-of-range port drops only its own address family,\
+        \ so a valid IPv4 pair still registers when a client supplies a bad `?ipv6=[\u2026\
+        ]:port` (with `allow_client_ip` on); and a peer with no routable address \u2014\
+        \ e.g. a private `REMOTE_ADDR` dropped by `reject_private_ips` with no public\
+        \ fallback \u2014 is rejected rather than stored addressless. A dropped family's\
+        \ absent port is normalised to `0` before it is bound, so an out-of-range\
+        \ per-family port no longer throws on the peer insert under a strict-mode\
+        \ database.\r\n- FIX: Publish `config/phoenix.custom.php` atomically. The\
+        \ admin panel, the installer set-password gate, and the login-time hash upgrade\
+        \ now write to a sibling temp file under an exclusive lock and `rename()`\
+        \ it over the target, so a concurrent request's `settings_load()` never `include`s\
+        \ a half-written file and fatals the whole tracker. Existing file permissions\
+        \ are preserved, and a failed write leaves the previous config intact.\r\n\
+        - FIX: Replace the `%placeholder%` values in `config/phoenix.default.php`\
+        \ with real, typed defaults. `db_persist` and `open_tracker` were strings\
+        \ \u2014 truthy by accident and mistyped against the settings contract \u2014\
+        \ and are now proper booleans (`true` / `false`); `db_prefix` defaults to\
+        \ `phoenix_`; the database credentials ship empty. `db_is_configured()` reads\
+        \ empty credentials as \"not configured\", and the missing-config fallback\
+        \ no longer injects demo credentials (a hard-coded `root` / `Password1`),\
+        \ so an unconfigured tracker reports `Tracker is not configured.` cleanly\
+        \ instead of attempting a weak-credential local connection.\r\n- FEATURE:\
+        \ Make the announce rate-limit tunable and decouple its window from the announce\
+        \ cadence. New `announce_rate_limit` (how many other peer_ids one IP may carry\
+        \ on a torrent within the window before the next is throttled; `0` disables\
+        \ the check) and `announce_rate_window` (seconds) settings replace the old\
+        \ hard `count > 0` gate, which cross-blocked unrelated peers sharing one public\
+        \ IPv4 (a home NAT, or CGNAT). The window is now independent, so tuning the\
+        \ announce cadence no longer widens the anti-abuse window as a side effect.\
+        \ On a tracker fronted by a reverse proxy, prefer its per-IP rate limiting\
+        \ and set `announce_rate_limit` to `0`.\r\n- FIX: Honour `numwant=0` as the\
+        \ valid \"send me no peers\" request it is (a seed, or a `stopped` / `completed`\
+        \ announce) instead of folding it up to `max_peers`; the value now clamps\
+        \ to `[0, max_peers]` and negatives floor to `0`. (`numwant` is a de-facto\
+        \ convention, not a numbered BEP; `BEPs.md` is corrected accordingly.)\r\n\
+        - FIX: Harden the detected peer-client label against non-UTF-8 and control\
+        \ bytes. An unrecognised Azureus-style client code is surfaced only when it\
+        \ is plain alphanumeric; anything else collapses to `Unknown`, so raw peer_id\
+        \ bytes can never reach the admin Peers views or the stored `events.client`\
+        \ label. The views additionally escape with `ENT_SUBSTITUTE`, so an unexpected\
+        \ byte renders as a replacement character rather than blanking the cell.\r\
+        \n- IMPROVES: Walk back beta8's most aggressive interval defaults, now that\
+        \ per-IP abuse is handled by the rate-limit setting: `announce_min_interval`\
+        \ returns to 1 minute (from 10) and `scrape_min_interval` to 15 minutes (from\
+        \ 30), so a manual re-announce or a client scrape is not throttled as hard.\
+        \ `announce_rec_interval` stays at 30 minutes for steady-state load.\r\n\r\
+        \n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
+      href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
+      release_date: '2026-07-15T21:02:45+00:00'
+      timeago: 15 hours ago
+      title: Avenue (v4.3beta9)
+      version: v4.3beta9
   - is_default: false
     name: 3.x
     new_commits: 0
@@ -618,95 +728,88 @@
         \ configs get an explicit warning that unreplaced `%placeholder%` values are\
         \ truthy (a leftover `%open_tracker%` silently opened the tracker).\r\n* IMPROVES:\
         \ Document admin authentication: bcrypt hash storage, empty password meaning\
-        \ no authentication, and how to reset or recover the password."
-      href: https://github.com/eustasy/Phoenix/releases/tag/3.2.2
+        \ no authentication, and how to reset or recover the password.\r\n\r\n[Compare\
+        \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
+      href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
       release_date: '2026-07-15T11:06:45+00:00'
-      timeago: 1 hour ago
+      timeago: 1 day ago
       title: Haggard (v3.2.2)
-      version: 3.2.2
-  - is_default: true
-    name: main
-    new_commits: 6
-    release:
-      body: "A security-hardening release following a full audit of the 4.3 codebase.\
-        \ It rebuilds the trusted-proxy / forwarded-address model to be restrictive\
-        \ by default, stores API keys as hashes with an admin UI to manage them, gates\
-        \ the first-run installer behind a filesystem setup token, forces an admin\
-        \ password on first access, adds a recommended security-header set and an\
-        \ opt-in error-reporting hook (Sentry-ready), and raises the default announce/scrape\
-        \ intervals. **DB schema modification required** for the widened peers `left`\
-        \ column (an announce that omits `left` otherwise 500s under a strict-mode\
-        \ database).\n\n- FIX: Rebuild forwarded-address handling to be safe by default\
-        \ and close trivial IP spoofing. The old `honor_xff` flag and single `X-Forwarded-For`\
-        \ parse are replaced by a `forwarded_headers` allowlist (recognising `x-forwarded-for`,\
-        \ RFC 7239 `forwarded`, `x-real-ip`, `cf-connecting-ip`, `true-client-ip`,\
-        \ and the legacy `client-ip`), honoured only when the direct connection (`REMOTE_ADDR`)\
-        \ falls inside a `trusted_proxies` range, with chain headers walked from the\
-        \ right past trusted hops to find the real client. **The new default is an\
-        \ empty `forwarded_headers`, trusting only the direct connection** \u2014\
-        \ an existing install that relied on `honor_xff` must now list the header\
-        \ its proxy sets. A new `allow_any_proxy` opt-in restores honouring headers\
-        \ from any peer (insecure; documented as such).\n- FEATURE: Manage the management-API\
-        \ keys from the admin panel. A new **API Keys** page issues a key (a `phx_`-prefixed\
-        \ 256-bit CSPRNG token, shown once) and revokes existing ones; `api_keys`\
-        \ now stores only each key's **SHA-256 hash**, never the plaintext, and a\
-        \ presented key is hashed once and compared timing-safe. A lost key cannot\
-        \ be recovered \u2014 re-issue it.\n- FEATURE: Gate the otherwise-unauthenticated\
-        \ first-run installer behind a **setup token** written to a server-only file\
-        \ in `config/` (outside the docroot). Only someone with filesystem access\
-        \ \u2014 the real operator \u2014 can read it and complete setup; a network\
-        \ attacker who reaches `admin.php` in the pre-setup window cannot. The token\
-        \ is deleted once setup succeeds.\n- FEATURE: When no admin password is set,\
-        \ `admin.php` now forces a one-time **set-password** step instead of running\
-        \ wide open, with a client-side Have I Been Pwned (k-anonymity) breach check\
-        \ that advises against a known-breached password (no password ever leaves\
-        \ the browser). The previous no-password behaviour is still available via\
-        \ the new `admin_auth_optional` setting, for panels protected by reverse-proxy\
-        \ auth or an IP allowlist.\n- FEATURE: Emit a recommended HTTP **security-header\
-        \ set** per response profile \u2014 `nosniff` on every response, plus `Referrer-Policy`,\
-        \ `X-Frame-Options`, `Cache-Control: no-store`, and a Content-Security-Policy\
-        \ scoped to exactly what each surface loads (tracker, public HTML, admin,\
-        \ and a locked-down `default-src 'none'` for the API).\n- FEATURE: Opt-in\
-        \ error reporting. A new `report_errors` setting fires an `error` lifecycle\
-        \ hook (`src/hooks/phoenix.error.php`) for server-side failures, caught model-write\
-        \ exceptions, and \u2014 when enabled \u2014 uncaught exceptions and fatal\
-        \ shutdowns, so an external monitor such as Sentry can be wired in without\
-        \ touching core. Off by default; a default install registers nothing and behaves\
-        \ exactly as before.\n- FEATURE: Transparently upgrade the stored admin password\
-        \ hash on a **successful** login when `PASSWORD_DEFAULT` has moved on (a new\
-        \ algorithm or a higher cost). Best-effort and fail-open \u2014 a read-only\
-        \ config, common in hardened deployments, simply leaves the hash as-is and\
-        \ never blocks sign-in.\n- FIX: Close an open-redirect on the admin login/logout\
-        \ post-redirect-GET. Only a same-origin absolute path passes through; protocol-relative\
-        \ (`//host`, `/\\host`) and absolute-URL targets fall back to a fixed local\
-        \ page, so a crafted request target can never bounce the admin off-site.\n\
-        - FIX: Widen the peers `left` column to **signed** so the `left = -1` \"bytes\
-        \ remaining unknown\" sentinel (set when a client omits `left`) round-trips.\
-        \ On the modern strict-mode default this previously threw an out-of-range\
-        \ error and 500'd the announce. Seeder/leecher counts read `state`, not `left`,\
-        \ so aggregation is unaffected. Fresh installs get the signed column automatically;\
-        \ existing installs apply `sql/migrations/2026-07-04_4.3-peers-left-signed.sql`\
-        \ (or the admin panel's Upgrade Schema action). **DB schema modification required.**\n\
-        - IMPROVES: Raise the announce-interval defaults to cut tracker load \u2014\
-        \ `announce_interval` from 5 to 30 minutes and `min_interval` from 1 to 10\
-        \ minutes.\n- FEATURE: Advertise BEP 48's `min_request_interval` in the scrape\
-        \ response via the new `scrape_min_interval` setting (default 30 minutes;\
-        \ `0` does not advertise it), so a client knows the minimum gap between scrapes.\n\
-        - FIX: Serve the scrape XML/JSON responses with the correct charset and content\
-        \ type.\n- IMPROVES: Guard the best-effort model writes against the PHP 8.1+\
-        \ `mysqli` strict-error default \u2014 the non-critical downloads counter\
-        \ and similar writes catch a `mysqli_sql_exception` instead of escaping as\
-        \ an uncaught 500 on the announce path, surfacing it through the error hook\
-        \ when `report_errors` is on.\n\n[Compare v4.3beta8 with v4.3beta7](https://github.com/eustasy/Phoenix/compare/v4.3beta7...v4.3beta8)\n\
-        [Compare v4.3beta8 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta8)\n"
-      href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta8
-      release_date: '2026-07-07T01:19:09+00:00'
-      timeago: 1 week ago
-      title: Avenue (v4.3beta8)
-      version: v4.3beta8
+      version: v3.2.2
   default_branch: main
   name: Phoenix
   releases:
+  - body: "A correctness-and-hardening follow-up to beta8, prompted by a review of\
+      \ the beta8 changes. It reworks announce IP/port validation to be per-family\
+      \ and fail as a client fault, makes configuration writes atomic, replaces the\
+      \ truthy `%placeholder%` defaults with real typed values, and turns the announce\
+      \ rate-limit into a self-contained tunable \u2014 plus smaller fixes for `numwant=0`\
+      \ and non-UTF-8 client labels, a walk-back of beta8's most aggressive interval\
+      \ defaults, and a round of setting renames for clarity. The tracker protocol\
+      \ and database schema are unchanged \u2014 **no DB migration is required.**\r\
+      \n\r\n- BREAKING: Rename several hand-edited settings for clarity and consistency.\
+      \ A `phoenix.custom.php` that sets an old key silently falls back to the new\
+      \ default, so update any overrides: `external_ip` \u2192 `allow_client_ip` (it\
+      \ _accepts_ a client-supplied IP \u2014 not to be confused with `announce_external_ip`,\
+      \ which _returns_ one), `announce_interval` \u2192 `announce_rec_interval` and\
+      \ `min_interval` \u2192 `announce_min_interval` (symmetry with `scrape_min_interval`),\
+      \ `random_limit` \u2192 `random_peers_threshold`, `clean_with_requests` \u2192\
+      \ `clean_request_percent`, `allow_any_proxy` \u2192 `trust_any_forwarded`, and\
+      \ `backup_rotate` \u2192 `backup_retention` (matching `task_retention` / `stats_retention`).\
+      \ The installer and admin panel only ever write unaffected keys, so a normal\
+      \ install needs no change.\r\n- FIX: Rework announce IP/port validation to be\
+      \ per-family and reject bad input as a client fault rather than a server one.\
+      \ A resolved address with no listening port (`?port` omitted, `?port=0`) is\
+      \ now rejected up front (`Missing port.`) instead of being stored as an unreachable\
+      \ peer or left to fail at insert; an out-of-range port drops only its own address\
+      \ family, so a valid IPv4 pair still registers when a client supplies a bad\
+      \ `?ipv6=[\u2026]:port` (with `allow_client_ip` on); and a peer with no routable\
+      \ address \u2014 e.g. a private `REMOTE_ADDR` dropped by `reject_private_ips`\
+      \ with no public fallback \u2014 is rejected rather than stored addressless.\
+      \ A dropped family's absent port is normalised to `0` before it is bound, so\
+      \ an out-of-range per-family port no longer throws on the peer insert under\
+      \ a strict-mode database.\r\n- FIX: Publish `config/phoenix.custom.php` atomically.\
+      \ The admin panel, the installer set-password gate, and the login-time hash\
+      \ upgrade now write to a sibling temp file under an exclusive lock and `rename()`\
+      \ it over the target, so a concurrent request's `settings_load()` never `include`s\
+      \ a half-written file and fatals the whole tracker. Existing file permissions\
+      \ are preserved, and a failed write leaves the previous config intact.\r\n-\
+      \ FIX: Replace the `%placeholder%` values in `config/phoenix.default.php` with\
+      \ real, typed defaults. `db_persist` and `open_tracker` were strings \u2014\
+      \ truthy by accident and mistyped against the settings contract \u2014 and are\
+      \ now proper booleans (`true` / `false`); `db_prefix` defaults to `phoenix_`;\
+      \ the database credentials ship empty. `db_is_configured()` reads empty credentials\
+      \ as \"not configured\", and the missing-config fallback no longer injects demo\
+      \ credentials (a hard-coded `root` / `Password1`), so an unconfigured tracker\
+      \ reports `Tracker is not configured.` cleanly instead of attempting a weak-credential\
+      \ local connection.\r\n- FEATURE: Make the announce rate-limit tunable and decouple\
+      \ its window from the announce cadence. New `announce_rate_limit` (how many\
+      \ other peer_ids one IP may carry on a torrent within the window before the\
+      \ next is throttled; `0` disables the check) and `announce_rate_window` (seconds)\
+      \ settings replace the old hard `count > 0` gate, which cross-blocked unrelated\
+      \ peers sharing one public IPv4 (a home NAT, or CGNAT). The window is now independent,\
+      \ so tuning the announce cadence no longer widens the anti-abuse window as a\
+      \ side effect. On a tracker fronted by a reverse proxy, prefer its per-IP rate\
+      \ limiting and set `announce_rate_limit` to `0`.\r\n- FIX: Honour `numwant=0`\
+      \ as the valid \"send me no peers\" request it is (a seed, or a `stopped` /\
+      \ `completed` announce) instead of folding it up to `max_peers`; the value now\
+      \ clamps to `[0, max_peers]` and negatives floor to `0`. (`numwant` is a de-facto\
+      \ convention, not a numbered BEP; `BEPs.md` is corrected accordingly.)\r\n-\
+      \ FIX: Harden the detected peer-client label against non-UTF-8 and control bytes.\
+      \ An unrecognised Azureus-style client code is surfaced only when it is plain\
+      \ alphanumeric; anything else collapses to `Unknown`, so raw peer_id bytes can\
+      \ never reach the admin Peers views or the stored `events.client` label. The\
+      \ views additionally escape with `ENT_SUBSTITUTE`, so an unexpected byte renders\
+      \ as a replacement character rather than blanking the cell.\r\n- IMPROVES: Walk\
+      \ back beta8's most aggressive interval defaults, now that per-IP abuse is handled\
+      \ by the rate-limit setting: `announce_min_interval` returns to 1 minute (from\
+      \ 10) and `scrape_min_interval` to 15 minutes (from 30), so a manual re-announce\
+      \ or a client scrape is not throttled as hard. `announce_rec_interval` stays\
+      \ at 30 minutes for steady-state load.\r\n\r\n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
+    release_date: '2026-07-15T21:02:45+00:00'
+    timeago: 15 hours ago
+    title: Avenue (v4.3beta9)
+    version: v4.3beta9
   - body: "* BUGFIX: Full and multi-hash scrapes emitted malformed bencode whenever\
       \ more or fewer than exactly one torrent matched; all torrents now share a single\
       \ sorted `files` dictionary.\r\n* BUGFIX: XML scrapes had no root element and\
@@ -737,12 +840,13 @@
       \ configs get an explicit warning that unreplaced `%placeholder%` values are\
       \ truthy (a leftover `%open_tracker%` silently opened the tracker).\r\n* IMPROVES:\
       \ Document admin authentication: bcrypt hash storage, empty password meaning\
-      \ no authentication, and how to reset or recover the password."
-    href: https://github.com/eustasy/Phoenix/releases/tag/3.2.2
+      \ no authentication, and how to reset or recover the password.\r\n\r\n[Compare\
+      \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
+    href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
     release_date: '2026-07-15T11:06:45+00:00'
-    timeago: 1 hour ago
+    timeago: 1 day ago
     title: Haggard (v3.2.2)
-    version: 3.2.2
+    version: v3.2.2
   - body: "A security-hardening release following a full audit of the 4.3 codebase.\
       \ It rebuilds the trusted-proxy / forwarded-address model to be restrictive\
       \ by default, stores API keys as hashes with an admin UI to manage them, gates\
@@ -865,7 +969,7 @@
       \ v4.3beta7 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta7)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta7
     release_date: '2026-06-18T11:40:01+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Avenue (v4.3beta7)
     version: v4.3beta7
   - body: "The 4.3 line is a top-to-bottom visual redesign of every HTML surface onto\
@@ -931,7 +1035,7 @@
       \ v4.2beta5](https://github.com/eustasy/Phoenix/compare/v4.2beta5...v4.3beta6)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta6
     release_date: '2026-06-17T15:55:59+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Avenue (v4.3beta6)
     version: v4.3beta6
   - body: "The 4.2 line expands the admin panel into a full web management UI on top\
