@@ -4,39 +4,39 @@
 - default_branch: main
   name: .normal
   workflows:
-  - branch: dependabot/github_actions/gha-patching-f07bad8f82
+  - branch: dependabot/github_actions/gha-patching-f80e38d1e3
     conclusion: skipped
     event: pull_request_review
     file: claude.yml
-    last_run: '2026-07-14T18:02:42+00:00'
+    last_run: '2026-07-15T18:47:02+00:00'
     name: Claude Code
-    run_url: https://github.com/eustasy/.normal/actions/runs/29356258672
+    run_url: https://github.com/eustasy/.normal/actions/runs/29441949227
     slug: claude.yml
     state: active
     status: completed
-    timeago: 20 hours ago
-  - branch: dependabot/github_actions/configs/dot-github/workflows/actions/setup-node-7
-    conclusion: failure
+    timeago: 19 hours ago
+  - branch: dependabot/github_actions/gha-patching-f80e38d1e3
+    conclusion: success
     event: pull_request
     file: claude-code-review.yml
-    last_run: '2026-07-14T17:34:55+00:00'
+    last_run: '2026-07-15T17:35:00+00:00'
     name: Claude Code Review
-    run_url: https://github.com/eustasy/.normal/actions/runs/29354368176
+    run_url: https://github.com/eustasy/.normal/actions/runs/29437091814
     slug: claude-code-review.yml
     state: active
     status: completed
-    timeago: 20 hours ago
+    timeago: 21 hours ago
   - branch: main
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-14T18:02:43+00:00'
+    last_run: '2026-07-16T12:13:32+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/.normal/actions/runs/29356259839
+    run_url: https://github.com/eustasy/.normal/actions/runs/29497329553
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 20 hours ago
+    timeago: 2 hours ago
   - branch: copilot/consolidate-rm-commands
     conclusion: success
     event: dynamic
@@ -52,13 +52,13 @@
     conclusion: success
     event: dynamic
     file: dependabot-updates
-    last_run: '2026-07-14T17:33:37+00:00'
+    last_run: '2026-07-15T17:33:35+00:00'
     name: Dependabot Updates
-    run_url: https://github.com/eustasy/.normal/actions/runs/29354273438
+    run_url: https://github.com/eustasy/.normal/actions/runs/29436995858
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 20 hours ago
+    timeago: 21 hours ago
 - default_branch: main
   name: .releases
   workflows:
@@ -66,13 +66,13 @@
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-15T12:44:31+00:00'
+    last_run: '2026-07-16T14:33:00+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/.releases/actions/runs/29416382140
+    run_url: https://github.com/eustasy/.releases/actions/runs/29507088620
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 1 hour ago
+    timeago: 3 minutes ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -94,18 +94,18 @@
     slug: community_checks.yml
     state: active
     status: completed
-    timeago: 2 days ago
+    timeago: 3 days ago
   - branch: main
     conclusion: success
     event: schedule
     file: dependabot.yml
-    last_run: '2026-07-15T14:06:57+00:00'
+    last_run: '2026-07-16T14:19:45+00:00'
     name: 'Update: Dependabot'
-    run_url: https://github.com/eustasy/.releases/actions/runs/29422129708
+    run_url: https://github.com/eustasy/.releases/actions/runs/29506087627
     slug: dependabot.yml
     state: active
     status: completed
-    timeago: 18 minutes ago
+    timeago: 16 minutes ago
   - branch: main
     conclusion: success
     event: schedule
@@ -116,7 +116,7 @@
     slug: labels.yml
     state: active
     status: completed
-    timeago: 2 days ago
+    timeago: 3 days ago
   - branch: main
     conclusion: success
     event: schedule
@@ -127,14 +127,14 @@
     slug: licenses.yml
     state: active
     status: completed
-    timeago: 2 days ago
+    timeago: 3 days ago
   - branch: main
     conclusion: success
     event: schedule
     file: list_repositories.yml
-    last_run: '2026-07-15T12:08:55+00:00'
+    last_run: '2026-07-16T12:13:48+00:00'
     name: 'Update: List Repositories'
-    run_url: https://github.com/eustasy/.releases/actions/runs/29414144015
+    run_url: https://github.com/eustasy/.releases/actions/runs/29497346126
     slug: list_repositories.yml
     state: active
     status: completed
@@ -149,25 +149,25 @@
     slug: merge_types.yml
     state: active
     status: completed
-    timeago: 2 days ago
+    timeago: 3 days ago
   - branch: main
     conclusion: success
     event: schedule
     file: normal_checks.yml
-    last_run: '2026-07-15T14:20:00+00:00'
+    last_run: '2026-07-16T14:32:37+00:00'
     name: 'Update: Normal Checks'
-    run_url: https://github.com/eustasy/.releases/actions/runs/29423078461
+    run_url: https://github.com/eustasy/.releases/actions/runs/29507060431
     slug: normal_checks.yml
     state: active
     status: completed
-    timeago: 5 minutes ago
+    timeago: 3 minutes ago
   - branch: main
     conclusion: success
     event: schedule
     file: unreleased_commits.yml
-    last_run: '2026-07-15T12:43:50+00:00'
+    last_run: '2026-07-16T12:52:23+00:00'
     name: 'Update: Unreleased Commits'
-    run_url: https://github.com/eustasy/.releases/actions/runs/29416338483
+    run_url: https://github.com/eustasy/.releases/actions/runs/29499851412
     slug: unreleased_commits.yml
     state: active
     status: completed
@@ -176,24 +176,24 @@
     conclusion: null
     event: schedule
     file: workflows.yml
-    last_run: '2026-07-15T14:24:49+00:00'
+    last_run: '2026-07-16T14:36:05+00:00'
     name: 'Update: Workflows'
-    run_url: https://github.com/eustasy/.releases/actions/runs/29423434753
+    run_url: https://github.com/eustasy/.releases/actions/runs/29507321849
     slug: workflows.yml
     state: active
     status: in_progress
-    timeago: 22 seconds ago
+    timeago: 14 seconds ago
   - branch: main
     conclusion: success
     event: dynamic
     file: pages-build-deployment
-    last_run: '2026-07-15T12:44:31+00:00'
+    last_run: '2026-07-16T14:33:00+00:00'
     name: pages-build-deployment
-    run_url: https://github.com/eustasy/.releases/actions/runs/29416381975
+    run_url: https://github.com/eustasy/.releases/actions/runs/29507088147
     slug: pages/pages-build-deployment
     state: active
     status: completed
-    timeago: 1 hour ago
+    timeago: 3 minutes ago
 - default_branch: main
   name: .ui
   workflows:
@@ -207,7 +207,7 @@
     slug: prettier.yml
     state: active
     status: completed
-    timeago: 1 day ago
+    timeago: 2 days ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -218,7 +218,7 @@
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 4 weeks ago
+    timeago: 1 month ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -229,7 +229,7 @@
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 1 day ago
+    timeago: 2 days ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -240,7 +240,7 @@
     slug: pages/pages-build-deployment
     state: active
     status: completed
-    timeago: 1 day ago
+    timeago: 2 days ago
 - default_branch: master
   name: .uptime
   workflows:
@@ -248,9 +248,9 @@
     conclusion: success
     event: schedule
     file: graphs.yml
-    last_run: '2026-07-15T02:23:30+00:00'
+    last_run: '2026-07-16T02:31:29+00:00'
     name: Graphs CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29383973453
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29466790309
     slug: graphs.yml
     state: active
     status: completed
@@ -259,9 +259,9 @@
     conclusion: success
     event: schedule
     file: response-time.yml
-    last_run: '2026-07-14T23:50:34+00:00'
+    last_run: '2026-07-15T23:55:40+00:00'
     name: Response Time CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29377320742
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29459987294
     slug: response-time.yml
     state: active
     status: completed
@@ -281,9 +281,9 @@
     conclusion: success
     event: schedule
     file: site.yml
-    last_run: '2026-07-15T03:52:15+00:00'
+    last_run: '2026-07-16T03:55:27+00:00'
     name: Static Site CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29387574256
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29470107282
     slug: site.yml
     state: active
     status: completed
@@ -292,9 +292,9 @@
     conclusion: success
     event: schedule
     file: summary.yml
-    last_run: '2026-07-15T01:17:03+00:00'
+    last_run: '2026-07-16T01:27:23+00:00'
     name: Summary CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29381248585
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29464155715
     slug: summary.yml
     state: active
     status: completed
@@ -303,9 +303,9 @@
     conclusion: success
     event: schedule
     file: update-template.yml
-    last_run: '2026-07-15T02:44:33+00:00'
+    last_run: '2026-07-16T02:51:02+00:00'
     name: Update Template CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29384825821
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29467560699
     slug: update-template.yml
     state: active
     status: completed
@@ -314,24 +314,24 @@
     conclusion: success
     event: schedule
     file: updates.yml
-    last_run: '2026-07-15T05:25:13+00:00'
+    last_run: '2026-07-16T05:34:43+00:00'
     name: Updates CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29391401326
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29474258062
     slug: updates.yml
     state: active
     status: completed
-    timeago: 8 hours ago
+    timeago: 9 hours ago
   - branch: master
     conclusion: success
     event: schedule
     file: uptime.yml
-    last_run: '2026-07-15T14:06:36+00:00'
+    last_run: '2026-07-16T14:19:19+00:00'
     name: Uptime CI
-    run_url: https://github.com/eustasy/.uptime/actions/runs/29422104128
+    run_url: https://github.com/eustasy/.uptime/actions/runs/29506055721
     slug: uptime.yml
     state: active
     status: completed
-    timeago: 18 minutes ago
+    timeago: 17 minutes ago
   - branch: gh-pages
     conclusion: success
     event: dynamic
@@ -356,7 +356,7 @@
     slug: claude.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: dependabot/github_actions/actions/checkout-7
     conclusion: skipped
     event: pull_request
@@ -367,18 +367,18 @@
     slug: claude-code-review.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-09T08:31:16+00:00'
+    last_run: '2026-07-16T08:31:11+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/Bubbly/actions/runs/29005011401
+    run_url: https://github.com/eustasy/Bubbly/actions/runs/29483743359
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 6 days ago
+    timeago: 6 hours ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -389,7 +389,7 @@
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -400,7 +400,7 @@
     slug: pages.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -411,7 +411,7 @@
     slug: nginx.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -477,7 +477,7 @@
     slug: security.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -513,7 +513,7 @@
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 20 hours ago
+    timeago: 1 day ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -524,7 +524,7 @@
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -601,7 +601,7 @@
     slug: security.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -612,7 +612,7 @@
     slug: pages/pages-build-deployment
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
 - default_branch: main
   name: Locksmith
   workflows:
@@ -626,7 +626,7 @@
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 1 day ago
+    timeago: 2 days ago
   - branch: copilot/scan-codebase-for-import-issues
     conclusion: success
     event: dynamic
@@ -711,13 +711,13 @@
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-15T11:38:29+00:00'
+    last_run: '2026-07-15T21:02:51+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/Phoenix/actions/runs/29412340966
+    run_url: https://github.com/eustasy/Phoenix/actions/runs/29450526812
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 2 hours ago
+    timeago: 17 hours ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -766,24 +766,24 @@
     conclusion: success
     event: push
     file: md.yml
-    last_run: '2026-07-15T11:38:30+00:00'
+    last_run: '2026-07-15T21:02:52+00:00'
     name: 'Normal: Markdown'
-    run_url: https://github.com/eustasy/Phoenix/actions/runs/29412341804
+    run_url: https://github.com/eustasy/Phoenix/actions/runs/29450527857
     slug: md.yml
     state: active
     status: completed
-    timeago: 2 hours ago
+    timeago: 17 hours ago
   - branch: main
     conclusion: success
     event: push
     file: php.yml
-    last_run: '2026-07-07T01:19:14+00:00'
+    last_run: '2026-07-15T21:02:52+00:00'
     name: 'Normal: PHP'
-    run_url: https://github.com/eustasy/Phoenix/actions/runs/28834674431
+    run_url: https://github.com/eustasy/Phoenix/actions/runs/29450527826
     slug: php.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 17 hours ago
   - branch: main
     conclusion: success
     event: push
@@ -799,13 +799,13 @@
     conclusion: success
     event: push
     file: security.yml
-    last_run: '2026-07-15T11:38:29+00:00'
+    last_run: '2026-07-15T21:02:52+00:00'
     name: 'Normal: Security'
-    run_url: https://github.com/eustasy/Phoenix/actions/runs/29412341724
+    run_url: https://github.com/eustasy/Phoenix/actions/runs/29450527797
     slug: security.yml
     state: active
     status: completed
-    timeago: 2 hours ago
+    timeago: 17 hours ago
   - branch: main
     conclusion: success
     event: push
@@ -832,24 +832,24 @@
     conclusion: success
     event: push
     file: smoke-php.yml
-    last_run: '2026-07-07T01:19:14+00:00'
+    last_run: '2026-07-15T21:02:52+00:00'
     name: 'Smoke: PHP'
-    run_url: https://github.com/eustasy/Phoenix/actions/runs/28834674453
+    run_url: https://github.com/eustasy/Phoenix/actions/runs/29450527863
     slug: smoke-php.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 17 hours ago
   - branch: main
     conclusion: success
     event: push
     file: test-php.yml
-    last_run: '2026-07-07T01:19:14+00:00'
+    last_run: '2026-07-15T21:02:52+00:00'
     name: 'Test: PHP'
-    run_url: https://github.com/eustasy/Phoenix/actions/runs/28834674446
+    run_url: https://github.com/eustasy/Phoenix/actions/runs/29450527871
     slug: test-php.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 17 hours ago
 - default_branch: main
   name: apple-silicon
   workflows:
@@ -863,7 +863,7 @@
     slug: build.yml
     state: active
     status: completed
-    timeago: 5 days ago
+    timeago: 6 days ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -874,7 +874,7 @@
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 4 weeks ago
+    timeago: 1 month ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -885,7 +885,7 @@
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 5 days ago
+    timeago: 6 days ago
   - branch: main
     conclusion: success
     event: push
@@ -896,7 +896,7 @@
     slug: prettier.yml
     state: active
     status: completed
-    timeago: 5 days ago
+    timeago: 6 days ago
 - default_branch: main
   name: authenticatron
   workflows:
@@ -904,13 +904,13 @@
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-09T07:10:34+00:00'
+    last_run: '2026-07-16T07:10:29+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/authenticatron/actions/runs/29000731904
+    run_url: https://github.com/eustasy/authenticatron/actions/runs/29479034956
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 6 days ago
+    timeago: 7 hours ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -976,7 +976,7 @@
     slug: security.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -1001,7 +1001,7 @@
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 4 days ago
+    timeago: 5 days ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -1012,7 +1012,7 @@
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: workflow_dispatch
@@ -1045,7 +1045,7 @@
     slug: security.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: main
     conclusion: success
     event: push
@@ -1067,13 +1067,13 @@
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-15T14:17:26+00:00'
+    last_run: '2026-07-16T14:30:34+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29422892519
+    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29506904022
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 7 minutes ago
+    timeago: 5 minutes ago
   - branch: cf-pages
     conclusion: success
     event: dynamic
@@ -1084,36 +1084,36 @@
     slug: dependabot/dependabot-updates
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: schedule
     file: refresh-commits.yml
-    last_run: '2026-07-15T13:58:38+00:00'
+    last_run: '2026-07-16T14:10:20+00:00'
     name: Refresh commits data
-    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29421509025
+    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29505384999
     slug: refresh-commits.yml
     state: active
     status: completed
-    timeago: 26 minutes ago
+    timeago: 25 minutes ago
   - branch: cf-pages
     conclusion: success
     event: schedule
     file: refresh-discussions.yml
-    last_run: '2026-07-15T14:17:06+00:00'
+    last_run: '2026-07-16T14:30:15+00:00'
     name: Refresh discussions data
-    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29422867989
+    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29506878662
     slug: refresh-discussions.yml
     state: active
     status: completed
-    timeago: 8 minutes ago
+    timeago: 6 minutes ago
   - branch: cf-pages
     conclusion: success
     event: schedule
     file: refresh-repos.yml
-    last_run: '2026-07-15T08:07:55+00:00'
+    last_run: '2026-07-16T08:11:23+00:00'
     name: Refresh repos data
-    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29399699607
+    run_url: https://github.com/eustasy/eustasy.org/actions/runs/29482565142
     slug: refresh-repos.yml
     state: active
     status: completed
@@ -1145,7 +1145,7 @@
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 5 days ago
+    timeago: 6 days ago
   - branch: main
     conclusion: success
     event: dynamic
@@ -1236,18 +1236,18 @@
     slug: build.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: dynamic
     file: codeql
-    last_run: '2026-07-09T09:43:59+00:00'
+    last_run: '2026-07-16T09:44:00+00:00'
     name: CodeQL
-    run_url: https://github.com/eustasy/puff-serverless/actions/runs/29009211735
+    run_url: https://github.com/eustasy/puff-serverless/actions/runs/29488225229
     slug: github-code-scanning/codeql
     state: active
     status: completed
-    timeago: 6 days ago
+    timeago: 4 hours ago
   - branch: copilot/sub-pr-79
     conclusion: success
     event: dynamic
@@ -1280,7 +1280,7 @@
     slug: css.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1291,7 +1291,7 @@
     slug: env.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1302,7 +1302,7 @@
     slug: html.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1313,7 +1313,7 @@
     slug: js.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1324,7 +1324,7 @@
     slug: json.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1335,7 +1335,7 @@
     slug: md.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1346,7 +1346,7 @@
     slug: sql.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1357,7 +1357,7 @@
     slug: security.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: push
@@ -1368,7 +1368,7 @@
     slug: test-js.yml
     state: active
     status: completed
-    timeago: 1 week ago
+    timeago: 2 weeks ago
   - branch: cf-pages
     conclusion: success
     event: workflow_dispatch
