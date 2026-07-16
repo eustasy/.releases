@@ -33,7 +33,7 @@
 - default_branch: main
   name: Phoenix
   normal_checks: 4.0beta10
-  status: current
+  status: behind
 - default_branch: main
   name: apple-silicon
   normal_checks: false
@@ -61,8 +61,8 @@
 - default_branch: main
   name: jQuery.leanModal2
   normal_checks: 4.0beta10
-  status: current
+  status: behind
 - default_branch: cf-pages
   name: puff-serverless
   normal_checks: 4.0beta10
-  status: current
+  status: behind

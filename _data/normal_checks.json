@@ -51,7 +51,7 @@
     "name": "Phoenix",
     "default_branch": "main",
     "normal_checks": "4.0beta10",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "apple-silicon",
@@ -93,12 +93,12 @@
     "name": "jQuery.leanModal2",
     "default_branch": "main",
     "normal_checks": "4.0beta10",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
     "normal_checks": "4.0beta10",
-    "status": "current"
+    "status": "behind"
   }
 ]
