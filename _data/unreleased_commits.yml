@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 4
+    new_commits: 5
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -20,7 +20,7 @@
         \ bumps (repo-only, not installed downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
       release_date: '2026-07-16T12:13:20+00:00'
-      timeago: 5 days ago
+      timeago: 6 days ago
       title: Appletini (4.0beta11)
       version: 4.0beta11
   default_branch: main
@@ -43,7 +43,7 @@
       \ downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
     release_date: '2026-07-16T12:13:20+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: Appletini (4.0beta11)
     version: 4.0beta11
   - body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
@@ -690,7 +690,7 @@
         \n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
       release_date: '2026-07-15T21:02:45+00:00'
-      timeago: 5 days ago
+      timeago: 6 days ago
       title: Avenue (v4.3beta9)
       version: v4.3beta9
   - is_default: false
@@ -732,7 +732,7 @@
         \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
       release_date: '2026-07-15T11:06:45+00:00'
-      timeago: 6 days ago
+      timeago: 1 week ago
       title: Haggard (v3.2.2)
       version: v3.2.2
   default_branch: main
@@ -807,7 +807,7 @@
       \ at 30 minutes for steady-state load.\r\n\r\n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
     release_date: '2026-07-15T21:02:45+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: Avenue (v4.3beta9)
     version: v4.3beta9
   - body: "* BUGFIX: Full and multi-hash scrapes emitted malformed bencode whenever\
@@ -844,7 +844,7 @@
       \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
     release_date: '2026-07-15T11:06:45+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Haggard (v3.2.2)
     version: v3.2.2
   - body: "A security-hardening release following a full audit of the 4.3 codebase.\
