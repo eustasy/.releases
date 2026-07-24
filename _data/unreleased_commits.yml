@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 6
+    new_commits: 7
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\

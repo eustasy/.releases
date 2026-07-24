@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 6,
+        "new_commits": 7,
         "release": {
           "version": "4.0beta11",
           "release_date": "2026-07-16T12:13:20+00:00",
