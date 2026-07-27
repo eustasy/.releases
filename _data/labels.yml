@@ -67,6 +67,7 @@
   - 'Language: PHP'
 - default_branch: master
   extra:
+  - authenticatron-eustasy-org
   - how-to-elementary
   - status
   - status-eustasy-org
