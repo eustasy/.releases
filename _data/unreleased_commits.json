@@ -37,7 +37,7 @@
       {
         "version": "4.0beta9",
         "release_date": "2026-06-01T18:31:19+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "Appletini (4.0beta9)",
         "body": "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta9"
@@ -384,7 +384,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 2,
+        "new_commits": 5,
         "release": {
           "version": "2.1.1",
           "release_date": "2026-06-01T11:14:25+00:00",
@@ -549,7 +549,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 0,
+        "new_commits": 2,
         "release": {
           "version": "v4.3beta9",
           "release_date": "2026-07-15T21:02:45+00:00",
@@ -940,7 +940,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 4,
+        "new_commits": 5,
         "release": {
           "version": "1.31",
           "release_date": "2026-05-31T15:38:03+00:00",
@@ -1057,7 +1057,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 16,
+        "new_commits": 18,
         "release": {
           "version": "2.6.4",
           "release_date": "2026-05-03T01:50:17+00:00",

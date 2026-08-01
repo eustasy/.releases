@@ -60,7 +60,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -475,7 +475,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 2
+    new_commits: 5
     release:
       body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
@@ -616,7 +616,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 2
     release:
       body: "A correctness-and-hardening follow-up to beta8, prompted by a review\
         \ of the beta8 changes. It reworks announce IP/port validation to be per-family\
@@ -1664,7 +1664,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 4
+    new_commits: 5
     release:
       body: "A ground-up rewrite from a single global function into a small, namespaced,\
         \ dependency-injected library. This is a breaking release : the `Browning()`\
@@ -1868,7 +1868,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 16
+    new_commits: 18
     release:
       body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation\
         \ doesn't mention how modals are linked.\r\n- Fix #8: Documentation doesn't\
