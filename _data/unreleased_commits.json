@@ -45,7 +45,7 @@
       {
         "version": "4.0beta8",
         "release_date": "2026-05-31T19:39:53+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "Appletini (4.0beta8)",
         "body": "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\n- [Add step to install PHP dependencies with Composer](https://github.com/eustasy/.normal/commit/ede47cc0ed0c51c73e0ac8f6d15c0d0752cb4612)\r\n- [Update files finding for html/xml](https://github.com/eustasy/.normal/commit/d748b4e6736e6543e53145b6b8dcd4b64ece56c2)\r\n- [Update markdownlint configuration for line length](https://github.com/eustasy/.normal/commit/5387aff82f59111debfad7700b6508797024ad4d)\r\n- [Variable dependabot](https://github.com/eustasy/.normal/commit/185694affcd35a6134e8975754140b0554909176)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta8"
@@ -77,7 +77,7 @@
       {
         "version": "4.0beta4",
         "release_date": "2026-05-31T19:43:40+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "Appletini (4.0beta4)",
         "body": "- Reduce to one linter per language by @lewisgoddard in https://github.com/eustasy/.normal/pull/27\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta4"
@@ -85,7 +85,7 @@
       {
         "version": "4.0beta3",
         "release_date": "2026-05-02T04:30:58+00:00",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Appletini (4.0beta3)",
         "body": "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta3"
@@ -93,7 +93,7 @@
       {
         "version": "4.0beta2",
         "release_date": "2026-05-02T02:05:39+00:00",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Appletini (4.0beta2)",
         "body": "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy, loop workflows by @Copilot in https://github.com/eustasy/.normal/pull/24\r\n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta2"
@@ -101,7 +101,7 @@
       {
         "version": "4.0beta1",
         "release_date": "2026-05-01T22:43:30+00:00",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Appletini (4.0beta1)",
         "body": "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh) with per-language CI workflows.\r\n\r\n### What's new\r\n\r\n**16 CI workflows** replacing the single `normal.yml`:\r\n`security`, `sh`, `sql`, `css`, `md`, `json`, `yaml`, `env`, `xml`, `html`, `js`, `python`, `php`\r\nplus `test-js`, `test-python`, `test-php` (disabled by default — remove `if: false` to activate).\r\n\r\n**New toolchain:**\r\n\r\n| Replaced | With |\r\n|----------|------|\r\n| CodeClimate | Qlty (`qlty.toml`) |\r\n| ESLint | OXC (`oxlint.json`) |\r\n| mdlrc / mdlrc.style.rb | markdownlint |\r\n| Per-repo Prettier configs | Centralised `.qlty/configs/.prettierrc.json` |\r\n| — | Ruff (Python lint + format) |\r\n| — | sqlfluff (SQL lint + format, default dialect: mysql) |\r\n| — | php-cs-fixer, phpstan, phpmd |\r\n| — | VS Code `settings.json` (format-on-save) |\r\n\r\n**Languages added:** Python, TypeScript, SCSS, YAML, XML, `.env`\r\n\r\n**Dependabot** now covers `github-actions`, `npm`, `composer`, and `pip`.\r\n\r\n### Breaking changes\r\n\r\n- Requires [connecting the repo on qlty.sh](https://qlty.sh) (replaces Code Climate webhook)\r\n- `.codeclimate.yml`, `.eslintrc.json`, `.eslintignore`, `.stylelintrc.json`, `.stylelintignore`, `.mdlrc`, `.mdlrc.style.rb` are deleted by `install.sh`\r\n- `normal.yml` workflow is deleted and replaced; existing branch protection rules pointing to it will need updating\r\n\r\n### Upgrade\r\n\r\n```bash\r\ngit clone https://github.com/eustasy/.normal.git &&\r\ncp .normal/install.sh install.sh &&\r\nchmod 755 install.sh &&\r\n./install.sh &&\r\nrm install.sh &&\r\nrm -Rf .normal\r\ngit add -A\r\ngit commit -m \"Migrate to eustasy/.Normal 4.0beta1\"\r\ngit push\r\n```\r\n\r\nThen add `QLTY_COVERAGE_TOKEN` to repo secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta1"
@@ -388,7 +388,7 @@
         "release": {
           "version": "2.1.1",
           "release_date": "2026-06-01T11:14:25+00:00",
-          "timeago": "1 month ago",
+          "timeago": "2 months ago",
           "title": "2.1.1",
           "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -399,7 +399,7 @@
       {
         "version": "2.1.1",
         "release_date": "2026-06-01T11:14:25+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "2.1.1",
         "body": "**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.1"
@@ -787,7 +787,7 @@
         "release": {
           "version": "v4.1.1",
           "release_date": "2026-05-31T21:00:55+00:00",
-          "timeago": "1 month ago",
+          "timeago": "2 months ago",
           "title": "v4.1.1 - Oath with Patch 1",
           "body": "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead of silently continuing with an invalid result.\r\n  IMPROVEMENT: `Authenticatron::makeSecret()` now guards the requested length with `max(1, $length)`, preventing `random_bytes()` from being called with a non-positive value.\r\n  IMPROVEMENT: Type-safety hardening across `src/authenticatron.php` to satisfy strict static analysis (PHPStan) — explicit string/int casts in the Base32 decode and code-generation paths,\r\n  plus array-shape PHPDoc annotations (`@return array<int, string>` and `array{Secret: string, URL: string, QR: string|null}`) on `getCodesInRange()` and `new()`.\r\n\r\n  ### Supporting Changes\r\n  SECURITY: Set `persist-credentials: false` on `actions/checkout` in CI so the `GITHUB_TOKEN` is no longer persisted into the workspace and cannot leak through workflow artifacts.\r\n  SECURITY: Pin `shivammathur/setup-php` to a full commit SHA (`accd6127…` / v2.37.0) instead of the floating `@v2` tag, hardening against supply-chain tampering of the action.\r\n  MAINTENANCE: Adopt the shared `eustasy/.Normal` tooling baseline — `.editorconfig`, `.vscode` settings, qlty configs, and css / markdown / php / security / test workflows.\r\n  MAINTENANCE: Migrate test reporting to qlty.sh; add a root `phpunit.xml`, retire the standalone `test-composer.yml` workflow, and surface maintainability/coverage badges in the README.\r\n  MAINTENANCE: Stop tracking `composer.lock` (this is a library, not an application).\r\n  MAINTENANCE: Format the codebase with php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1",
           "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
@@ -798,7 +798,7 @@
       {
         "version": "v4.1.1",
         "release_date": "2026-05-31T21:00:55+00:00",
-        "timeago": "1 month ago",
+        "timeago": "2 months ago",
         "title": "v4.1.1 - Oath with Patch 1",
         "body": "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead of silently continuing with an invalid result.\r\n  IMPROVEMENT: `Authenticatron::makeSecret()` now guards the requested length with `max(1, $length)`, preventing `random_bytes()` from being called with a non-positive value.\r\n  IMPROVEMENT: Type-safety hardening across `src/authenticatron.php` to satisfy strict static analysis (PHPStan) — explicit string/int casts in the Base32 decode and code-generation paths,\r\n  plus array-shape PHPDoc annotations (`@return array<int, string>` and `array{Secret: string, URL: string, QR: string|null}`) on `getCodesInRange()` and `new()`.\r\n\r\n  ### Supporting Changes\r\n  SECURITY: Set `persist-credentials: false` on `actions/checkout` in CI so the `GITHUB_TOKEN` is no longer persisted into the workspace and cannot leak through workflow artifacts.\r\n  SECURITY: Pin `shivammathur/setup-php` to a full commit SHA (`accd6127…` / v2.37.0) instead of the floating `@v2` tag, hardening against supply-chain tampering of the action.\r\n  MAINTENANCE: Adopt the shared `eustasy/.Normal` tooling baseline — `.editorconfig`, `.vscode` settings, qlty configs, and css / markdown / php / security / test workflows.\r\n  MAINTENANCE: Migrate test reporting to qlty.sh; add a root `phpunit.xml`, retire the standalone `test-composer.yml` workflow, and surface maintainability/coverage badges in the README.\r\n  MAINTENANCE: Stop tracking `composer.lock` (this is a library, not an application).\r\n  MAINTENANCE: Format the codebase with php-cs-fixer and markdownlint.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.1"
