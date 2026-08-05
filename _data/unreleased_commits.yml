@@ -732,7 +732,7 @@
         \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
       release_date: '2026-07-15T11:06:45+00:00'
-      timeago: 2 weeks ago
+      timeago: 3 weeks ago
       title: Haggard (v3.2.2)
       version: v3.2.2
   default_branch: main
@@ -844,7 +844,7 @@
       \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
     release_date: '2026-07-15T11:06:45+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: Haggard (v3.2.2)
     version: v3.2.2
   - body: "A security-hardening release following a full audit of the 4.3 codebase.\
@@ -1207,7 +1207,7 @@
       [Compare v4.0beta3 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta3)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta3
     release_date: '2026-06-04T17:36:53+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Avenue (v4.0beta3)
     version: v4.0beta3
   - body: "A structural-refinement cut on the way to 4.0: finalise the file-naming\
