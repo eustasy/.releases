@@ -227,7 +227,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 126,
+        "new_commits": 127,
         "release": {
           "version": "2.2.0",
           "release_date": "2020-08-02T20:55:34+00:00",
@@ -601,7 +601,7 @@
       {
         "version": "v3.2.1",
         "release_date": "2026-07-07T10:13:33+00:00",
-        "timeago": "4 weeks ago",
+        "timeago": "1 month ago",
         "title": "Haggard (v3.2.1)",
         "body": "* BUGFIX: Restore PHP 7.1 compatibility — 3.2 unintentionally required PHP 8.1+ via `never`/`true` return types, union types, and `str_starts_with()`.\r\n* BUGFIX: Only delete a peer and fire the `stopped` hook when that peer was actually being tracked.\r\n* BUGFIX: Normalize uppercase `info_hash` and `peer_id` to lowercase so a torrent is not split across two swarms.\r\n* IMPROVES: Update README backup and cron instructions to match the PHP backup script.\r\n* IMPROVES: Correct `parse_ipv4` and `peer_format_bencode` unit tests to match intended behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v3.2.1"

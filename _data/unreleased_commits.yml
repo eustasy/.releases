@@ -259,7 +259,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 126
+    new_commits: 127
     release:
       body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
         \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -932,7 +932,7 @@
       \ behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
     release_date: '2026-07-07T10:13:33+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Haggard (v3.2.1)
     version: v3.2.1
   - body: "A correctness-and-polish follow-up to the 4.3 redesign: maintenance tasks\
