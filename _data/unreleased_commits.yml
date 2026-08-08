@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 10
+    new_commits: 11
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -198,14 +198,14 @@
       \ lines for deprecated rules"
     href: https://github.com/eustasy/.normal/releases/tag/1.7
     release_date: '2017-08-09T18:16:33+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Updatable
     version: '1.7'
   - body: "- Config: Remove deprecated `selector-no-id` rule\r\n- Config: Fix `check-permissions.sh`\
       \ description\r\n- Config: Add `install.sh`"
     href: https://github.com/eustasy/.normal/releases/tag/1.6
     release_date: '2017-08-09T18:01:49+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Installable
     version: '1.6'
   - body: "A release primarily made to fix errors with ESLint on Travis.\r\n\r\n-\
@@ -259,7 +259,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 127
+    new_commits: 128
     release:
       body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
         \ `apt install certbot`.**\r\n- Stop auto-updating repository as it may cause\
@@ -590,7 +590,7 @@
   - body: ' - Update to NC 1.7'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.8.2
     release_date: '2017-08-09T19:04:39+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Robotic - with Patch 2
     version: 1.8.2
   - body: '- Fix Travis CI Builds'
