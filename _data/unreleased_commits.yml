@@ -1276,7 +1276,7 @@
       \ full upgrade steps.\r\n\r\n[Compare v4.0beta1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v4.0beta1)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta1
     release_date: '2026-05-09T17:24:36+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: Avenue (v4.0beta1)
     version: v4.0beta1
   - body: "* BREAKING: Requires at least PHP 7.1\r\n* BREAKING: Replace backup bash\
@@ -1316,7 +1316,7 @@
       \n[Compare v3.2 with v3.1](https://github.com/eustasy/Phoenix/compare/v3.1...v3.2)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2
     release_date: '2026-05-09T17:18:33+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: Haggard (v3.2.0)
     version: v3.2
   - body: "- Improved documentation\r\n- Fixed some links\n\n[Compare v3.1.5 with\
