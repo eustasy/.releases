@@ -690,7 +690,7 @@
         \n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
       release_date: '2026-07-15T21:02:45+00:00'
-      timeago: 3 weeks ago
+      timeago: 4 weeks ago
       title: Avenue (v4.3beta9)
       version: v4.3beta9
   - is_default: false
@@ -807,7 +807,7 @@
       \ at 30 minutes for steady-state load.\r\n\r\n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
     release_date: '2026-07-15T21:02:45+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Avenue (v4.3beta9)
     version: v4.3beta9
   - body: "* BUGFIX: Full and multi-hash scrapes emitted malformed bencode whenever\
@@ -1182,7 +1182,7 @@
       \ with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.1beta4)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.1beta4
     release_date: '2026-06-13T02:46:28+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Avenue (v4.1beta4)
     version: v4.1beta4
   - body: "A security-review pass over the refactored 4.0 codebase, plus the CI static-analysis\
