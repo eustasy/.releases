@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 14
+    new_commits: 15
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -503,7 +503,7 @@
       \ codes\r\n- Removed tracking\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.0.9...2.1.0"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.0
     release_date: '2026-05-15T17:47:29+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: 2.1.0
     version: 2.1.0
   - body: "- Add Flexoki color palette\r\n- Move to CSS variable based style rules\
@@ -690,7 +690,7 @@
         \n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
       release_date: '2026-07-15T21:02:45+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: Avenue (v4.3beta9)
       version: v4.3beta9
   - is_default: false
@@ -732,7 +732,7 @@
         \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
       release_date: '2026-07-15T11:06:45+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: Haggard (v3.2.2)
       version: v3.2.2
   default_branch: main
@@ -807,7 +807,7 @@
       \ at 30 minutes for steady-state load.\r\n\r\n[Compare v4.3beta9 with v4.3beta8](https://github.com/eustasy/Phoenix/compare/v4.3beta8...v4.3beta9)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta9
     release_date: '2026-07-15T21:02:45+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Avenue (v4.3beta9)
     version: v4.3beta9
   - body: "* BUGFIX: Full and multi-hash scrapes emitted malformed bencode whenever\
@@ -844,7 +844,7 @@
       \ v3.2.2 with v3.2.1](https://github.com/eustasy/Phoenix/compare/v3.2.1...v3.2.2)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.2
     release_date: '2026-07-15T11:06:45+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Haggard (v3.2.2)
     version: v3.2.2
   - body: "A security-hardening release following a full audit of the 4.3 codebase.\
