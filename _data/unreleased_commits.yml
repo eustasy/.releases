@@ -20,7 +20,7 @@
         \ bumps (repo-only, not installed downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
       release_date: '2026-07-16T12:13:20+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: Appletini (4.0beta11)
       version: 4.0beta11
   default_branch: main
@@ -43,7 +43,7 @@
       \ downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
     release_date: '2026-07-16T12:13:20+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Appletini (4.0beta11)
     version: 4.0beta11
   - body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
@@ -383,7 +383,7 @@
       \n- SUPPORTING: Better linguist detection through [`.gitattributes`](https://github.com/eustasy/bubbly/blob/master/.gitattributes)"
     href: https://github.com/eustasy/Bubbly/releases/tag/2.0.0
     release_date: '2017-08-17T22:06:56+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Abstraction
     version: 2.0.0
   - body: "- SECURITY: **Improve security in configuration files.**\r\n- IMPROVEMENT:\
@@ -1420,7 +1420,7 @@
       \ with v1.3](https://github.com/eustasy/Phoenix/compare/v1.3...v1.4)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v1.4
     release_date: '2015-08-18T21:50:42+00:00'
-    timeago: 10 years ago
+    timeago: 11 years ago
     title: Totalitarian (v1.4)
     version: v1.4
   - body: "BUGFIX: Fixes issue with escaping binary data by storing it all as Hexadecimal.\r\
