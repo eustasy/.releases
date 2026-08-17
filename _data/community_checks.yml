@@ -19,11 +19,11 @@
   issue_template: fallback
   name: .normal
   pull_request_template: fallback
-  pushed_at: '2026-08-07T17:54:43+00:00'
+  pushed_at: '2026-08-14T20:26:01+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-08-07T17:54:56+00:00'
+  updated_at: '2026-08-14T20:26:18+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
@@ -32,11 +32,11 @@
   issue_template: fallback
   name: .releases
   pull_request_template: fallback
-  pushed_at: '2026-08-09T13:39:00+00:00'
+  pushed_at: '2026-08-16T13:21:55+00:00'
   readme: missing
   security: fallback
   support: fallback
-  updated_at: '2026-08-09T13:40:14+00:00'
+  updated_at: '2026-08-16T13:22:33+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
@@ -58,11 +58,11 @@
   issue_template: present
   name: .uptime
   pull_request_template: fallback
-  pushed_at: '2026-08-10T01:43:47+00:00'
+  pushed_at: '2026-08-17T01:11:32+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-08-10T01:43:51+00:00'
+  updated_at: '2026-08-17T01:11:45+00:00'
 - code_of_conduct: fallback
   contributing: present
   discussion_templates: missing
@@ -123,11 +123,11 @@
   issue_template: fallback
   name: apple-silicon
   pull_request_template: fallback
-  pushed_at: '2026-08-07T09:59:47+00:00'
+  pushed_at: '2026-08-14T02:56:52+00:00'
   readme: missing
   security: fallback
   support: fallback
-  updated_at: '2026-08-07T09:59:48+00:00'
+  updated_at: '2026-08-14T02:57:04+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
@@ -175,11 +175,11 @@
   issue_template: fallback
   name: eustasy.org
   pull_request_template: fallback
-  pushed_at: '2026-08-09T19:09:37+00:00'
+  pushed_at: '2026-08-16T18:52:46+00:00'
   readme: present
   security: fallback
   support: fallback
-  updated_at: '2026-08-09T19:09:44+00:00'
+  updated_at: '2026-08-16T18:52:50+00:00'
 - code_of_conduct: fallback
   contributing: fallback
   discussion_templates: missing
