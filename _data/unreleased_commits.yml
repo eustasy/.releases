@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 15
+    new_commits: 16
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -969,7 +969,7 @@
       \ v4.3beta7 with v4.3beta6](https://github.com/eustasy/Phoenix/compare/v4.3beta6...v4.3beta7)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta7
     release_date: '2026-06-18T11:40:01+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Avenue (v4.3beta7)
     version: v4.3beta7
   - body: "The 4.3 line is a top-to-bottom visual redesign of every HTML surface onto\
@@ -1035,7 +1035,7 @@
       \ v4.2beta5](https://github.com/eustasy/Phoenix/compare/v4.2beta5...v4.3beta6)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta6
     release_date: '2026-06-17T15:55:59+00:00'
-    timeago: 1 month ago
+    timeago: 2 months ago
     title: Avenue (v4.3beta6)
     version: v4.3beta6
   - body: "The 4.2 line expands the admin panel into a full web management UI on top\
@@ -1408,7 +1408,7 @@
       \n\n[Compare v2.0 with v1.4](https://github.com/eustasy/Phoenix/compare/v1.4...v2.0)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v2.0
     release_date: '2015-08-20T13:26:02+00:00'
-    timeago: 10 years ago
+    timeago: 11 years ago
     title: Unification (v2.0)
     version: v2.0
   - body: "- FEATURE: Add downloads totals ([#10](https://github.com/eustasy/phoenix/issues/10)).\r\
