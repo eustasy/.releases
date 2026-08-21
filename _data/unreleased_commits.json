@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 16,
+        "new_commits": 17,
         "release": {
           "version": "4.0beta11",
           "release_date": "2026-07-16T12:13:20+00:00",
@@ -838,7 +838,7 @@
       {
         "version": "0.7.5",
         "release_date": "2017-08-22T23:12:33+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Establishment - with Patch 5",
         "body": "- IMPROVEMENT: Better passing of variables/defaults.\r\n- IMPROVEMENT: Update SSL documentation.\r\n- IMPROVEMENT: Update documentation for PHP versions.\r\n- NOTE: Add NC 1.7\r\n- NOTE: Fix spelling errors.",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/0.7.5"
@@ -963,7 +963,7 @@
       {
         "version": "0.30",
         "release_date": "2026-04-20T20:18:18+00:00",
-        "timeago": "3 months ago",
+        "timeago": "4 months ago",
         "title": "Circle",
         "body": "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify error returns\r\n- Better composer support\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.28.1...0.30",
         "href": "https://github.com/eustasy/browning/releases/tag/0.30"
