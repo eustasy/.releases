@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 17
+    new_commits: 18
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -151,7 +151,7 @@
       **Full Changelog**: https://github.com/eustasy/.normal/compare/2.0...3.0"
     href: https://github.com/eustasy/.normal/releases/tag/3.0.1
     release_date: '2022-08-22T18:58:28+00:00'
-    timeago: 3 years ago
+    timeago: 4 years ago
     title: '3.0: Summer'
     version: 3.0.1
   - body: "### MAJOR\r\n**- Remove Codacy.**\r\n\r\n### MINOR\r\n- Activate Stylelint\
