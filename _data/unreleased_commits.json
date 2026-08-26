@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 19,
+        "new_commits": 20,
         "release": {
           "version": "4.0beta11",
           "release_date": "2026-07-16T12:13:20+00:00",
@@ -290,7 +290,7 @@
       {
         "version": "2.0.1",
         "release_date": "2017-08-27T23:46:12+00:00",
-        "timeago": "8 years ago",
+        "timeago": "9 years ago",
         "title": "Abstraction - with Patch 1",
         "body": "### Bugfixes\r\n- Remove ssl variable by recommendation\r\n\r\n### Improvements\r\n- Add additional `ssl_ecdh_curve` option\r\n- Add TLSv1.3 option\r\n\r\n### Supporting\r\n- Rename `CODE_OF_CONDUCT.md` to `.github/CODE_OF_CONDUCT.md`\r\n\r\n### Changes\r\n[2.0.0 to 2.0.1](https://github.com/eustasy/bubbly/compare/2.0.0...2.0.1)",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/2.0.1"
