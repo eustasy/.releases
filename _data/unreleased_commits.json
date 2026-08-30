@@ -649,7 +649,7 @@
       {
         "version": "v4.0beta2",
         "release_date": "2026-05-30T15:20:16+00:00",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Avenue (v4.0beta2)",
         "body": "A structural-refinement cut on the way to 4.0: finalise the file-naming convention, extract the single bencode emitter into its own function, and reorganise the test suite. No behaviour change — **no DB migration is required.**\n\n- IMPROVES: Finalise the one-function-per-file naming — drop the `function.` prefix so each file is named for the function it defines (`parse.ipv4.php`, `sanitize.tracker.php`, …), the convention `ConventionsTest` now enforces.\n- IMPROVES: Funnel all bencode output through a single `bencode_encode()` emitter (`src/functions/bencode.encode.php`) that owns length prefixes, container tokens, and BEP-3 dict-key ordering; rename `peer.format.bencode` → `peer.format.dict` so a view builds a PHP structure and hands it to the one emitter.\n- IMPROVES: Reorganise the PHPUnit suite — rename test classes to match the renamed functions and split combined cases.\n- IMPROVES: Configure Dependabot for GitHub Actions and Composer, and bump `shivammathur/setup-php` ([#51](https://github.com/eustasy/phoenix/issues/51)).\n\n[Compare v4.0beta2 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta2)\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v4.0beta2"
