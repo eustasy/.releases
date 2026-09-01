@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 23,
+        "new_commits": 24,
         "release": {
           "version": "4.0beta11",
           "release_date": "2026-07-16T12:13:20+00:00",
@@ -37,7 +37,7 @@
       {
         "version": "4.0beta9",
         "release_date": "2026-06-01T18:31:19+00:00",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Appletini (4.0beta9)",
         "body": "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\n* Do not install XML just for `phpunit.xml`\r\n* Add htmlvalidate config\r\n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta9"
@@ -85,7 +85,7 @@
       {
         "version": "4.0beta3",
         "release_date": "2026-05-02T04:30:58+00:00",
-        "timeago": "3 months ago",
+        "timeago": "4 months ago",
         "title": "Appletini (4.0beta3)",
         "body": "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta3"
@@ -93,7 +93,7 @@
       {
         "version": "4.0beta2",
         "release_date": "2026-05-02T02:05:39+00:00",
-        "timeago": "3 months ago",
+        "timeago": "4 months ago",
         "title": "Appletini (4.0beta2)",
         "body": "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy, loop workflows by @Copilot in https://github.com/eustasy/.normal/pull/24\r\n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta2"
