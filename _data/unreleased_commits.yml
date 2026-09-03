@@ -52,7 +52,7 @@
       \ as well as .github\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta9...4.0beta10"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta10
     release_date: '2026-06-03T21:14:07+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: Appletini (4.0beta10)
     version: 4.0beta10
   - body: "* Ignore more Qlty.sh files\r\n* Ignore `**/.venv/**`\r\n* Ignore `*.lock`\r\
