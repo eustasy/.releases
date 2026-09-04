@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 24
+    new_commits: 25
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -1207,7 +1207,7 @@
       [Compare v4.0beta3 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta3)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta3
     release_date: '2026-06-04T17:36:53+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: Avenue (v4.0beta3)
     version: v4.0beta3
   - body: "A structural-refinement cut on the way to 4.0: finalise the file-naming\

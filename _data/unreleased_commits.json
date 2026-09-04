@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 24,
+        "new_commits": 25,
         "release": {
           "version": "4.0beta11",
           "release_date": "2026-07-16T12:13:20+00:00",
@@ -641,7 +641,7 @@
       {
         "version": "v4.0beta3",
         "release_date": "2026-06-04T17:36:53+00:00",
-        "timeago": "2 months ago",
+        "timeago": "3 months ago",
         "title": "Avenue (v4.0beta3)",
         "body": "A security-review pass over the refactored 4.0 codebase, plus the CI static-analysis and formatting toolchain, endpoint smoke tests, and this changelog and the migration guide themselves. The tracker protocol and database schema are unchanged — **no DB migration is required.** The 4.0 layout, configuration, and cron changes that affect a 3.x upgrade all landed in v4.0beta1 (below); operators upgrading from 3.x should read its notes and the [3.x → 4.0 Migration Guide](MIGRATING.md) first.\n\n- IMPROVES: Add CSRF tokens to admin panel state-changing forms ([#59](https://github.com/eustasy/phoenix/issues/59)).\n- IMPROVES: Add a brute-force throttle to admin login (session hardening landed in beta1).\n- IMPROVES: Use prepared statements for client-data queries.\n- IMPROVES: Tighten the `Access-Control-Allow-Origin` scope and route source-IP handling through `reject_private_ips`, parsing multi-hop `X-Forwarded-For` correctly.\n- IMPROVES: Add an XML-escape helper for stats/scrape XML output.\n- IMPROVES: Add CI static analysis and formatting via qlty (phpstan + php-cs-fixer), sqlfluff, and markdownlint, and split the single CI workflow into per-concern workflows (markdown, PHP, security, smoke, SQL, tests).\n- IMPROVES: Add endpoint smoke tests to the suite, exercising announce/scrape/admin end to end in CI.\n- DOCS: Add this changelog and the 3.x → 4.0 migration guide ([#61](https://github.com/eustasy/phoenix/issues/61)).\n\n[Compare v4.0beta3 with v4.0beta2](https://github.com/eustasy/Phoenix/compare/v4.0beta2...v4.0beta3)\n[Compare v4.0beta3 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta3)\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v4.0beta3"
