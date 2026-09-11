@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 30
+    new_commits: 31
     release:
       body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
         \ workflows: `type-js.yml` (tsc) and `type-python.yml` (mypy), both guarded\
@@ -376,7 +376,7 @@
         \n\r\n### Changes\r\n\r\n[2.2.0 to 3.0](https://github.com/eustasy/Bubbly/compare/2.2.0...3.0)"
       href: https://github.com/eustasy/Bubbly/releases/tag/3.0
       release_date: '2026-09-10T03:23:50+00:00'
-      timeago: 11 hours ago
+      timeago: 1 day ago
       title: 'Domitian '
       version: '3.0'
   default_branch: main
@@ -494,7 +494,7 @@
       \n### Changes\r\n\r\n[2.2.0 to 3.0](https://github.com/eustasy/Bubbly/compare/2.2.0...3.0)"
     href: https://github.com/eustasy/Bubbly/releases/tag/3.0
     release_date: '2026-09-10T03:23:50+00:00'
-    timeago: 11 hours ago
+    timeago: 1 day ago
     title: 'Domitian '
     version: '3.0'
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
@@ -806,7 +806,7 @@
   - body: ' - Fix duplicate selectors #9'
     href: https://github.com/eustasy/Colors.css/releases/tag/1.9.0
     release_date: '2017-09-13T00:06:34+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Retrospective
     version: 1.9.0
   - body: ' - Update to NC 1.7'
@@ -838,7 +838,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 4
+    new_commits: 90
     release:
       body: "Phoenix v4.3beta10 is an interface release. The admin tables and the\
         \ public index gain searchable meta, sensible default sorting, and layouts\
@@ -907,7 +907,7 @@
         \ described the old columns.\r\n\r\n### Changes\r\n\r\n[v4.3beta9 to v4.3beta10](https://github.com/eustasy/Phoenix/compare/v4.3beta9...v4.3beta10)"
       href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta10
       release_date: '2026-09-10T11:12:02+00:00'
-      timeago: 3 hours ago
+      timeago: 1 day ago
       title: Avenue (v4.3beta10)
       version: v4.3beta10
   - is_default: false
@@ -1021,7 +1021,7 @@
       \n\r\n[v4.3beta9 to v4.3beta10](https://github.com/eustasy/Phoenix/compare/v4.3beta9...v4.3beta10)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta10
     release_date: '2026-09-10T11:12:02+00:00'
-    timeago: 3 hours ago
+    timeago: 1 day ago
     title: Avenue (v4.3beta10)
     version: v4.3beta10
   - body: "A correctness-and-hardening follow-up to beta8, prompted by a review of\
