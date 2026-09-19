@@ -11,7 +11,7 @@
       {
         "package_ecosystem": "github-actions",
         "target_branch": "main",
-        "directory": "/, /configs/.github/workflows",
+        "directory": "/, /configs/.github/workflows, /actions, /css, /env, /html, /js, /js/lint, /js/setup, /js/test, /json, /md, /php, /php/lint, /php/setup, /php/test, /python, /python/lint, /python/setup, /python/test, /security, /sh, /sql, /xml, /yaml",
         "interval": "daily",
         "all_dependencies": false,
         "supports_all": false
@@ -84,6 +84,14 @@
         "interval": "monthly",
         "all_dependencies": false,
         "supports_all": false
+      },
+      {
+        "package_ecosystem": "npm",
+        "target_branch": "main",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": true,
+        "supports_all": true
       }
     ]
   },

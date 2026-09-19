@@ -5,7 +5,9 @@
   name: .normal
   updates:
   - all_dependencies: false
-    directory: /, /configs/.github/workflows
+    directory: /, /configs/.github/workflows, /actions, /css, /env, /html, /js, /js/lint,
+      /js/setup, /js/test, /json, /md, /php, /php/lint, /php/setup, /php/test, /python,
+      /python/lint, /python/setup, /python/test, /security, /sh, /sql, /xml, /yaml
     interval: daily
     package_ecosystem: github-actions
     supports_all: false
@@ -54,6 +56,12 @@
     interval: monthly
     package_ecosystem: github-actions
     supports_all: false
+    target_branch: main
+  - all_dependencies: true
+    directory: /
+    interval: monthly
+    package_ecosystem: npm
+    supports_all: true
     target_branch: main
 - has_config: true
   name: Locksmith
