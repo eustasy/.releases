@@ -3,27 +3,87 @@
     name: main
     new_commits: 0
     release:
-      body: "Upgrade required if you are on 4.0beta11: its `.qlty/configs/.markdownlint.json`\
-        \ is missing a comma and is invalid JSON, so markdownlint always fails.\r\n\
-        \r\n- Default branch is detected at install time. Workflow branches: filters\
-        \ are rewritten to your actual default branch instead of always main. Detection\
-        \ order: `NORMAL_DEFAULT_BRANCH` \u2192 origin/HEAD \u2192 checked-out branch\
-        \ \u2192 main. Repos on a non-main default branch no longer need the manual\
-        \ sed the README used to document.\r\n- npm caching and npm ci are gated on\
-        \ a lockfile in `js.yml`. `cache: npm` previously hard-failed with \"Dependencies\
-        \ lock file is not found\" in repos that only lint JS, which is why several\
-        \ repos had it commented out by hand.\r\n- Fixed invalid JSON in `.markdownlint.json`\
-        \ (missing comma before MD055).\r\n- Also since beta11: `.gitattributes` LF\
-        \ normalization (installed only when absent), a `.shellcheckrc`, `qlty.toml`\
-        \ and `.vscode/settings.json` updates, and consistent shell formatting."
-      href: https://github.com/eustasy/.normal/releases/tag/4.0beta12
-      release_date: '2026-09-18T09:58:09+00:00'
-      timeago: 5 hours ago
-      title: Appletini (4.0beta12)
-      version: 4.0beta12
+      body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
+        \ now sees the composite actions.\n\n- New `.github/workflows/actions.yml`\
+        \ runs actionlint and zizmor, installed unconditionally like `security.yml`.\
+        \ Previously these ran inside `yaml.yml`, which was gated on a file count\
+        \ that prunes `.github` \u2014 so a repo whose only YAML was its workflows\
+        \ got no workflow linting at all. That was 7 of 8 eustasy repos.\n- `yaml.yml`\
+        \ now runs yamllint alone, and no longer triggers on paths yamllint is excluded\
+        \ from.\n- Fixed: Dependabot was watching none of the 23 composite actions,\
+        \ where every hash-pinned third-party action lives since 4.0beta13. `qltysh/qlty-action`\
+        \ and `shivammathur/setup-php` had not been updatable since that release.\n\
+        - The test harness now asserts both that every deployed `.github` YAML is\
+        \ excluded from yamllint, and that every action directory is listed for Dependabot."
+      href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
+      release_date: '2026-09-19T09:13:07+00:00'
+      timeago: 1 hour ago
+      title: Appletini (4.0beta16)
+      version: 4.0beta16
   default_branch: main
   name: .normal
   releases:
+  - body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
+      \ now sees the composite actions.\n\n- New `.github/workflows/actions.yml` runs\
+      \ actionlint and zizmor, installed unconditionally like `security.yml`. Previously\
+      \ these ran inside `yaml.yml`, which was gated on a file count that prunes `.github`\
+      \ \u2014 so a repo whose only YAML was its workflows got no workflow linting\
+      \ at all. That was 7 of 8 eustasy repos.\n- `yaml.yml` now runs yamllint alone,\
+      \ and no longer triggers on paths yamllint is excluded from.\n- Fixed: Dependabot\
+      \ was watching none of the 23 composite actions, where every hash-pinned third-party\
+      \ action lives since 4.0beta13. `qltysh/qlty-action` and `shivammathur/setup-php`\
+      \ had not been updatable since that release.\n- The test harness now asserts\
+      \ both that every deployed `.github` YAML is excluded from yamllint, and that\
+      \ every action directory is listed for Dependabot."
+    href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
+    release_date: '2026-09-19T09:13:07+00:00'
+    timeago: 1 hour ago
+    title: Appletini (4.0beta16)
+    version: 4.0beta16
+  - body: 'Fixes a manifest-load failure in the test actions.
+
+
+      - `js/test`, `php/test` and `python/test` each carried a `${{ matrix.*-version
+      }}` example inside an input description. GitHub evaluates expressions when it
+      loads an action manifest, where `matrix` is out of scope, so any workflow calling
+      these actions failed at "Set up job" before running a step. Only repos with
+      an active `test-*` workflow were affected.
+
+      - The test harness now rejects any `action.yml` referencing a context unavailable
+      at manifest load.'
+    href: https://github.com/eustasy/.normal/releases/tag/4.0beta14
+    release_date: '2026-09-18T18:56:20+00:00'
+    timeago: 15 hours ago
+    title: Appletini (4.0beta14)
+    version: 4.0beta14
+  - body: "Workflows are now thin callers of composite actions. Every repo on beta12\
+      \ should re-run `install.sh`.\n\n- The 18 installed workflows now just call\
+      \ `eustasy/.normal/<language>@v4`. Linting logic moved into 22 composite actions\
+      \ in this repo, referenced by the moving `v4` tag, so a fix reaches every project\
+      \ as soon as the tag moves \u2014 no re-install needed.\n- Languages with a\
+      \ toolchain publish three actions: `<language>/setup`, `<language>/lint` and\
+      \ `<language>/test`. The `test-*` workflows call setup and test as separate\
+      \ steps so project-specific steps (fixtures, migrations, services) can sit between\
+      \ them.\n- New `.github/zizmor.yml`, installed automatically. Required: it grants\
+      \ `eustasy/*` a ref-pin exemption, without which zizmor fails every caller at\
+      \ high severity. Everything else keeps zizmor's hash-pinning default.\n- New\
+      \ `.github/actionlint.yaml`, installed automatically. actionlint 1.7.9 added\
+      \ an `if-cond` rule that flags `if: false` \u2014 the documented way to leave\
+      \ a `test-*`/`type-*` workflow inactive \u2014 so any repo with a deactivated\
+      \ workflow was failing its own `yaml.yml`.\n- Fixed a deprecated Qlty coverage\
+      \ input. The `test-*` workflows passed `coverage-token:`, which upstream deprecated\
+      \ in favour of `token:`, emitting a warning on every run. Affects authenticatron,\
+      \ browning, Locksmith, phoenix and puff-serverless.\n- `html.yml` no longer\
+      \ sets up an npm cache it never populates, and `xml.yml` runs `apt-get update`\
+      \ before installing `libxml2-utils`, closing a stale-lists 404.\n- `.Normal`\
+      \ now tests itself in CI: a harness builds throwaway repos, runs `install.sh`\
+      \ into them, and runs actionlint and zizmor over the deployed workflows and\
+      \ all 22 actions. 68 checks."
+    href: https://github.com/eustasy/.normal/releases/tag/4.0beta13
+    release_date: '2026-09-18T18:17:57+00:00'
+    timeago: 16 hours ago
+    title: Appletini (4.0beta13)
+    version: 4.0beta13
   - body: "Upgrade required if you are on 4.0beta11: its `.qlty/configs/.markdownlint.json`\
       \ is missing a comma and is invalid JSON, so markdownlint always fails.\r\n\r\
       \n- Default branch is detected at install time. Workflow branches: filters are\
@@ -39,7 +99,7 @@
       \ and `.vscode/settings.json` updates, and consistent shell formatting."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta12
     release_date: '2026-09-18T09:58:09+00:00'
-    timeago: 5 hours ago
+    timeago: 1 day ago
     title: Appletini (4.0beta12)
     version: 4.0beta12
   - body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
@@ -275,7 +335,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 5
     release:
       body: "Bubbly 3.0 is a rebuild rather than a refresh. The TLS configuration\
         \ is re-sourced from the TLSRef configurator, the site templates are renamed\
@@ -713,7 +773,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 5
+    new_commits: 11
     release:
       body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
@@ -854,7 +914,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 4
     release:
       body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
         \ 4.x\r\nline was the development series with several sub-versions, and that\
@@ -983,7 +1043,7 @@
         \ \u2014 which BEPs Phoenix implements, and which it deliberately does **not.**"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.0
       release_date: '2026-09-12T07:17:15+00:00'
-      timeago: 6 days ago
+      timeago: 1 week ago
       title: Boulevard (v5.0)
       version: v5.0
   - is_default: false
@@ -1155,7 +1215,7 @@
       \ \u2014 which BEPs Phoenix implements, and which it deliberately does **not.**"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.0
     release_date: '2026-09-12T07:17:15+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Boulevard (v5.0)
     version: v5.0
   - body: "Phoenix v4.3beta11 is the largest release of the 4.3 line. Four new admin\
@@ -1271,7 +1331,7 @@
       \ models.\r\n\r\n### Changes\r\n\r\n[v4.3beta10 to v4.3beta11](https://github.com/eustasy/Phoenix/compare/v4.3beta10...v4.3beta11)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta11
     release_date: '2026-09-12T04:45:52+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Avenue (v4.3beta11)
     version: v4.3beta11
   - body: "Phoenix v4.3beta10 is an interface release. The admin tables and the public\
@@ -2063,7 +2123,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 7
+    new_commits: 10
     release:
       body: "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws\
         \ a `RuntimeException` if `unpack()` fails to decode the HMAC value, instead\
@@ -2269,7 +2329,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 5
+    new_commits: 7
     release:
       body: "A ground-up rewrite from a single global function into a small, namespaced,\
         \ dependency-injected library. This is a breaking release : the `Browning()`\
@@ -2473,7 +2533,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 18
+    new_commits: 20
     release:
       body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation\
         \ doesn't mention how modals are linked.\r\n- Fix #8: Documentation doesn't\
