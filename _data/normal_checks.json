@@ -32,26 +32,26 @@
   {
     "name": "Bubbly",
     "default_branch": "main",
-    "normal_checks": "4.0beta13",
+    "normal_checks": "4.0beta16",
     "status": "current"
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
-    "normal_checks": "4.0beta13",
+    "normal_checks": "4.0beta16",
     "status": "current"
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
-    "normal_checks": "4.0beta9",
-    "status": "behind"
+    "normal_checks": "4.0beta16",
+    "status": "current"
   },
   {
     "name": "Phoenix",
     "default_branch": "main",
-    "normal_checks": "4.0beta10",
-    "status": "behind"
+    "normal_checks": "4.0beta16",
+    "status": "current"
   },
   {
     "name": "apple-silicon",
@@ -62,14 +62,14 @@
   {
     "name": "authenticatron",
     "default_branch": "main",
-    "normal_checks": "4.0beta13",
+    "normal_checks": "4.0beta16",
     "status": "current"
   },
   {
     "name": "browning",
     "default_branch": "main",
-    "normal_checks": "4.0beta7",
-    "status": "behind"
+    "normal_checks": "4.0beta16",
+    "status": "current"
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
@@ -92,13 +92,13 @@
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
-    "normal_checks": "4.0beta13",
+    "normal_checks": "4.0beta16",
     "status": "current"
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
-    "normal_checks": "4.0beta10",
-    "status": "behind"
+    "normal_checks": "4.0beta16",
+    "status": "current"
   }
 ]
