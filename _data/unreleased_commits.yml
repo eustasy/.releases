@@ -17,7 +17,7 @@
         \ excluded from yamllint, and that every action directory is listed for Dependabot."
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
       release_date: '2026-09-19T09:13:07+00:00'
-      timeago: 11 hours ago
+      timeago: 1 day ago
       title: Appletini (4.0beta16)
       version: 4.0beta16
   default_branch: main
@@ -37,7 +37,7 @@
       \ every action directory is listed for Dependabot."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
     release_date: '2026-09-19T09:13:07+00:00'
-    timeago: 11 hours ago
+    timeago: 1 day ago
     title: Appletini (4.0beta16)
     version: 4.0beta16
   - body: 'Fixes a manifest-load failure in the test actions.
@@ -99,7 +99,7 @@
       \ and `.vscode/settings.json` updates, and consistent shell formatting."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta12
     release_date: '2026-09-18T09:58:09+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Appletini (4.0beta12)
     version: 4.0beta12
   - body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
@@ -2417,7 +2417,7 @@
       \ error returns\r\n- Better composer support\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.28.1...0.30"
     href: https://github.com/eustasy/browning/releases/tag/0.30
     release_date: '2026-04-20T20:18:18+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Circle
     version: '0.30'
   - body: "- Wrap all jQuery to fix broken async loading\r\n- Update License year\r\
