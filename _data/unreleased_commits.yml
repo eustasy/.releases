@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 1
     release:
       body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
         \ now sees the composite actions.\n\n- New `.github/workflows/actions.yml`\
@@ -17,7 +17,7 @@
         \ excluded from yamllint, and that every action directory is listed for Dependabot."
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
       release_date: '2026-09-19T09:13:07+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Appletini (4.0beta16)
       version: 4.0beta16
   default_branch: main
@@ -37,7 +37,7 @@
       \ every action directory is listed for Dependabot."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
     release_date: '2026-09-19T09:13:07+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta16)
     version: 4.0beta16
   - body: 'Fixes a manifest-load failure in the test actions.
@@ -53,7 +53,7 @@
       at manifest load.'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta14
     release_date: '2026-09-18T18:56:20+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta14)
     version: 4.0beta14
   - body: "Workflows are now thin callers of composite actions. Every repo on beta12\
@@ -81,7 +81,7 @@
       \ all 22 actions. 68 checks."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta13
     release_date: '2026-09-18T18:17:57+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta13)
     version: 4.0beta13
   - body: "Upgrade required if you are on 4.0beta11: its `.qlty/configs/.markdownlint.json`\
@@ -99,7 +99,7 @@
       \ and `.vscode/settings.json` updates, and consistent shell formatting."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta12
     release_date: '2026-09-18T09:58:09+00:00'
-    timeago: 3 days ago
+    timeago: 4 days ago
     title: Appletini (4.0beta12)
     version: 4.0beta12
   - body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
