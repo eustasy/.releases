@@ -17,7 +17,7 @@
         \ excluded from yamllint, and that every action directory is listed for Dependabot."
       href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
       release_date: '2026-09-19T09:13:07+00:00'
-      timeago: 6 days ago
+      timeago: 1 week ago
       title: Appletini (4.0beta16)
       version: 4.0beta16
   default_branch: main
@@ -37,7 +37,7 @@
       \ every action directory is listed for Dependabot."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta16
     release_date: '2026-09-19T09:13:07+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta16)
     version: 4.0beta16
   - body: 'Fixes a manifest-load failure in the test actions.
@@ -53,7 +53,7 @@
       at manifest load.'
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta14
     release_date: '2026-09-18T18:56:20+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta14)
     version: 4.0beta14
   - body: "Workflows are now thin callers of composite actions. Every repo on beta12\
@@ -81,7 +81,7 @@
       \ all 22 actions. 68 checks."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta13
     release_date: '2026-09-18T18:17:57+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Appletini (4.0beta13)
     version: 4.0beta13
   - body: "Upgrade required if you are on 4.0beta11: its `.qlty/configs/.markdownlint.json`\
@@ -1043,7 +1043,7 @@
         \ \u2014 which BEPs Phoenix implements, and which it deliberately does **not.**"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.0
       release_date: '2026-09-12T07:17:15+00:00'
-      timeago: 1 week ago
+      timeago: 2 weeks ago
       title: Boulevard (v5.0)
       version: v5.0
   - is_default: false
@@ -1215,7 +1215,7 @@
       \ \u2014 which BEPs Phoenix implements, and which it deliberately does **not.**"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.0
     release_date: '2026-09-12T07:17:15+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Boulevard (v5.0)
     version: v5.0
   - body: "Phoenix v4.3beta11 is the largest release of the 4.3 line. Four new admin\
@@ -1331,7 +1331,7 @@
       \ models.\r\n\r\n### Changes\r\n\r\n[v4.3beta10 to v4.3beta11](https://github.com/eustasy/Phoenix/compare/v4.3beta10...v4.3beta11)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta11
     release_date: '2026-09-12T04:45:52+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Avenue (v4.3beta11)
     version: v4.3beta11
   - body: "Phoenix v4.3beta10 is an interface release. The admin tables and the public\
