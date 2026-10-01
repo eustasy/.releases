@@ -136,7 +136,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 3 months ago
+    timeago: 4 months ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -182,7 +182,7 @@
       \ https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -190,7 +190,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -219,7 +219,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -335,7 +335,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 5
+    new_commits: 6
     release:
       body: "Bubbly 3.0 is a rebuild rather than a refresh. The TLS configuration\
         \ is re-sourced from the TLSRef configurator, the site templates are renamed\
@@ -452,7 +452,7 @@
         \n\r\n### Changes\r\n\r\n[2.2.0 to 3.0](https://github.com/eustasy/Bubbly/compare/2.2.0...3.0)"
       href: https://github.com/eustasy/Bubbly/releases/tag/3.0
       release_date: '2026-09-10T03:23:50+00:00'
-      timeago: 2 weeks ago
+      timeago: 3 weeks ago
       title: 'Domitian '
       version: '3.0'
   default_branch: main
@@ -570,7 +570,7 @@
       \n### Changes\r\n\r\n[2.2.0 to 3.0](https://github.com/eustasy/Bubbly/compare/2.2.0...3.0)"
     href: https://github.com/eustasy/Bubbly/releases/tag/3.0
     release_date: '2026-09-10T03:23:50+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: 'Domitian '
     version: '3.0'
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
@@ -778,7 +778,7 @@
       body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
       release_date: '2026-06-01T11:14:25+00:00'
-      timeago: 3 months ago
+      timeago: 4 months ago
       title: 2.1.1
       version: 2.1.1
   default_branch: main
@@ -787,7 +787,7 @@
   - body: '**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.0...2.1.1'
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
     release_date: '2026-06-01T11:14:25+00:00'
-    timeago: 3 months ago
+    timeago: 4 months ago
     title: 2.1.1
     version: 2.1.1
   - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
@@ -914,7 +914,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 8
+    new_commits: 9
     release:
       body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
         \ 4.x\r\nline was the development series with several sub-versions, and that\
@@ -1400,7 +1400,7 @@
       \n\r\n[v4.3beta9 to v4.3beta10](https://github.com/eustasy/Phoenix/compare/v4.3beta9...v4.3beta10)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta10
     release_date: '2026-09-10T11:12:02+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: Avenue (v4.3beta10)
     version: v4.3beta10
   - body: "A correctness-and-hardening follow-up to beta8, prompted by a review of\
