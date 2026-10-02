@@ -99,7 +99,7 @@
       \ and `.vscode/settings.json` updates, and consistent shell formatting."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta12
     release_date: '2026-09-18T09:58:09+00:00'
-    timeago: 1 week ago
+    timeago: 2 weeks ago
     title: Appletini (4.0beta12)
     version: 4.0beta12
   - body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
@@ -2541,7 +2541,7 @@
         \ HTML.\r\n\r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
       href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
       release_date: '2026-05-03T01:50:17+00:00'
-      timeago: 4 months ago
+      timeago: 5 months ago
       title: Julian - with Patch 4
       version: 2.6.4
   default_branch: main
@@ -2553,7 +2553,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
     release_date: '2026-05-03T01:50:17+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Julian - with Patch 4
     version: 2.6.4
   - body: '- Move all CSS to a block'
@@ -2669,6 +2669,6 @@
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.0
     release_date: '2014-10-04T19:46:52+00:00'
-    timeago: 11 years ago
+    timeago: 12 years ago
     title: '2.0'
     version: '2.0'
