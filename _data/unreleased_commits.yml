@@ -452,7 +452,7 @@
         \n\r\n### Changes\r\n\r\n[2.2.0 to 3.0](https://github.com/eustasy/Bubbly/compare/2.2.0...3.0)"
       href: https://github.com/eustasy/Bubbly/releases/tag/3.0
       release_date: '2026-09-10T03:23:50+00:00'
-      timeago: 3 weeks ago
+      timeago: 4 weeks ago
       title: 'Domitian '
       version: '3.0'
   default_branch: main
@@ -570,7 +570,7 @@
       \n### Changes\r\n\r\n[2.2.0 to 3.0](https://github.com/eustasy/Bubbly/compare/2.2.0...3.0)"
     href: https://github.com/eustasy/Bubbly/releases/tag/3.0
     release_date: '2026-09-10T03:23:50+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: 'Domitian '
     version: '3.0'
   - body: "### Upgrade Warnings\r\n- Moved from `certbot-auto` to `certbot`. **Run\
@@ -1400,7 +1400,7 @@
       \n\r\n[v4.3beta9 to v4.3beta10](https://github.com/eustasy/Phoenix/compare/v4.3beta9...v4.3beta10)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta10
     release_date: '2026-09-10T11:12:02+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Avenue (v4.3beta10)
     version: v4.3beta10
   - body: "A correctness-and-hardening follow-up to beta8, prompted by a review of\
