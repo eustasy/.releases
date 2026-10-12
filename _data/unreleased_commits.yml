@@ -1043,7 +1043,7 @@
         \ \u2014 which BEPs Phoenix implements, and which it deliberately does **not.**"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.0
       release_date: '2026-09-12T07:17:15+00:00'
-      timeago: 4 weeks ago
+      timeago: 1 month ago
       title: Boulevard (v5.0)
       version: v5.0
   - is_default: false
@@ -1215,7 +1215,7 @@
       \ \u2014 which BEPs Phoenix implements, and which it deliberately does **not.**"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.0
     release_date: '2026-09-12T07:17:15+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Boulevard (v5.0)
     version: v5.0
   - body: "Phoenix v4.3beta11 is the largest release of the 4.3 line. Four new admin\
@@ -1331,7 +1331,7 @@
       \ models.\r\n\r\n### Changes\r\n\r\n[v4.3beta10 to v4.3beta11](https://github.com/eustasy/Phoenix/compare/v4.3beta10...v4.3beta11)"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.3beta11
     release_date: '2026-09-12T04:45:52+00:00'
-    timeago: 4 weeks ago
+    timeago: 1 month ago
     title: Avenue (v4.3beta11)
     version: v4.3beta11
   - body: "Phoenix v4.3beta10 is an interface release. The admin tables and the public\
@@ -1847,7 +1847,7 @@
       \ with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.1beta4)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.1beta4
     release_date: '2026-06-13T02:46:28+00:00'
-    timeago: 3 months ago
+    timeago: 4 months ago
     title: Avenue (v4.1beta4)
     version: v4.1beta4
   - body: "A security-review pass over the refactored 4.0 codebase, plus the CI static-analysis\
