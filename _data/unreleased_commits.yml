@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 2
+    new_commits: 3
     release:
       body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
         \ now sees the composite actions.\n\n- New `.github/workflows/actions.yml`\
@@ -1770,7 +1770,7 @@
       \ it.\n\n[Compare v4.2beta5 with v4.1beta4](https://github.com/eustasy/Phoenix/compare/v4.1beta4...v4.2beta5)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.2beta5
     release_date: '2026-06-14T11:08:26+00:00'
-    timeago: 3 months ago
+    timeago: 4 months ago
     title: Avenue (v4.2beta5)
     version: v4.2beta5
   - body: "- FEATURE: Add a tracker management API under `public/api/`, with one thin\
@@ -2425,7 +2425,7 @@
       \ and Bountysource\r\n- Add NC 1.7\r\n"
     href: https://github.com/eustasy/browning/releases/tag/0.29.0
     release_date: '2017-10-15T21:35:31+00:00'
-    timeago: 8 years ago
+    timeago: 9 years ago
     title: Square
     version: 0.29.0
   - body: '- #5 Update code example and add to the homepage.
