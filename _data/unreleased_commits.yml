@@ -99,7 +99,7 @@
       \ and `.vscode/settings.json` updates, and consistent shell formatting."
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta12
     release_date: '2026-09-18T09:58:09+00:00'
-    timeago: 3 weeks ago
+    timeago: 4 weeks ago
     title: Appletini (4.0beta12)
     version: 4.0beta12
   - body: "### Changes to what install.sh puts in downstream repos:\r\n- New typecheck\
@@ -119,7 +119,7 @@
       \ downstream)\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta10...4.0beta11"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta11
     release_date: '2026-07-16T12:13:20+00:00'
-    timeago: 2 months ago
+    timeago: 3 months ago
     title: Appletini (4.0beta11)
     version: 4.0beta11
   - body: "- [Fix sqlfluff](https://github.com/eustasy/.normal/commit/3768fad93957575511444a5ff30f6e0f79b22553)\r\
