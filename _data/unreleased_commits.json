@@ -10,7 +10,7 @@
         "release": {
           "version": "4.0beta16",
           "release_date": "2026-09-19T09:13:07+00:00",
-          "timeago": "4 weeks ago",
+          "timeago": "1 month ago",
           "title": "Appletini (4.0beta16)",
           "body": "Workflow linting moves into its own always-installed workflow, and Dependabot now sees the composite actions.\n\n- New `.github/workflows/actions.yml` runs actionlint and zizmor, installed unconditionally like `security.yml`. Previously these ran inside `yaml.yml`, which was gated on a file count that prunes `.github` — so a repo whose only YAML was its workflows got no workflow linting at all. That was 7 of 8 eustasy repos.\n- `yaml.yml` now runs yamllint alone, and no longer triggers on paths yamllint is excluded from.\n- Fixed: Dependabot was watching none of the 23 composite actions, where every hash-pinned third-party action lives since 4.0beta13. `qltysh/qlty-action` and `shivammathur/setup-php` had not been updatable since that release.\n- The test harness now asserts both that every deployed `.github` YAML is excluded from yamllint, and that every action directory is listed for Dependabot.",
           "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta16"
@@ -21,7 +21,7 @@
       {
         "version": "4.0beta16",
         "release_date": "2026-09-19T09:13:07+00:00",
-        "timeago": "4 weeks ago",
+        "timeago": "1 month ago",
         "title": "Appletini (4.0beta16)",
         "body": "Workflow linting moves into its own always-installed workflow, and Dependabot now sees the composite actions.\n\n- New `.github/workflows/actions.yml` runs actionlint and zizmor, installed unconditionally like `security.yml`. Previously these ran inside `yaml.yml`, which was gated on a file count that prunes `.github` — so a repo whose only YAML was its workflows got no workflow linting at all. That was 7 of 8 eustasy repos.\n- `yaml.yml` now runs yamllint alone, and no longer triggers on paths yamllint is excluded from.\n- Fixed: Dependabot was watching none of the 23 composite actions, where every hash-pinned third-party action lives since 4.0beta13. `qltysh/qlty-action` and `shivammathur/setup-php` had not been updatable since that release.\n- The test harness now asserts both that every deployed `.github` YAML is excluded from yamllint, and that every action directory is listed for Dependabot.",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta16"
@@ -1027,7 +1027,7 @@
       {
         "version": "0.30",
         "release_date": "2026-04-20T20:18:18+00:00",
-        "timeago": "5 months ago",
+        "timeago": "6 months ago",
         "title": "Circle",
         "body": "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify error returns\r\n- Better composer support\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.28.1...0.30",
         "href": "https://github.com/eustasy/browning/releases/tag/0.30"
