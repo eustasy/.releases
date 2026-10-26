@@ -14,8 +14,8 @@
   license_type: GPLv3
   license_year: '2007'
   name: .releases
-  pushed_at: '2026-10-19T04:02:59+00:00'
-  updated_at: '2026-10-19T04:03:03+00:00'
+  pushed_at: '2026-10-26T04:06:11+00:00'
+  updated_at: '2026-10-26T04:06:15+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -26,8 +26,8 @@
   license_type: MIT
   license_year: '2020'
   name: .uptime
-  pushed_at: '2026-10-19T03:54:31+00:00'
-  updated_at: '2026-10-19T03:54:34+00:00'
+  pushed_at: '2026-10-26T03:57:05+00:00'
+  updated_at: '2026-10-26T03:57:08+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -56,8 +56,8 @@
   license_type: false
   license_year: false
   name: apple-silicon
-  pushed_at: '2026-10-15T20:02:02+00:00'
-  updated_at: '2026-10-15T20:02:06+00:00'
+  pushed_at: '2026-10-22T20:10:16+00:00'
+  updated_at: '2026-10-22T20:10:19+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -80,8 +80,8 @@
   license_type: MIT
   license_year: '2026'
   name: eustasy.org
-  pushed_at: '2026-10-19T04:59:40+00:00'
-  updated_at: '2026-10-19T04:59:44+00:00'
+  pushed_at: '2026-10-26T04:23:43+00:00'
+  updated_at: '2026-10-26T04:23:46+00:00'
 - license_file: LICENSE.md
   license_type: MIT
   license_year: '2026'
@@ -98,5 +98,5 @@
   license_type: MIT
   license_year: '2026'
   name: puff-serverless
-  pushed_at: '2026-10-01T04:50:19+00:00'
-  updated_at: '2026-10-01T04:50:20+00:00'
+  pushed_at: '2026-10-21T16:18:19+00:00'
+  updated_at: '2026-10-21T16:18:31+00:00'
