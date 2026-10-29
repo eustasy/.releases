@@ -44,8 +44,8 @@
   {
     "name": "Locksmith",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
-    "status": "behind"
+    "normal_checks": "5.0",
+    "status": "current"
   },
   {
     "name": "Phoenix",
@@ -98,7 +98,7 @@
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
-    "normal_checks": "4.0beta16",
-    "status": "behind"
+    "normal_checks": "5.0",
+    "status": "current"
   }
 ]

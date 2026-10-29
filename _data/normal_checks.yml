@@ -28,8 +28,8 @@
   status: current
 - default_branch: main
   name: Locksmith
-  normal_checks: 4.0beta16
-  status: behind
+  normal_checks: '5.0'
+  status: current
 - default_branch: main
   name: Phoenix
   normal_checks: '5.0'
@@ -64,5 +64,5 @@
   status: current
 - default_branch: cf-pages
   name: puff-serverless
-  normal_checks: 4.0beta16
-  status: behind
+  normal_checks: '5.0'
+  status: current
