@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 1
     release:
       body: 'The first stable release of .Normal, graduating the Appletini 4.0 betas.
 
@@ -17,7 +17,7 @@
         '
       href: https://github.com/eustasy/.normal/releases/tag/5.0
       release_date: '2026-10-29T05:33:26+00:00'
-      timeago: 2 hours ago
+      timeago: 11 hours ago
       title: Bellini (5.0)
       version: '5.0'
   default_branch: main
@@ -37,7 +37,7 @@
       '
     href: https://github.com/eustasy/.normal/releases/tag/5.0
     release_date: '2026-10-29T05:33:26+00:00'
-    timeago: 2 hours ago
+    timeago: 11 hours ago
     title: Bellini (5.0)
     version: '5.0'
   - body: 'Python moves to the current stable release, and the pinned third-party
@@ -58,7 +58,7 @@
       '
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta17
     release_date: '2026-10-29T05:29:38+00:00'
-    timeago: 2 hours ago
+    timeago: 11 hours ago
     title: Appletini (4.0beta17)
     version: 4.0beta17
   - body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
@@ -397,7 +397,7 @@
         \n**Full Changelog**: https://github.com/eustasy/Bubbly/compare/3.0...3.1\n"
       href: https://github.com/eustasy/Bubbly/releases/tag/3.1
       release_date: '2026-10-29T07:17:12+00:00'
-      timeago: 25 minutes ago
+      timeago: 10 hours ago
       title: Domitian (3.1)
       version: '3.1'
   default_branch: main
@@ -425,7 +425,7 @@
       \ https://github.com/eustasy/Bubbly/compare/3.0...3.1\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/3.1
     release_date: '2026-10-29T07:17:12+00:00'
-    timeago: 25 minutes ago
+    timeago: 10 hours ago
     title: Domitian (3.1)
     version: '3.1'
   - body: "Bubbly 3.0 is a rebuild rather than a refresh. The TLS configuration is\
@@ -757,7 +757,7 @@
         \n"
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.2
       release_date: '2026-10-29T05:45:55+00:00'
-      timeago: 1 hour ago
+      timeago: 11 hours ago
       title: 2.1.2
       version: 2.1.2
   default_branch: main
@@ -775,7 +775,7 @@
       \n"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.2
     release_date: '2026-10-29T05:45:55+00:00'
-    timeago: 1 hour ago
+    timeago: 11 hours ago
     title: 2.1.2
     version: 2.1.2
   - body: 'The combined `colors.css` now declares every palette in a single `:root`
@@ -963,7 +963,7 @@
         \n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
       release_date: '2026-10-29T07:10:58+00:00'
-      timeago: 31 minutes ago
+      timeago: 10 hours ago
       title: Boulevard (v5.1)
       version: v5.1
   - is_default: false
@@ -1038,7 +1038,7 @@
       \n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
     release_date: '2026-10-29T07:10:58+00:00'
-    timeago: 31 minutes ago
+    timeago: 10 hours ago
     title: Boulevard (v5.1)
     version: v5.1
   - body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
@@ -1841,7 +1841,7 @@
       \n[Compare v4.0beta2 with v4.0beta1](https://github.com/eustasy/Phoenix/compare/v4.0beta1...v4.0beta2)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v4.0beta2
     release_date: '2026-05-30T15:20:16+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Avenue (v4.0beta2)
     version: v4.0beta2
   - body: "The 4.0 line is a ground-up refactor of the 3.x codebase: a new on-disk\
@@ -2095,7 +2095,7 @@
         \ to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n"
       href: https://github.com/eustasy/authenticatron/releases/tag/4.2
       release_date: '2026-10-29T06:51:38+00:00'
-      timeago: 51 minutes ago
+      timeago: 10 hours ago
       title: 4.2 - Mandate
       version: '4.2'
   default_branch: main
@@ -2120,7 +2120,7 @@
       \ image as before. Tests run on PHP 8.2 to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/4.2
     release_date: '2026-10-29T06:51:38+00:00'
-    timeago: 51 minutes ago
+    timeago: 10 hours ago
     title: 4.2 - Mandate
     version: '4.2'
   - body: "Security fixes for the example pages. The library itself, `src/authenticatron.php`,\
@@ -2140,7 +2140,7 @@
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.2
     release_date: '2026-10-29T06:26:53+00:00'
-    timeago: 1 hour ago
+    timeago: 10 hours ago
     title: v4.1.2 - Oath with Patch 2
     version: v4.1.2
   - body: "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws\
@@ -2348,7 +2348,7 @@
         '
       href: https://github.com/eustasy/browning/releases/tag/1.32
       release_date: '2026-10-29T07:39:29+00:00'
-      timeago: 3 minutes ago
+      timeago: 9 hours ago
       title: Browning (1.32)
       version: '1.32'
   default_branch: main
@@ -2382,7 +2382,7 @@
       '
     href: https://github.com/eustasy/browning/releases/tag/1.32
     release_date: '2026-10-29T07:39:29+00:00'
-    timeago: 3 minutes ago
+    timeago: 9 hours ago
     title: Browning (1.32)
     version: '1.32'
   - body: "A ground-up rewrite from a single global function into a small, namespaced,\
@@ -2527,7 +2527,7 @@
         \n"
       href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
       release_date: '2026-10-29T05:58:49+00:00'
-      timeago: 1 hour ago
+      timeago: 11 hours ago
       title: Julian - with Patch 5
       version: 2.6.5
   default_branch: main
@@ -2554,7 +2554,7 @@
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
     release_date: '2026-10-29T05:58:49+00:00'
-    timeago: 1 hour ago
+    timeago: 11 hours ago
     title: Julian - with Patch 5
     version: 2.6.5
   - body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't\
