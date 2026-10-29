@@ -32,25 +32,25 @@
   {
     "name": "Bubbly",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
+    "normal_checks": "5.0",
     "status": "current"
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
+    "normal_checks": "5.0",
     "status": "current"
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
     "normal_checks": "4.0beta16",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Phoenix",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
+    "normal_checks": "5.0",
     "status": "current"
   },
   {
@@ -62,13 +62,13 @@
   {
     "name": "authenticatron",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
+    "normal_checks": "5.0",
     "status": "current"
   },
   {
     "name": "browning",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
+    "normal_checks": "5.0",
     "status": "current"
   },
   {
@@ -92,13 +92,13 @@
   {
     "name": "jQuery.leanModal2",
     "default_branch": "main",
-    "normal_checks": "4.0beta16",
+    "normal_checks": "5.0",
     "status": "current"
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
     "normal_checks": "4.0beta16",
-    "status": "current"
+    "status": "behind"
   }
 ]
