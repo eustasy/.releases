@@ -10,7 +10,7 @@
         "release": {
           "version": "5.0",
           "release_date": "2026-10-29T05:33:26+00:00",
-          "timeago": "11 hours ago",
+          "timeago": "1 day ago",
           "title": "Bellini (5.0)",
           "body": "The first stable release of .Normal, graduating the Appletini 4.0 betas.\n\n- Deployed workflows and the composite actions now reference `eustasy/.normal/<action>@v5`. The `v5` and `v5.0` tags follow each 5.x release.\n- `v4` stays at 4.0beta17, so repositories still on the 4.0 betas keep working unchanged. Re-run `install.sh` to move a repository to `@v5`.\n- There are no functional changes from 4.0beta17.\n",
           "href": "https://github.com/eustasy/.normal/releases/tag/5.0"
@@ -21,7 +21,7 @@
       {
         "version": "5.0",
         "release_date": "2026-10-29T05:33:26+00:00",
-        "timeago": "11 hours ago",
+        "timeago": "1 day ago",
         "title": "Bellini (5.0)",
         "body": "The first stable release of .Normal, graduating the Appletini 4.0 betas.\n\n- Deployed workflows and the composite actions now reference `eustasy/.normal/<action>@v5`. The `v5` and `v5.0` tags follow each 5.x release.\n- `v4` stays at 4.0beta17, so repositories still on the 4.0 betas keep working unchanged. Re-run `install.sh` to move a repository to `@v5`.\n- There are no functional changes from 4.0beta17.\n",
         "href": "https://github.com/eustasy/.normal/releases/tag/5.0"
@@ -29,7 +29,7 @@
       {
         "version": "4.0beta17",
         "release_date": "2026-10-29T05:29:38+00:00",
-        "timeago": "11 hours ago",
+        "timeago": "1 day ago",
         "title": "Appletini (4.0beta17)",
         "body": "Python moves to the current stable release, and the pinned third-party actions are updated.\n\n- `python.yml` and `test-python.yml` now test 3.11 through 3.15. Coverage uploads from 3.14, and `type-python.yml` typechecks on 3.14.\n- `python/setup` passes `allow-prereleases: true`, so the newest matrix leg still runs before its final release lands on the runners.\n- `test-php.yml` uploads coverage from PHP 8.5 instead of 8.6.\n- Updated `qltysh/qlty-action` from v2.3.0 to v2.5.0 and `shivammathur/setup-php` from v2.37.2 to v2.40.0 across the composite actions.\n",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta17"
@@ -101,7 +101,7 @@
       {
         "version": "4.0beta7",
         "release_date": "2026-05-31T10:51:26+00:00",
-        "timeago": "4 months ago",
+        "timeago": "5 months ago",
         "title": "Appletini (4.0beta7)",
         "body": "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal when installing workflows and dependabot.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta6...4.0beta7",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta7"
@@ -109,7 +109,7 @@
       {
         "version": "4.0beta6",
         "release_date": "2026-05-31T10:31:27+00:00",
-        "timeago": "4 months ago",
+        "timeago": "5 months ago",
         "title": "Appletini (4.0beta6)",
         "body": "- Expand exclusions\r\n- Do not install json workflow for machine generated files\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta5...4.0beta6",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta6"
@@ -117,7 +117,7 @@
       {
         "version": "4.0beta5",
         "release_date": "2026-05-31T09:49:47+00:00",
-        "timeago": "4 months ago",
+        "timeago": "5 months ago",
         "title": "Appletini (4.0beta5)",
         "body": "- Add `workflow_dispatch`\r\n- Remove `semgrep`\r\n- Fix exclude patterns\r\n- Cleanup old workflows in install\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta4...4.0beta5",
         "href": "https://github.com/eustasy/.normal/releases/tag/4.0beta5"
@@ -279,7 +279,7 @@
         "release": {
           "version": "3.1",
           "release_date": "2026-10-29T07:17:12+00:00",
-          "timeago": "10 hours ago",
+          "timeago": "1 day ago",
           "title": "Domitian (3.1)",
           "body": "Bubbly 3.1 makes the `www` host optional, so subdomains and sites without `www` no longer need to hand-edit it out.\n\n### Upgrade Warnings\n\n- **The `www` → apex HTTPS redirect has moved out of `bubbly_https.conf` into its own template, `sites-available/bubbly_www.conf`.** Existing site files keep working as they are. **If you make a new `example.com_https.conf` from the 3.1 template and your certificate names `www`, also copy, edit and enable `bubbly_www.conf`**, or `https://www.example.com` stops redirecting.\n\n### Feature\n\n- Fix #41: Make `www` setup and redirects optional. `bubbly_https.conf` serves the apex alone, `bubbly_www.conf` adds the `www` redirect when it's wanted, and `bubbly_http.conf` marks `www` as an `[OPTION]`, with a `[WARNING]` to remove it for subdomains.\n- The landing page has a toggle for the optional `www`, which adds or removes it from every copyable command.\n\n### Improvement\n\n- The README covers leaving off `-d www.example.com` when renewing, and adds the steps to enable `bubbly_www.conf`.\n\n### Supporting\n\n- Install eustasy/.Normal 5.0, with Markdown, JavaScript and shell scripts formatted to match, and its line-ending normalization adopted in `.gitattributes`. The scripts changed only in whitespace.\n- The nginx CI checks every site template, and that `www` redirects to the apex over both HTTP and HTTPS.\n- Document why the nginx container image and two shell idioms are intentional.\n\n**Full Changelog**: https://github.com/eustasy/Bubbly/compare/3.0...3.1\n",
           "href": "https://github.com/eustasy/Bubbly/releases/tag/3.1"
@@ -290,7 +290,7 @@
       {
         "version": "3.1",
         "release_date": "2026-10-29T07:17:12+00:00",
-        "timeago": "10 hours ago",
+        "timeago": "1 day ago",
         "title": "Domitian (3.1)",
         "body": "Bubbly 3.1 makes the `www` host optional, so subdomains and sites without `www` no longer need to hand-edit it out.\n\n### Upgrade Warnings\n\n- **The `www` → apex HTTPS redirect has moved out of `bubbly_https.conf` into its own template, `sites-available/bubbly_www.conf`.** Existing site files keep working as they are. **If you make a new `example.com_https.conf` from the 3.1 template and your certificate names `www`, also copy, edit and enable `bubbly_www.conf`**, or `https://www.example.com` stops redirecting.\n\n### Feature\n\n- Fix #41: Make `www` setup and redirects optional. `bubbly_https.conf` serves the apex alone, `bubbly_www.conf` adds the `www` redirect when it's wanted, and `bubbly_http.conf` marks `www` as an `[OPTION]`, with a `[WARNING]` to remove it for subdomains.\n- The landing page has a toggle for the optional `www`, which adds or removes it from every copyable command.\n\n### Improvement\n\n- The README covers leaving off `-d www.example.com` when renewing, and adds the steps to enable `bubbly_www.conf`.\n\n### Supporting\n\n- Install eustasy/.Normal 5.0, with Markdown, JavaScript and shell scripts formatted to match, and its line-ending normalization adopted in `.gitattributes`. The scripts changed only in whitespace.\n- The nginx CI checks every site template, and that `www` redirects to the apex over both HTTP and HTTPS.\n- Document why the nginx container image and two shell idioms are intentional.\n\n**Full Changelog**: https://github.com/eustasy/Bubbly/compare/3.0...3.1\n",
         "href": "https://github.com/eustasy/Bubbly/releases/tag/3.1"
@@ -452,7 +452,7 @@
         "release": {
           "version": "2.1.2",
           "release_date": "2026-10-29T05:45:55+00:00",
-          "timeago": "11 hours ago",
+          "timeago": "1 day ago",
           "title": "2.1.2",
           "body": "A maintenance release. No palette colors have changed.\r\n\r\n- Goddard & Hale is now described as a corporate palette, and its source link is removed from the site.\r\n- The README lists only the palettes that are built, and the unfinished, unbuilt Refactoring UI data is removed.\r\n- The CSS build workflow runs on Python 3.14 instead of 3.8, which is end-of-life.\r\n- Installed eustasy/.Normal 5.0. Linting now runs through the `@v5` actions, and Python is checked on 3.11 through 3.15.\r\n- The demo page's JavaScript is reformatted to the .Normal Prettier config, with no change in behaviour.\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.1...2.1.2\r\n",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.2"
@@ -463,7 +463,7 @@
       {
         "version": "2.1.2",
         "release_date": "2026-10-29T05:45:55+00:00",
-        "timeago": "11 hours ago",
+        "timeago": "1 day ago",
         "title": "2.1.2",
         "body": "A maintenance release. No palette colors have changed.\r\n\r\n- Goddard & Hale is now described as a corporate palette, and its source link is removed from the site.\r\n- The README lists only the palettes that are built, and the unfinished, unbuilt Refactoring UI data is removed.\r\n- The CSS build workflow runs on Python 3.14 instead of 3.8, which is end-of-life.\r\n- Installed eustasy/.Normal 5.0. Linting now runs through the `@v5` actions, and Python is checked on 3.11 through 3.15.\r\n- The demo page's JavaScript is reformatted to the .Normal Prettier config, with no change in behaviour.\r\n\r\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.1...2.1.2\r\n",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.2"
@@ -625,7 +625,7 @@
         "release": {
           "version": "v5.1",
           "release_date": "2026-10-29T07:10:58+00:00",
-          "timeago": "10 hours ago",
+          "timeago": "1 day ago",
           "title": "Boulevard (v5.1)",
           "body": "Minor update introducting customizable branding for the public pages, and an admin panel that can be hosted under alternative paths and filenames.\r\n\r\n_Upgrading from 5.0 needs no schema or configuration changes._\r\n\r\n### Feature\r\n\r\n- FEATURE: **Rebrand the public pages** ([#79](https://github.com/eustasy/phoenix/issues/79)). `public_favicon`, `public_mark` and `public_wordmark` replace Phoenix's favicon, flame mark and name on the torrent index, stats and magnet pages. The wordmark also names the site in their titles (`Torrent Index — Ashrise`). All three are empty by default, and the admin panel and login always keep Phoenix's branding. Serve the images from the tracker's own site, because the public pages' Content Security Policy only loads same-origin images. See [CONFIGURATION.md](CONFIGURATION.md#public-page-branding).\r\n- FEATURE: **`admin.php` can be renamed.** Redirects inside the admin panel now resolve against whatever the script is called, so `public/admin.php` can be moved to a hard-to-guess name and rate-limited, as an alternative to removing it after setup. See [README.md](README.md), [APACHE.md](APACHE.md) and [NGINX.md](NGINX.md).\r\n\r\n### Improvement\r\n\r\n- IMPROVEMENT: The public header gets the admin sidebar's red treatment, and the public page titles match the new wordmark.\r\n- IMPROVEMENT: The optional 2FA works with **authenticatron 4.2**, which makes enrolment QR codes with an MIT/Apache-licensed library instead of a GPL one. `composer update eustasy/authenticatron` picks it up, and it needs `ext-mbstring`.\r\n\r\n### Maintenance\r\n\r\n- MAINTENANCE: Install eustasy/.Normal 5.0, keeping Phoenix's MariaDB-backed test and smoke workflows. Markdown and shell scripts are formatted with Qlty, and YAML linting excludes the deployed workflow configs.\r\n- MAINTENANCE: Bump `qltysh/qlty-action/coverage` to 2.5.0 and, in the smoke workflow, `shivammathur/setup-php` to 2.40.0.\r\n\r\n**Full Changelog**: https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\r\n",
           "href": "https://github.com/eustasy/Phoenix/releases/tag/v5.1"
@@ -649,7 +649,7 @@
       {
         "version": "v5.1",
         "release_date": "2026-10-29T07:10:58+00:00",
-        "timeago": "10 hours ago",
+        "timeago": "1 day ago",
         "title": "Boulevard (v5.1)",
         "body": "Minor update introducting customizable branding for the public pages, and an admin panel that can be hosted under alternative paths and filenames.\r\n\r\n_Upgrading from 5.0 needs no schema or configuration changes._\r\n\r\n### Feature\r\n\r\n- FEATURE: **Rebrand the public pages** ([#79](https://github.com/eustasy/phoenix/issues/79)). `public_favicon`, `public_mark` and `public_wordmark` replace Phoenix's favicon, flame mark and name on the torrent index, stats and magnet pages. The wordmark also names the site in their titles (`Torrent Index — Ashrise`). All three are empty by default, and the admin panel and login always keep Phoenix's branding. Serve the images from the tracker's own site, because the public pages' Content Security Policy only loads same-origin images. See [CONFIGURATION.md](CONFIGURATION.md#public-page-branding).\r\n- FEATURE: **`admin.php` can be renamed.** Redirects inside the admin panel now resolve against whatever the script is called, so `public/admin.php` can be moved to a hard-to-guess name and rate-limited, as an alternative to removing it after setup. See [README.md](README.md), [APACHE.md](APACHE.md) and [NGINX.md](NGINX.md).\r\n\r\n### Improvement\r\n\r\n- IMPROVEMENT: The public header gets the admin sidebar's red treatment, and the public page titles match the new wordmark.\r\n- IMPROVEMENT: The optional 2FA works with **authenticatron 4.2**, which makes enrolment QR codes with an MIT/Apache-licensed library instead of a GPL one. `composer update eustasy/authenticatron` picks it up, and it needs `ext-mbstring`.\r\n\r\n### Maintenance\r\n\r\n- MAINTENANCE: Install eustasy/.Normal 5.0, keeping Phoenix's MariaDB-backed test and smoke workflows. Markdown and shell scripts are formatted with Qlty, and YAML linting excludes the deployed workflow configs.\r\n- MAINTENANCE: Bump `qltysh/qlty-action/coverage` to 2.5.0 and, in the smoke workflow, `shivammathur/setup-php` to 2.40.0.\r\n\r\n**Full Changelog**: https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\r\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v5.1"
@@ -891,7 +891,7 @@
         "release": {
           "version": "4.2",
           "release_date": "2026-10-29T06:51:38+00:00",
-          "timeago": "10 hours ago",
+          "timeago": "1 day ago",
           "title": "4.2 - Mandate",
           "body": "QR codes are now generated by `chillerlan/php-qrcode`, replacing the GPL-licensed and unmaintained `jysperu/php-qr-code`.\n\n### Package Changes\n  CHANGE: `generateQrCode()` now uses `chillerlan/php-qrcode` 6.x, which is MIT or Apache-2.0 licensed. Authenticatron no longer pulls in a GPL dependency. Its signature is unchanged, and it still returns a `data:image/png;base64,…` URI at the same dimensions. The PNGs are about 1.6 KB instead of 0.6 KB.\n  BUGFIX: Without `ext-gd`, `generateQrCode()` now returns `null` as documented, instead of throwing an uncaught `Error`. As a result, `new()` returns `QR => null`.\n  BUGFIX: No more `imagedestroy()` deprecation notices on PHP 8.5.\n  REQUIREMENT: Now needs `ext-mbstring`, and installs `chillerlan/php-settings-container` alongside it.\n\n### Example Pages\n  IMPROVEMENT: `?secret` is honoured throughout. The `new()` example shows that secret instead of a fresh one, `checkCode()` shows which code and secret it checked, and the nav links keep it.\n  BUGFIX: An array-valued `secret` or `secondfactor_code` no longer causes a fatal `TypeError`.\n\n### Supporting Changes\n  TESTS: The QR code is decoded back to check it gives exactly the OTPAuth URL, and `$Size` and `$Margin` are checked to scale the image as before. Tests run on PHP 8.2 to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n",
           "href": "https://github.com/eustasy/authenticatron/releases/tag/4.2"
@@ -902,7 +902,7 @@
       {
         "version": "4.2",
         "release_date": "2026-10-29T06:51:38+00:00",
-        "timeago": "10 hours ago",
+        "timeago": "1 day ago",
         "title": "4.2 - Mandate",
         "body": "QR codes are now generated by `chillerlan/php-qrcode`, replacing the GPL-licensed and unmaintained `jysperu/php-qr-code`.\n\n### Package Changes\n  CHANGE: `generateQrCode()` now uses `chillerlan/php-qrcode` 6.x, which is MIT or Apache-2.0 licensed. Authenticatron no longer pulls in a GPL dependency. Its signature is unchanged, and it still returns a `data:image/png;base64,…` URI at the same dimensions. The PNGs are about 1.6 KB instead of 0.6 KB.\n  BUGFIX: Without `ext-gd`, `generateQrCode()` now returns `null` as documented, instead of throwing an uncaught `Error`. As a result, `new()` returns `QR => null`.\n  BUGFIX: No more `imagedestroy()` deprecation notices on PHP 8.5.\n  REQUIREMENT: Now needs `ext-mbstring`, and installs `chillerlan/php-settings-container` alongside it.\n\n### Example Pages\n  IMPROVEMENT: `?secret` is honoured throughout. The `new()` example shows that secret instead of a fresh one, `checkCode()` shows which code and secret it checked, and the nav links keep it.\n  BUGFIX: An array-valued `secret` or `secondfactor_code` no longer causes a fatal `TypeError`.\n\n### Supporting Changes\n  TESTS: The QR code is decoded back to check it gives exactly the OTPAuth URL, and `$Size` and `$Margin` are checked to scale the image as before. Tests run on PHP 8.2 to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/4.2"
@@ -910,7 +910,7 @@
       {
         "version": "v4.1.2",
         "release_date": "2026-10-29T06:26:53+00:00",
-        "timeago": "10 hours ago",
+        "timeago": "1 day ago",
         "title": "v4.1.2 - Oath with Patch 2",
         "body": "Security fixes for the example pages. The library itself, `src/authenticatron.php`, is unchanged.\r\n\r\n### Example Pages\r\n  SECURITY: Escape the secret on `index.php` and `documentation.php`. It can be set from `?secret=` or the example form, and was echoed into the page unescaped, which allowed reflected XSS.\r\n  REMOVAL: Drop the documentation page's Google Charts QR fallback and the `?googlechart` option. Google's chart QR endpoint now returns 404, and sending the secret to a third party was never safe. Without GD, the page now says to install `php[version]-gd`.\r\n  IMPROVEMENT: Fix #22: Split the HTML out of the PHP files into `partials/`, fixing mismatched tags and html-validate issues.\r\n\r\n### Supporting Changes\r\n  MAINTENANCE: Install eustasy/.Normal 5.0. Linting runs through the `@v5` actions, and PHPUnit runs on PHP 8.2 to 8.6 with coverage from 8.5.\r\n  MAINTENANCE: Test and lint on PHP 8.2, the minimum `composer.json` allows, which CI previously skipped.\r\n\r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.1...v4.1.2\r\n",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/v4.1.2"
@@ -1064,7 +1064,7 @@
         "release": {
           "version": "1.32",
           "release_date": "2026-10-29T07:39:29+00:00",
-          "timeago": "9 hours ago",
+          "timeago": "1 day ago",
           "title": "Browning (1.32)",
           "body": "Browning 1.32 raises the minimum to PHP 8.2, as 8.1 reached end of life on 31 December 2025, and is tested on PHP 8.2 to 8.6. The library code is unchanged.\n\n### Requirements\n\n- Requires **PHP 8.2+**, up from 8.1. Composer won't install 1.32 on PHP 8.1, so those sites stay on 1.31.\n\n### Supporting\n\n- Test and lint on PHP 8.2, the new minimum.\n- Install eustasy/.Normal 5.0. Linting runs through the `@v5` actions.\n- Bump `actions/checkout` to v7, along with `shivammathur/setup-php` and `qltysh/qlty-action`.\n- Relax the Markdown line-length rule.\n\n**Full Changelog**: https://github.com/eustasy/browning/compare/1.31...1.32\n",
           "href": "https://github.com/eustasy/browning/releases/tag/1.32"
@@ -1075,7 +1075,7 @@
       {
         "version": "1.32",
         "release_date": "2026-10-29T07:39:29+00:00",
-        "timeago": "9 hours ago",
+        "timeago": "1 day ago",
         "title": "Browning (1.32)",
         "body": "Browning 1.32 raises the minimum to PHP 8.2, as 8.1 reached end of life on 31 December 2025, and is tested on PHP 8.2 to 8.6. The library code is unchanged.\n\n### Requirements\n\n- Requires **PHP 8.2+**, up from 8.1. Composer won't install 1.32 on PHP 8.1, so those sites stay on 1.31.\n\n### Supporting\n\n- Test and lint on PHP 8.2, the new minimum.\n- Install eustasy/.Normal 5.0. Linting runs through the `@v5` actions.\n- Bump `actions/checkout` to v7, along with `shivammathur/setup-php` and `qltysh/qlty-action`.\n- Relax the Markdown line-length rule.\n\n**Full Changelog**: https://github.com/eustasy/browning/compare/1.31...1.32\n",
         "href": "https://github.com/eustasy/browning/releases/tag/1.32"
@@ -1189,7 +1189,7 @@
         "release": {
           "version": "2.6.5",
           "release_date": "2026-10-29T05:58:49+00:00",
-          "timeago": "11 hours ago",
+          "timeago": "1 day ago",
           "title": "Julian - with Patch 5",
           "body": "Fixes the minified build, which failed to load in 2.6.4, and two event-handler bugs.\r\n\r\n- `jQuery.leanModal2.min.js` is rebuilt from source. 2.6.4's was missing a `;` before an `if`, so browsers threw a `SyntaxError` and `.leanModal()` was never defined. The unminified `jQuery.leanModal2.js` was not affected.\r\n- The version banner is restored at the top of the minified file.\r\n- Reopening a modal no longer stacks another click handler on the close button each time.\r\n- Closing a modal no longer removes every `keyup` handler on the document, including the page's own. leanModal's handlers are now namespaced, so it only ever unbinds its own.\r\n- The README and demo page are corrected. The demo no longer says the modal must be a sibling of the trigger. Both now say how to hide the modal, which options are global, that jQuery 3 and 4 are supported, and that the modal is moved in the page, and the License badge links to this repository.\r\n- The demo page now hosts its stylesheets itself instead of loading them from eustasy Labs, its code samples are escaped so they show as text, and its HTML validates.\r\n- Installed eustasy/.Normal 5.0. It adds lint and format CI for CSS, HTML, JS and Markdown, plus security scanning. The source is reformatted with Prettier, with no change in behaviour.\r\n\r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.4...2.6.5\r\n",
           "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5"
@@ -1200,7 +1200,7 @@
       {
         "version": "2.6.5",
         "release_date": "2026-10-29T05:58:49+00:00",
-        "timeago": "11 hours ago",
+        "timeago": "1 day ago",
         "title": "Julian - with Patch 5",
         "body": "Fixes the minified build, which failed to load in 2.6.4, and two event-handler bugs.\r\n\r\n- `jQuery.leanModal2.min.js` is rebuilt from source. 2.6.4's was missing a `;` before an `if`, so browsers threw a `SyntaxError` and `.leanModal()` was never defined. The unminified `jQuery.leanModal2.js` was not affected.\r\n- The version banner is restored at the top of the minified file.\r\n- Reopening a modal no longer stacks another click handler on the close button each time.\r\n- Closing a modal no longer removes every `keyup` handler on the document, including the page's own. leanModal's handlers are now namespaced, so it only ever unbinds its own.\r\n- The README and demo page are corrected. The demo no longer says the modal must be a sibling of the trigger. Both now say how to hide the modal, which options are global, that jQuery 3 and 4 are supported, and that the modal is moved in the page, and the License badge links to this repository.\r\n- The demo page now hosts its stylesheets itself instead of loading them from eustasy Labs, its code samples are escaped so they show as text, and its HTML validates.\r\n- Installed eustasy/.Normal 5.0. It adds lint and format CI for CSS, HTML, JS and Markdown, plus security scanning. The source is reformatted with Prettier, with no change in behaviour.\r\n\r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.4...2.6.5\r\n",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5"
