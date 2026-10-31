@@ -17,7 +17,7 @@
         '
       href: https://github.com/eustasy/.normal/releases/tag/5.0
       release_date: '2026-10-29T05:33:26+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: Bellini (5.0)
       version: '5.0'
   default_branch: main
@@ -37,7 +37,7 @@
       '
     href: https://github.com/eustasy/.normal/releases/tag/5.0
     release_date: '2026-10-29T05:33:26+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Bellini (5.0)
     version: '5.0'
   - body: 'Python moves to the current stable release, and the pinned third-party
@@ -58,7 +58,7 @@
       '
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta17
     release_date: '2026-10-29T05:29:38+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Appletini (4.0beta17)
     version: 4.0beta17
   - body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
@@ -185,7 +185,7 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta7...4.0beta8"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta8
     release_date: '2026-05-31T19:39:53+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Appletini (4.0beta8)
     version: 4.0beta8
   - body: "- Fix incorrect install of .sh workflow.\r\n- Print comments to terminal\
@@ -213,7 +213,7 @@
       \n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta3...4.0beta4"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta4
     release_date: '2026-05-31T19:43:40+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Appletini (4.0beta4)
     version: 4.0beta4
   - body: "- Remove PHPMD\r\n- Add `prettier/plugin-xml`\r\n\r\n**Full Changelog**:\
@@ -228,7 +228,7 @@
       \n\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta1...4.0beta2"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta2
     release_date: '2026-05-02T02:05:39+00:00'
-    timeago: 5 months ago
+    timeago: 6 months ago
     title: Appletini (4.0beta2)
     version: 4.0beta2
   - body: "Complete rebuild. Migrates from CodeClimate + ESLint to [Qlty](https://qlty.sh)\
@@ -257,7 +257,7 @@
       \ secrets if using test workflows.\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/3.0.1...4.0beta1"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta1
     release_date: '2026-05-01T22:43:30+00:00'
-    timeago: 5 months ago
+    timeago: 6 months ago
     title: Appletini (4.0beta1)
     version: 4.0beta1
   - body: "### MAJOR\r\n**- Remove Travis-CI.**\r\n- Add GitHub Actions.\r\n\r\n###\
@@ -397,7 +397,7 @@
         \n**Full Changelog**: https://github.com/eustasy/Bubbly/compare/3.0...3.1\n"
       href: https://github.com/eustasy/Bubbly/releases/tag/3.1
       release_date: '2026-10-29T07:17:12+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: Domitian (3.1)
       version: '3.1'
   default_branch: main
@@ -425,7 +425,7 @@
       \ https://github.com/eustasy/Bubbly/compare/3.0...3.1\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/3.1
     release_date: '2026-10-29T07:17:12+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Domitian (3.1)
     version: '3.1'
   - body: "Bubbly 3.0 is a rebuild rather than a refresh. The TLS configuration is\
@@ -757,7 +757,7 @@
         \n"
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.2
       release_date: '2026-10-29T05:45:55+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: 2.1.2
       version: 2.1.2
   default_branch: main
@@ -775,7 +775,7 @@
       \n"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.2
     release_date: '2026-10-29T05:45:55+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: 2.1.2
     version: 2.1.2
   - body: 'The combined `colors.css` now declares every palette in a single `:root`
@@ -805,7 +805,7 @@
       '
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.1
     release_date: '2026-06-01T11:14:25+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: 2.1.1
     version: 2.1.1
   - body: "### New Utility Classes\r\n- `border-color`\r\n- `stroke`\r\n- `outline-color`\r\
@@ -934,36 +934,57 @@
     name: main
     new_commits: 0
     release:
-      body: "Minor update introducting customizable branding for the public pages,\
-        \ and an admin panel that can be hosted under alternative paths and filenames.\r\
-        \n\r\n_Upgrading from 5.0 needs no schema or configuration changes._\r\n\r\
-        \n### Feature\r\n\r\n- FEATURE: **Rebrand the public pages** ([#79](https://github.com/eustasy/phoenix/issues/79)).\
+      body: "Minor update introducing customizable branding for the public pages,\
+        \ and an admin panel that can be hosted under alternative paths and filenames.\n\
+        \n_Upgrading from 5.0 needs no schema or configuration changes._\n\n### Feature\n\
+        \n- FEATURE: **Rebrand the public pages** ([#79](https://github.com/eustasy/phoenix/issues/79)).\
         \ `public_favicon`, `public_mark` and `public_wordmark` replace Phoenix's\
         \ favicon, flame mark and name on the torrent index, stats and magnet pages.\
         \ The wordmark also names the site in their titles (`Torrent Index \u2014\
         \ Ashrise`). All three are empty by default, and the admin panel and login\
         \ always keep Phoenix's branding. Serve the images from the tracker's own\
         \ site, because the public pages' Content Security Policy only loads same-origin\
-        \ images. See [CONFIGURATION.md](CONFIGURATION.md#public-page-branding).\r\
-        \n- FEATURE: **`admin.php` can be renamed.** Redirects inside the admin panel\
+        \ images. See [CONFIGURATION.md](CONFIGURATION.md#public-page-branding).\n\
+        - FEATURE: **`admin.php` can be renamed.** Redirects inside the admin panel\
         \ now resolve against whatever the script is called, so `public/admin.php`\
         \ can be moved to a hard-to-guess name and rate-limited, as an alternative\
         \ to removing it after setup. See [README.md](README.md), [APACHE.md](APACHE.md)\
-        \ and [NGINX.md](NGINX.md).\r\n\r\n### Improvement\r\n\r\n- IMPROVEMENT: The\
-        \ public header gets the admin sidebar's red treatment, and the public page\
-        \ titles match the new wordmark.\r\n- IMPROVEMENT: The optional 2FA works\
-        \ with **authenticatron 4.2**, which makes enrolment QR codes with an MIT/Apache-licensed\
-        \ library instead of a GPL one. `composer update eustasy/authenticatron` picks\
-        \ it up, and it needs `ext-mbstring`.\r\n\r\n### Maintenance\r\n\r\n- MAINTENANCE:\
-        \ Install eustasy/.Normal 5.0, keeping Phoenix's MariaDB-backed test and smoke\
-        \ workflows. Markdown and shell scripts are formatted with Qlty, and YAML\
-        \ linting excludes the deployed workflow configs.\r\n- MAINTENANCE: Bump `qltysh/qlty-action/coverage`\
-        \ to 2.5.0 and, in the smoke workflow, `shivammathur/setup-php` to 2.40.0.\r\
-        \n\r\n**Full Changelog**: https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\r\
+        \ and [NGINX.md](NGINX.md).\n\n### Improvement\n\n- IMPROVEMENT: The public\
+        \ header gets the admin sidebar's red treatment, and the public page titles\
+        \ match the new wordmark.\n- IMPROVEMENT: The optional 2FA works with **authenticatron\
+        \ 4.2**, which makes enrolment QR codes with an MIT/Apache-licensed library\
+        \ instead of a GPL one. `composer update eustasy/authenticatron` picks it\
+        \ up, and it needs `ext-mbstring`.\n\n### Bugfix\n\n- BUGFIX: **The client\
+        \ chart keeps its sort order** ([#82](https://github.com/eustasy/phoenix/issues/82)).\
+        \ A client with a numeric name, like `53`, jumped to the top of the chart,\
+        \ and each bar's versions came out oldest first.\n- BUGFIX: **The client chart's\
+        \ popup opens anywhere along a row** ([#88](https://github.com/eustasy/phoenix/issues/88)),\
+        \ not only over the bar, so a client with a handful of downloads can be read\
+        \ next to one with hundreds of thousands. It also names the right unit: completed\
+        \ downloads on the all-time view, and peers elsewhere.\n- BUGFIX: The sidebar's\
+        \ server gauges are readable on the red sidebar in light mode ([#83](https://github.com/eustasy/phoenix/issues/83)).\n\
+        - BUGFIX: The Clients table says when the filter matches nothing, instead\
+        \ of showing only its header ([#86](https://github.com/eustasy/phoenix/issues/86)).\n\
+        \n### Documentation\n\n- DOCS: **[DEPENDENCIES.md](DEPENDENCIES.md)** lists\
+        \ every server, Composer and client dependency, whether it's required, recommended\
+        \ or optional, and where each is declared.\n- DOCS: The recovery step for\
+        \ setting the admin password hash reads the password from input, so the shell\
+        \ and PHP can't alter a `!` or `$` in it. See [RECOVERY.md](RECOVERY.md).\n\
+        \n### Maintenance\n\n- MAINTENANCE: Install eustasy/.Normal 5.0, keeping Phoenix's\
+        \ MariaDB-backed test and smoke workflows. Markdown and shell scripts are\
+        \ formatted with Qlty, and YAML linting excludes the deployed workflow configs.\n\
+        - MAINTENANCE: Bump `qltysh/qlty-action/coverage` to 2.5.0 and, in the smoke\
+        \ workflow, `shivammathur/setup-php` to 2.40.0.\n- MAINTENANCE: Bump Lucide\
+        \ to 1.65.0 and Chart.js to 4.6.1.\n- MAINTENANCE: The Docker dev image runs\
+        \ PHP 8.5, and Dependabot also watches the Dockerfile and compose file.\n\
+        - MAINTENANCE: PHPUnit 13 is allowed alongside 11 and 12, so each supported\
+        \ PHP version tests with the newest PHPUnit it can run.\n- MAINTENANCE: The\
+        \ PHP test and smoke workflows run on the same paths, so their combined coverage\
+        \ report stays complete.\n\n**Full Changelog**: https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\n\
         \n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
-      release_date: '2026-10-29T07:10:58+00:00'
-      timeago: 1 day ago
+      release_date: '2026-10-31T02:21:57+00:00'
+      timeago: 13 hours ago
       title: Boulevard (v5.1)
       version: v5.1
   - is_default: false
@@ -1011,34 +1032,54 @@
   default_branch: main
   name: Phoenix
   releases:
-  - body: "Minor update introducting customizable branding for the public pages, and\
-      \ an admin panel that can be hosted under alternative paths and filenames.\r\
-      \n\r\n_Upgrading from 5.0 needs no schema or configuration changes._\r\n\r\n\
-      ### Feature\r\n\r\n- FEATURE: **Rebrand the public pages** ([#79](https://github.com/eustasy/phoenix/issues/79)).\
+  - body: "Minor update introducing customizable branding for the public pages, and\
+      \ an admin panel that can be hosted under alternative paths and filenames.\n\
+      \n_Upgrading from 5.0 needs no schema or configuration changes._\n\n### Feature\n\
+      \n- FEATURE: **Rebrand the public pages** ([#79](https://github.com/eustasy/phoenix/issues/79)).\
       \ `public_favicon`, `public_mark` and `public_wordmark` replace Phoenix's favicon,\
       \ flame mark and name on the torrent index, stats and magnet pages. The wordmark\
       \ also names the site in their titles (`Torrent Index \u2014 Ashrise`). All\
       \ three are empty by default, and the admin panel and login always keep Phoenix's\
       \ branding. Serve the images from the tracker's own site, because the public\
-      \ pages' Content Security Policy only loads same-origin images. See [CONFIGURATION.md](CONFIGURATION.md#public-page-branding).\r\
-      \n- FEATURE: **`admin.php` can be renamed.** Redirects inside the admin panel\
+      \ pages' Content Security Policy only loads same-origin images. See [CONFIGURATION.md](CONFIGURATION.md#public-page-branding).\n\
+      - FEATURE: **`admin.php` can be renamed.** Redirects inside the admin panel\
       \ now resolve against whatever the script is called, so `public/admin.php` can\
       \ be moved to a hard-to-guess name and rate-limited, as an alternative to removing\
-      \ it after setup. See [README.md](README.md), [APACHE.md](APACHE.md) and [NGINX.md](NGINX.md).\r\
-      \n\r\n### Improvement\r\n\r\n- IMPROVEMENT: The public header gets the admin\
-      \ sidebar's red treatment, and the public page titles match the new wordmark.\r\
-      \n- IMPROVEMENT: The optional 2FA works with **authenticatron 4.2**, which makes\
-      \ enrolment QR codes with an MIT/Apache-licensed library instead of a GPL one.\
-      \ `composer update eustasy/authenticatron` picks it up, and it needs `ext-mbstring`.\r\
-      \n\r\n### Maintenance\r\n\r\n- MAINTENANCE: Install eustasy/.Normal 5.0, keeping\
-      \ Phoenix's MariaDB-backed test and smoke workflows. Markdown and shell scripts\
-      \ are formatted with Qlty, and YAML linting excludes the deployed workflow configs.\r\
-      \n- MAINTENANCE: Bump `qltysh/qlty-action/coverage` to 2.5.0 and, in the smoke\
-      \ workflow, `shivammathur/setup-php` to 2.40.0.\r\n\r\n**Full Changelog**: https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\r\
-      \n"
+      \ it after setup. See [README.md](README.md), [APACHE.md](APACHE.md) and [NGINX.md](NGINX.md).\n\
+      \n### Improvement\n\n- IMPROVEMENT: The public header gets the admin sidebar's\
+      \ red treatment, and the public page titles match the new wordmark.\n- IMPROVEMENT:\
+      \ The optional 2FA works with **authenticatron 4.2**, which makes enrolment\
+      \ QR codes with an MIT/Apache-licensed library instead of a GPL one. `composer\
+      \ update eustasy/authenticatron` picks it up, and it needs `ext-mbstring`.\n\
+      \n### Bugfix\n\n- BUGFIX: **The client chart keeps its sort order** ([#82](https://github.com/eustasy/phoenix/issues/82)).\
+      \ A client with a numeric name, like `53`, jumped to the top of the chart, and\
+      \ each bar's versions came out oldest first.\n- BUGFIX: **The client chart's\
+      \ popup opens anywhere along a row** ([#88](https://github.com/eustasy/phoenix/issues/88)),\
+      \ not only over the bar, so a client with a handful of downloads can be read\
+      \ next to one with hundreds of thousands. It also names the right unit: completed\
+      \ downloads on the all-time view, and peers elsewhere.\n- BUGFIX: The sidebar's\
+      \ server gauges are readable on the red sidebar in light mode ([#83](https://github.com/eustasy/phoenix/issues/83)).\n\
+      - BUGFIX: The Clients table says when the filter matches nothing, instead of\
+      \ showing only its header ([#86](https://github.com/eustasy/phoenix/issues/86)).\n\
+      \n### Documentation\n\n- DOCS: **[DEPENDENCIES.md](DEPENDENCIES.md)** lists\
+      \ every server, Composer and client dependency, whether it's required, recommended\
+      \ or optional, and where each is declared.\n- DOCS: The recovery step for setting\
+      \ the admin password hash reads the password from input, so the shell and PHP\
+      \ can't alter a `!` or `$` in it. See [RECOVERY.md](RECOVERY.md).\n\n### Maintenance\n\
+      \n- MAINTENANCE: Install eustasy/.Normal 5.0, keeping Phoenix's MariaDB-backed\
+      \ test and smoke workflows. Markdown and shell scripts are formatted with Qlty,\
+      \ and YAML linting excludes the deployed workflow configs.\n- MAINTENANCE: Bump\
+      \ `qltysh/qlty-action/coverage` to 2.5.0 and, in the smoke workflow, `shivammathur/setup-php`\
+      \ to 2.40.0.\n- MAINTENANCE: Bump Lucide to 1.65.0 and Chart.js to 4.6.1.\n\
+      - MAINTENANCE: The Docker dev image runs PHP 8.5, and Dependabot also watches\
+      \ the Dockerfile and compose file.\n- MAINTENANCE: PHPUnit 13 is allowed alongside\
+      \ 11 and 12, so each supported PHP version tests with the newest PHPUnit it\
+      \ can run.\n- MAINTENANCE: The PHP test and smoke workflows run on the same\
+      \ paths, so their combined coverage report stays complete.\n\n**Full Changelog**:\
+      \ https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\n\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
-    release_date: '2026-10-29T07:10:58+00:00'
-    timeago: 1 day ago
+    release_date: '2026-10-31T02:21:57+00:00'
+    timeago: 13 hours ago
     title: Boulevard (v5.1)
     version: v5.1
   - body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
@@ -2095,7 +2136,7 @@
         \ to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n"
       href: https://github.com/eustasy/authenticatron/releases/tag/4.2
       release_date: '2026-10-29T06:51:38+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: 4.2 - Mandate
       version: '4.2'
   default_branch: main
@@ -2120,7 +2161,7 @@
       \ image as before. Tests run on PHP 8.2 to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/4.2
     release_date: '2026-10-29T06:51:38+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: 4.2 - Mandate
     version: '4.2'
   - body: "Security fixes for the example pages. The library itself, `src/authenticatron.php`,\
@@ -2140,7 +2181,7 @@
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.2
     release_date: '2026-10-29T06:26:53+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: v4.1.2 - Oath with Patch 2
     version: v4.1.2
   - body: "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws\
@@ -2167,7 +2208,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.0...v4.1.1"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.1
     release_date: '2026-05-31T21:00:55+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: v4.1.1 - Oath with Patch 1
     version: v4.1.1
   - body: "### Package Changes\r\nBUGFIX: `Authenticatron::getCode()` timestamp override\
@@ -2348,7 +2389,7 @@
         '
       href: https://github.com/eustasy/browning/releases/tag/1.32
       release_date: '2026-10-29T07:39:29+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: Browning (1.32)
       version: '1.32'
   default_branch: main
@@ -2382,7 +2423,7 @@
       '
     href: https://github.com/eustasy/browning/releases/tag/1.32
     release_date: '2026-10-29T07:39:29+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Browning (1.32)
     version: '1.32'
   - body: "A ground-up rewrite from a single global function into a small, namespaced,\
@@ -2421,7 +2462,7 @@
       \ and fill it in.\r\n\r\n**Full Changelog**: https://github.com/eustasy/browning/compare/0.30...1.31"
     href: https://github.com/eustasy/browning/releases/tag/1.31
     release_date: '2026-05-31T15:38:03+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Browning (1.31)
     version: '1.31'
   - body: "- Update CI\r\n- Much better README\r\n- Remove demo site\r\n- Simplify\
@@ -2527,7 +2568,7 @@
         \n"
       href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
       release_date: '2026-10-29T05:58:49+00:00'
-      timeago: 1 day ago
+      timeago: 2 days ago
       title: Julian - with Patch 5
       version: 2.6.5
   default_branch: main
@@ -2554,7 +2595,7 @@
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
     release_date: '2026-10-29T05:58:49+00:00'
-    timeago: 1 day ago
+    timeago: 2 days ago
     title: Julian - with Patch 5
     version: 2.6.5
   - body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't\
