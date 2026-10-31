@@ -130,6 +130,22 @@
         "supports_all": true
       },
       {
+        "package_ecosystem": "docker",
+        "target_branch": "main",
+        "directory": "/docker",
+        "interval": "monthly",
+        "all_dependencies": false,
+        "supports_all": false
+      },
+      {
+        "package_ecosystem": "docker-compose",
+        "target_branch": "main",
+        "directory": "/",
+        "interval": "monthly",
+        "all_dependencies": false,
+        "supports_all": false
+      },
+      {
         "package_ecosystem": "github-actions",
         "target_branch": "main",
         "directory": "/",

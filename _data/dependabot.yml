@@ -88,6 +88,18 @@
     supports_all: true
     target_branch: main
   - all_dependencies: false
+    directory: /docker
+    interval: monthly
+    package_ecosystem: docker
+    supports_all: false
+    target_branch: main
+  - all_dependencies: false
+    directory: /
+    interval: monthly
+    package_ecosystem: docker-compose
+    supports_all: false
+    target_branch: main
+  - all_dependencies: false
     directory: /
     interval: monthly
     package_ecosystem: github-actions
