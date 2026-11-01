@@ -17,7 +17,7 @@
         '
       href: https://github.com/eustasy/.normal/releases/tag/5.0
       release_date: '2026-10-29T05:33:26+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Bellini (5.0)
       version: '5.0'
   default_branch: main
@@ -37,7 +37,7 @@
       '
     href: https://github.com/eustasy/.normal/releases/tag/5.0
     release_date: '2026-10-29T05:33:26+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Bellini (5.0)
     version: '5.0'
   - body: 'Python moves to the current stable release, and the pinned third-party
@@ -58,7 +58,7 @@
       '
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta17
     release_date: '2026-10-29T05:29:38+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Appletini (4.0beta17)
     version: 4.0beta17
   - body: "Workflow linting moves into its own always-installed workflow, and Dependabot\
@@ -174,7 +174,7 @@
       \n* Drop bandit, ruff does that already\r\n\r\n**Full Changelog**: https://github.com/eustasy/.normal/compare/4.0beta8...4.0beta9"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta9
     release_date: '2026-06-01T18:31:19+00:00'
-    timeago: 4 months ago
+    timeago: 5 months ago
     title: Appletini (4.0beta9)
     version: 4.0beta9
   - body: "- [Update PHP setup action to version 2.37.1](https://github.com/eustasy/.normal/commit/dbaf28edc1ed82f91790c7ede5ea6ad2fd06641c)\r\
@@ -220,7 +220,7 @@
       \ https://github.com/eustasy/.normal/compare/4.0beta2...4.0beta3"
     href: https://github.com/eustasy/.normal/releases/tag/4.0beta3
     release_date: '2026-05-02T04:30:58+00:00'
-    timeago: 5 months ago
+    timeago: 6 months ago
     title: Appletini (4.0beta3)
     version: 4.0beta3
   - body: "## What's Changed\r\n* Refactor install.sh: consolidate rm, fix glob copy,\
@@ -397,7 +397,7 @@
         \n**Full Changelog**: https://github.com/eustasy/Bubbly/compare/3.0...3.1\n"
       href: https://github.com/eustasy/Bubbly/releases/tag/3.1
       release_date: '2026-10-29T07:17:12+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Domitian (3.1)
       version: '3.1'
   default_branch: main
@@ -425,7 +425,7 @@
       \ https://github.com/eustasy/Bubbly/compare/3.0...3.1\n"
     href: https://github.com/eustasy/Bubbly/releases/tag/3.1
     release_date: '2026-10-29T07:17:12+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Domitian (3.1)
     version: '3.1'
   - body: "Bubbly 3.0 is a rebuild rather than a refresh. The TLS configuration is\
@@ -757,7 +757,7 @@
         \n"
       href: https://github.com/eustasy/Colors.css/releases/tag/2.1.2
       release_date: '2026-10-29T05:45:55+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: 2.1.2
       version: 2.1.2
   default_branch: main
@@ -775,7 +775,7 @@
       \n"
     href: https://github.com/eustasy/Colors.css/releases/tag/2.1.2
     release_date: '2026-10-29T05:45:55+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: 2.1.2
     version: 2.1.2
   - body: 'The combined `colors.css` now declares every palette in a single `:root`
@@ -984,7 +984,7 @@
         \n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
       release_date: '2026-10-31T02:21:57+00:00'
-      timeago: 13 hours ago
+      timeago: 1 day ago
       title: Boulevard (v5.1)
       version: v5.1
   - is_default: false
@@ -1079,7 +1079,7 @@
       \ https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\n\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
     release_date: '2026-10-31T02:21:57+00:00'
-    timeago: 13 hours ago
+    timeago: 1 day ago
     title: Boulevard (v5.1)
     version: v5.1
   - body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
@@ -2136,7 +2136,7 @@
         \ to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n"
       href: https://github.com/eustasy/authenticatron/releases/tag/4.2
       release_date: '2026-10-29T06:51:38+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: 4.2 - Mandate
       version: '4.2'
   default_branch: main
@@ -2161,7 +2161,7 @@
       \ image as before. Tests run on PHP 8.2 to 8.6.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/v4.1.2...4.2\n"
     href: https://github.com/eustasy/authenticatron/releases/tag/4.2
     release_date: '2026-10-29T06:51:38+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: 4.2 - Mandate
     version: '4.2'
   - body: "Security fixes for the example pages. The library itself, `src/authenticatron.php`,\
@@ -2181,7 +2181,7 @@
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/v4.1.2
     release_date: '2026-10-29T06:26:53+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: v4.1.2 - Oath with Patch 2
     version: v4.1.2
   - body: "### Package Changes\r\n  BUGFIX: `Authenticatron::getCode()` now throws\
@@ -2389,7 +2389,7 @@
         '
       href: https://github.com/eustasy/browning/releases/tag/1.32
       release_date: '2026-10-29T07:39:29+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Browning (1.32)
       version: '1.32'
   default_branch: main
@@ -2423,7 +2423,7 @@
       '
     href: https://github.com/eustasy/browning/releases/tag/1.32
     release_date: '2026-10-29T07:39:29+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Browning (1.32)
     version: '1.32'
   - body: "A ground-up rewrite from a single global function into a small, namespaced,\
@@ -2568,7 +2568,7 @@
         \n"
       href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
       release_date: '2026-10-29T05:58:49+00:00'
-      timeago: 2 days ago
+      timeago: 3 days ago
       title: Julian - with Patch 5
       version: 2.6.5
   default_branch: main
@@ -2595,7 +2595,7 @@
       \n"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
     release_date: '2026-10-29T05:58:49+00:00'
-    timeago: 2 days ago
+    timeago: 3 days ago
     title: Julian - with Patch 5
     version: 2.6.5
   - body: "- Fix #17: Mobile view is not optimized.\r\n- Fix #10: Documentation doesn't\
@@ -2604,7 +2604,7 @@
       \r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.3...2.6.4"
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.4
     release_date: '2026-05-03T01:50:17+00:00'
-    timeago: 5 months ago
+    timeago: 6 months ago
     title: Julian - with Patch 4
     version: 2.6.4
   - body: '- Move all CSS to a block'
