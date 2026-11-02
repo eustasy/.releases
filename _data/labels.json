@@ -188,7 +188,8 @@
     "mismatched": [],
     "extra": [
       "dependencies",
-      "github_actions"
+      "github_actions",
+      "php"
     ]
   },
   {
