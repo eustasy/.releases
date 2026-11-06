@@ -984,7 +984,7 @@
         \n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
       release_date: '2026-10-31T02:21:57+00:00'
-      timeago: 5 days ago
+      timeago: 6 days ago
       title: Boulevard (v5.1)
       version: v5.1
   - is_default: false
@@ -1079,7 +1079,7 @@
       \ https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\n\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
     release_date: '2026-10-31T02:21:57+00:00'
-    timeago: 5 days ago
+    timeago: 6 days ago
     title: Boulevard (v5.1)
     version: v5.1
   - body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
@@ -1588,7 +1588,7 @@
       \ behavior.\n\n[Compare v3.2.1 with v3.2](https://github.com/eustasy/Phoenix/compare/v3.2...v3.2.1)\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v3.2.1
     release_date: '2026-07-07T10:13:33+00:00'
-    timeago: 3 months ago
+    timeago: 4 months ago
     title: Haggard (v3.2.1)
     version: v3.2.1
   - body: "A correctness-and-polish follow-up to the 4.3 redesign: maintenance tasks\
