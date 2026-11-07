@@ -984,7 +984,7 @@
         \n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
       release_date: '2026-10-31T02:21:57+00:00'
-      timeago: 6 days ago
+      timeago: 1 week ago
       title: Boulevard (v5.1)
       version: v5.1
   - is_default: false
@@ -1079,7 +1079,7 @@
       \ https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\n\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
     release_date: '2026-10-31T02:21:57+00:00'
-    timeago: 6 days ago
+    timeago: 1 week ago
     title: Boulevard (v5.1)
     version: v5.1
   - body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
@@ -2340,7 +2340,7 @@
       \n"
     href: https://github.com/eustasy/authenticatron/releases/tag/0.3
     release_date: '2014-11-09T23:57:46+00:00'
-    timeago: 11 years ago
+    timeago: 12 years ago
     title: Example
     version: '0.3'
   - body: "Significantly improved security within random number generation.\r\n"
