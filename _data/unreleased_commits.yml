@@ -1,28 +1,70 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 3
+    new_commits: 0
     release:
-      body: 'The first stable release of .Normal, graduating the Appletini 4.0 betas.
+      body: 'Weekly security scans, a pinned HTML validator, and templates that describe
+        only what they do.
 
 
-        - Deployed workflows and the composite actions now reference `eustasy/.normal/<action>@v5`.
-        The `v5` and `v5.0` tags follow each 5.x release.
+        - The deployed `security.yml` now also runs every Monday at 06:00 UTC, so
+        a CVE published against an unchanged dependency is caught in repositories
+        that rarely see a push.
 
-        - `v4` stays at 4.0beta17, so repositories still on the 4.0 betas keep working
-        unchanged. Re-run `install.sh` to move a repository to `@v5`.
+        - The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever
+        is latest on npm at run time. Dependabot does not track this pin, so it is
+        bumped by hand.
 
-        - There are no functional changes from 4.0beta17.
+        - `.vscode/settings.json` recommends the oxc extension instead of eslint,
+        matching the linter the deployed config uses.
 
-        '
-      href: https://github.com/eustasy/.normal/releases/tag/5.0
-      release_date: '2026-10-29T05:33:26+00:00'
-      timeago: 2 weeks ago
-      title: Bellini (5.0)
-      version: '5.0'
+        - Comments and documentation across the templates, `install.sh`, `test/run.sh`
+        and `dependabot.yml` describe current behaviour only. The README folds the
+        3.x migration into an "After installing" section.
+
+        - `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming
+        repository to pick up the new `security.yml` and configs; the merge keeps
+        local changes.
+
+
+        **Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1'
+      href: https://github.com/eustasy/.normal/releases/tag/5.1
+      release_date: '2026-11-12T10:50:43+00:00'
+      timeago: 9 minutes ago
+      title: Bellini (5.1)
+      version: '5.1'
   default_branch: main
   name: .normal
   releases:
+  - body: 'Weekly security scans, a pinned HTML validator, and templates that describe
+      only what they do.
+
+
+      - The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a
+      CVE published against an unchanged dependency is caught in repositories that
+      rarely see a push.
+
+      - The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever
+      is latest on npm at run time. Dependabot does not track this pin, so it is bumped
+      by hand.
+
+      - `.vscode/settings.json` recommends the oxc extension instead of eslint, matching
+      the linter the deployed config uses.
+
+      - Comments and documentation across the templates, `install.sh`, `test/run.sh`
+      and `dependabot.yml` describe current behaviour only. The README folds the 3.x
+      migration into an "After installing" section.
+
+      - `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository
+      to pick up the new `security.yml` and configs; the merge keeps local changes.
+
+
+      **Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1'
+    href: https://github.com/eustasy/.normal/releases/tag/5.1
+    release_date: '2026-11-12T10:50:43+00:00'
+    timeago: 9 minutes ago
+    title: Bellini (5.1)
+    version: '5.1'
   - body: 'The first stable release of .Normal, graduating the Appletini 4.0 betas.
 
 
@@ -2545,35 +2587,54 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 2
+    new_commits: 0
     release:
-      body: "Fixes the minified build, which failed to load in 2.6.4, and two event-handler\
-        \ bugs.\r\n\r\n- `jQuery.leanModal2.min.js` is rebuilt from source. 2.6.4's\
-        \ was missing a `;` before an `if`, so browsers threw a `SyntaxError` and\
-        \ `.leanModal()` was never defined. The unminified `jQuery.leanModal2.js`\
-        \ was not affected.\r\n- The version banner is restored at the top of the\
-        \ minified file.\r\n- Reopening a modal no longer stacks another click handler\
-        \ on the close button each time.\r\n- Closing a modal no longer removes every\
-        \ `keyup` handler on the document, including the page's own. leanModal's handlers\
-        \ are now namespaced, so it only ever unbinds its own.\r\n- The README and\
-        \ demo page are corrected. The demo no longer says the modal must be a sibling\
-        \ of the trigger. Both now say how to hide the modal, which options are global,\
-        \ that jQuery 3 and 4 are supported, and that the modal is moved in the page,\
-        \ and the License badge links to this repository.\r\n- The demo page now hosts\
-        \ its stylesheets itself instead of loading them from eustasy Labs, its code\
-        \ samples are escaped so they show as text, and its HTML validates.\r\n- Installed\
-        \ eustasy/.Normal 5.0. It adds lint and format CI for CSS, HTML, JS and Markdown,\
-        \ plus security scanning. The source is reformatted with Prettier, with no\
-        \ change in behaviour.\r\n\r\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.4...2.6.5\r\
-        \n"
-      href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.5
-      release_date: '2026-10-29T05:58:49+00:00'
-      timeago: 2 weeks ago
-      title: Julian - with Patch 5
-      version: 2.6.5
+      body: 'Leaves the page''s own click handlers on the trigger alone, and detects
+        Escape by key name.
+
+
+        - The trigger''s click handler is added and removed under the `leanModal`
+        namespace, so calling `.leanModal()` twice no longer stacks handlers and any
+        click handler the page itself attached to the trigger survives. 2.6.5 removed
+        every click handler on the trigger.
+
+        - Escape is detected with `event.key`, with `keyCode` kept as a fallback for
+        older browsers.
+
+        - `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and
+        parses.
+
+
+        **Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6'
+      href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6
+      release_date: '2026-11-12T10:50:52+00:00'
+      timeago: 9 minutes ago
+      title: Julian - with Patch 6
+      version: 2.6.6
   default_branch: main
   name: jQuery.leanModal2
   releases:
+  - body: 'Leaves the page''s own click handlers on the trigger alone, and detects
+      Escape by key name.
+
+
+      - The trigger''s click handler is added and removed under the `leanModal` namespace,
+      so calling `.leanModal()` twice no longer stacks handlers and any click handler
+      the page itself attached to the trigger survives. 2.6.5 removed every click
+      handler on the trigger.
+
+      - Escape is detected with `event.key`, with `keyCode` kept as a fallback for
+      older browsers.
+
+      - `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.
+
+
+      **Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6'
+    href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6
+    release_date: '2026-11-12T10:50:52+00:00'
+    timeago: 9 minutes ago
+    title: Julian - with Patch 6
+    version: 2.6.6
   - body: "Fixes the minified build, which failed to load in 2.6.4, and two event-handler\
       \ bugs.\r\n\r\n- `jQuery.leanModal2.min.js` is rebuilt from source. 2.6.4's\
       \ was missing a `;` before an `if`, so browsers threw a `SyntaxError` and `.leanModal()`\
