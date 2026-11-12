@@ -3,12 +3,12 @@ import json
 import yaml
 import os
 from datetime import datetime, timezone
-from github import Github
+from github import Auth, Github
 from operator import itemgetter
 from github.GithubException import GithubException
 
 now = datetime.now(timezone.utc)
-g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
+g = Github(auth=Auth.Token(os.environ['GITHUB_TOKEN']), per_page=100)
 
 class NoReleasesFound(Exception):
   pass
