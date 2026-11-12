@@ -21,6 +21,12 @@
     package_ecosystem: github-actions
     supports_all: false
     target_branch: main
+  - all_dependencies: false
+    directory: /_generators
+    interval: monthly
+    package_ecosystem: pip
+    supports_all: true
+    target_branch: main
 - has_config: true
   name: .ui
   updates:
