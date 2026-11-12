@@ -3,10 +3,10 @@ import json
 import yaml
 import os
 import re
-from github import Github
+from github import Auth, Github
 from operator import itemgetter
 
-g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
+g = Github(auth=Auth.Token(os.environ['GITHUB_TOKEN']), per_page=100)
 
 class Repo:
   def __init__(self, repo):

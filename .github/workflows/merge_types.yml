@@ -33,12 +33,10 @@ jobs:
     - name: Run script
       run: python _generators/merge_types.py
       env:
-        # The default GITHUB_TOKEN is scoped only to this repo, so it can read
-        # merge settings for .releases but returns null for every other repo
-        # (GitHub only exposes allow_*_merge to tokens with admin on the repo).
-        # GORGON_V2 holds a fine-grained PAT with Administration: read-only on
-        # every org repo, which is all this needs. It is exposed to this step
-        # only; the push below uses GITHUB_TOKEN.
+        # Merge settings are read over GraphQL, which needs only read access
+        # to each repository. GORGON_V2 is a fine-grained read-only PAT that
+        # can see the private repositories the default GITHUB_TOKEN cannot.
+        # It is exposed to this step only; the push below uses GITHUB_TOKEN.
         GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}
     - name: Commit changes
       run: |

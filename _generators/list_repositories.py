@@ -1,9 +1,9 @@
 import os
 import json
 import yaml
-from github import Github
+from github import Auth, Github
 
-g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
+g = Github(auth=Auth.Token(os.environ['GITHUB_TOKEN']), per_page=100)
 
 org = g.get_organization('eustasy')
 
