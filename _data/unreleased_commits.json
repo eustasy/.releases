@@ -10,7 +10,7 @@
         "release": {
           "version": "5.1",
           "release_date": "2026-11-12T10:50:43+00:00",
-          "timeago": "1 hour ago",
+          "timeago": "8 hours ago",
           "title": "Bellini (5.1)",
           "body": "Weekly security scans, a pinned HTML validator, and templates that describe only what they do.\n\n- The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a CVE published against an unchanged dependency is caught in repositories that rarely see a push.\n- The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever is latest on npm at run time. Dependabot does not track this pin, so it is bumped by hand.\n- `.vscode/settings.json` recommends the oxc extension instead of eslint, matching the linter the deployed config uses.\n- Comments and documentation across the templates, `install.sh`, `test/run.sh` and `dependabot.yml` describe current behaviour only. The README folds the 3.x migration into an \"After installing\" section.\n- `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository to pick up the new `security.yml` and configs; the merge keeps local changes.\n\n**Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1",
           "href": "https://github.com/eustasy/.normal/releases/tag/5.1"
@@ -21,7 +21,7 @@
       {
         "version": "5.1",
         "release_date": "2026-11-12T10:50:43+00:00",
-        "timeago": "1 hour ago",
+        "timeago": "8 hours ago",
         "title": "Bellini (5.1)",
         "body": "Weekly security scans, a pinned HTML validator, and templates that describe only what they do.\n\n- The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a CVE published against an unchanged dependency is caught in repositories that rarely see a push.\n- The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever is latest on npm at run time. Dependabot does not track this pin, so it is bumped by hand.\n- `.vscode/settings.json` recommends the oxc extension instead of eslint, matching the linter the deployed config uses.\n- Comments and documentation across the templates, `install.sh`, `test/run.sh` and `dependabot.yml` describe current behaviour only. The README folds the 3.x migration into an \"After installing\" section.\n- `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository to pick up the new `security.yml` and configs; the merge keeps local changes.\n\n**Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1",
         "href": "https://github.com/eustasy/.normal/releases/tag/5.1"
@@ -460,7 +460,7 @@
         "release": {
           "version": "2.1.3",
           "release_date": "2026-11-12T11:34:17+00:00",
-          "timeago": "27 minutes ago",
+          "timeago": "7 hours ago",
           "title": "2.1.3",
           "body": "A maintenance release. No palette colors have changed; the stylesheets differ from 2.1.2 only in their version header.\n\n- The contributing guide describes the repository as it is: `data/_meta.json`, the two build scripts and the workflow that commits their output, `assets/`, and the release steps.\n- The site's no-JavaScript text says seven palettes rather than nine, and its licence links point at `main`.\n- The palette source link on each card is attribute-escaped like the rest of the rendered markup.\n- `utils/coolors_co.py` loses a pasted sample and a copied docstring.\n\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.2...2.1.3",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.3"
@@ -471,7 +471,7 @@
       {
         "version": "2.1.3",
         "release_date": "2026-11-12T11:34:17+00:00",
-        "timeago": "27 minutes ago",
+        "timeago": "7 hours ago",
         "title": "2.1.3",
         "body": "A maintenance release. No palette colors have changed; the stylesheets differ from 2.1.2 only in their version header.\n\n- The contributing guide describes the repository as it is: `data/_meta.json`, the two build scripts and the workflow that commits their output, `assets/`, and the release steps.\n- The site's no-JavaScript text says seven palettes rather than nine, and its licence links point at `main`.\n- The palette source link on each card is attribute-escaped like the rest of the rendered markup.\n- `utils/coolors_co.py` loses a pasted sample and a copied docstring.\n\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.2...2.1.3",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.3"
@@ -637,7 +637,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 0,
+        "new_commits": 1,
         "release": {
           "version": "v5.1",
           "release_date": "2026-10-31T02:21:57+00:00",
@@ -907,7 +907,7 @@
         "release": {
           "version": "4.3",
           "release_date": "2026-11-12T11:14:56+00:00",
-          "timeago": "46 minutes ago",
+          "timeago": "7 hours ago",
           "title": "4.3 - Mandate",
           "body": "Secrets that do not decode are refused, and codes are compared strictly.\n\n### Package Changes\n  CHANGE: `getCode()`, and so `getCodesInRange()` and `checkCode()`, throw `InvalidArgumentException` when the secret is shorter than 16 characters or contains anything outside the Base32 alphabet. Previously such a secret was hashed as an empty key and still produced codes.\n  CHANGE: `checkCode()` compares with `in_array(..., true)`, so only the exact 6-digit string matches. Numeric look-alikes such as `\"12345\"` for `\"012345\"` are no longer accepted.\n  IMPROVEMENT: The Base32 decoder validates every character and regroups the bit stream per RFC 4648, so secrets whose length is not a multiple of 8 decode without warnings.\n  IMPROVEMENT: `declare(strict_types=1)` is enabled in the library. Callers are unaffected.\n\n### Supporting Changes\n  TESTS: Added the RFC 6238 SHA-1 test vectors, rejected-secret cases, and a strict-comparison case. 26 tests on PHP 8.2 to 8.6.\n  DOCS: The README drops the BlackBerry link and updates the iOS one; the Composer keyword `2fa webauthn` is now `2fa`.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/4.2...4.3",
           "href": "https://github.com/eustasy/authenticatron/releases/tag/4.3"
@@ -918,7 +918,7 @@
       {
         "version": "4.3",
         "release_date": "2026-11-12T11:14:56+00:00",
-        "timeago": "46 minutes ago",
+        "timeago": "7 hours ago",
         "title": "4.3 - Mandate",
         "body": "Secrets that do not decode are refused, and codes are compared strictly.\n\n### Package Changes\n  CHANGE: `getCode()`, and so `getCodesInRange()` and `checkCode()`, throw `InvalidArgumentException` when the secret is shorter than 16 characters or contains anything outside the Base32 alphabet. Previously such a secret was hashed as an empty key and still produced codes.\n  CHANGE: `checkCode()` compares with `in_array(..., true)`, so only the exact 6-digit string matches. Numeric look-alikes such as `\"12345\"` for `\"012345\"` are no longer accepted.\n  IMPROVEMENT: The Base32 decoder validates every character and regroups the bit stream per RFC 4648, so secrets whose length is not a multiple of 8 decode without warnings.\n  IMPROVEMENT: `declare(strict_types=1)` is enabled in the library. Callers are unaffected.\n\n### Supporting Changes\n  TESTS: Added the RFC 6238 SHA-1 test vectors, rejected-secret cases, and a strict-comparison case. 26 tests on PHP 8.2 to 8.6.\n  DOCS: The README drops the BlackBerry link and updates the iOS one; the Composer keyword `2fa webauthn` is now `2fa`.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/4.2...4.3",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/4.3"
@@ -1088,7 +1088,7 @@
         "release": {
           "version": "1.33",
           "release_date": "2026-11-12T11:30:07+00:00",
-          "timeago": "31 minutes ago",
+          "timeago": "7 hours ago",
           "title": "Browning (1.33)",
           "body": "Browning 1.33 treats any HTTP error from Mailgun or reCAPTCHA as a failure, and bounds how long a request can take.\n\n### Behaviour\n\n- `Mailer::send()` reports `success => false` whenever Mailgun answers 4xx or 5xx. A rejected key (401 or 403) gives \"This website is unable to send email.\"; any other error gives \"Unable to send email at this time.\" With `debug: true` the message carries the status and body. Previously a 400 or 401 with a JSON body was reported as success.\n- `Recaptcha::verify()` treats 4xx and 5xx the same way.\n- cURL requests have a 10 second connect timeout and a 30 second total timeout.\n\n### API\n\n- `Response` gains a `statusCode` property, and `failed()` is true for 4xx and 5xx.\n\n### Supporting\n\n- Seven new tests cover the status handling, and the test echo server answers `/status/<code>`. 31 tests on PHP 8.2 to 8.6.\n- No `curl_close()` call, which PHP 8.5 deprecates.\n\n**Full Changelog**: https://github.com/eustasy/browning/compare/1.32...1.33",
           "href": "https://github.com/eustasy/browning/releases/tag/1.33"
@@ -1099,7 +1099,7 @@
       {
         "version": "1.33",
         "release_date": "2026-11-12T11:30:07+00:00",
-        "timeago": "31 minutes ago",
+        "timeago": "7 hours ago",
         "title": "Browning (1.33)",
         "body": "Browning 1.33 treats any HTTP error from Mailgun or reCAPTCHA as a failure, and bounds how long a request can take.\n\n### Behaviour\n\n- `Mailer::send()` reports `success => false` whenever Mailgun answers 4xx or 5xx. A rejected key (401 or 403) gives \"This website is unable to send email.\"; any other error gives \"Unable to send email at this time.\" With `debug: true` the message carries the status and body. Previously a 400 or 401 with a JSON body was reported as success.\n- `Recaptcha::verify()` treats 4xx and 5xx the same way.\n- cURL requests have a 10 second connect timeout and a 30 second total timeout.\n\n### API\n\n- `Response` gains a `statusCode` property, and `failed()` is true for 4xx and 5xx.\n\n### Supporting\n\n- Seven new tests cover the status handling, and the test echo server answers `/status/<code>`. 31 tests on PHP 8.2 to 8.6.\n- No `curl_close()` call, which PHP 8.5 deprecates.\n\n**Full Changelog**: https://github.com/eustasy/browning/compare/1.32...1.33",
         "href": "https://github.com/eustasy/browning/releases/tag/1.33"
@@ -1221,7 +1221,7 @@
         "release": {
           "version": "2.6.6",
           "release_date": "2026-11-12T10:50:52+00:00",
-          "timeago": "1 hour ago",
+          "timeago": "8 hours ago",
           "title": "Julian - with Patch 6",
           "body": "Leaves the page's own click handlers on the trigger alone, and detects Escape by key name.\n\n- The trigger's click handler is added and removed under the `leanModal` namespace, so calling `.leanModal()` twice no longer stacks handlers and any click handler the page itself attached to the trigger survives. 2.6.5 removed every click handler on the trigger.\n- Escape is detected with `event.key`, with `keyCode` kept as a fallback for older browsers.\n- `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.\n\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6",
           "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6"
@@ -1232,7 +1232,7 @@
       {
         "version": "2.6.6",
         "release_date": "2026-11-12T10:50:52+00:00",
-        "timeago": "1 hour ago",
+        "timeago": "8 hours ago",
         "title": "Julian - with Patch 6",
         "body": "Leaves the page's own click handlers on the trigger alone, and detects Escape by key name.\n\n- The trigger's click handler is added and removed under the `leanModal` namespace, so calling `.leanModal()` twice no longer stacks handlers and any click handler the page itself attached to the trigger survives. 2.6.5 removed every click handler on the trigger.\n- Escape is detected with `event.key`, with `keyCode` kept as a fallback for older browsers.\n- `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.\n\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6"
