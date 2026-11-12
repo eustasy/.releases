@@ -10,7 +10,7 @@
         "release": {
           "version": "5.1",
           "release_date": "2026-11-12T10:50:43+00:00",
-          "timeago": "25 minutes ago",
+          "timeago": "27 minutes ago",
           "title": "Bellini (5.1)",
           "body": "Weekly security scans, a pinned HTML validator, and templates that describe only what they do.\n\n- The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a CVE published against an unchanged dependency is caught in repositories that rarely see a push.\n- The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever is latest on npm at run time. Dependabot does not track this pin, so it is bumped by hand.\n- `.vscode/settings.json` recommends the oxc extension instead of eslint, matching the linter the deployed config uses.\n- Comments and documentation across the templates, `install.sh`, `test/run.sh` and `dependabot.yml` describe current behaviour only. The README folds the 3.x migration into an \"After installing\" section.\n- `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository to pick up the new `security.yml` and configs; the merge keeps local changes.\n\n**Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1",
           "href": "https://github.com/eustasy/.normal/releases/tag/5.1"
@@ -21,7 +21,7 @@
       {
         "version": "5.1",
         "release_date": "2026-11-12T10:50:43+00:00",
-        "timeago": "25 minutes ago",
+        "timeago": "27 minutes ago",
         "title": "Bellini (5.1)",
         "body": "Weekly security scans, a pinned HTML validator, and templates that describe only what they do.\n\n- The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a CVE published against an unchanged dependency is caught in repositories that rarely see a push.\n- The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever is latest on npm at run time. Dependabot does not track this pin, so it is bumped by hand.\n- `.vscode/settings.json` recommends the oxc extension instead of eslint, matching the linter the deployed config uses.\n- Comments and documentation across the templates, `install.sh`, `test/run.sh` and `dependabot.yml` describe current behaviour only. The README folds the 3.x migration into an \"After installing\" section.\n- `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository to pick up the new `security.yml` and configs; the merge keeps local changes.\n\n**Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1",
         "href": "https://github.com/eustasy/.normal/releases/tag/5.1"
@@ -1197,7 +1197,7 @@
         "release": {
           "version": "2.6.6",
           "release_date": "2026-11-12T10:50:52+00:00",
-          "timeago": "25 minutes ago",
+          "timeago": "27 minutes ago",
           "title": "Julian - with Patch 6",
           "body": "Leaves the page's own click handlers on the trigger alone, and detects Escape by key name.\n\n- The trigger's click handler is added and removed under the `leanModal` namespace, so calling `.leanModal()` twice no longer stacks handlers and any click handler the page itself attached to the trigger survives. 2.6.5 removed every click handler on the trigger.\n- Escape is detected with `event.key`, with `keyCode` kept as a fallback for older browsers.\n- `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.\n\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6",
           "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6"
@@ -1208,7 +1208,7 @@
       {
         "version": "2.6.6",
         "release_date": "2026-11-12T10:50:52+00:00",
-        "timeago": "25 minutes ago",
+        "timeago": "27 minutes ago",
         "title": "Julian - with Patch 6",
         "body": "Leaves the page's own click handlers on the trigger alone, and detects Escape by key name.\n\n- The trigger's click handler is added and removed under the `leanModal` namespace, so calling `.leanModal()` twice no longer stacks handlers and any click handler the page itself attached to the trigger survives. 2.6.5 removed every click handler on the trigger.\n- Escape is detected with `event.key`, with `keyCode` kept as a fallback for older browsers.\n- `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.\n\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6"

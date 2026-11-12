@@ -30,7 +30,7 @@
         **Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1'
       href: https://github.com/eustasy/.normal/releases/tag/5.1
       release_date: '2026-11-12T10:50:43+00:00'
-      timeago: 25 minutes ago
+      timeago: 27 minutes ago
       title: Bellini (5.1)
       version: '5.1'
   default_branch: main
@@ -62,7 +62,7 @@
       **Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1'
     href: https://github.com/eustasy/.normal/releases/tag/5.1
     release_date: '2026-11-12T10:50:43+00:00'
-    timeago: 25 minutes ago
+    timeago: 27 minutes ago
     title: Bellini (5.1)
     version: '5.1'
   - body: 'The first stable release of .Normal, graduating the Appletini 4.0 betas.
@@ -2608,7 +2608,7 @@
         **Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6'
       href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6
       release_date: '2026-11-12T10:50:52+00:00'
-      timeago: 25 minutes ago
+      timeago: 27 minutes ago
       title: Julian - with Patch 6
       version: 2.6.6
   default_branch: main
@@ -2632,7 +2632,7 @@
       **Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6'
     href: https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6
     release_date: '2026-11-12T10:50:52+00:00'
-    timeago: 25 minutes ago
+    timeago: 27 minutes ago
     title: Julian - with Patch 6
     version: 2.6.6
   - body: "Fixes the minified build, which failed to load in 2.6.4, and two event-handler\
