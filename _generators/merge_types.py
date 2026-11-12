@@ -1,26 +1,17 @@
-import datetime
-import timeago
 import json
 import yaml
 import os
-import sys
 from github import Github
 from operator import itemgetter
-from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
-now = datetime.datetime.now()
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
-
-class NoReleasesFound(Exception):
-  pass
 
 class MergeSettingsUnreadable(Exception):
   pass
 
 # GitHub only returns these fields to a token with admin access on the repo.
 # For any other repo they come back as None -- which is NOT the same as
-# "disabled". Coercing None to False (as this script used to) silently
-# publishes wrong data, so we treat None as a hard failure instead.
+# "disabled" -- so None is a hard failure rather than something to coerce.
 MERGE_FIELDS = (
   'allow_rebase_merge',
   'allow_squash_merge',
@@ -64,7 +55,7 @@ for repo in repos:
     "delete_branch_on_merge": repo.delete_branch_on_merge
   })
 
-output = sorted(output, key=itemgetter('name')) 
+output = sorted(output, key=itemgetter('name'))
 
 with open('_data/merge_types.yml', 'w') as file:
     print ('Saving as YML')

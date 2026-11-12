@@ -11,16 +11,15 @@ ORG = 'eustasy'
 
 # The .Normal config repo. Its published release tags are the version strings
 # stamped into the header of each installed workflow: the first line of
-# .github/workflows/security.yml reads e.g. "# eustasy/.Normal 4.0beta8".
+# .github/workflows/security.yml reads e.g. "# eustasy/.Normal 5.0".
 # The newest release is the current "tagged release"; older tags are behind.
 NORMAL_REPO = 'eustasy/.normal'
 
 
 def normal_release_tags():
-  # Newest-first by publish date, including pre-releases (the 4.0betas are all
-  # pre-releases, so get_latest_release() — which skips them — is deliberately
-  # not used). Sort on published_at, not created_at: created_at is the target
-  # commit's date, which is not the order the betas were released in.
+  # Newest-first by publish date, including pre-releases, which
+  # get_latest_release() would skip. Sort on published_at, not created_at:
+  # created_at is the target commit's date, not the order of release.
   repo = g.get_repo(NORMAL_REPO)
   releases = [r for r in repo.get_releases() if not r.draft]
   releases.sort(key=lambda r: r.published_at or r.created_at, reverse=True)
@@ -34,9 +33,9 @@ class Repo:
     self.normal_checks = False
     self.status = False
 
-    # New convention (.Normal 4.0+): the version is stamped into the header of
-    # security.yml. Match the header against the published release tags. endswith
-    # keeps "4.0beta1" from matching a "4.0beta10" header.
+    # The version is stamped into the header of security.yml. Match the header
+    # against the published release tags. endswith keeps "4.0beta1" from
+    # matching a "4.0beta10" header.
     try:
       security = repo.get_contents('.github/workflows/security.yml').content
       security = base64.b64decode(security).decode('utf-8')
@@ -49,16 +48,6 @@ class Repo:
             break
     except Exception:
       pass
-
-    # Old convention (.Normal 3.x and earlier): a single, unstamped normal.yml
-    # workflow. Every old install collapses to "3.x" and is marked outdated.
-    if self.normal_checks is False:
-      try:
-        repo.get_contents('.github/workflows/normal.yml')
-        self.normal_checks = '3.x'
-        self.status = 'outdated'
-      except Exception:
-        pass
 
 
 org = g.get_organization(ORG)
