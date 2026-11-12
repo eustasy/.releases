@@ -3,7 +3,6 @@ name: 'Update: Merge Types'
 on:
   workflow_dispatch:
   schedule:
-    # * is a special character in YAML so you have to quote this string
     - cron:  '45 0 * * 1'
   push:
     branches: [main]
@@ -21,6 +20,8 @@ jobs:
 
     steps:
     - uses: actions/checkout@v7
+      with:
+        persist-credentials: false
     - name: Set up Python 3.13
       uses: actions/setup-python@v7
       with:
@@ -28,12 +29,19 @@ jobs:
     - name: Install dependencies
       run: |
         python -m pip install --upgrade pip
-        pip install PyGithub
-        pip install pyyaml
-        pip install timeago
-    - name: Run script and commit changes
+        pip install -r _generators/requirements.txt
+    - name: Run script
+      run: python _generators/merge_types.py
+      env:
+        # The default GITHUB_TOKEN is scoped only to this repo, so it can read
+        # merge settings for .releases but returns null for every other repo
+        # (GitHub only exposes allow_*_merge to tokens with admin on the repo).
+        # GORGON_V2 holds a fine-grained PAT with Administration: read-only on
+        # every org repo, which is all this needs. It is exposed to this step
+        # only; the push below uses GITHUB_TOKEN.
+        GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}
+    - name: Commit changes
       run: |
-        python _generators/merge_types.py
         echo "Setting up git credentials..."
         git remote set-url origin https://x-access-token:"$GITHUB_TOKEN"@github.com/"$GITHUB_REPOSITORY".git
         git config --global user.email "actions@github.com"
@@ -60,8 +68,4 @@ jobs:
           done
         fi
       env:
-        # The default GITHUB_TOKEN is scoped only to this repo, so it can read
-        # merge settings for .releases but returns null for every other repo
-        # (GitHub only exposes allow_*_merge to tokens with admin on the repo).
-        # GORGON_V2 is an org-wide admin PAT, which is required to read them.
-        GITHUB_TOKEN: ${{ secrets.GORGON_V2 }}
+        GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
