@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 2,
+        "new_commits": 3,
         "release": {
           "version": "5.0",
           "release_date": "2026-10-29T05:33:26+00:00",
@@ -448,7 +448,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 0,
+        "new_commits": 1,
         "release": {
           "version": "2.1.2",
           "release_date": "2026-10-29T05:45:55+00:00",
@@ -1060,7 +1060,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 0,
+        "new_commits": 1,
         "release": {
           "version": "1.32",
           "release_date": "2026-10-29T07:39:29+00:00",
@@ -1185,7 +1185,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 0,
+        "new_commits": 2,
         "release": {
           "version": "2.6.5",
           "release_date": "2026-10-29T05:58:49+00:00",

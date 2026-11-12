@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 2
+    new_commits: 3
     release:
       body: 'The first stable release of .Normal, graduating the Appletini 4.0 betas.
 
@@ -743,7 +743,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 1
     release:
       body: "A maintenance release. No palette colors have changed.\r\n\r\n- Goddard\
         \ & Hale is now described as a corporate palette, and its source link is removed\
@@ -2358,7 +2358,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 1
     release:
       body: 'Browning 1.32 raises the minimum to PHP 8.2, as 8.1 reached end of life
         on 31 December 2025, and is tested on PHP 8.2 to 8.6. The library code is
@@ -2545,7 +2545,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 0
+    new_commits: 2
     release:
       body: "Fixes the minified build, which failed to load in 2.6.4, and two event-handler\
         \ bugs.\r\n\r\n- `jQuery.leanModal2.min.js` is rebuilt from source. 2.6.4's\
