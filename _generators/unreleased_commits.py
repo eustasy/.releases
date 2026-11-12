@@ -18,7 +18,7 @@ def release_dict(release):
     "version": release.tag_name,
     "release_date": release.created_at.isoformat(),
     "timeago": timeago.format(release.created_at, now),
-    "title": release.title,
+    "title": release.name,
     "body": release.body,
     "href": release.html_url
   }
