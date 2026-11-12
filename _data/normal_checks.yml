@@ -21,18 +21,18 @@
 - default_branch: main
   name: Bubbly
   normal_checks: '5.0'
-  status: current
+  status: behind
 - default_branch: main
   name: Colors.css
   normal_checks: '5.0'
-  status: current
+  status: behind
 - default_branch: main
   name: Locksmith
   normal_checks: '5.0'
-  status: current
+  status: behind
 - default_branch: main
   name: Phoenix
-  normal_checks: '5.0'
+  normal_checks: '5.1'
   status: current
 - default_branch: main
   name: apple-silicon
@@ -41,11 +41,11 @@
 - default_branch: main
   name: authenticatron
   normal_checks: '5.0'
-  status: current
+  status: behind
 - default_branch: main
   name: browning
   normal_checks: '5.0'
-  status: current
+  status: behind
 - default_branch: vala
   name: elementary-bluetooth-proximity-locker
   normal_checks: false
@@ -61,8 +61,8 @@
 - default_branch: main
   name: jQuery.leanModal2
   normal_checks: '5.0'
-  status: current
+  status: behind
 - default_branch: cf-pages
   name: puff-serverless
   normal_checks: '5.0'
-  status: current
+  status: behind

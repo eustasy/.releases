@@ -33,24 +33,24 @@
     "name": "Bubbly",
     "default_branch": "main",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Colors.css",
     "default_branch": "main",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Locksmith",
     "default_branch": "main",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "Phoenix",
     "default_branch": "main",
-    "normal_checks": "5.0",
+    "normal_checks": "5.1",
     "status": "current"
   },
   {
@@ -63,13 +63,13 @@
     "name": "authenticatron",
     "default_branch": "main",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "browning",
     "default_branch": "main",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "elementary-bluetooth-proximity-locker",
@@ -93,12 +93,12 @@
     "name": "jQuery.leanModal2",
     "default_branch": "main",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   },
   {
     "name": "puff-serverless",
     "default_branch": "cf-pages",
     "normal_checks": "5.0",
-    "status": "current"
+    "status": "behind"
   }
 ]
