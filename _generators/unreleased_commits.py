@@ -2,12 +2,10 @@ import timeago
 import json
 import yaml
 import os
-import sys
 from datetime import datetime, timezone
 from github import Github
 from operator import itemgetter
 from github.GithubException import GithubException
-from github.GithubException import UnknownObjectException as GithubUnknownObjectException
 
 now = datetime.now(timezone.utc)
 g = Github(os.environ['GITHUB_TOKEN'], per_page=100)
