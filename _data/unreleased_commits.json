@@ -10,7 +10,7 @@
         "release": {
           "version": "5.1",
           "release_date": "2026-11-12T10:50:43+00:00",
-          "timeago": "8 hours ago",
+          "timeago": "1 day ago",
           "title": "Bellini (5.1)",
           "body": "Weekly security scans, a pinned HTML validator, and templates that describe only what they do.\n\n- The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a CVE published against an unchanged dependency is caught in repositories that rarely see a push.\n- The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever is latest on npm at run time. Dependabot does not track this pin, so it is bumped by hand.\n- `.vscode/settings.json` recommends the oxc extension instead of eslint, matching the linter the deployed config uses.\n- Comments and documentation across the templates, `install.sh`, `test/run.sh` and `dependabot.yml` describe current behaviour only. The README folds the 3.x migration into an \"After installing\" section.\n- `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository to pick up the new `security.yml` and configs; the merge keeps local changes.\n\n**Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1",
           "href": "https://github.com/eustasy/.normal/releases/tag/5.1"
@@ -21,7 +21,7 @@
       {
         "version": "5.1",
         "release_date": "2026-11-12T10:50:43+00:00",
-        "timeago": "8 hours ago",
+        "timeago": "1 day ago",
         "title": "Bellini (5.1)",
         "body": "Weekly security scans, a pinned HTML validator, and templates that describe only what they do.\n\n- The deployed `security.yml` now also runs every Monday at 06:00 UTC, so a CVE published against an unchanged dependency is caught in repositories that rarely see a push.\n- The `html` action pins `html-validate` to 11.21.0 rather than fetching whatever is latest on npm at run time. Dependabot does not track this pin, so it is bumped by hand.\n- `.vscode/settings.json` recommends the oxc extension instead of eslint, matching the linter the deployed config uses.\n- Comments and documentation across the templates, `install.sh`, `test/run.sh` and `dependabot.yml` describe current behaviour only. The README folds the 3.x migration into an \"After installing\" section.\n- `v5` and `v5.1` move to this release. Re-run `install.sh` in a consuming repository to pick up the new `security.yml` and configs; the merge keeps local changes.\n\n**Full Changelog**: https://github.com/eustasy/.normal/compare/5.0...5.1",
         "href": "https://github.com/eustasy/.normal/releases/tag/5.1"
@@ -460,7 +460,7 @@
         "release": {
           "version": "2.1.3",
           "release_date": "2026-11-12T11:34:17+00:00",
-          "timeago": "7 hours ago",
+          "timeago": "1 day ago",
           "title": "2.1.3",
           "body": "A maintenance release. No palette colors have changed; the stylesheets differ from 2.1.2 only in their version header.\n\n- The contributing guide describes the repository as it is: `data/_meta.json`, the two build scripts and the workflow that commits their output, `assets/`, and the release steps.\n- The site's no-JavaScript text says seven palettes rather than nine, and its licence links point at `main`.\n- The palette source link on each card is attribute-escaped like the rest of the rendered markup.\n- `utils/coolors_co.py` loses a pasted sample and a copied docstring.\n\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.2...2.1.3",
           "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.3"
@@ -471,7 +471,7 @@
       {
         "version": "2.1.3",
         "release_date": "2026-11-12T11:34:17+00:00",
-        "timeago": "7 hours ago",
+        "timeago": "1 day ago",
         "title": "2.1.3",
         "body": "A maintenance release. No palette colors have changed; the stylesheets differ from 2.1.2 only in their version header.\n\n- The contributing guide describes the repository as it is: `data/_meta.json`, the two build scripts and the workflow that commits their output, `assets/`, and the release steps.\n- The site's no-JavaScript text says seven palettes rather than nine, and its licence links point at `main`.\n- The palette source link on each card is attribute-escaped like the rest of the rendered markup.\n- `utils/coolors_co.py` loses a pasted sample and a copied docstring.\n\n**Full Changelog**: https://github.com/eustasy/Colors.css/compare/2.1.2...2.1.3",
         "href": "https://github.com/eustasy/Colors.css/releases/tag/2.1.3"
@@ -745,7 +745,7 @@
       {
         "version": "v4.2beta5",
         "release_date": "2026-06-14T11:08:26+00:00",
-        "timeago": "4 months ago",
+        "timeago": "5 months ago",
         "title": "Avenue (v4.2beta5)",
         "body": "The 4.2 line expands the admin panel into a full web management UI on top of 4.1's management API, adds a torrent-update endpoint, and ships a disposable Docker development environment. The tracker protocol and database schema are unchanged — **no DB migration is required.**\n\n- FEATURE: A web admin panel built on a shared layout, top navigation, and a light `?page=` router, with every state-changing form CSRF-protected and the login behind a hardened session and a failed-login throttle ([#54](https://github.com/eustasy/phoenix/issues/54)). The nav covers a Dashboard, Torrents, Add Torrent, Server Support (PHP/MySQL/extension diagnostics), Utilities (database setup/reset, clean, optimize, schema migrate), Backups, and Settings — each page below hangs off it.\n- FEATURE: A **Dashboard** showing live tracker stats — seeders/leechers/peers, registered torrents, completed downloads, and traffic — plus the last-run time of each maintenance task and a post-install confirmation banner ([#55](https://github.com/eustasy/phoenix/issues/55)).\n- FEATURE: A **Torrents** page listing every torrent (listed or not, any owner) with swarm stats, and per-row actions to list/de-list, delete (with its peers), edit, or drill into its peers ([#56](https://github.com/eustasy/phoenix/issues/56)).\n- FEATURE: A per-torrent **peer drill-down** — client (detected from the peer_id for display, never stored), address, seeding/leeching state, up/down/left, and last-seen time. It also surfaces _unregistered swarms_: info_hashes with active peers but no torrents row (e.g. announced to an open tracker and never registered), so their peers are still counted and inspectable.\n- FEATURE: An **Add a Torrent** page accepting the fields manually or a `.torrent` upload (drag-and-drop or file picker, parsed server-side); admin-added torrents record no API owner ([#66](https://github.com/eustasy/phoenix/issues/66)).\n- FEATURE: A **Backups** page to run an on-demand database dump and download an existing one. The download name is validated against the backup list, so there is no path traversal; the action needs `mysqldump`, `proc_open`, and a writable backup directory ([#57](https://github.com/eustasy/phoenix/issues/57)).\n- FEATURE: A **Settings** page — a read-only view of the effective settings (secrets masked), an admin-password change, and toggles for the `open_tracker` / `public_index` / `full_scrape` / `db_reset` flags — all gated on a writable `config/` directory ([#58](https://github.com/eustasy/phoenix/issues/58)).\n- FEATURE: Enable or disable the admin TOTP second factor from the Settings page after install (4.1 only offered enrolment at install time). Enabling shows a fresh QR and requires a confirming code; disabling requires a current code, so a hijacked-but-authenticated session cannot silently turn 2FA off.\n- FEATURE: Add `/api/torrent/update` (`public/api/torrent/update.php`) to edit an existing torrent's name, size, `listed`, and meta fields, with a matching admin **Edit** page. Same ownership rules as list/delist/delete — an owner key edits only its own torrents, the `'*'` admin (key or `admin.php` session) edits any. The API does a partial update (only the fields you send change; info_hash, owner, and the downloads counter are immutable); the admin form does a full replace. JSON by default, XML with `?xml`.\n- FEATURE: A disposable Docker development environment (`docker-compose.dev.yml` + `docker/`) — MariaDB plus PHP with the needed extensions, Composer, and a MariaDB-compatible `mysqldump` — that boots straight into the installer for testing setup and configuration end to end, without touching the host checkout.\n- IMPROVES: Reorganise the documentation along development / installation / deployment lines. The README is now installation-focused, with a table of contents, a single requirements list, two install paths (server access vs managed LAMP / shared hosting), and an index of the other docs; the local Docker environment and test instructions moved to `CONTRIBUTING.md`; the Apache/Nginx example configs fold in the safely-assumable features (`.php` stripping, `Authorization` passthrough, HTTPS redirect, dotfile denial); and admin-password and 2FA recovery are now documented.\n- FIX: Serve the admin panel as UTF-8. It was inheriting the `iso-8859-1` charset the bootstrap sets for the binary tracker protocol, which mangled non-ASCII torrent names and the em-dash in the panel.\n- FIX: Two-factor enrolment QR — drop a doubled `data:image/png;base64,` prefix that left the image broken, and guard `generateQrCode()` behind `ext-gd` so an install that has the authenticatron library but not gd falls back to the manual secret / `otpauth://` entry instead of fatalling (in both the installer and the Settings page).\n- FIX: Adding a torrent from a `.torrent` upload no longer fails when the form's other fields are left blank — a blank field falls back to the value parsed from the file instead of overwriting it.\n\n[Compare v4.2beta5 with v4.1beta4](https://github.com/eustasy/Phoenix/compare/v4.1beta4...v4.2beta5)\n",
         "href": "https://github.com/eustasy/Phoenix/releases/tag/v4.2beta5"
@@ -907,7 +907,7 @@
         "release": {
           "version": "4.3",
           "release_date": "2026-11-12T11:14:56+00:00",
-          "timeago": "7 hours ago",
+          "timeago": "1 day ago",
           "title": "4.3 - Mandate",
           "body": "Secrets that do not decode are refused, and codes are compared strictly.\n\n### Package Changes\n  CHANGE: `getCode()`, and so `getCodesInRange()` and `checkCode()`, throw `InvalidArgumentException` when the secret is shorter than 16 characters or contains anything outside the Base32 alphabet. Previously such a secret was hashed as an empty key and still produced codes.\n  CHANGE: `checkCode()` compares with `in_array(..., true)`, so only the exact 6-digit string matches. Numeric look-alikes such as `\"12345\"` for `\"012345\"` are no longer accepted.\n  IMPROVEMENT: The Base32 decoder validates every character and regroups the bit stream per RFC 4648, so secrets whose length is not a multiple of 8 decode without warnings.\n  IMPROVEMENT: `declare(strict_types=1)` is enabled in the library. Callers are unaffected.\n\n### Supporting Changes\n  TESTS: Added the RFC 6238 SHA-1 test vectors, rejected-secret cases, and a strict-comparison case. 26 tests on PHP 8.2 to 8.6.\n  DOCS: The README drops the BlackBerry link and updates the iOS one; the Composer keyword `2fa webauthn` is now `2fa`.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/4.2...4.3",
           "href": "https://github.com/eustasy/authenticatron/releases/tag/4.3"
@@ -918,7 +918,7 @@
       {
         "version": "4.3",
         "release_date": "2026-11-12T11:14:56+00:00",
-        "timeago": "7 hours ago",
+        "timeago": "1 day ago",
         "title": "4.3 - Mandate",
         "body": "Secrets that do not decode are refused, and codes are compared strictly.\n\n### Package Changes\n  CHANGE: `getCode()`, and so `getCodesInRange()` and `checkCode()`, throw `InvalidArgumentException` when the secret is shorter than 16 characters or contains anything outside the Base32 alphabet. Previously such a secret was hashed as an empty key and still produced codes.\n  CHANGE: `checkCode()` compares with `in_array(..., true)`, so only the exact 6-digit string matches. Numeric look-alikes such as `\"12345\"` for `\"012345\"` are no longer accepted.\n  IMPROVEMENT: The Base32 decoder validates every character and regroups the bit stream per RFC 4648, so secrets whose length is not a multiple of 8 decode without warnings.\n  IMPROVEMENT: `declare(strict_types=1)` is enabled in the library. Callers are unaffected.\n\n### Supporting Changes\n  TESTS: Added the RFC 6238 SHA-1 test vectors, rejected-secret cases, and a strict-comparison case. 26 tests on PHP 8.2 to 8.6.\n  DOCS: The README drops the BlackBerry link and updates the iOS one; the Composer keyword `2fa webauthn` is now `2fa`.\n\n**Full Changelog**: https://github.com/eustasy/authenticatron/compare/4.2...4.3",
         "href": "https://github.com/eustasy/authenticatron/releases/tag/4.3"
@@ -1088,7 +1088,7 @@
         "release": {
           "version": "1.33",
           "release_date": "2026-11-12T11:30:07+00:00",
-          "timeago": "7 hours ago",
+          "timeago": "1 day ago",
           "title": "Browning (1.33)",
           "body": "Browning 1.33 treats any HTTP error from Mailgun or reCAPTCHA as a failure, and bounds how long a request can take.\n\n### Behaviour\n\n- `Mailer::send()` reports `success => false` whenever Mailgun answers 4xx or 5xx. A rejected key (401 or 403) gives \"This website is unable to send email.\"; any other error gives \"Unable to send email at this time.\" With `debug: true` the message carries the status and body. Previously a 400 or 401 with a JSON body was reported as success.\n- `Recaptcha::verify()` treats 4xx and 5xx the same way.\n- cURL requests have a 10 second connect timeout and a 30 second total timeout.\n\n### API\n\n- `Response` gains a `statusCode` property, and `failed()` is true for 4xx and 5xx.\n\n### Supporting\n\n- Seven new tests cover the status handling, and the test echo server answers `/status/<code>`. 31 tests on PHP 8.2 to 8.6.\n- No `curl_close()` call, which PHP 8.5 deprecates.\n\n**Full Changelog**: https://github.com/eustasy/browning/compare/1.32...1.33",
           "href": "https://github.com/eustasy/browning/releases/tag/1.33"
@@ -1099,7 +1099,7 @@
       {
         "version": "1.33",
         "release_date": "2026-11-12T11:30:07+00:00",
-        "timeago": "7 hours ago",
+        "timeago": "1 day ago",
         "title": "Browning (1.33)",
         "body": "Browning 1.33 treats any HTTP error from Mailgun or reCAPTCHA as a failure, and bounds how long a request can take.\n\n### Behaviour\n\n- `Mailer::send()` reports `success => false` whenever Mailgun answers 4xx or 5xx. A rejected key (401 or 403) gives \"This website is unable to send email.\"; any other error gives \"Unable to send email at this time.\" With `debug: true` the message carries the status and body. Previously a 400 or 401 with a JSON body was reported as success.\n- `Recaptcha::verify()` treats 4xx and 5xx the same way.\n- cURL requests have a 10 second connect timeout and a 30 second total timeout.\n\n### API\n\n- `Response` gains a `statusCode` property, and `failed()` is true for 4xx and 5xx.\n\n### Supporting\n\n- Seven new tests cover the status handling, and the test echo server answers `/status/<code>`. 31 tests on PHP 8.2 to 8.6.\n- No `curl_close()` call, which PHP 8.5 deprecates.\n\n**Full Changelog**: https://github.com/eustasy/browning/compare/1.32...1.33",
         "href": "https://github.com/eustasy/browning/releases/tag/1.33"
@@ -1221,7 +1221,7 @@
         "release": {
           "version": "2.6.6",
           "release_date": "2026-11-12T10:50:52+00:00",
-          "timeago": "8 hours ago",
+          "timeago": "1 day ago",
           "title": "Julian - with Patch 6",
           "body": "Leaves the page's own click handlers on the trigger alone, and detects Escape by key name.\n\n- The trigger's click handler is added and removed under the `leanModal` namespace, so calling `.leanModal()` twice no longer stacks handlers and any click handler the page itself attached to the trigger survives. 2.6.5 removed every click handler on the trigger.\n- Escape is detected with `event.key`, with `keyCode` kept as a fallback for older browsers.\n- `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.\n\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6",
           "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6"
@@ -1232,7 +1232,7 @@
       {
         "version": "2.6.6",
         "release_date": "2026-11-12T10:50:52+00:00",
-        "timeago": "8 hours ago",
+        "timeago": "1 day ago",
         "title": "Julian - with Patch 6",
         "body": "Leaves the page's own click handlers on the trigger alone, and detects Escape by key name.\n\n- The trigger's click handler is added and removed under the `leanModal` namespace, so calling `.leanModal()` twice no longer stacks handlers and any click handler the page itself attached to the trigger survives. 2.6.5 removed every click handler on the trigger.\n- Escape is detected with `event.key`, with `keyCode` kept as a fallback for older browsers.\n- `jQuery.leanModal2.min.js` is rebuilt from source with terser 5.44.1 and parses.\n\n**Full Changelog**: https://github.com/eustasy/jQuery.leanModal2/compare/2.6.5...2.6.6",
         "href": "https://github.com/eustasy/jQuery.leanModal2/releases/tag/2.6.6"
