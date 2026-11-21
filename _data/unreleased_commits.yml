@@ -1057,7 +1057,7 @@
         \n"
       href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
       release_date: '2026-10-31T02:21:57+00:00'
-      timeago: 2 weeks ago
+      timeago: 3 weeks ago
       title: Boulevard (v5.1)
       version: v5.1
   - is_default: false
@@ -1152,7 +1152,7 @@
       \ https://github.com/eustasy/Phoenix/compare/v5.0...v5.1\n\n"
     href: https://github.com/eustasy/Phoenix/releases/tag/v5.1
     release_date: '2026-10-31T02:21:57+00:00'
-    timeago: 2 weeks ago
+    timeago: 3 weeks ago
     title: Boulevard (v5.1)
     version: v5.1
   - body: "Phoenix 5.0 is the first stable release of a ground-up rebuild. The whole\
