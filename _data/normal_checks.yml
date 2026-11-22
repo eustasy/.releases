@@ -20,16 +20,16 @@
   status: false
 - default_branch: main
   name: Bubbly
-  normal_checks: '5.0'
-  status: behind
+  normal_checks: '5.1'
+  status: current
 - default_branch: main
   name: Colors.css
   normal_checks: '5.0'
   status: behind
 - default_branch: main
   name: Locksmith
-  normal_checks: '5.0'
-  status: behind
+  normal_checks: '5.1'
+  status: current
 - default_branch: main
   name: Phoenix
   normal_checks: '5.1'

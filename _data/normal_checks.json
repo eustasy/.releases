@@ -32,8 +32,8 @@
   {
     "name": "Bubbly",
     "default_branch": "main",
-    "normal_checks": "5.0",
-    "status": "behind"
+    "normal_checks": "5.1",
+    "status": "current"
   },
   {
     "name": "Colors.css",
@@ -44,8 +44,8 @@
   {
     "name": "Locksmith",
     "default_branch": "main",
-    "normal_checks": "5.0",
-    "status": "behind"
+    "normal_checks": "5.1",
+    "status": "current"
   },
   {
     "name": "Phoenix",
