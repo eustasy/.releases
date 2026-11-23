@@ -1,7 +1,7 @@
 - branches:
   - is_default: true
     name: main
-    new_commits: 2
+    new_commits: 3
     release:
       body: 'Weekly security scans, a pinned HTML validator, and templates that describe
         only what they do.

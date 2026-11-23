@@ -6,7 +6,7 @@
       {
         "name": "main",
         "is_default": true,
-        "new_commits": 2,
+        "new_commits": 3,
         "release": {
           "version": "5.1",
           "release_date": "2026-11-12T10:50:43+00:00",
