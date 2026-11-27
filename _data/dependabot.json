@@ -35,7 +35,7 @@
         "target_branch": "main",
         "directory": "/_generators",
         "interval": "monthly",
-        "all_dependencies": false,
+        "all_dependencies": true,
         "supports_all": true
       }
     ]
