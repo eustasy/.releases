@@ -28,11 +28,9 @@ description: What is the status and most recent run of every GitHub Actions work
     {% assign repo_href = org_href | append: "/" | append: repo.name %}
     {% if repo.workflows.size > 0 %}
       {% for w in repo.workflows %}
-      <tr id="{{ repo.name }}-{{ w.file }}">
+      <tr id="{{ repo.name }}-{{ w.file }}"{% unless forloop.first %} class="repeat"{% endunless %}>
         <td data-sort="{{ repo.name }}">
-          {% if forloop.first %}
           <a href="{{ repo_href }}/actions" class="name">{{ repo.name }}</a>
-          {% endif %}
         </td>
         <td data-sort="{{ w.name }}">
           <a href="{{ repo_href }}/actions/workflows/{{ w.slug }}" class="name">{{ w.name }}</a>
